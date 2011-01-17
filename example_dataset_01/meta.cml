@@ -4,17 +4,22 @@
   	xsi:schemaLocation="http://www.connectomics.ch/2010/Connectome/xmlns connectome.xsd">
 
 <connectome-meta version="2.0">
+
+  <dcterms:creator>Stephan Gerhard</dcterms:creator>
+  <dcterms:publisher>EPFL and UNIL-CHUV</dcterms:publisher>
+  <dcterms:created>2010-11-10</dcterms:created>
+  <dcterms:modified>2010-11-10</dcterms:modified>
+  <dcterms:title>Example dataset</dcterms:title>
+  <dcterms:license>Creative Commons Attribution License 3.0</dcterms:license>
+  <dcterms:rights>None</dcterms:rights>
+  <dcterms:reference>Unpublished dataset</dcterms:reference>
+  <dcterms:relation>http://www.connectomics.org/</dcterms:relation>
+  <dcterms:description>This file contains a show of the multi-modal datatype hostable by this format.</dcterms:description>
+  
   <generator>Handmade</generator>
-  <author>Stephan Gerhard</author>
-  <institution>EPFL and UNIL-CHUV</institution>
-  <creation-date>2010-11-10</creation-date>
-  <modification-date>2010-11-10</modification-date>
-  <name>Example dataset</name>
   <species>Homo exemplarius</species>
-  <legal-notice>Creative Commons Attribution License 3.0</legal-notice>
-  <reference>none</reference>
-  <url>http://www.connectomics.org/</url>
-  <description format="plaintxt">This file contains connectivity data of a single male subject processed with the Connectome Mapping Pipeline developed at EPFL/LTS5.</description>
+  <email>info@connectomics.org</email>
+
   <metadata>
     <data key="nr_networks">1</data>
   </metadata>
@@ -35,7 +40,7 @@
   <description>Contains the labeling of the Freesurfer Average Mesh</description>
 </connectome-surface>
 
-<connectome-surface name="Example Surface" src="Surfaces/simplesurface.gii" fileformat="Gifti" dtype="surfaceset">
+<connectome-surface name="Example Surface" src="Surfaces/simplesurface.gii" fileformat="Gifti" dtype="Surfaceset">
   <description>Contains an example surface consisting of one triangle</description>
 </connectome-surface>
 

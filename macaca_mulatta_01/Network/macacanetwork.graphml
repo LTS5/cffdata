@@ -1,0 +1,5080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+
+	xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns 
+	http://www.connectome.ch/graphml+xlink+gifti.xsd">
+
+<key id="dn_label" for="node" attr.name="label" attr.type="string">
+	<desc>The label of the node</desc>
+</key>
+<key id="dn_colorcode" for="node" attr.name="colorcode" attr.type="string">
+	<desc>The color-code: R,G,B</desc>
+</key>
+<key id="dn_intensityvalue" for="node" attr.name="intensity" attr.type="string">
+	<desc>The value corresponding to the labelid in the label file for this atlas. Also corresponding to the segmented atlas volume file.</desc>
+</key>
+<key id="de_strength" for="edge" attr.name="strength" attr.type="double">
+	<default>0</default>
+	<desc>The main attribute. See paper as reference.</desc>
+</key>
+<graph id="Macaca mulatta network" edgedefault="undirected">
+<node id="n1" xlink:href="http://www.connectome.ch/wiki/1_(Macaca mulatta)">
+    <data key="dn_label">1_RH</data>
+    <data key="dn_colorcode">153,102,102</data>
+    <data key="dn_intensityvalue">1</data>
+</node><node id="n2" xlink:href="http://www.connectome.ch/wiki/2_(Macaca mulatta)">
+    <data key="dn_label">2_RH</data>
+    <data key="dn_colorcode">0,204,255</data>
+    <data key="dn_intensityvalue">2</data>
+</node><node id="n3" xlink:href="http://www.connectome.ch/wiki/35_(Macaca mulatta)">
+    <data key="dn_label">35_RH</data>
+    <data key="dn_colorcode">25,229,229</data>
+    <data key="dn_intensityvalue">3</data>
+</node><node id="n4" xlink:href="http://www.connectome.ch/wiki/36_(Macaca mulatta)">
+    <data key="dn_label">36_RH</data>
+    <data key="dn_colorcode">0,127,255</data>
+    <data key="dn_intensityvalue">4</data>
+</node><node id="n5" xlink:href="http://www.connectome.ch/wiki/46_(Macaca mulatta)">
+    <data key="dn_label">46_RH</data>
+    <data key="dn_colorcode">0,127,255</data>
+    <data key="dn_intensityvalue">5</data>
+</node><node id="n6" xlink:href="http://www.connectome.ch/wiki/5_(Macaca mulatta)">
+    <data key="dn_label">5_RH</data>
+    <data key="dn_colorcode">255,204,0</data>
+    <data key="dn_intensityvalue">6</data>
+</node><node id="n7" xlink:href="http://www.connectome.ch/wiki/Id_(Macaca mulatta)">
+    <data key="dn_label">Id_RH</data>
+    <data key="dn_colorcode">51,255,204</data>
+    <data key="dn_intensityvalue">7</data>
+</node><node id="n8" xlink:href="http://www.connectome.ch/wiki/VP_(Macaca mulatta)">
+    <data key="dn_label">VP_RH</data>
+    <data key="dn_colorcode">0,0,204</data>
+    <data key="dn_intensityvalue">8</data>
+</node><node id="n9" xlink:href="http://www.connectome.ch/wiki/3a_(Macaca mulatta)">
+    <data key="dn_label">3a_RH</data>
+    <data key="dn_colorcode">153,0,0</data>
+    <data key="dn_intensityvalue">9</data>
+</node><node id="n10" xlink:href="http://www.connectome.ch/wiki/3b_(Macaca mulatta)">
+    <data key="dn_label">3b_RH</data>
+    <data key="dn_colorcode">51,229,204</data>
+    <data key="dn_intensityvalue">10</data>
+</node><node id="n11" xlink:href="http://www.connectome.ch/wiki/4_(Macaca mulatta)">
+    <data key="dn_label">4_RH</data>
+    <data key="dn_colorcode">0,204,255</data>
+    <data key="dn_intensityvalue">11</data>
+</node><node id="n12" xlink:href="http://www.connectome.ch/wiki/6_(Macaca mulatta)">
+    <data key="dn_label">6_RH</data>
+    <data key="dn_colorcode">102,255,153</data>
+    <data key="dn_intensityvalue">12</data>
+</node><node id="n13" xlink:href="http://www.connectome.ch/wiki/7a_(Macaca mulatta)">
+    <data key="dn_label">7a_RH</data>
+    <data key="dn_colorcode">178,255,76</data>
+    <data key="dn_intensityvalue">13</data>
+</node><node id="n14" xlink:href="http://www.connectome.ch/wiki/7b_(Macaca mulatta)">
+    <data key="dn_label">7b_RH</data>
+    <data key="dn_colorcode">25,178,178</data>
+    <data key="dn_intensityvalue">14</data>
+</node><node id="n15" xlink:href="http://www.connectome.ch/wiki/AITd_(Macaca mulatta)">
+    <data key="dn_label">AITd_RH</data>
+    <data key="dn_colorcode">0,255,255</data>
+    <data key="dn_intensityvalue">15</data>
+</node><node id="n16" xlink:href="http://www.connectome.ch/wiki/AITv_(Macaca mulatta)">
+    <data key="dn_label">AITv_RH</data>
+    <data key="dn_colorcode">0,102,255</data>
+    <data key="dn_intensityvalue">16</data>
+</node><node id="n17" xlink:href="http://www.connectome.ch/wiki/CITd_(Macaca mulatta)">
+    <data key="dn_label">CITd_RH</data>
+    <data key="dn_colorcode">0,102,255</data>
+    <data key="dn_intensityvalue">17</data>
+</node><node id="n18" xlink:href="http://www.connectome.ch/wiki/CITv_(Macaca mulatta)">
+    <data key="dn_label">CITv_RH</data>
+    <data key="dn_colorcode">0,76,255</data>
+    <data key="dn_intensityvalue">18</data>
+</node><node id="n19" xlink:href="http://www.connectome.ch/wiki/DP_(Macaca mulatta)">
+    <data key="dn_label">DP_RH</data>
+    <data key="dn_colorcode">0,102,255</data>
+    <data key="dn_intensityvalue">19</data>
+</node><node id="n20" xlink:href="http://www.connectome.ch/wiki/FEF_(Macaca mulatta)">
+    <data key="dn_label">FEF_RH</data>
+    <data key="dn_colorcode">127,25,25</data>
+    <data key="dn_intensityvalue">20</data>
+</node><node id="n21" xlink:href="http://www.connectome.ch/wiki/FST_(Macaca mulatta)">
+    <data key="dn_label">FST_RH</data>
+    <data key="dn_colorcode">255,229,0</data>
+    <data key="dn_intensityvalue">21</data>
+</node><node id="n22" xlink:href="http://www.connectome.ch/wiki/Ig_(Macaca mulatta)">
+    <data key="dn_label">Ig_RH</data>
+    <data key="dn_colorcode">0,76,255</data>
+    <data key="dn_intensityvalue">22</data>
+</node><node id="n23" xlink:href="http://www.connectome.ch/wiki/LIP_(Macaca mulatta)">
+    <data key="dn_label">LIP_RH</data>
+    <data key="dn_colorcode">0,0,204</data>
+    <data key="dn_intensityvalue">23</data>
+</node><node id="n24" xlink:href="http://www.connectome.ch/wiki/MDP_(Macaca mulatta)">
+    <data key="dn_label">MDP_RH</data>
+    <data key="dn_colorcode">0,255,255</data>
+    <data key="dn_intensityvalue">24</data>
+</node><node id="n25" xlink:href="http://www.connectome.ch/wiki/MIP_(Macaca mulatta)">
+    <data key="dn_label">MIP_RH</data>
+    <data key="dn_colorcode">51,255,204</data>
+    <data key="dn_intensityvalue">25</data>
+</node><node id="n26" xlink:href="http://www.connectome.ch/wiki/MSTd_(Macaca mulatta)">
+    <data key="dn_label">MSTd_RH</data>
+    <data key="dn_colorcode">76,102,102</data>
+    <data key="dn_intensityvalue">26</data>
+</node><node id="n27" xlink:href="http://www.connectome.ch/wiki/MSTl_(Macaca mulatta)">
+    <data key="dn_label">MSTl_RH</data>
+    <data key="dn_colorcode">25,51,178</data>
+    <data key="dn_intensityvalue">27</data>
+</node><node id="n28" xlink:href="http://www.connectome.ch/wiki/MT_(Macaca mulatta)">
+    <data key="dn_label">MT_RH</data>
+    <data key="dn_colorcode">0,76,255</data>
+    <data key="dn_intensityvalue">28</data>
+</node><node id="n29" xlink:href="http://www.connectome.ch/wiki/PIP_(Macaca mulatta)">
+    <data key="dn_label">PIP_RH</data>
+    <data key="dn_colorcode">51,51,127</data>
+    <data key="dn_intensityvalue">29</data>
+</node><node id="n30" xlink:href="http://www.connectome.ch/wiki/PITd_(Macaca mulatta)">
+    <data key="dn_label">PITd_RH</data>
+    <data key="dn_colorcode">102,51,51</data>
+    <data key="dn_intensityvalue">30</data>
+</node><node id="n31" xlink:href="http://www.connectome.ch/wiki/PITv_(Macaca mulatta)">
+    <data key="dn_label">PITv_RH</data>
+    <data key="dn_colorcode">25,76,229</data>
+    <data key="dn_intensityvalue">31</data>
+</node><node id="n32" xlink:href="http://www.connectome.ch/wiki/PO_(Macaca mulatta)">
+    <data key="dn_label">PO_RH</data>
+    <data key="dn_colorcode">51,76,153</data>
+    <data key="dn_intensityvalue">32</data>
+</node><node id="n33" xlink:href="http://www.connectome.ch/wiki/Ri_(Macaca mulatta)">
+    <data key="dn_label">Ri_RH</data>
+    <data key="dn_colorcode">127,25,25</data>
+    <data key="dn_intensityvalue">33</data>
+</node><node id="n34" xlink:href="http://www.connectome.ch/wiki/SII_(Macaca mulatta)">
+    <data key="dn_label">SII_RH</data>
+    <data key="dn_colorcode">0,204,255</data>
+    <data key="dn_intensityvalue">34</data>
+</node><node id="n35" xlink:href="http://www.connectome.ch/wiki/SMA_(Macaca mulatta)">
+    <data key="dn_label">SMA_RH</data>
+    <data key="dn_colorcode">25,204,229</data>
+    <data key="dn_intensityvalue">35</data>
+</node><node id="n36" xlink:href="http://www.connectome.ch/wiki/STPa_(Macaca mulatta)">
+    <data key="dn_label">STPa_RH</data>
+    <data key="dn_colorcode">127,255,127</data>
+    <data key="dn_intensityvalue">36</data>
+</node><node id="n37" xlink:href="http://www.connectome.ch/wiki/STPp_(Macaca mulatta)">
+    <data key="dn_label">STPp_RH</data>
+    <data key="dn_colorcode">0,76,255</data>
+    <data key="dn_intensityvalue">37</data>
+</node><node id="n38" xlink:href="http://www.connectome.ch/wiki/TF_(Macaca mulatta)">
+    <data key="dn_label">TF_RH</data>
+    <data key="dn_colorcode">0,51,255</data>
+    <data key="dn_intensityvalue">38</data>
+</node><node id="n39" xlink:href="http://www.connectome.ch/wiki/TH_(Macaca mulatta)">
+    <data key="dn_label">TH_RH</data>
+    <data key="dn_colorcode">0,153,255</data>
+    <data key="dn_intensityvalue">39</data>
+</node><node id="n40" xlink:href="http://www.connectome.ch/wiki/V1_(Macaca mulatta)">
+    <data key="dn_label">V1_RH</data>
+    <data key="dn_colorcode">0,178,255</data>
+    <data key="dn_intensityvalue">40</data>
+</node><node id="n41" xlink:href="http://www.connectome.ch/wiki/V2_(Macaca mulatta)">
+    <data key="dn_label">V2_RH</data>
+    <data key="dn_colorcode">0,0,153</data>
+    <data key="dn_intensityvalue">41</data>
+</node><node id="n42" xlink:href="http://www.connectome.ch/wiki/V3_(Macaca mulatta)">
+    <data key="dn_label">V3_RH</data>
+    <data key="dn_colorcode">0,0,178</data>
+    <data key="dn_intensityvalue">42</data>
+</node><node id="n43" xlink:href="http://www.connectome.ch/wiki/V3A_(Macaca mulatta)">
+    <data key="dn_label">V3A_RH</data>
+    <data key="dn_colorcode">127,0,0</data>
+    <data key="dn_intensityvalue">43</data>
+</node><node id="n44" xlink:href="http://www.connectome.ch/wiki/V4_(Macaca mulatta)">
+    <data key="dn_label">V4_RH</data>
+    <data key="dn_colorcode">127,0,0</data>
+    <data key="dn_intensityvalue">44</data>
+</node><node id="n45" xlink:href="http://www.connectome.ch/wiki/V4t_(Macaca mulatta)">
+    <data key="dn_label">V4t_RH</data>
+    <data key="dn_colorcode">127,0,0</data>
+    <data key="dn_intensityvalue">45</data>
+</node><node id="n46" xlink:href="http://www.connectome.ch/wiki/VIP_(Macaca mulatta)">
+    <data key="dn_label">VIP_RH</data>
+    <data key="dn_colorcode">102,25,51</data>
+    <data key="dn_intensityvalue">46</data>
+</node><node id="n47" xlink:href="http://www.connectome.ch/wiki/VOT_(Macaca mulatta)">
+    <data key="dn_label">VOT_RH</data>
+    <data key="dn_colorcode">25,255,229</data>
+    <data key="dn_intensityvalue">47</data>
+</node><edge id="e1_2" source="n1" target="n2">
+    <data key="de_strength">5.11210494982</data>
+</edge>
+<edge id="e1_6" source="n1" target="n6">
+    <data key="de_strength">3.95907449068</data>
+</edge>
+<edge id="e1_7" source="n1" target="n7">
+    <data key="de_strength">0.0468604660434</data>
+</edge>
+<edge id="e1_8" source="n1" target="n8">
+    <data key="de_strength">0.0056038976325</data>
+</edge>
+<edge id="e1_9" source="n1" target="n9">
+    <data key="de_strength">2.9345934619</data>
+</edge>
+<edge id="e1_10" source="n1" target="n10">
+    <data key="de_strength">7.44222908152</data>
+</edge>
+<edge id="e1_11" source="n1" target="n11">
+    <data key="de_strength">0.317111755601</data>
+</edge>
+<edge id="e1_12" source="n1" target="n12">
+    <data key="de_strength">0.011940427056</data>
+</edge>
+<edge id="e1_13" source="n1" target="n13">
+    <data key="de_strength">0.0148313829782</data>
+</edge>
+<edge id="e1_14" source="n1" target="n14">
+    <data key="de_strength">0.890439609654</data>
+</edge>
+<edge id="e1_19" source="n1" target="n19">
+    <data key="de_strength">0.0130910297199</data>
+</edge>
+<edge id="e1_21" source="n1" target="n21">
+    <data key="de_strength">0.00917394421111</data>
+</edge>
+<edge id="e1_22" source="n1" target="n22">
+    <data key="de_strength">0.181514082403</data>
+</edge>
+<edge id="e1_23" source="n1" target="n23">
+    <data key="de_strength">0.0713131986083</data>
+</edge>
+<edge id="e1_24" source="n1" target="n24">
+    <data key="de_strength">0.00813008130081</data>
+</edge>
+<edge id="e1_25" source="n1" target="n25">
+    <data key="de_strength">0.194634682956</data>
+</edge>
+<edge id="e1_26" source="n1" target="n26">
+    <data key="de_strength">0.0693853440723</data>
+</edge>
+<edge id="e1_27" source="n1" target="n27">
+    <data key="de_strength">0.0561531279143</data>
+</edge>
+<edge id="e1_28" source="n1" target="n28">
+    <data key="de_strength">0.014347781754</data>
+</edge>
+<edge id="e1_29" source="n1" target="n29">
+    <data key="de_strength">0.0149311294766</data>
+</edge>
+<edge id="e1_32" source="n1" target="n32">
+    <data key="de_strength">0.00411480703514</data>
+</edge>
+<edge id="e1_33" source="n1" target="n33">
+    <data key="de_strength">0.133863714184</data>
+</edge>
+<edge id="e1_34" source="n1" target="n34">
+    <data key="de_strength">2.59372766379</data>
+</edge>
+<edge id="e1_35" source="n1" target="n35">
+    <data key="de_strength">0.171461504254</data>
+</edge>
+<edge id="e1_36" source="n1" target="n36">
+    <data key="de_strength">0.00489119801743</data>
+</edge>
+<edge id="e1_37" source="n1" target="n37">
+    <data key="de_strength">0.21617324163</data>
+</edge>
+<edge id="e1_38" source="n1" target="n38">
+    <data key="de_strength">0.00335570469799</data>
+</edge>
+<edge id="e1_39" source="n1" target="n39">
+    <data key="de_strength">0.00774038449887</data>
+</edge>
+<edge id="e1_40" source="n1" target="n40">
+    <data key="de_strength">0.0122102006081</data>
+</edge>
+<edge id="e1_41" source="n1" target="n41">
+    <data key="de_strength">0.00588235294118</data>
+</edge>
+<edge id="e1_42" source="n1" target="n42">
+    <data key="de_strength">0.0161965294708</data>
+</edge>
+<edge id="e1_43" source="n1" target="n43">
+    <data key="de_strength">0.00719424460432</data>
+</edge>
+<edge id="e1_44" source="n1" target="n44">
+    <data key="de_strength">0.00697416286973</data>
+</edge>
+<edge id="e1_45" source="n1" target="n45">
+    <data key="de_strength">0.00595238095238</data>
+</edge>
+<edge id="e1_46" source="n1" target="n46">
+    <data key="de_strength">0.171741021322</data>
+</edge>
+<edge id="e1_47" source="n1" target="n47">
+    <data key="de_strength">0.0071246575696</data>
+</edge>
+<edge id="e2_1" source="n2" target="n1">
+    <data key="de_strength">5.11210494982</data>
+</edge>
+<edge id="e2_6" source="n2" target="n6">
+    <data key="de_strength">6.7794268948</data>
+</edge>
+<edge id="e2_7" source="n2" target="n7">
+    <data key="de_strength">0.024284227005</data>
+</edge>
+<edge id="e2_8" source="n2" target="n8">
+    <data key="de_strength">0.0255314655483</data>
+</edge>
+<edge id="e2_9" source="n2" target="n9">
+    <data key="de_strength">2.0614932301</data>
+</edge>
+<edge id="e2_10" source="n2" target="n10">
+    <data key="de_strength">2.35609589246</data>
+</edge>
+<edge id="e2_11" source="n2" target="n11">
+    <data key="de_strength">0.256936966231</data>
+</edge>
+<edge id="e2_12" source="n2" target="n12">
+    <data key="de_strength">0.0331283225711</data>
+</edge>
+<edge id="e2_13" source="n2" target="n13">
+    <data key="de_strength">0.12229871211</data>
+</edge>
+<edge id="e2_14" source="n2" target="n14">
+    <data key="de_strength">6.09988158582</data>
+</edge>
+<edge id="e2_17" source="n2" target="n17">
+    <data key="de_strength">0.00477188329466</data>
+</edge>
+<edge id="e2_18" source="n2" target="n18">
+    <data key="de_strength">0.0042194092827</data>
+</edge>
+<edge id="e2_19" source="n2" target="n19">
+    <data key="de_strength">0.074492366738</data>
+</edge>
+<edge id="e2_21" source="n2" target="n21">
+    <data key="de_strength">0.0592194150905</data>
+</edge>
+<edge id="e2_22" source="n2" target="n22">
+    <data key="de_strength">0.602932014577</data>
+</edge>
+<edge id="e2_23" source="n2" target="n23">
+    <data key="de_strength">0.267198678031</data>
+</edge>
+<edge id="e2_24" source="n2" target="n24">
+    <data key="de_strength">0.0660394804717</data>
+</edge>
+<edge id="e2_25" source="n2" target="n25">
+    <data key="de_strength">2.32975549691</data>
+</edge>
+<edge id="e2_26" source="n2" target="n26">
+    <data key="de_strength">0.915795246201</data>
+</edge>
+<edge id="e2_27" source="n2" target="n27">
+    <data key="de_strength">0.192080243519</data>
+</edge>
+<edge id="e2_28" source="n2" target="n28">
+    <data key="de_strength">0.0503086212154</data>
+</edge>
+<edge id="e2_29" source="n2" target="n29">
+    <data key="de_strength">0.0235997197037</data>
+</edge>
+<edge id="e2_30" source="n2" target="n30">
+    <data key="de_strength">0.015940280807</data>
+</edge>
+<edge id="e2_31" source="n2" target="n31">
+    <data key="de_strength">0.00527087680487</data>
+</edge>
+<edge id="e2_32" source="n2" target="n32">
+    <data key="de_strength">0.0610322780757</data>
+</edge>
+<edge id="e2_33" source="n2" target="n33">
+    <data key="de_strength">0.950231297657</data>
+</edge>
+<edge id="e2_34" source="n2" target="n34">
+    <data key="de_strength">1.73890073484</data>
+</edge>
+<edge id="e2_35" source="n2" target="n35">
+    <data key="de_strength">0.171343608787</data>
+</edge>
+<edge id="e2_36" source="n2" target="n36">
+    <data key="de_strength">0.0133909581751</data>
+</edge>
+<edge id="e2_37" source="n2" target="n37">
+    <data key="de_strength">0.361960766579</data>
+</edge>
+<edge id="e2_38" source="n2" target="n38">
+    <data key="de_strength">0.00697579916923</data>
+</edge>
+<edge id="e2_39" source="n2" target="n39">
+    <data key="de_strength">0.0363184487681</data>
+</edge>
+<edge id="e2_40" source="n2" target="n40">
+    <data key="de_strength">0.026376932305</data>
+</edge>
+<edge id="e2_41" source="n2" target="n41">
+    <data key="de_strength">0.0142919943467</data>
+</edge>
+<edge id="e2_42" source="n2" target="n42">
+    <data key="de_strength">0.0833441512041</data>
+</edge>
+<edge id="e2_43" source="n2" target="n43">
+    <data key="de_strength">0.0116604320426</data>
+</edge>
+<edge id="e2_44" source="n2" target="n44">
+    <data key="de_strength">0.0580075759446</data>
+</edge>
+<edge id="e2_45" source="n2" target="n45">
+    <data key="de_strength">0.0256154947567</data>
+</edge>
+<edge id="e2_46" source="n2" target="n46">
+    <data key="de_strength">1.46604996503</data>
+</edge>
+<edge id="e2_47" source="n2" target="n47">
+    <data key="de_strength">0.0240401774537</data>
+</edge>
+<edge id="e3_4" source="n3" target="n4">
+    <data key="de_strength">3.36456456453</data>
+</edge>
+<edge id="e3_9" source="n3" target="n9">
+    <data key="de_strength">0.00442673358309</data>
+</edge>
+<edge id="e3_11" source="n3" target="n11">
+    <data key="de_strength">0.00567042606516</data>
+</edge>
+<edge id="e3_15" source="n3" target="n15">
+    <data key="de_strength">0.103294111292</data>
+</edge>
+<edge id="e3_16" source="n3" target="n16">
+    <data key="de_strength">0.193665896753</data>
+</edge>
+<edge id="e3_17" source="n3" target="n17">
+    <data key="de_strength">0.0108784653176</data>
+</edge>
+<edge id="e3_18" source="n3" target="n18">
+    <data key="de_strength">0.0155350177826</data>
+</edge>
+<edge id="e3_21" source="n3" target="n21">
+    <data key="de_strength">0.0214901504025</data>
+</edge>
+<edge id="e3_22" source="n3" target="n22">
+    <data key="de_strength">0.0288501452885</data>
+</edge>
+<edge id="e3_27" source="n3" target="n27">
+    <data key="de_strength">0.0117647058824</data>
+</edge>
+<edge id="e3_31" source="n3" target="n31">
+    <data key="de_strength">0.00943166530494</data>
+</edge>
+<edge id="e3_36" source="n3" target="n36">
+    <data key="de_strength">0.0631979194416</data>
+</edge>
+<edge id="e3_37" source="n3" target="n37">
+    <data key="de_strength">0.0760681161622</data>
+</edge>
+<edge id="e3_38" source="n3" target="n38">
+    <data key="de_strength">0.0405549364307</data>
+</edge>
+<edge id="e3_39" source="n3" target="n39">
+    <data key="de_strength">0.0079779557407</data>
+</edge>
+<edge id="e3_40" source="n3" target="n40">
+    <data key="de_strength">0.0048309178744</data>
+</edge>
+<edge id="e3_44" source="n3" target="n44">
+    <data key="de_strength">0.0114942528736</data>
+</edge>
+<edge id="e3_47" source="n3" target="n47">
+    <data key="de_strength">0.0085107924091</data>
+</edge>
+<edge id="e4_3" source="n4" target="n3">
+    <data key="de_strength">3.36456456453</data>
+</edge>
+<edge id="e4_9" source="n4" target="n9">
+    <data key="de_strength">0.00675675675676</data>
+</edge>
+<edge id="e4_11" source="n4" target="n11">
+    <data key="de_strength">0.00583283818578</data>
+</edge>
+<edge id="e4_15" source="n4" target="n15">
+    <data key="de_strength">4.59451473018</data>
+</edge>
+<edge id="e4_16" source="n4" target="n16">
+    <data key="de_strength">3.93909740804</data>
+</edge>
+<edge id="e4_17" source="n4" target="n17">
+    <data key="de_strength">0.0259950725546</data>
+</edge>
+<edge id="e4_18" source="n4" target="n18">
+    <data key="de_strength">0.0710364974071</data>
+</edge>
+<edge id="e4_19" source="n4" target="n19">
+    <data key="de_strength">0.00639041839154</data>
+</edge>
+<edge id="e4_21" source="n4" target="n21">
+    <data key="de_strength">0.0875623497329</data>
+</edge>
+<edge id="e4_22" source="n4" target="n22">
+    <data key="de_strength">0.0304441810314</data>
+</edge>
+<edge id="e4_27" source="n4" target="n27">
+    <data key="de_strength">0.024147802596</data>
+</edge>
+<edge id="e4_28" source="n4" target="n28">
+    <data key="de_strength">0.00571428571429</data>
+</edge>
+<edge id="e4_30" source="n4" target="n30">
+    <data key="de_strength">0.00862068965517</data>
+</edge>
+<edge id="e4_31" source="n4" target="n31">
+    <data key="de_strength">0.0227875878301</data>
+</edge>
+<edge id="e4_35" source="n4" target="n35">
+    <data key="de_strength">0.0062274909964</data>
+</edge>
+<edge id="e4_36" source="n4" target="n36">
+    <data key="de_strength">0.448350149948</data>
+</edge>
+<edge id="e4_37" source="n4" target="n37">
+    <data key="de_strength">0.381499675532</data>
+</edge>
+<edge id="e4_38" source="n4" target="n38">
+    <data key="de_strength">0.167656215319</data>
+</edge>
+<edge id="e4_39" source="n4" target="n39">
+    <data key="de_strength">0.0334440205206</data>
+</edge>
+<edge id="e4_40" source="n4" target="n40">
+    <data key="de_strength">0.0121266226695</data>
+</edge>
+<edge id="e4_42" source="n4" target="n42">
+    <data key="de_strength">0.00588968957871</data>
+</edge>
+<edge id="e4_44" source="n4" target="n44">
+    <data key="de_strength">0.0128977696295</data>
+</edge>
+<edge id="e4_46" source="n4" target="n46">
+    <data key="de_strength">0.00729927007299</data>
+</edge>
+<edge id="e4_47" source="n4" target="n47">
+    <data key="de_strength">0.014234450482</data>
+</edge>
+<edge id="e6_1" source="n6" target="n1">
+    <data key="de_strength">3.95907449068</data>
+</edge>
+<edge id="e6_2" source="n6" target="n2">
+    <data key="de_strength">6.7794268948</data>
+</edge>
+<edge id="e6_7" source="n6" target="n7">
+    <data key="de_strength">0.0282580984467</data>
+</edge>
+<edge id="e6_9" source="n6" target="n9">
+    <data key="de_strength">2.21644632714</data>
+</edge>
+<edge id="e6_10" source="n6" target="n10">
+    <data key="de_strength">7.47420328087</data>
+</edge>
+<edge id="e6_11" source="n6" target="n11">
+    <data key="de_strength">0.309029402505</data>
+</edge>
+<edge id="e6_12" source="n6" target="n12">
+    <data key="de_strength">0.0282670967781</data>
+</edge>
+<edge id="e6_13" source="n6" target="n13">
+    <data key="de_strength">1.95552542688</data>
+</edge>
+<edge id="e6_14" source="n6" target="n14">
+    <data key="de_strength">0.504197959251</data>
+</edge>
+<edge id="e6_19" source="n6" target="n19">
+    <data key="de_strength">0.0209088733665</data>
+</edge>
+<edge id="e6_21" source="n6" target="n21">
+    <data key="de_strength">0.018899516212</data>
+</edge>
+<edge id="e6_22" source="n6" target="n22">
+    <data key="de_strength">0.0878424524749</data>
+</edge>
+<edge id="e6_23" source="n6" target="n23">
+    <data key="de_strength">0.409517578492</data>
+</edge>
+<edge id="e6_24" source="n6" target="n24">
+    <data key="de_strength">4.11155885895</data>
+</edge>
+<edge id="e6_25" source="n6" target="n25">
+    <data key="de_strength">4.23304334854</data>
+</edge>
+<edge id="e6_26" source="n6" target="n26">
+    <data key="de_strength">0.0927983593062</data>
+</edge>
+<edge id="e6_27" source="n6" target="n27">
+    <data key="de_strength">0.0328767699529</data>
+</edge>
+<edge id="e6_28" source="n6" target="n28">
+    <data key="de_strength">0.0149566946255</data>
+</edge>
+<edge id="e6_29" source="n6" target="n29">
+    <data key="de_strength">0.19482240828</data>
+</edge>
+<edge id="e6_30" source="n6" target="n30">
+    <data key="de_strength">0.00338983050847</data>
+</edge>
+<edge id="e6_32" source="n6" target="n32">
+    <data key="de_strength">0.0540248007069</data>
+</edge>
+<edge id="e6_33" source="n6" target="n33">
+    <data key="de_strength">0.396576084502</data>
+</edge>
+<edge id="e6_34" source="n6" target="n34">
+    <data key="de_strength">0.393980023267</data>
+</edge>
+<edge id="e6_35" source="n6" target="n35">
+    <data key="de_strength">0.0592951507766</data>
+</edge>
+<edge id="e6_36" source="n6" target="n36">
+    <data key="de_strength">0.00803940774455</data>
+</edge>
+<edge id="e6_37" source="n6" target="n37">
+    <data key="de_strength">0.20781521933</data>
+</edge>
+<edge id="e6_38" source="n6" target="n38">
+    <data key="de_strength">0.00632911392405</data>
+</edge>
+<edge id="e6_39" source="n6" target="n39">
+    <data key="de_strength">0.0243902623846</data>
+</edge>
+<edge id="e6_40" source="n6" target="n40">
+    <data key="de_strength">0.00876927440596</data>
+</edge>
+<edge id="e6_41" source="n6" target="n41">
+    <data key="de_strength">0.0073181792636</data>
+</edge>
+<edge id="e6_42" source="n6" target="n42">
+    <data key="de_strength">0.0165991479648</data>
+</edge>
+<edge id="e6_44" source="n6" target="n44">
+    <data key="de_strength">0.0280816854469</data>
+</edge>
+<edge id="e6_45" source="n6" target="n45">
+    <data key="de_strength">0.0294684632941</data>
+</edge>
+<edge id="e6_46" source="n6" target="n46">
+    <data key="de_strength">2.14617073294</data>
+</edge>
+<edge id="e6_47" source="n6" target="n47">
+    <data key="de_strength">0.00480769230769</data>
+</edge>
+<edge id="e7_1" source="n7" target="n1">
+    <data key="de_strength">0.0468604660434</data>
+</edge>
+<edge id="e7_2" source="n7" target="n2">
+    <data key="de_strength">0.024284227005</data>
+</edge>
+<edge id="e7_6" source="n7" target="n6">
+    <data key="de_strength">0.0282580984467</data>
+</edge>
+<edge id="e7_9" source="n7" target="n9">
+    <data key="de_strength">0.100811415822</data>
+</edge>
+<edge id="e7_10" source="n7" target="n10">
+    <data key="de_strength">0.0528909951859</data>
+</edge>
+<edge id="e7_11" source="n7" target="n11">
+    <data key="de_strength">0.728096953071</data>
+</edge>
+<edge id="e7_12" source="n7" target="n12">
+    <data key="de_strength">0.148452867731</data>
+</edge>
+<edge id="e7_14" source="n7" target="n14">
+    <data key="de_strength">0.0839157849876</data>
+</edge>
+<edge id="e7_19" source="n7" target="n19">
+    <data key="de_strength">0.0173189383716</data>
+</edge>
+<edge id="e7_21" source="n7" target="n21">
+    <data key="de_strength">0.0149787614576</data>
+</edge>
+<edge id="e7_22" source="n7" target="n22">
+    <data key="de_strength">2.97827061202</data>
+</edge>
+<edge id="e7_26" source="n7" target="n26">
+    <data key="de_strength">0.052030172875</data>
+</edge>
+<edge id="e7_27" source="n7" target="n27">
+    <data key="de_strength">0.153711105831</data>
+</edge>
+<edge id="e7_34" source="n7" target="n34">
+    <data key="de_strength">4.92857140969</data>
+</edge>
+<edge id="e7_35" source="n7" target="n35">
+    <data key="de_strength">0.671741173469</data>
+</edge>
+<edge id="e7_37" source="n7" target="n37">
+    <data key="de_strength">0.0933522607484</data>
+</edge>
+<edge id="e7_42" source="n7" target="n42">
+    <data key="de_strength">0.0180708180708</data>
+</edge>
+<edge id="e7_46" source="n7" target="n46">
+    <data key="de_strength">0.00657894736842</data>
+</edge>
+<edge id="e8_1" source="n8" target="n1">
+    <data key="de_strength">0.0056038976325</data>
+</edge>
+<edge id="e8_2" source="n8" target="n2">
+    <data key="de_strength">0.0255314655483</data>
+</edge>
+<edge id="e8_9" source="n8" target="n9">
+    <data key="de_strength">0.123554549381</data>
+</edge>
+<edge id="e8_10" source="n8" target="n10">
+    <data key="de_strength">0.00504212179624</data>
+</edge>
+<edge id="e8_11" source="n8" target="n11">
+    <data key="de_strength">0.0252878091799</data>
+</edge>
+<edge id="e8_13" source="n8" target="n13">
+    <data key="de_strength">0.129686690671</data>
+</edge>
+<edge id="e8_14" source="n8" target="n14">
+    <data key="de_strength">0.0146840262619</data>
+</edge>
+<edge id="e8_15" source="n8" target="n15">
+    <data key="de_strength">0.0243142555529</data>
+</edge>
+<edge id="e8_16" source="n8" target="n16">
+    <data key="de_strength">0.0109218581411</data>
+</edge>
+<edge id="e8_17" source="n8" target="n17">
+    <data key="de_strength">0.338390714639</data>
+</edge>
+<edge id="e8_18" source="n8" target="n18">
+    <data key="de_strength">0.0858967476841</data>
+</edge>
+<edge id="e8_19" source="n8" target="n19">
+    <data key="de_strength">0.217575697073</data>
+</edge>
+<edge id="e8_21" source="n8" target="n21">
+    <data key="de_strength">0.56875094007</data>
+</edge>
+<edge id="e8_22" source="n8" target="n22">
+    <data key="de_strength">0.0116298649511</data>
+</edge>
+<edge id="e8_23" source="n8" target="n23">
+    <data key="de_strength">0.0342417252158</data>
+</edge>
+<edge id="e8_25" source="n8" target="n25">
+    <data key="de_strength">0.0167490796088</data>
+</edge>
+<edge id="e8_26" source="n8" target="n26">
+    <data key="de_strength">0.247696916611</data>
+</edge>
+<edge id="e8_27" source="n8" target="n27">
+    <data key="de_strength">0.501983267998</data>
+</edge>
+<edge id="e8_28" source="n8" target="n28">
+    <data key="de_strength">0.745989078353</data>
+</edge>
+<edge id="e8_29" source="n8" target="n29">
+    <data key="de_strength">0.0248115564546</data>
+</edge>
+<edge id="e8_30" source="n8" target="n30">
+    <data key="de_strength">2.13840058258</data>
+</edge>
+<edge id="e8_31" source="n8" target="n31">
+    <data key="de_strength">0.336816483753</data>
+</edge>
+<edge id="e8_32" source="n8" target="n32">
+    <data key="de_strength">0.0212310261855</data>
+</edge>
+<edge id="e8_33" source="n8" target="n33">
+    <data key="de_strength">0.0423205832698</data>
+</edge>
+<edge id="e8_34" source="n8" target="n34">
+    <data key="de_strength">0.00689655172414</data>
+</edge>
+<edge id="e8_36" source="n8" target="n36">
+    <data key="de_strength">0.074129919498</data>
+</edge>
+<edge id="e8_37" source="n8" target="n37">
+    <data key="de_strength">0.0248180994668</data>
+</edge>
+<edge id="e8_38" source="n8" target="n38">
+    <data key="de_strength">0.20012250788</data>
+</edge>
+<edge id="e8_39" source="n8" target="n39">
+    <data key="de_strength">0.259607233161</data>
+</edge>
+<edge id="e8_40" source="n8" target="n40">
+    <data key="de_strength">0.947866674411</data>
+</edge>
+<edge id="e8_41" source="n8" target="n41">
+    <data key="de_strength">5.06810661159</data>
+</edge>
+<edge id="e8_42" source="n8" target="n42">
+    <data key="de_strength">0.53894931785</data>
+</edge>
+<edge id="e8_43" source="n8" target="n43">
+    <data key="de_strength">0.0221612545736</data>
+</edge>
+<edge id="e8_44" source="n8" target="n44">
+    <data key="de_strength">3.08990084809</data>
+</edge>
+<edge id="e8_45" source="n8" target="n45">
+    <data key="de_strength">2.25558410879</data>
+</edge>
+<edge id="e8_46" source="n8" target="n46">
+    <data key="de_strength">0.113684490184</data>
+</edge>
+<edge id="e8_47" source="n8" target="n47">
+    <data key="de_strength">4.1278115317</data>
+</edge>
+<edge id="e9_1" source="n9" target="n1">
+    <data key="de_strength">2.9345934619</data>
+</edge>
+<edge id="e9_2" source="n9" target="n2">
+    <data key="de_strength">2.0614932301</data>
+</edge>
+<edge id="e9_3" source="n9" target="n3">
+    <data key="de_strength">0.00442673358309</data>
+</edge>
+<edge id="e9_4" source="n9" target="n4">
+    <data key="de_strength">0.00675675675676</data>
+</edge>
+<edge id="e9_6" source="n9" target="n6">
+    <data key="de_strength">2.21644632714</data>
+</edge>
+<edge id="e9_7" source="n9" target="n7">
+    <data key="de_strength">0.100811415822</data>
+</edge>
+<edge id="e9_8" source="n9" target="n8">
+    <data key="de_strength">0.123554549381</data>
+</edge>
+<edge id="e9_10" source="n9" target="n10">
+    <data key="de_strength">4.80648657736</data>
+</edge>
+<edge id="e9_11" source="n9" target="n11">
+    <data key="de_strength">5.94022848526</data>
+</edge>
+<edge id="e9_12" source="n9" target="n12">
+    <data key="de_strength">0.148652473937</data>
+</edge>
+<edge id="e9_13" source="n9" target="n13">
+    <data key="de_strength">0.0923294133541</data>
+</edge>
+<edge id="e9_14" source="n9" target="n14">
+    <data key="de_strength">0.685717936493</data>
+</edge>
+<edge id="e9_15" source="n9" target="n15">
+    <data key="de_strength">0.0107440424554</data>
+</edge>
+<edge id="e9_16" source="n9" target="n16">
+    <data key="de_strength">0.00689655172414</data>
+</edge>
+<edge id="e9_17" source="n9" target="n17">
+    <data key="de_strength">0.0512210596235</data>
+</edge>
+<edge id="e9_18" source="n9" target="n18">
+    <data key="de_strength">0.0265677508757</data>
+</edge>
+<edge id="e9_19" source="n9" target="n19">
+    <data key="de_strength">0.665940172356</data>
+</edge>
+<edge id="e9_21" source="n9" target="n21">
+    <data key="de_strength">0.309894295933</data>
+</edge>
+<edge id="e9_22" source="n9" target="n22">
+    <data key="de_strength">0.712353435877</data>
+</edge>
+<edge id="e9_23" source="n9" target="n23">
+    <data key="de_strength">0.0992272314796</data>
+</edge>
+<edge id="e9_24" source="n9" target="n24">
+    <data key="de_strength">0.0141837081653</data>
+</edge>
+<edge id="e9_25" source="n9" target="n25">
+    <data key="de_strength">0.0956778613129</data>
+</edge>
+<edge id="e9_26" source="n9" target="n26">
+    <data key="de_strength">0.419902176187</data>
+</edge>
+<edge id="e9_27" source="n9" target="n27">
+    <data key="de_strength">0.757997968989</data>
+</edge>
+<edge id="e9_28" source="n9" target="n28">
+    <data key="de_strength">0.727147303436</data>
+</edge>
+<edge id="e9_29" source="n9" target="n29">
+    <data key="de_strength">0.17191898363</data>
+</edge>
+<edge id="e9_30" source="n9" target="n30">
+    <data key="de_strength">0.152911120043</data>
+</edge>
+<edge id="e9_31" source="n9" target="n31">
+    <data key="de_strength">0.0602842854347</data>
+</edge>
+<edge id="e9_32" source="n9" target="n32">
+    <data key="de_strength">0.114189793158</data>
+</edge>
+<edge id="e9_33" source="n9" target="n33">
+    <data key="de_strength">1.1392538011</data>
+</edge>
+<edge id="e9_34" source="n9" target="n34">
+    <data key="de_strength">2.77950824312</data>
+</edge>
+<edge id="e9_35" source="n9" target="n35">
+    <data key="de_strength">1.23435568942</data>
+</edge>
+<edge id="e9_36" source="n9" target="n36">
+    <data key="de_strength">0.074066291534</data>
+</edge>
+<edge id="e9_37" source="n9" target="n37">
+    <data key="de_strength">1.45109086329</data>
+</edge>
+<edge id="e9_38" source="n9" target="n38">
+    <data key="de_strength">0.0401487186586</data>
+</edge>
+<edge id="e9_39" source="n9" target="n39">
+    <data key="de_strength">0.110679279905</data>
+</edge>
+<edge id="e9_40" source="n9" target="n40">
+    <data key="de_strength">0.11981392843</data>
+</edge>
+<edge id="e9_41" source="n9" target="n41">
+    <data key="de_strength">0.0539309160201</data>
+</edge>
+<edge id="e9_42" source="n9" target="n42">
+    <data key="de_strength">0.363445708014</data>
+</edge>
+<edge id="e9_43" source="n9" target="n43">
+    <data key="de_strength">0.230815456864</data>
+</edge>
+<edge id="e9_44" source="n9" target="n44">
+    <data key="de_strength">0.283779681194</data>
+</edge>
+<edge id="e9_45" source="n9" target="n45">
+    <data key="de_strength">0.294360431539</data>
+</edge>
+<edge id="e9_46" source="n9" target="n46">
+    <data key="de_strength">0.479724388536</data>
+</edge>
+<edge id="e9_47" source="n9" target="n47">
+    <data key="de_strength">0.251481301504</data>
+</edge>
+<edge id="e10_1" source="n10" target="n1">
+    <data key="de_strength">7.44222908152</data>
+</edge>
+<edge id="e10_2" source="n10" target="n2">
+    <data key="de_strength">2.35609589246</data>
+</edge>
+<edge id="e10_6" source="n10" target="n6">
+    <data key="de_strength">7.47420328087</data>
+</edge>
+<edge id="e10_7" source="n10" target="n7">
+    <data key="de_strength">0.0528909951859</data>
+</edge>
+<edge id="e10_8" source="n10" target="n8">
+    <data key="de_strength">0.00504212179624</data>
+</edge>
+<edge id="e10_9" source="n10" target="n9">
+    <data key="de_strength">4.80648657736</data>
+</edge>
+<edge id="e10_11" source="n10" target="n11">
+    <data key="de_strength">1.67639895332</data>
+</edge>
+<edge id="e10_12" source="n10" target="n12">
+    <data key="de_strength">0.02970377086</data>
+</edge>
+<edge id="e10_13" source="n10" target="n13">
+    <data key="de_strength">0.0176910350833</data>
+</edge>
+<edge id="e10_14" source="n10" target="n14">
+    <data key="de_strength">0.568791256892</data>
+</edge>
+<edge id="e10_19" source="n10" target="n19">
+    <data key="de_strength">0.0304885819045</data>
+</edge>
+<edge id="e10_21" source="n10" target="n21">
+    <data key="de_strength">0.0146374625542</data>
+</edge>
+<edge id="e10_22" source="n10" target="n22">
+    <data key="de_strength">0.289818745354</data>
+</edge>
+<edge id="e10_25" source="n10" target="n25">
+    <data key="de_strength">0.0221299935167</data>
+</edge>
+<edge id="e10_26" source="n10" target="n26">
+    <data key="de_strength">0.0558056161457</data>
+</edge>
+<edge id="e10_27" source="n10" target="n27">
+    <data key="de_strength">0.0644084909106</data>
+</edge>
+<edge id="e10_28" source="n10" target="n28">
+    <data key="de_strength">0.0180949119203</data>
+</edge>
+<edge id="e10_29" source="n10" target="n29">
+    <data key="de_strength">0.00446428571429</data>
+</edge>
+<edge id="e10_30" source="n10" target="n30">
+    <data key="de_strength">0.0133884794988</data>
+</edge>
+<edge id="e10_31" source="n10" target="n31">
+    <data key="de_strength">0.00367647058824</data>
+</edge>
+<edge id="e10_32" source="n10" target="n32">
+    <data key="de_strength">0.0117647058824</data>
+</edge>
+<edge id="e10_33" source="n10" target="n33">
+    <data key="de_strength">0.143078109052</data>
+</edge>
+<edge id="e10_34" source="n10" target="n34">
+    <data key="de_strength">3.78579783341</data>
+</edge>
+<edge id="e10_35" source="n10" target="n35">
+    <data key="de_strength">0.2637433019</data>
+</edge>
+<edge id="e10_36" source="n10" target="n36">
+    <data key="de_strength">0.0120486300127</data>
+</edge>
+<edge id="e10_37" source="n10" target="n37">
+    <data key="de_strength">0.392744722532</data>
+</edge>
+<edge id="e10_38" source="n10" target="n38">
+    <data key="de_strength">0.00606060606061</data>
+</edge>
+<edge id="e10_39" source="n10" target="n39">
+    <data key="de_strength">0.0112895548604</data>
+</edge>
+<edge id="e10_40" source="n10" target="n40">
+    <data key="de_strength">0.00876809853061</data>
+</edge>
+<edge id="e10_41" source="n10" target="n41">
+    <data key="de_strength">0.00584872570416</data>
+</edge>
+<edge id="e10_42" source="n10" target="n42">
+    <data key="de_strength">0.00875993988861</data>
+</edge>
+<edge id="e10_43" source="n10" target="n43">
+    <data key="de_strength">0.00842847628562</data>
+</edge>
+<edge id="e10_44" source="n10" target="n44">
+    <data key="de_strength">0.0144597485337</data>
+</edge>
+<edge id="e10_45" source="n10" target="n45">
+    <data key="de_strength">0.00867164867769</data>
+</edge>
+<edge id="e10_46" source="n10" target="n46">
+    <data key="de_strength">0.160942665857</data>
+</edge>
+<edge id="e10_47" source="n10" target="n47">
+    <data key="de_strength">0.00877319197895</data>
+</edge>
+<edge id="e11_1" source="n11" target="n1">
+    <data key="de_strength">0.317111755601</data>
+</edge>
+<edge id="e11_2" source="n11" target="n2">
+    <data key="de_strength">0.256936966231</data>
+</edge>
+<edge id="e11_3" source="n11" target="n3">
+    <data key="de_strength">0.00567042606516</data>
+</edge>
+<edge id="e11_4" source="n11" target="n4">
+    <data key="de_strength">0.00583283818578</data>
+</edge>
+<edge id="e11_6" source="n11" target="n6">
+    <data key="de_strength">0.309029402505</data>
+</edge>
+<edge id="e11_7" source="n11" target="n7">
+    <data key="de_strength">0.728096953071</data>
+</edge>
+<edge id="e11_8" source="n11" target="n8">
+    <data key="de_strength">0.0252878091799</data>
+</edge>
+<edge id="e11_9" source="n11" target="n9">
+    <data key="de_strength">5.94022848526</data>
+</edge>
+<edge id="e11_10" source="n11" target="n10">
+    <data key="de_strength">1.67639895332</data>
+</edge>
+<edge id="e11_12" source="n11" target="n12">
+    <data key="de_strength">5.53962676081</data>
+</edge>
+<edge id="e11_13" source="n11" target="n13">
+    <data key="de_strength">0.0333178191175</data>
+</edge>
+<edge id="e11_14" source="n11" target="n14">
+    <data key="de_strength">0.325317847313</data>
+</edge>
+<edge id="e11_15" source="n11" target="n15">
+    <data key="de_strength">0.00662251655629</data>
+</edge>
+<edge id="e11_16" source="n11" target="n16">
+    <data key="de_strength">0.00617283950617</data>
+</edge>
+<edge id="e11_17" source="n11" target="n17">
+    <data key="de_strength">0.0156187969788</data>
+</edge>
+<edge id="e11_19" source="n11" target="n19">
+    <data key="de_strength">0.104098783208</data>
+</edge>
+<edge id="e11_20" source="n11" target="n20">
+    <data key="de_strength">0.059656614362</data>
+</edge>
+<edge id="e11_21" source="n11" target="n21">
+    <data key="de_strength">0.136931281145</data>
+</edge>
+<edge id="e11_22" source="n11" target="n22">
+    <data key="de_strength">0.517862982741</data>
+</edge>
+<edge id="e11_23" source="n11" target="n23">
+    <data key="de_strength">0.0147869673421</data>
+</edge>
+<edge id="e11_25" source="n11" target="n25">
+    <data key="de_strength">0.0434796837383</data>
+</edge>
+<edge id="e11_26" source="n11" target="n26">
+    <data key="de_strength">0.0732728156096</data>
+</edge>
+<edge id="e11_27" source="n11" target="n27">
+    <data key="de_strength">0.207498731245</data>
+</edge>
+<edge id="e11_28" source="n11" target="n28">
+    <data key="de_strength">0.045170761492</data>
+</edge>
+<edge id="e11_29" source="n11" target="n29">
+    <data key="de_strength">0.0447583709097</data>
+</edge>
+<edge id="e11_30" source="n11" target="n30">
+    <data key="de_strength">0.0163206379393</data>
+</edge>
+<edge id="e11_31" source="n11" target="n31">
+    <data key="de_strength">0.0127361753156</data>
+</edge>
+<edge id="e11_32" source="n11" target="n32">
+    <data key="de_strength">0.0353605198036</data>
+</edge>
+<edge id="e11_33" source="n11" target="n33">
+    <data key="de_strength">0.281427808966</data>
+</edge>
+<edge id="e11_34" source="n11" target="n34">
+    <data key="de_strength">1.42290420052</data>
+</edge>
+<edge id="e11_35" source="n11" target="n35">
+    <data key="de_strength">4.29229022479</data>
+</edge>
+<edge id="e11_36" source="n11" target="n36">
+    <data key="de_strength">0.027660347469</data>
+</edge>
+<edge id="e11_37" source="n11" target="n37">
+    <data key="de_strength">0.355842338138</data>
+</edge>
+<edge id="e11_38" source="n11" target="n38">
+    <data key="de_strength">0.0148738426332</data>
+</edge>
+<edge id="e11_39" source="n11" target="n39">
+    <data key="de_strength">0.058138401757</data>
+</edge>
+<edge id="e11_40" source="n11" target="n40">
+    <data key="de_strength">0.0336298135816</data>
+</edge>
+<edge id="e11_41" source="n11" target="n41">
+    <data key="de_strength">0.0149382790159</data>
+</edge>
+<edge id="e11_42" source="n11" target="n42">
+    <data key="de_strength">0.253127588827</data>
+</edge>
+<edge id="e11_43" source="n11" target="n43">
+    <data key="de_strength">0.0431811680201</data>
+</edge>
+<edge id="e11_44" source="n11" target="n44">
+    <data key="de_strength">0.0676014779242</data>
+</edge>
+<edge id="e11_45" source="n11" target="n45">
+    <data key="de_strength">0.0570686720035</data>
+</edge>
+<edge id="e11_46" source="n11" target="n46">
+    <data key="de_strength">0.12656286548</data>
+</edge>
+<edge id="e11_47" source="n11" target="n47">
+    <data key="de_strength">0.0264859862491</data>
+</edge>
+<edge id="e12_1" source="n12" target="n1">
+    <data key="de_strength">0.011940427056</data>
+</edge>
+<edge id="e12_2" source="n12" target="n2">
+    <data key="de_strength">0.0331283225711</data>
+</edge>
+<edge id="e12_6" source="n12" target="n6">
+    <data key="de_strength">0.0282670967781</data>
+</edge>
+<edge id="e12_7" source="n12" target="n7">
+    <data key="de_strength">0.148452867731</data>
+</edge>
+<edge id="e12_9" source="n12" target="n9">
+    <data key="de_strength">0.148652473937</data>
+</edge>
+<edge id="e12_10" source="n12" target="n10">
+    <data key="de_strength">0.02970377086</data>
+</edge>
+<edge id="e12_11" source="n12" target="n11">
+    <data key="de_strength">5.53962676081</data>
+</edge>
+<edge id="e12_14" source="n12" target="n14">
+    <data key="de_strength">0.0442739738512</data>
+</edge>
+<edge id="e12_19" source="n12" target="n19">
+    <data key="de_strength">0.00689655172414</data>
+</edge>
+<edge id="e12_20" source="n12" target="n20">
+    <data key="de_strength">0.566666666667</data>
+</edge>
+<edge id="e12_21" source="n12" target="n21">
+    <data key="de_strength">0.0106382978723</data>
+</edge>
+<edge id="e12_22" source="n12" target="n22">
+    <data key="de_strength">0.0698711075862</data>
+</edge>
+<edge id="e12_26" source="n12" target="n26">
+    <data key="de_strength">0.00549450549451</data>
+</edge>
+<edge id="e12_27" source="n12" target="n27">
+    <data key="de_strength">0.0259326986894</data>
+</edge>
+<edge id="e12_28" source="n12" target="n28">
+    <data key="de_strength">0.00591715976331</data>
+</edge>
+<edge id="e12_33" source="n12" target="n33">
+    <data key="de_strength">0.0077519379845</data>
+</edge>
+<edge id="e12_34" source="n12" target="n34">
+    <data key="de_strength">0.376419115021</data>
+</edge>
+<edge id="e12_35" source="n12" target="n35">
+    <data key="de_strength">1.36488674278</data>
+</edge>
+<edge id="e12_36" source="n12" target="n36">
+    <data key="de_strength">0.0141344521027</data>
+</edge>
+<edge id="e12_37" source="n12" target="n37">
+    <data key="de_strength">0.0169223799773</data>
+</edge>
+<edge id="e12_40" source="n12" target="n40">
+    <data key="de_strength">0.00473933649289</data>
+</edge>
+<edge id="e12_46" source="n12" target="n46">
+    <data key="de_strength">0.00608255884314</data>
+</edge>
+<edge id="e13_1" source="n13" target="n1">
+    <data key="de_strength">0.0148313829782</data>
+</edge>
+<edge id="e13_2" source="n13" target="n2">
+    <data key="de_strength">0.12229871211</data>
+</edge>
+<edge id="e13_6" source="n13" target="n6">
+    <data key="de_strength">1.95552542688</data>
+</edge>
+<edge id="e13_8" source="n13" target="n8">
+    <data key="de_strength">0.129686690671</data>
+</edge>
+<edge id="e13_9" source="n13" target="n9">
+    <data key="de_strength">0.0923294133541</data>
+</edge>
+<edge id="e13_10" source="n13" target="n10">
+    <data key="de_strength">0.0176910350833</data>
+</edge>
+<edge id="e13_11" source="n13" target="n11">
+    <data key="de_strength">0.0333178191175</data>
+</edge>
+<edge id="e13_14" source="n13" target="n14">
+    <data key="de_strength">2.75682215825</data>
+</edge>
+<edge id="e13_15" source="n13" target="n15">
+    <data key="de_strength">0.00687547746371</data>
+</edge>
+<edge id="e13_17" source="n13" target="n17">
+    <data key="de_strength">0.0210904297389</data>
+</edge>
+<edge id="e13_18" source="n13" target="n18">
+    <data key="de_strength">0.00892327807581</data>
+</edge>
+<edge id="e13_19" source="n13" target="n19">
+    <data key="de_strength">3.22702835008</data>
+</edge>
+<edge id="e13_21" source="n13" target="n21">
+    <data key="de_strength">0.119481633793</data>
+</edge>
+<edge id="e13_22" source="n13" target="n22">
+    <data key="de_strength">0.0131885246694</data>
+</edge>
+<edge id="e13_23" source="n13" target="n23">
+    <data key="de_strength">6.87202905094</data>
+</edge>
+<edge id="e13_24" source="n13" target="n24">
+    <data key="de_strength">0.0285101702124</data>
+</edge>
+<edge id="e13_25" source="n13" target="n25">
+    <data key="de_strength">0.381806892686</data>
+</edge>
+<edge id="e13_26" source="n13" target="n26">
+    <data key="de_strength">1.94812566616</data>
+</edge>
+<edge id="e13_27" source="n13" target="n27">
+    <data key="de_strength">0.154760817522</data>
+</edge>
+<edge id="e13_28" source="n13" target="n28">
+    <data key="de_strength">1.28749534502</data>
+</edge>
+<edge id="e13_29" source="n13" target="n29">
+    <data key="de_strength">0.163222086138</data>
+</edge>
+<edge id="e13_30" source="n13" target="n30">
+    <data key="de_strength">0.027487772765</data>
+</edge>
+<edge id="e13_31" source="n13" target="n31">
+    <data key="de_strength">0.0142769690915</data>
+</edge>
+<edge id="e13_32" source="n13" target="n32">
+    <data key="de_strength">0.386118461883</data>
+</edge>
+<edge id="e13_33" source="n13" target="n33">
+    <data key="de_strength">0.19250572391</data>
+</edge>
+<edge id="e13_34" source="n13" target="n34">
+    <data key="de_strength">0.0106000800251</data>
+</edge>
+<edge id="e13_35" source="n13" target="n35">
+    <data key="de_strength">0.00529100529101</data>
+</edge>
+<edge id="e13_36" source="n13" target="n36">
+    <data key="de_strength">0.0176608737832</data>
+</edge>
+<edge id="e13_37" source="n13" target="n37">
+    <data key="de_strength">0.0707519778388</data>
+</edge>
+<edge id="e13_38" source="n13" target="n38">
+    <data key="de_strength">0.0167245767208</data>
+</edge>
+<edge id="e13_39" source="n13" target="n39">
+    <data key="de_strength">0.0620266886946</data>
+</edge>
+<edge id="e13_40" source="n13" target="n40">
+    <data key="de_strength">0.0638860444398</data>
+</edge>
+<edge id="e13_41" source="n13" target="n41">
+    <data key="de_strength">0.0304051048225</data>
+</edge>
+<edge id="e13_42" source="n13" target="n42">
+    <data key="de_strength">0.146410620146</data>
+</edge>
+<edge id="e13_43" source="n13" target="n43">
+    <data key="de_strength">0.848341039254</data>
+</edge>
+<edge id="e13_44" source="n13" target="n44">
+    <data key="de_strength">0.218525773765</data>
+</edge>
+<edge id="e13_45" source="n13" target="n45">
+    <data key="de_strength">0.814000134007</data>
+</edge>
+<edge id="e13_46" source="n13" target="n46">
+    <data key="de_strength">5.81169324029</data>
+</edge>
+<edge id="e13_47" source="n13" target="n47">
+    <data key="de_strength">0.0402211321689</data>
+</edge>
+<edge id="e14_1" source="n14" target="n1">
+    <data key="de_strength">0.890439609654</data>
+</edge>
+<edge id="e14_2" source="n14" target="n2">
+    <data key="de_strength">6.09988158582</data>
+</edge>
+<edge id="e14_6" source="n14" target="n6">
+    <data key="de_strength">0.504197959251</data>
+</edge>
+<edge id="e14_7" source="n14" target="n7">
+    <data key="de_strength">0.0839157849876</data>
+</edge>
+<edge id="e14_8" source="n14" target="n8">
+    <data key="de_strength">0.0146840262619</data>
+</edge>
+<edge id="e14_9" source="n14" target="n9">
+    <data key="de_strength">0.685717936493</data>
+</edge>
+<edge id="e14_10" source="n14" target="n10">
+    <data key="de_strength">0.568791256892</data>
+</edge>
+<edge id="e14_11" source="n14" target="n11">
+    <data key="de_strength">0.325317847313</data>
+</edge>
+<edge id="e14_12" source="n14" target="n12">
+    <data key="de_strength">0.0442739738512</data>
+</edge>
+<edge id="e14_13" source="n14" target="n13">
+    <data key="de_strength">2.75682215825</data>
+</edge>
+<edge id="e14_17" source="n14" target="n17">
+    <data key="de_strength">0.00579480660579</data>
+</edge>
+<edge id="e14_19" source="n14" target="n19">
+    <data key="de_strength">0.0415552027159</data>
+</edge>
+<edge id="e14_21" source="n14" target="n21">
+    <data key="de_strength">0.0411472820031</data>
+</edge>
+<edge id="e14_22" source="n14" target="n22">
+    <data key="de_strength">1.0283023528</data>
+</edge>
+<edge id="e14_23" source="n14" target="n23">
+    <data key="de_strength">2.12540626319</data>
+</edge>
+<edge id="e14_24" source="n14" target="n24">
+    <data key="de_strength">0.0159837530678</data>
+</edge>
+<edge id="e14_25" source="n14" target="n25">
+    <data key="de_strength">0.0493452635687</data>
+</edge>
+<edge id="e14_26" source="n14" target="n26">
+    <data key="de_strength">5.1566197973</data>
+</edge>
+<edge id="e14_27" source="n14" target="n27">
+    <data key="de_strength">0.133002521872</data>
+</edge>
+<edge id="e14_28" source="n14" target="n28">
+    <data key="de_strength">0.0626091259016</data>
+</edge>
+<edge id="e14_29" source="n14" target="n29">
+    <data key="de_strength">0.0155184160555</data>
+</edge>
+<edge id="e14_30" source="n14" target="n30">
+    <data key="de_strength">0.0112598189528</data>
+</edge>
+<edge id="e14_31" source="n14" target="n31">
+    <data key="de_strength">0.00702986740723</data>
+</edge>
+<edge id="e14_32" source="n14" target="n32">
+    <data key="de_strength">0.0654298241558</data>
+</edge>
+<edge id="e14_33" source="n14" target="n33">
+    <data key="de_strength">2.90822977124</data>
+</edge>
+<edge id="e14_34" source="n14" target="n34">
+    <data key="de_strength">1.70920899522</data>
+</edge>
+<edge id="e14_35" source="n14" target="n35">
+    <data key="de_strength">0.0848644253719</data>
+</edge>
+<edge id="e14_36" source="n14" target="n36">
+    <data key="de_strength">0.00907739255655</data>
+</edge>
+<edge id="e14_37" source="n14" target="n37">
+    <data key="de_strength">0.263077283614</data>
+</edge>
+<edge id="e14_38" source="n14" target="n38">
+    <data key="de_strength">0.00981074471539</data>
+</edge>
+<edge id="e14_39" source="n14" target="n39">
+    <data key="de_strength">0.0236883321754</data>
+</edge>
+<edge id="e14_40" source="n14" target="n40">
+    <data key="de_strength">0.0227512346761</data>
+</edge>
+<edge id="e14_41" source="n14" target="n41">
+    <data key="de_strength">0.00707550036071</data>
+</edge>
+<edge id="e14_42" source="n14" target="n42">
+    <data key="de_strength">0.0274906244806</data>
+</edge>
+<edge id="e14_43" source="n14" target="n43">
+    <data key="de_strength">0.0155979897331</data>
+</edge>
+<edge id="e14_44" source="n14" target="n44">
+    <data key="de_strength">0.0458004332111</data>
+</edge>
+<edge id="e14_45" source="n14" target="n45">
+    <data key="de_strength">0.0320664858302</data>
+</edge>
+<edge id="e14_46" source="n14" target="n46">
+    <data key="de_strength">2.07107736004</data>
+</edge>
+<edge id="e14_47" source="n14" target="n47">
+    <data key="de_strength">0.0106284444898</data>
+</edge>
+<edge id="e15_3" source="n15" target="n3">
+    <data key="de_strength">0.103294111292</data>
+</edge>
+<edge id="e15_4" source="n15" target="n4">
+    <data key="de_strength">4.59451473018</data>
+</edge>
+<edge id="e15_8" source="n15" target="n8">
+    <data key="de_strength">0.0243142555529</data>
+</edge>
+<edge id="e15_9" source="n15" target="n9">
+    <data key="de_strength">0.0107440424554</data>
+</edge>
+<edge id="e15_11" source="n15" target="n11">
+    <data key="de_strength">0.00662251655629</data>
+</edge>
+<edge id="e15_13" source="n15" target="n13">
+    <data key="de_strength">0.00687547746371</data>
+</edge>
+<edge id="e15_16" source="n15" target="n16">
+    <data key="de_strength">8.63176299631</data>
+</edge>
+<edge id="e15_17" source="n15" target="n17">
+    <data key="de_strength">5.9695528353</data>
+</edge>
+<edge id="e15_18" source="n15" target="n18">
+    <data key="de_strength">12.5914742397</data>
+</edge>
+<edge id="e15_19" source="n15" target="n19">
+    <data key="de_strength">0.0176200893786</data>
+</edge>
+<edge id="e15_21" source="n15" target="n21">
+    <data key="de_strength">0.209687017921</data>
+</edge>
+<edge id="e15_22" source="n15" target="n22">
+    <data key="de_strength">0.0247608278427</data>
+</edge>
+<edge id="e15_26" source="n15" target="n26">
+    <data key="de_strength">0.00707413695529</data>
+</edge>
+<edge id="e15_27" source="n15" target="n27">
+    <data key="de_strength">0.0578368558863</data>
+</edge>
+<edge id="e15_28" source="n15" target="n28">
+    <data key="de_strength">0.0128458319145</data>
+</edge>
+<edge id="e15_29" source="n15" target="n29">
+    <data key="de_strength">0.00497512437811</data>
+</edge>
+<edge id="e15_30" source="n15" target="n30">
+    <data key="de_strength">0.393431834316</data>
+</edge>
+<edge id="e15_31" source="n15" target="n31">
+    <data key="de_strength">3.83823273749</data>
+</edge>
+<edge id="e15_36" source="n15" target="n36">
+    <data key="de_strength">2.22279868738</data>
+</edge>
+<edge id="e15_37" source="n15" target="n37">
+    <data key="de_strength">0.446724890215</data>
+</edge>
+<edge id="e15_38" source="n15" target="n38">
+    <data key="de_strength">0.826495787672</data>
+</edge>
+<edge id="e15_39" source="n15" target="n39">
+    <data key="de_strength">0.0869393728904</data>
+</edge>
+<edge id="e15_40" source="n15" target="n40">
+    <data key="de_strength">0.0221320339339</data>
+</edge>
+<edge id="e15_41" source="n15" target="n41">
+    <data key="de_strength">0.019940033116</data>
+</edge>
+<edge id="e15_42" source="n15" target="n42">
+    <data key="de_strength">0.0156360268964</data>
+</edge>
+<edge id="e15_43" source="n15" target="n43">
+    <data key="de_strength">0.00591715976331</data>
+</edge>
+<edge id="e15_44" source="n15" target="n44">
+    <data key="de_strength">0.0566076611749</data>
+</edge>
+<edge id="e15_45" source="n15" target="n45">
+    <data key="de_strength">0.00493921883617</data>
+</edge>
+<edge id="e15_46" source="n15" target="n46">
+    <data key="de_strength">0.00583557778633</data>
+</edge>
+<edge id="e15_47" source="n15" target="n47">
+    <data key="de_strength">0.441163408648</data>
+</edge>
+<edge id="e16_3" source="n16" target="n3">
+    <data key="de_strength">0.193665896753</data>
+</edge>
+<edge id="e16_4" source="n16" target="n4">
+    <data key="de_strength">3.93909740804</data>
+</edge>
+<edge id="e16_8" source="n16" target="n8">
+    <data key="de_strength">0.0109218581411</data>
+</edge>
+<edge id="e16_9" source="n16" target="n9">
+    <data key="de_strength">0.00689655172414</data>
+</edge>
+<edge id="e16_11" source="n16" target="n11">
+    <data key="de_strength">0.00617283950617</data>
+</edge>
+<edge id="e16_15" source="n16" target="n15">
+    <data key="de_strength">8.63176299631</data>
+</edge>
+<edge id="e16_17" source="n16" target="n17">
+    <data key="de_strength">2.73991322269</data>
+</edge>
+<edge id="e16_18" source="n16" target="n18">
+    <data key="de_strength">3.42291230086</data>
+</edge>
+<edge id="e16_19" source="n16" target="n19">
+    <data key="de_strength">0.00802091386382</data>
+</edge>
+<edge id="e16_21" source="n16" target="n21">
+    <data key="de_strength">0.155998542621</data>
+</edge>
+<edge id="e16_27" source="n16" target="n27">
+    <data key="de_strength">0.0281403095966</data>
+</edge>
+<edge id="e16_28" source="n16" target="n28">
+    <data key="de_strength">0.00754609929078</data>
+</edge>
+<edge id="e16_30" source="n16" target="n30">
+    <data key="de_strength">0.0111542537702</data>
+</edge>
+<edge id="e16_31" source="n16" target="n31">
+    <data key="de_strength">0.296572452771</data>
+</edge>
+<edge id="e16_36" source="n16" target="n36">
+    <data key="de_strength">2.79339390867</data>
+</edge>
+<edge id="e16_37" source="n16" target="n37">
+    <data key="de_strength">0.196572442441</data>
+</edge>
+<edge id="e16_38" source="n16" target="n38">
+    <data key="de_strength">2.1093997794</data>
+</edge>
+<edge id="e16_39" source="n16" target="n39">
+    <data key="de_strength">0.041907729692</data>
+</edge>
+<edge id="e16_40" source="n16" target="n40">
+    <data key="de_strength">0.0169504507047</data>
+</edge>
+<edge id="e16_41" source="n16" target="n41">
+    <data key="de_strength">0.00719232739679</data>
+</edge>
+<edge id="e16_42" source="n16" target="n42">
+    <data key="de_strength">0.0190935871721</data>
+</edge>
+<edge id="e16_44" source="n16" target="n44">
+    <data key="de_strength">0.0297936254116</data>
+</edge>
+<edge id="e16_45" source="n16" target="n45">
+    <data key="de_strength">0.0111695333155</data>
+</edge>
+<edge id="e16_47" source="n16" target="n47">
+    <data key="de_strength">0.0567319788245</data>
+</edge>
+<edge id="e17_2" source="n17" target="n2">
+    <data key="de_strength">0.00477188329466</data>
+</edge>
+<edge id="e17_3" source="n17" target="n3">
+    <data key="de_strength">0.0108784653176</data>
+</edge>
+<edge id="e17_4" source="n17" target="n4">
+    <data key="de_strength">0.0259950725546</data>
+</edge>
+<edge id="e17_8" source="n17" target="n8">
+    <data key="de_strength">0.338390714639</data>
+</edge>
+<edge id="e17_9" source="n17" target="n9">
+    <data key="de_strength">0.0512210596235</data>
+</edge>
+<edge id="e17_11" source="n17" target="n11">
+    <data key="de_strength">0.0156187969788</data>
+</edge>
+<edge id="e17_13" source="n17" target="n13">
+    <data key="de_strength">0.0210904297389</data>
+</edge>
+<edge id="e17_14" source="n17" target="n14">
+    <data key="de_strength">0.00579480660579</data>
+</edge>
+<edge id="e17_15" source="n17" target="n15">
+    <data key="de_strength">5.9695528353</data>
+</edge>
+<edge id="e17_16" source="n17" target="n16">
+    <data key="de_strength">2.73991322269</data>
+</edge>
+<edge id="e17_18" source="n17" target="n18">
+    <data key="de_strength">8.7890974417</data>
+</edge>
+<edge id="e17_19" source="n17" target="n19">
+    <data key="de_strength">0.101017386207</data>
+</edge>
+<edge id="e17_21" source="n17" target="n21">
+    <data key="de_strength">2.70971696349</data>
+</edge>
+<edge id="e17_22" source="n17" target="n22">
+    <data key="de_strength">0.0105653384974</data>
+</edge>
+<edge id="e17_23" source="n17" target="n23">
+    <data key="de_strength">0.0106851962798</data>
+</edge>
+<edge id="e17_26" source="n17" target="n26">
+    <data key="de_strength">0.0931231141707</data>
+</edge>
+<edge id="e17_27" source="n17" target="n27">
+    <data key="de_strength">0.401600424379</data>
+</edge>
+<edge id="e17_28" source="n17" target="n28">
+    <data key="de_strength">0.455415113378</data>
+</edge>
+<edge id="e17_29" source="n17" target="n29">
+    <data key="de_strength">0.00881777403798</data>
+</edge>
+<edge id="e17_30" source="n17" target="n30">
+    <data key="de_strength">7.25467684973</data>
+</edge>
+<edge id="e17_31" source="n17" target="n31">
+    <data key="de_strength">9.83585286693</data>
+</edge>
+<edge id="e17_32" source="n17" target="n32">
+    <data key="de_strength">0.00625</data>
+</edge>
+<edge id="e17_33" source="n17" target="n33">
+    <data key="de_strength">0.0116894117202</data>
+</edge>
+<edge id="e17_36" source="n17" target="n36">
+    <data key="de_strength">3.40834992881</data>
+</edge>
+<edge id="e17_37" source="n17" target="n37">
+    <data key="de_strength">0.0347549267347</data>
+</edge>
+<edge id="e17_38" source="n17" target="n38">
+    <data key="de_strength">2.98144159436</data>
+</edge>
+<edge id="e17_39" source="n17" target="n39">
+    <data key="de_strength">0.144949532688</data>
+</edge>
+<edge id="e17_40" source="n17" target="n40">
+    <data key="de_strength">0.0433648895424</data>
+</edge>
+<edge id="e17_41" source="n17" target="n41">
+    <data key="de_strength">0.129625229986</data>
+</edge>
+<edge id="e17_42" source="n17" target="n42">
+    <data key="de_strength">0.143192662567</data>
+</edge>
+<edge id="e17_43" source="n17" target="n43">
+    <data key="de_strength">0.0215520181729</data>
+</edge>
+<edge id="e17_44" source="n17" target="n44">
+    <data key="de_strength">0.515588372765</data>
+</edge>
+<edge id="e17_45" source="n17" target="n45">
+    <data key="de_strength">0.107694797402</data>
+</edge>
+<edge id="e17_46" source="n17" target="n46">
+    <data key="de_strength">0.022977586965</data>
+</edge>
+<edge id="e17_47" source="n17" target="n47">
+    <data key="de_strength">2.04911386344</data>
+</edge>
+<edge id="e18_2" source="n18" target="n2">
+    <data key="de_strength">0.0042194092827</data>
+</edge>
+<edge id="e18_3" source="n18" target="n3">
+    <data key="de_strength">0.0155350177826</data>
+</edge>
+<edge id="e18_4" source="n18" target="n4">
+    <data key="de_strength">0.0710364974071</data>
+</edge>
+<edge id="e18_8" source="n18" target="n8">
+    <data key="de_strength">0.0858967476841</data>
+</edge>
+<edge id="e18_9" source="n18" target="n9">
+    <data key="de_strength">0.0265677508757</data>
+</edge>
+<edge id="e18_13" source="n18" target="n13">
+    <data key="de_strength">0.00892327807581</data>
+</edge>
+<edge id="e18_15" source="n18" target="n15">
+    <data key="de_strength">12.5914742397</data>
+</edge>
+<edge id="e18_16" source="n18" target="n16">
+    <data key="de_strength">3.42291230086</data>
+</edge>
+<edge id="e18_17" source="n18" target="n17">
+    <data key="de_strength">8.7890974417</data>
+</edge>
+<edge id="e18_19" source="n18" target="n19">
+    <data key="de_strength">0.0510008747024</data>
+</edge>
+<edge id="e18_21" source="n18" target="n21">
+    <data key="de_strength">0.483264407832</data>
+</edge>
+<edge id="e18_26" source="n18" target="n26">
+    <data key="de_strength">0.0231759799202</data>
+</edge>
+<edge id="e18_27" source="n18" target="n27">
+    <data key="de_strength">0.144584670787</data>
+</edge>
+<edge id="e18_28" source="n18" target="n28">
+    <data key="de_strength">0.0429383186985</data>
+</edge>
+<edge id="e18_29" source="n18" target="n29">
+    <data key="de_strength">0.00546448087432</data>
+</edge>
+<edge id="e18_30" source="n18" target="n30">
+    <data key="de_strength">0.452975613979</data>
+</edge>
+<edge id="e18_31" source="n18" target="n31">
+    <data key="de_strength">7.06473310065</data>
+</edge>
+<edge id="e18_36" source="n18" target="n36">
+    <data key="de_strength">3.42811834538</data>
+</edge>
+<edge id="e18_37" source="n18" target="n37">
+    <data key="de_strength">0.0469775806182</data>
+</edge>
+<edge id="e18_38" source="n18" target="n38">
+    <data key="de_strength">2.49441034232</data>
+</edge>
+<edge id="e18_39" source="n18" target="n39">
+    <data key="de_strength">0.10352090905</data>
+</edge>
+<edge id="e18_40" source="n18" target="n40">
+    <data key="de_strength">0.0315452848319</data>
+</edge>
+<edge id="e18_41" source="n18" target="n41">
+    <data key="de_strength">0.0136647429729</data>
+</edge>
+<edge id="e18_42" source="n18" target="n42">
+    <data key="de_strength">0.0434452743373</data>
+</edge>
+<edge id="e18_43" source="n18" target="n43">
+    <data key="de_strength">0.00990099009901</data>
+</edge>
+<edge id="e18_44" source="n18" target="n44">
+    <data key="de_strength">0.149708572361</data>
+</edge>
+<edge id="e18_45" source="n18" target="n45">
+    <data key="de_strength">0.008053616927</data>
+</edge>
+<edge id="e18_46" source="n18" target="n46">
+    <data key="de_strength">0.00791119449656</data>
+</edge>
+<edge id="e18_47" source="n18" target="n47">
+    <data key="de_strength">2.20644095361</data>
+</edge>
+<edge id="e19_1" source="n19" target="n1">
+    <data key="de_strength">0.0130910297199</data>
+</edge>
+<edge id="e19_2" source="n19" target="n2">
+    <data key="de_strength">0.074492366738</data>
+</edge>
+<edge id="e19_4" source="n19" target="n4">
+    <data key="de_strength">0.00639041839154</data>
+</edge>
+<edge id="e19_6" source="n19" target="n6">
+    <data key="de_strength">0.0209088733665</data>
+</edge>
+<edge id="e19_7" source="n19" target="n7">
+    <data key="de_strength">0.0173189383716</data>
+</edge>
+<edge id="e19_8" source="n19" target="n8">
+    <data key="de_strength">0.217575697073</data>
+</edge>
+<edge id="e19_9" source="n19" target="n9">
+    <data key="de_strength">0.665940172356</data>
+</edge>
+<edge id="e19_10" source="n19" target="n10">
+    <data key="de_strength">0.0304885819045</data>
+</edge>
+<edge id="e19_11" source="n19" target="n11">
+    <data key="de_strength">0.104098783208</data>
+</edge>
+<edge id="e19_12" source="n19" target="n12">
+    <data key="de_strength">0.00689655172414</data>
+</edge>
+<edge id="e19_13" source="n19" target="n13">
+    <data key="de_strength">3.22702835008</data>
+</edge>
+<edge id="e19_14" source="n19" target="n14">
+    <data key="de_strength">0.0415552027159</data>
+</edge>
+<edge id="e19_15" source="n19" target="n15">
+    <data key="de_strength">0.0176200893786</data>
+</edge>
+<edge id="e19_16" source="n19" target="n16">
+    <data key="de_strength">0.00802091386382</data>
+</edge>
+<edge id="e19_17" source="n19" target="n17">
+    <data key="de_strength">0.101017386207</data>
+</edge>
+<edge id="e19_18" source="n19" target="n18">
+    <data key="de_strength">0.0510008747024</data>
+</edge>
+<edge id="e19_21" source="n19" target="n21">
+    <data key="de_strength">0.838935059381</data>
+</edge>
+<edge id="e19_22" source="n19" target="n22">
+    <data key="de_strength">0.05317708059</data>
+</edge>
+<edge id="e19_23" source="n19" target="n23">
+    <data key="de_strength">0.322254082955</data>
+</edge>
+<edge id="e19_24" source="n19" target="n24">
+    <data key="de_strength">0.149387049554</data>
+</edge>
+<edge id="e19_25" source="n19" target="n25">
+    <data key="de_strength">0.626758472032</data>
+</edge>
+<edge id="e19_26" source="n19" target="n26">
+    <data key="de_strength">0.612772513748</data>
+</edge>
+<edge id="e19_27" source="n19" target="n27">
+    <data key="de_strength">1.04088014102</data>
+</edge>
+<edge id="e19_28" source="n19" target="n28">
+    <data key="de_strength">1.05657284564</data>
+</edge>
+<edge id="e19_29" source="n19" target="n29">
+    <data key="de_strength">1.53267225385</data>
+</edge>
+<edge id="e19_30" source="n19" target="n30">
+    <data key="de_strength">0.214197788509</data>
+</edge>
+<edge id="e19_31" source="n19" target="n31">
+    <data key="de_strength">0.131980769176</data>
+</edge>
+<edge id="e19_32" source="n19" target="n32">
+    <data key="de_strength">0.608558830945</data>
+</edge>
+<edge id="e19_33" source="n19" target="n33">
+    <data key="de_strength">0.285398436305</data>
+</edge>
+<edge id="e19_34" source="n19" target="n34">
+    <data key="de_strength">0.0201414006228</data>
+</edge>
+<edge id="e19_35" source="n19" target="n35">
+    <data key="de_strength">0.00645161290323</data>
+</edge>
+<edge id="e19_36" source="n19" target="n36">
+    <data key="de_strength">0.153922394253</data>
+</edge>
+<edge id="e19_37" source="n19" target="n37">
+    <data key="de_strength">0.116376841813</data>
+</edge>
+<edge id="e19_38" source="n19" target="n38">
+    <data key="de_strength">0.14569906809</data>
+</edge>
+<edge id="e19_39" source="n19" target="n39">
+    <data key="de_strength">0.310177164704</data>
+</edge>
+<edge id="e19_40" source="n19" target="n40">
+    <data key="de_strength">1.26918975006</data>
+</edge>
+<edge id="e19_41" source="n19" target="n41">
+    <data key="de_strength">0.340397719705</data>
+</edge>
+<edge id="e19_42" source="n19" target="n42">
+    <data key="de_strength">2.08657156539</data>
+</edge>
+<edge id="e19_43" source="n19" target="n43">
+    <data key="de_strength">16.8247855982</data>
+</edge>
+<edge id="e19_44" source="n19" target="n44">
+    <data key="de_strength">2.74347645396</data>
+</edge>
+<edge id="e19_45" source="n19" target="n45">
+    <data key="de_strength">2.39803273362</data>
+</edge>
+<edge id="e19_46" source="n19" target="n46">
+    <data key="de_strength">1.32056588086</data>
+</edge>
+<edge id="e19_47" source="n19" target="n47">
+    <data key="de_strength">0.484362109125</data>
+</edge>
+<edge id="e20_11" source="n20" target="n11">
+    <data key="de_strength">0.059656614362</data>
+</edge>
+<edge id="e20_12" source="n20" target="n12">
+    <data key="de_strength">0.566666666667</data>
+</edge>
+<edge id="e20_34" source="n20" target="n34">
+    <data key="de_strength">0.14997298575</data>
+</edge>
+<edge id="e21_1" source="n21" target="n1">
+    <data key="de_strength">0.00917394421111</data>
+</edge>
+<edge id="e21_2" source="n21" target="n2">
+    <data key="de_strength">0.0592194150905</data>
+</edge>
+<edge id="e21_3" source="n21" target="n3">
+    <data key="de_strength">0.0214901504025</data>
+</edge>
+<edge id="e21_4" source="n21" target="n4">
+    <data key="de_strength">0.0875623497329</data>
+</edge>
+<edge id="e21_6" source="n21" target="n6">
+    <data key="de_strength">0.018899516212</data>
+</edge>
+<edge id="e21_7" source="n21" target="n7">
+    <data key="de_strength">0.0149787614576</data>
+</edge>
+<edge id="e21_8" source="n21" target="n8">
+    <data key="de_strength">0.56875094007</data>
+</edge>
+<edge id="e21_9" source="n21" target="n9">
+    <data key="de_strength">0.309894295933</data>
+</edge>
+<edge id="e21_10" source="n21" target="n10">
+    <data key="de_strength">0.0146374625542</data>
+</edge>
+<edge id="e21_11" source="n21" target="n11">
+    <data key="de_strength">0.136931281145</data>
+</edge>
+<edge id="e21_12" source="n21" target="n12">
+    <data key="de_strength">0.0106382978723</data>
+</edge>
+<edge id="e21_13" source="n21" target="n13">
+    <data key="de_strength">0.119481633793</data>
+</edge>
+<edge id="e21_14" source="n21" target="n14">
+    <data key="de_strength">0.0411472820031</data>
+</edge>
+<edge id="e21_15" source="n21" target="n15">
+    <data key="de_strength">0.209687017921</data>
+</edge>
+<edge id="e21_16" source="n21" target="n16">
+    <data key="de_strength">0.155998542621</data>
+</edge>
+<edge id="e21_17" source="n21" target="n17">
+    <data key="de_strength">2.70971696349</data>
+</edge>
+<edge id="e21_18" source="n21" target="n18">
+    <data key="de_strength">0.483264407832</data>
+</edge>
+<edge id="e21_19" source="n21" target="n19">
+    <data key="de_strength">0.838935059381</data>
+</edge>
+<edge id="e21_22" source="n21" target="n22">
+    <data key="de_strength">0.301585128009</data>
+</edge>
+<edge id="e21_23" source="n21" target="n23">
+    <data key="de_strength">0.0691331436387</data>
+</edge>
+<edge id="e21_25" source="n21" target="n25">
+    <data key="de_strength">0.034540570349</data>
+</edge>
+<edge id="e21_26" source="n21" target="n26">
+    <data key="de_strength">0.772897298957</data>
+</edge>
+<edge id="e21_27" source="n21" target="n27">
+    <data key="de_strength">5.07350861741</data>
+</edge>
+<edge id="e21_28" source="n21" target="n28">
+    <data key="de_strength">0.75781013437</data>
+</edge>
+<edge id="e21_29" source="n21" target="n29">
+    <data key="de_strength">0.117714221868</data>
+</edge>
+<edge id="e21_30" source="n21" target="n30">
+    <data key="de_strength">1.53061183387</data>
+</edge>
+<edge id="e21_31" source="n21" target="n31">
+    <data key="de_strength">1.812306798</data>
+</edge>
+<edge id="e21_32" source="n21" target="n32">
+    <data key="de_strength">0.0332212952193</data>
+</edge>
+<edge id="e21_33" source="n21" target="n33">
+    <data key="de_strength">0.321580168812</data>
+</edge>
+<edge id="e21_34" source="n21" target="n34">
+    <data key="de_strength">0.0155998238434</data>
+</edge>
+<edge id="e21_35" source="n21" target="n35">
+    <data key="de_strength">0.0116866199638</data>
+</edge>
+<edge id="e21_36" source="n21" target="n36">
+    <data key="de_strength">2.82075396923</data>
+</edge>
+<edge id="e21_37" source="n21" target="n37">
+    <data key="de_strength">0.770580831174</data>
+</edge>
+<edge id="e21_38" source="n21" target="n38">
+    <data key="de_strength">1.22186142883</data>
+</edge>
+<edge id="e21_39" source="n21" target="n39">
+    <data key="de_strength">2.20835095285</data>
+</edge>
+<edge id="e21_40" source="n21" target="n40">
+    <data key="de_strength">0.526068530839</data>
+</edge>
+<edge id="e21_41" source="n21" target="n41">
+    <data key="de_strength">0.279326999642</data>
+</edge>
+<edge id="e21_42" source="n21" target="n42">
+    <data key="de_strength">1.44712904885</data>
+</edge>
+<edge id="e21_43" source="n21" target="n43">
+    <data key="de_strength">0.181737927467</data>
+</edge>
+<edge id="e21_44" source="n21" target="n44">
+    <data key="de_strength">1.2498301281</data>
+</edge>
+<edge id="e21_45" source="n21" target="n45">
+    <data key="de_strength">0.373510669703</data>
+</edge>
+<edge id="e21_46" source="n21" target="n46">
+    <data key="de_strength">0.261650871275</data>
+</edge>
+<edge id="e21_47" source="n21" target="n47">
+    <data key="de_strength">1.58704402615</data>
+</edge>
+<edge id="e22_1" source="n22" target="n1">
+    <data key="de_strength">0.181514082403</data>
+</edge>
+<edge id="e22_2" source="n22" target="n2">
+    <data key="de_strength">0.602932014577</data>
+</edge>
+<edge id="e22_3" source="n22" target="n3">
+    <data key="de_strength">0.0288501452885</data>
+</edge>
+<edge id="e22_4" source="n22" target="n4">
+    <data key="de_strength">0.0304441810314</data>
+</edge>
+<edge id="e22_6" source="n22" target="n6">
+    <data key="de_strength">0.0878424524749</data>
+</edge>
+<edge id="e22_7" source="n22" target="n7">
+    <data key="de_strength">2.97827061202</data>
+</edge>
+<edge id="e22_8" source="n22" target="n8">
+    <data key="de_strength">0.0116298649511</data>
+</edge>
+<edge id="e22_9" source="n22" target="n9">
+    <data key="de_strength">0.712353435877</data>
+</edge>
+<edge id="e22_10" source="n22" target="n10">
+    <data key="de_strength">0.289818745354</data>
+</edge>
+<edge id="e22_11" source="n22" target="n11">
+    <data key="de_strength">0.517862982741</data>
+</edge>
+<edge id="e22_12" source="n22" target="n12">
+    <data key="de_strength">0.0698711075862</data>
+</edge>
+<edge id="e22_13" source="n22" target="n13">
+    <data key="de_strength">0.0131885246694</data>
+</edge>
+<edge id="e22_14" source="n22" target="n14">
+    <data key="de_strength">1.0283023528</data>
+</edge>
+<edge id="e22_15" source="n22" target="n15">
+    <data key="de_strength">0.0247608278427</data>
+</edge>
+<edge id="e22_17" source="n22" target="n17">
+    <data key="de_strength">0.0105653384974</data>
+</edge>
+<edge id="e22_19" source="n22" target="n19">
+    <data key="de_strength">0.05317708059</data>
+</edge>
+<edge id="e22_21" source="n22" target="n21">
+    <data key="de_strength">0.301585128009</data>
+</edge>
+<edge id="e22_23" source="n22" target="n23">
+    <data key="de_strength">0.0168390871447</data>
+</edge>
+<edge id="e22_24" source="n22" target="n24">
+    <data key="de_strength">0.010752688172</data>
+</edge>
+<edge id="e22_25" source="n22" target="n25">
+    <data key="de_strength">0.00851034387324</data>
+</edge>
+<edge id="e22_26" source="n22" target="n26">
+    <data key="de_strength">1.20069646077</data>
+</edge>
+<edge id="e22_27" source="n22" target="n27">
+    <data key="de_strength">0.85865683972</data>
+</edge>
+<edge id="e22_28" source="n22" target="n28">
+    <data key="de_strength">0.0516073809517</data>
+</edge>
+<edge id="e22_29" source="n22" target="n29">
+    <data key="de_strength">0.0120855849277</data>
+</edge>
+<edge id="e22_30" source="n22" target="n30">
+    <data key="de_strength">0.0130940875094</data>
+</edge>
+<edge id="e22_31" source="n22" target="n31">
+    <data key="de_strength">0.00572939301753</data>
+</edge>
+<edge id="e22_32" source="n22" target="n32">
+    <data key="de_strength">0.010875913632</data>
+</edge>
+<edge id="e22_33" source="n22" target="n33">
+    <data key="de_strength">2.48084753345</data>
+</edge>
+<edge id="e22_34" source="n22" target="n34">
+    <data key="de_strength">1.04546705705</data>
+</edge>
+<edge id="e22_35" source="n22" target="n35">
+    <data key="de_strength">0.162290863495</data>
+</edge>
+<edge id="e22_36" source="n22" target="n36">
+    <data key="de_strength">0.192908654788</data>
+</edge>
+<edge id="e22_37" source="n22" target="n37">
+    <data key="de_strength">4.32727834041</data>
+</edge>
+<edge id="e22_38" source="n22" target="n38">
+    <data key="de_strength">0.0125206356438</data>
+</edge>
+<edge id="e22_39" source="n22" target="n39">
+    <data key="de_strength">0.0159662320857</data>
+</edge>
+<edge id="e22_40" source="n22" target="n40">
+    <data key="de_strength">0.0332956665789</data>
+</edge>
+<edge id="e22_41" source="n22" target="n41">
+    <data key="de_strength">0.00791377727558</data>
+</edge>
+<edge id="e22_42" source="n22" target="n42">
+    <data key="de_strength">0.0379198700876</data>
+</edge>
+<edge id="e22_43" source="n22" target="n43">
+    <data key="de_strength">0.00699300699301</data>
+</edge>
+<edge id="e22_44" source="n22" target="n44">
+    <data key="de_strength">0.0377528002608</data>
+</edge>
+<edge id="e22_45" source="n22" target="n45">
+    <data key="de_strength">0.0206341529208</data>
+</edge>
+<edge id="e22_46" source="n22" target="n46">
+    <data key="de_strength">0.197580390908</data>
+</edge>
+<edge id="e22_47" source="n22" target="n47">
+    <data key="de_strength">0.0083589691636</data>
+</edge>
+<edge id="e23_1" source="n23" target="n1">
+    <data key="de_strength">0.0713131986083</data>
+</edge>
+<edge id="e23_2" source="n23" target="n2">
+    <data key="de_strength">0.267198678031</data>
+</edge>
+<edge id="e23_6" source="n23" target="n6">
+    <data key="de_strength">0.409517578492</data>
+</edge>
+<edge id="e23_8" source="n23" target="n8">
+    <data key="de_strength">0.0342417252158</data>
+</edge>
+<edge id="e23_9" source="n23" target="n9">
+    <data key="de_strength">0.0992272314796</data>
+</edge>
+<edge id="e23_11" source="n23" target="n11">
+    <data key="de_strength">0.0147869673421</data>
+</edge>
+<edge id="e23_13" source="n23" target="n13">
+    <data key="de_strength">6.87202905094</data>
+</edge>
+<edge id="e23_14" source="n23" target="n14">
+    <data key="de_strength">2.12540626319</data>
+</edge>
+<edge id="e23_17" source="n23" target="n17">
+    <data key="de_strength">0.0106851962798</data>
+</edge>
+<edge id="e23_19" source="n23" target="n19">
+    <data key="de_strength">0.322254082955</data>
+</edge>
+<edge id="e23_21" source="n23" target="n21">
+    <data key="de_strength">0.0691331436387</data>
+</edge>
+<edge id="e23_22" source="n23" target="n22">
+    <data key="de_strength">0.0168390871447</data>
+</edge>
+<edge id="e23_24" source="n23" target="n24">
+    <data key="de_strength">0.0373919906665</data>
+</edge>
+<edge id="e23_25" source="n23" target="n25">
+    <data key="de_strength">0.114159042964</data>
+</edge>
+<edge id="e23_26" source="n23" target="n26">
+    <data key="de_strength">0.641345672567</data>
+</edge>
+<edge id="e23_27" source="n23" target="n27">
+    <data key="de_strength">0.0841460977057</data>
+</edge>
+<edge id="e23_28" source="n23" target="n28">
+    <data key="de_strength">0.285175575322</data>
+</edge>
+<edge id="e23_29" source="n23" target="n29">
+    <data key="de_strength">0.075709151304</data>
+</edge>
+<edge id="e23_30" source="n23" target="n30">
+    <data key="de_strength">0.0304016686948</data>
+</edge>
+<edge id="e23_32" source="n23" target="n32">
+    <data key="de_strength">0.129568462815</data>
+</edge>
+<edge id="e23_33" source="n23" target="n33">
+    <data key="de_strength">0.518988802534</data>
+</edge>
+<edge id="e23_34" source="n23" target="n34">
+    <data key="de_strength">0.00528149386845</data>
+</edge>
+<edge id="e23_36" source="n23" target="n36">
+    <data key="de_strength">0.00713861729744</data>
+</edge>
+<edge id="e23_37" source="n23" target="n37">
+    <data key="de_strength">0.0624302652897</data>
+</edge>
+<edge id="e23_38" source="n23" target="n38">
+    <data key="de_strength">0.00717249859112</data>
+</edge>
+<edge id="e23_39" source="n23" target="n39">
+    <data key="de_strength">0.00646960165497</data>
+</edge>
+<edge id="e23_40" source="n23" target="n40">
+    <data key="de_strength">0.0295935855145</data>
+</edge>
+<edge id="e23_41" source="n23" target="n41">
+    <data key="de_strength">0.0153804186032</data>
+</edge>
+<edge id="e23_42" source="n23" target="n42">
+    <data key="de_strength">0.103387587494</data>
+</edge>
+<edge id="e23_43" source="n23" target="n43">
+    <data key="de_strength">0.119680589261</data>
+</edge>
+<edge id="e23_44" source="n23" target="n44">
+    <data key="de_strength">0.0829144894035</data>
+</edge>
+<edge id="e23_45" source="n23" target="n45">
+    <data key="de_strength">0.173352351553</data>
+</edge>
+<edge id="e23_46" source="n23" target="n46">
+    <data key="de_strength">7.04660233456</data>
+</edge>
+<edge id="e23_47" source="n23" target="n47">
+    <data key="de_strength">0.0226701690752</data>
+</edge>
+<edge id="e24_1" source="n24" target="n1">
+    <data key="de_strength">0.00813008130081</data>
+</edge>
+<edge id="e24_2" source="n24" target="n2">
+    <data key="de_strength">0.0660394804717</data>
+</edge>
+<edge id="e24_6" source="n24" target="n6">
+    <data key="de_strength">4.11155885895</data>
+</edge>
+<edge id="e24_9" source="n24" target="n9">
+    <data key="de_strength">0.0141837081653</data>
+</edge>
+<edge id="e24_13" source="n24" target="n13">
+    <data key="de_strength">0.0285101702124</data>
+</edge>
+<edge id="e24_14" source="n24" target="n14">
+    <data key="de_strength">0.0159837530678</data>
+</edge>
+<edge id="e24_19" source="n24" target="n19">
+    <data key="de_strength">0.149387049554</data>
+</edge>
+<edge id="e24_22" source="n24" target="n22">
+    <data key="de_strength">0.010752688172</data>
+</edge>
+<edge id="e24_23" source="n24" target="n23">
+    <data key="de_strength">0.0373919906665</data>
+</edge>
+<edge id="e24_25" source="n24" target="n25">
+    <data key="de_strength">5.03925659772</data>
+</edge>
+<edge id="e24_26" source="n24" target="n26">
+    <data key="de_strength">0.00835087242854</data>
+</edge>
+<edge id="e24_27" source="n24" target="n27">
+    <data key="de_strength">0.00662251655629</data>
+</edge>
+<edge id="e24_29" source="n24" target="n29">
+    <data key="de_strength">0.398228120149</data>
+</edge>
+<edge id="e24_32" source="n24" target="n32">
+    <data key="de_strength">4.82234416008</data>
+</edge>
+<edge id="e24_34" source="n24" target="n34">
+    <data key="de_strength">0.0178928029395</data>
+</edge>
+<edge id="e24_37" source="n24" target="n37">
+    <data key="de_strength">0.00625</data>
+</edge>
+<edge id="e24_40" source="n24" target="n40">
+    <data key="de_strength">0.021573826786</data>
+</edge>
+<edge id="e24_41" source="n24" target="n41">
+    <data key="de_strength">0.0227900348135</data>
+</edge>
+<edge id="e24_42" source="n24" target="n42">
+    <data key="de_strength">0.0448855922877</data>
+</edge>
+<edge id="e24_44" source="n24" target="n44">
+    <data key="de_strength">0.023103654247</data>
+</edge>
+<edge id="e24_46" source="n24" target="n46">
+    <data key="de_strength">1.17840235814</data>
+</edge>
+<edge id="e25_1" source="n25" target="n1">
+    <data key="de_strength">0.194634682956</data>
+</edge>
+<edge id="e25_2" source="n25" target="n2">
+    <data key="de_strength">2.32975549691</data>
+</edge>
+<edge id="e25_6" source="n25" target="n6">
+    <data key="de_strength">4.23304334854</data>
+</edge>
+<edge id="e25_8" source="n25" target="n8">
+    <data key="de_strength">0.0167490796088</data>
+</edge>
+<edge id="e25_9" source="n25" target="n9">
+    <data key="de_strength">0.0956778613129</data>
+</edge>
+<edge id="e25_10" source="n25" target="n10">
+    <data key="de_strength">0.0221299935167</data>
+</edge>
+<edge id="e25_11" source="n25" target="n11">
+    <data key="de_strength">0.0434796837383</data>
+</edge>
+<edge id="e25_13" source="n25" target="n13">
+    <data key="de_strength">0.381806892686</data>
+</edge>
+<edge id="e25_14" source="n25" target="n14">
+    <data key="de_strength">0.0493452635687</data>
+</edge>
+<edge id="e25_19" source="n25" target="n19">
+    <data key="de_strength">0.626758472032</data>
+</edge>
+<edge id="e25_21" source="n25" target="n21">
+    <data key="de_strength">0.034540570349</data>
+</edge>
+<edge id="e25_22" source="n25" target="n22">
+    <data key="de_strength">0.00851034387324</data>
+</edge>
+<edge id="e25_23" source="n25" target="n23">
+    <data key="de_strength">0.114159042964</data>
+</edge>
+<edge id="e25_24" source="n25" target="n24">
+    <data key="de_strength">5.03925659772</data>
+</edge>
+<edge id="e25_26" source="n25" target="n26">
+    <data key="de_strength">0.302122454917</data>
+</edge>
+<edge id="e25_27" source="n25" target="n27">
+    <data key="de_strength">0.0676520632952</data>
+</edge>
+<edge id="e25_28" source="n25" target="n28">
+    <data key="de_strength">0.163041709225</data>
+</edge>
+<edge id="e25_29" source="n25" target="n29">
+    <data key="de_strength">2.96389425827</data>
+</edge>
+<edge id="e25_30" source="n25" target="n30">
+    <data key="de_strength">0.00913097846946</data>
+</edge>
+<edge id="e25_32" source="n25" target="n32">
+    <data key="de_strength">5.51734300991</data>
+</edge>
+<edge id="e25_33" source="n25" target="n33">
+    <data key="de_strength">0.671183861324</data>
+</edge>
+<edge id="e25_34" source="n25" target="n34">
+    <data key="de_strength">0.0119786958774</data>
+</edge>
+<edge id="e25_36" source="n25" target="n36">
+    <data key="de_strength">0.0117940255552</data>
+</edge>
+<edge id="e25_37" source="n25" target="n37">
+    <data key="de_strength">0.0207125558388</data>
+</edge>
+<edge id="e25_38" source="n25" target="n38">
+    <data key="de_strength">0.00515463917526</data>
+</edge>
+<edge id="e25_39" source="n25" target="n39">
+    <data key="de_strength">0.0227610791602</data>
+</edge>
+<edge id="e25_40" source="n25" target="n40">
+    <data key="de_strength">0.0266098978022</data>
+</edge>
+<edge id="e25_41" source="n25" target="n41">
+    <data key="de_strength">0.0398390719733</data>
+</edge>
+<edge id="e25_42" source="n25" target="n42">
+    <data key="de_strength">0.112857404677</data>
+</edge>
+<edge id="e25_44" source="n25" target="n44">
+    <data key="de_strength">0.0744263906019</data>
+</edge>
+<edge id="e25_45" source="n25" target="n45">
+    <data key="de_strength">0.0671186230874</data>
+</edge>
+<edge id="e25_46" source="n25" target="n46">
+    <data key="de_strength">3.27318357893</data>
+</edge>
+<edge id="e25_47" source="n25" target="n47">
+    <data key="de_strength">0.0100911964874</data>
+</edge>
+<edge id="e26_1" source="n26" target="n1">
+    <data key="de_strength">0.0693853440723</data>
+</edge>
+<edge id="e26_2" source="n26" target="n2">
+    <data key="de_strength">0.915795246201</data>
+</edge>
+<edge id="e26_6" source="n26" target="n6">
+    <data key="de_strength">0.0927983593062</data>
+</edge>
+<edge id="e26_7" source="n26" target="n7">
+    <data key="de_strength">0.052030172875</data>
+</edge>
+<edge id="e26_8" source="n26" target="n8">
+    <data key="de_strength">0.247696916611</data>
+</edge>
+<edge id="e26_9" source="n26" target="n9">
+    <data key="de_strength">0.419902176187</data>
+</edge>
+<edge id="e26_10" source="n26" target="n10">
+    <data key="de_strength">0.0558056161457</data>
+</edge>
+<edge id="e26_11" source="n26" target="n11">
+    <data key="de_strength">0.0732728156096</data>
+</edge>
+<edge id="e26_12" source="n26" target="n12">
+    <data key="de_strength">0.00549450549451</data>
+</edge>
+<edge id="e26_13" source="n26" target="n13">
+    <data key="de_strength">1.94812566616</data>
+</edge>
+<edge id="e26_14" source="n26" target="n14">
+    <data key="de_strength">5.1566197973</data>
+</edge>
+<edge id="e26_15" source="n26" target="n15">
+    <data key="de_strength">0.00707413695529</data>
+</edge>
+<edge id="e26_17" source="n26" target="n17">
+    <data key="de_strength">0.0931231141707</data>
+</edge>
+<edge id="e26_18" source="n26" target="n18">
+    <data key="de_strength">0.0231759799202</data>
+</edge>
+<edge id="e26_19" source="n26" target="n19">
+    <data key="de_strength">0.612772513748</data>
+</edge>
+<edge id="e26_21" source="n26" target="n21">
+    <data key="de_strength">0.772897298957</data>
+</edge>
+<edge id="e26_22" source="n26" target="n22">
+    <data key="de_strength">1.20069646077</data>
+</edge>
+<edge id="e26_23" source="n26" target="n23">
+    <data key="de_strength">0.641345672567</data>
+</edge>
+<edge id="e26_24" source="n26" target="n24">
+    <data key="de_strength">0.00835087242854</data>
+</edge>
+<edge id="e26_25" source="n26" target="n25">
+    <data key="de_strength">0.302122454917</data>
+</edge>
+<edge id="e26_27" source="n26" target="n27">
+    <data key="de_strength">1.71383506242</data>
+</edge>
+<edge id="e26_28" source="n26" target="n28">
+    <data key="de_strength">3.5606916304</data>
+</edge>
+<edge id="e26_29" source="n26" target="n29">
+    <data key="de_strength">0.128837423965</data>
+</edge>
+<edge id="e26_30" source="n26" target="n30">
+    <data key="de_strength">0.197567815031</data>
+</edge>
+<edge id="e26_31" source="n26" target="n31">
+    <data key="de_strength">0.0758064312227</data>
+</edge>
+<edge id="e26_32" source="n26" target="n32">
+    <data key="de_strength">0.570469028481</data>
+</edge>
+<edge id="e26_33" source="n26" target="n33">
+    <data key="de_strength">23.6764978665</data>
+</edge>
+<edge id="e26_34" source="n26" target="n34">
+    <data key="de_strength">0.0486801300062</data>
+</edge>
+<edge id="e26_35" source="n26" target="n35">
+    <data key="de_strength">0.00879842284722</data>
+</edge>
+<edge id="e26_36" source="n26" target="n36">
+    <data key="de_strength">0.0821291426655</data>
+</edge>
+<edge id="e26_37" source="n26" target="n37">
+    <data key="de_strength">7.85843054866</data>
+</edge>
+<edge id="e26_38" source="n26" target="n38">
+    <data key="de_strength">0.0875116834028</data>
+</edge>
+<edge id="e26_39" source="n26" target="n39">
+    <data key="de_strength">0.217784425068</data>
+</edge>
+<edge id="e26_40" source="n26" target="n40">
+    <data key="de_strength">0.198481031558</data>
+</edge>
+<edge id="e26_41" source="n26" target="n41">
+    <data key="de_strength">0.0601066589379</data>
+</edge>
+<edge id="e26_42" source="n26" target="n42">
+    <data key="de_strength">0.819123367779</data>
+</edge>
+<edge id="e26_43" source="n26" target="n43">
+    <data key="de_strength">0.205759102631</data>
+</edge>
+<edge id="e26_44" source="n26" target="n44">
+    <data key="de_strength">0.445748036305</data>
+</edge>
+<edge id="e26_45" source="n26" target="n45">
+    <data key="de_strength">0.424751401206</data>
+</edge>
+<edge id="e26_46" source="n26" target="n46">
+    <data key="de_strength">2.03732045015</data>
+</edge>
+<edge id="e26_47" source="n26" target="n47">
+    <data key="de_strength">0.338943145576</data>
+</edge>
+<edge id="e27_1" source="n27" target="n1">
+    <data key="de_strength">0.0561531279143</data>
+</edge>
+<edge id="e27_2" source="n27" target="n2">
+    <data key="de_strength">0.192080243519</data>
+</edge>
+<edge id="e27_3" source="n27" target="n3">
+    <data key="de_strength">0.0117647058824</data>
+</edge>
+<edge id="e27_4" source="n27" target="n4">
+    <data key="de_strength">0.024147802596</data>
+</edge>
+<edge id="e27_6" source="n27" target="n6">
+    <data key="de_strength">0.0328767699529</data>
+</edge>
+<edge id="e27_7" source="n27" target="n7">
+    <data key="de_strength">0.153711105831</data>
+</edge>
+<edge id="e27_8" source="n27" target="n8">
+    <data key="de_strength">0.501983267998</data>
+</edge>
+<edge id="e27_9" source="n27" target="n9">
+    <data key="de_strength">0.757997968989</data>
+</edge>
+<edge id="e27_10" source="n27" target="n10">
+    <data key="de_strength">0.0644084909106</data>
+</edge>
+<edge id="e27_11" source="n27" target="n11">
+    <data key="de_strength">0.207498731245</data>
+</edge>
+<edge id="e27_12" source="n27" target="n12">
+    <data key="de_strength">0.0259326986894</data>
+</edge>
+<edge id="e27_13" source="n27" target="n13">
+    <data key="de_strength">0.154760817522</data>
+</edge>
+<edge id="e27_14" source="n27" target="n14">
+    <data key="de_strength">0.133002521872</data>
+</edge>
+<edge id="e27_15" source="n27" target="n15">
+    <data key="de_strength">0.0578368558863</data>
+</edge>
+<edge id="e27_16" source="n27" target="n16">
+    <data key="de_strength">0.0281403095966</data>
+</edge>
+<edge id="e27_17" source="n27" target="n17">
+    <data key="de_strength">0.401600424379</data>
+</edge>
+<edge id="e27_18" source="n27" target="n18">
+    <data key="de_strength">0.144584670787</data>
+</edge>
+<edge id="e27_19" source="n27" target="n19">
+    <data key="de_strength">1.04088014102</data>
+</edge>
+<edge id="e27_21" source="n27" target="n21">
+    <data key="de_strength">5.07350861741</data>
+</edge>
+<edge id="e27_22" source="n27" target="n22">
+    <data key="de_strength">0.85865683972</data>
+</edge>
+<edge id="e27_23" source="n27" target="n23">
+    <data key="de_strength">0.0841460977057</data>
+</edge>
+<edge id="e27_24" source="n27" target="n24">
+    <data key="de_strength">0.00662251655629</data>
+</edge>
+<edge id="e27_25" source="n27" target="n25">
+    <data key="de_strength">0.0676520632952</data>
+</edge>
+<edge id="e27_26" source="n27" target="n26">
+    <data key="de_strength">1.71383506242</data>
+</edge>
+<edge id="e27_28" source="n27" target="n28">
+    <data key="de_strength">1.02186978142</data>
+</edge>
+<edge id="e27_29" source="n27" target="n29">
+    <data key="de_strength">0.180616756622</data>
+</edge>
+<edge id="e27_30" source="n27" target="n30">
+    <data key="de_strength">1.20941523565</data>
+</edge>
+<edge id="e27_31" source="n27" target="n31">
+    <data key="de_strength">1.0353369461</data>
+</edge>
+<edge id="e27_32" source="n27" target="n32">
+    <data key="de_strength">0.208570005231</data>
+</edge>
+<edge id="e27_33" source="n27" target="n33">
+    <data key="de_strength">0.917331190725</data>
+</edge>
+<edge id="e27_34" source="n27" target="n34">
+    <data key="de_strength">0.189181792075</data>
+</edge>
+<edge id="e27_35" source="n27" target="n35">
+    <data key="de_strength">0.0666930915629</data>
+</edge>
+<edge id="e27_36" source="n27" target="n36">
+    <data key="de_strength">0.425151119021</data>
+</edge>
+<edge id="e27_37" source="n27" target="n37">
+    <data key="de_strength">2.08619019962</data>
+</edge>
+<edge id="e27_38" source="n27" target="n38">
+    <data key="de_strength">0.437091433823</data>
+</edge>
+<edge id="e27_39" source="n27" target="n39">
+    <data key="de_strength">0.894199516317</data>
+</edge>
+<edge id="e27_40" source="n27" target="n40">
+    <data key="de_strength">0.369172214397</data>
+</edge>
+<edge id="e27_41" source="n27" target="n41">
+    <data key="de_strength">0.221544053004</data>
+</edge>
+<edge id="e27_42" source="n27" target="n42">
+    <data key="de_strength">0.855875732038</data>
+</edge>
+<edge id="e27_43" source="n27" target="n43">
+    <data key="de_strength">0.155323220265</data>
+</edge>
+<edge id="e27_44" source="n27" target="n44">
+    <data key="de_strength">0.747800611885</data>
+</edge>
+<edge id="e27_45" source="n27" target="n45">
+    <data key="de_strength">0.282593565271</data>
+</edge>
+<edge id="e27_46" source="n27" target="n46">
+    <data key="de_strength">0.372607603037</data>
+</edge>
+<edge id="e27_47" source="n27" target="n47">
+    <data key="de_strength">2.42554950274</data>
+</edge>
+<edge id="e28_1" source="n28" target="n1">
+    <data key="de_strength">0.014347781754</data>
+</edge>
+<edge id="e28_2" source="n28" target="n2">
+    <data key="de_strength">0.0503086212154</data>
+</edge>
+<edge id="e28_4" source="n28" target="n4">
+    <data key="de_strength">0.00571428571429</data>
+</edge>
+<edge id="e28_6" source="n28" target="n6">
+    <data key="de_strength">0.0149566946255</data>
+</edge>
+<edge id="e28_8" source="n28" target="n8">
+    <data key="de_strength">0.745989078353</data>
+</edge>
+<edge id="e28_9" source="n28" target="n9">
+    <data key="de_strength">0.727147303436</data>
+</edge>
+<edge id="e28_10" source="n28" target="n10">
+    <data key="de_strength">0.0180949119203</data>
+</edge>
+<edge id="e28_11" source="n28" target="n11">
+    <data key="de_strength">0.045170761492</data>
+</edge>
+<edge id="e28_12" source="n28" target="n12">
+    <data key="de_strength">0.00591715976331</data>
+</edge>
+<edge id="e28_13" source="n28" target="n13">
+    <data key="de_strength">1.28749534502</data>
+</edge>
+<edge id="e28_14" source="n28" target="n14">
+    <data key="de_strength">0.0626091259016</data>
+</edge>
+<edge id="e28_15" source="n28" target="n15">
+    <data key="de_strength">0.0128458319145</data>
+</edge>
+<edge id="e28_16" source="n28" target="n16">
+    <data key="de_strength">0.00754609929078</data>
+</edge>
+<edge id="e28_17" source="n28" target="n17">
+    <data key="de_strength">0.455415113378</data>
+</edge>
+<edge id="e28_18" source="n28" target="n18">
+    <data key="de_strength">0.0429383186985</data>
+</edge>
+<edge id="e28_19" source="n28" target="n19">
+    <data key="de_strength">1.05657284564</data>
+</edge>
+<edge id="e28_21" source="n28" target="n21">
+    <data key="de_strength">0.75781013437</data>
+</edge>
+<edge id="e28_22" source="n28" target="n22">
+    <data key="de_strength">0.0516073809517</data>
+</edge>
+<edge id="e28_23" source="n28" target="n23">
+    <data key="de_strength">0.285175575322</data>
+</edge>
+<edge id="e28_25" source="n28" target="n25">
+    <data key="de_strength">0.163041709225</data>
+</edge>
+<edge id="e28_26" source="n28" target="n26">
+    <data key="de_strength">3.5606916304</data>
+</edge>
+<edge id="e28_27" source="n28" target="n27">
+    <data key="de_strength">1.02186978142</data>
+</edge>
+<edge id="e28_29" source="n28" target="n29">
+    <data key="de_strength">0.0762743600582</data>
+</edge>
+<edge id="e28_30" source="n28" target="n30">
+    <data key="de_strength">0.898872435143</data>
+</edge>
+<edge id="e28_31" source="n28" target="n31">
+    <data key="de_strength">0.167822092292</data>
+</edge>
+<edge id="e28_32" source="n28" target="n32">
+    <data key="de_strength">0.221039541729</data>
+</edge>
+<edge id="e28_33" source="n28" target="n33">
+    <data key="de_strength">0.374941606865</data>
+</edge>
+<edge id="e28_34" source="n28" target="n34">
+    <data key="de_strength">0.020552984153</data>
+</edge>
+<edge id="e28_36" source="n28" target="n36">
+    <data key="de_strength">0.0588490803766</data>
+</edge>
+<edge id="e28_37" source="n28" target="n37">
+    <data key="de_strength">0.0849224250801</data>
+</edge>
+<edge id="e28_38" source="n28" target="n38">
+    <data key="de_strength">0.049470040151</data>
+</edge>
+<edge id="e28_39" source="n28" target="n39">
+    <data key="de_strength">0.27210942406</data>
+</edge>
+<edge id="e28_40" source="n28" target="n40">
+    <data key="de_strength">0.22406540776</data>
+</edge>
+<edge id="e28_41" source="n28" target="n41">
+    <data key="de_strength">0.132907666867</data>
+</edge>
+<edge id="e28_42" source="n28" target="n42">
+    <data key="de_strength">1.61278815148</data>
+</edge>
+<edge id="e28_43" source="n28" target="n43">
+    <data key="de_strength">0.326139705777</data>
+</edge>
+<edge id="e28_44" source="n28" target="n44">
+    <data key="de_strength">1.08311612731</data>
+</edge>
+<edge id="e28_45" source="n28" target="n45">
+    <data key="de_strength">1.92843296305</data>
+</edge>
+<edge id="e28_46" source="n28" target="n46">
+    <data key="de_strength">0.890336325272</data>
+</edge>
+<edge id="e28_47" source="n28" target="n47">
+    <data key="de_strength">0.814925854321</data>
+</edge>
+<edge id="e29_1" source="n29" target="n1">
+    <data key="de_strength">0.0149311294766</data>
+</edge>
+<edge id="e29_2" source="n29" target="n2">
+    <data key="de_strength">0.0235997197037</data>
+</edge>
+<edge id="e29_6" source="n29" target="n6">
+    <data key="de_strength">0.19482240828</data>
+</edge>
+<edge id="e29_8" source="n29" target="n8">
+    <data key="de_strength">0.0248115564546</data>
+</edge>
+<edge id="e29_9" source="n29" target="n9">
+    <data key="de_strength">0.17191898363</data>
+</edge>
+<edge id="e29_10" source="n29" target="n10">
+    <data key="de_strength">0.00446428571429</data>
+</edge>
+<edge id="e29_11" source="n29" target="n11">
+    <data key="de_strength">0.0447583709097</data>
+</edge>
+<edge id="e29_13" source="n29" target="n13">
+    <data key="de_strength">0.163222086138</data>
+</edge>
+<edge id="e29_14" source="n29" target="n14">
+    <data key="de_strength">0.0155184160555</data>
+</edge>
+<edge id="e29_15" source="n29" target="n15">
+    <data key="de_strength">0.00497512437811</data>
+</edge>
+<edge id="e29_17" source="n29" target="n17">
+    <data key="de_strength">0.00881777403798</data>
+</edge>
+<edge id="e29_18" source="n29" target="n18">
+    <data key="de_strength">0.00546448087432</data>
+</edge>
+<edge id="e29_19" source="n29" target="n19">
+    <data key="de_strength">1.53267225385</data>
+</edge>
+<edge id="e29_21" source="n29" target="n21">
+    <data key="de_strength">0.117714221868</data>
+</edge>
+<edge id="e29_22" source="n29" target="n22">
+    <data key="de_strength">0.0120855849277</data>
+</edge>
+<edge id="e29_23" source="n29" target="n23">
+    <data key="de_strength">0.075709151304</data>
+</edge>
+<edge id="e29_24" source="n29" target="n24">
+    <data key="de_strength">0.398228120149</data>
+</edge>
+<edge id="e29_25" source="n29" target="n25">
+    <data key="de_strength">2.96389425827</data>
+</edge>
+<edge id="e29_26" source="n29" target="n26">
+    <data key="de_strength">0.128837423965</data>
+</edge>
+<edge id="e29_27" source="n29" target="n27">
+    <data key="de_strength">0.180616756622</data>
+</edge>
+<edge id="e29_28" source="n29" target="n28">
+    <data key="de_strength">0.0762743600582</data>
+</edge>
+<edge id="e29_30" source="n29" target="n30">
+    <data key="de_strength">0.0222820683769</data>
+</edge>
+<edge id="e29_31" source="n29" target="n31">
+    <data key="de_strength">0.00856619381857</data>
+</edge>
+<edge id="e29_32" source="n29" target="n32">
+    <data key="de_strength">3.06576181975</data>
+</edge>
+<edge id="e29_33" source="n29" target="n33">
+    <data key="de_strength">0.0206315948081</data>
+</edge>
+<edge id="e29_34" source="n29" target="n34">
+    <data key="de_strength">0.00833333333333</data>
+</edge>
+<edge id="e29_35" source="n29" target="n35">
+    <data key="de_strength">0.0045045045045</data>
+</edge>
+<edge id="e29_36" source="n29" target="n36">
+    <data key="de_strength">0.0194878170691</data>
+</edge>
+<edge id="e29_37" source="n29" target="n37">
+    <data key="de_strength">0.0182956473105</data>
+</edge>
+<edge id="e29_38" source="n29" target="n38">
+    <data key="de_strength">0.0115927286377</data>
+</edge>
+<edge id="e29_39" source="n29" target="n39">
+    <data key="de_strength">0.0407671272219</data>
+</edge>
+<edge id="e29_40" source="n29" target="n40">
+    <data key="de_strength">1.56549397272</data>
+</edge>
+<edge id="e29_41" source="n29" target="n41">
+    <data key="de_strength">4.56053632383</data>
+</edge>
+<edge id="e29_42" source="n29" target="n42">
+    <data key="de_strength">9.71776944143</data>
+</edge>
+<edge id="e29_43" source="n29" target="n43">
+    <data key="de_strength">2.33646734953</data>
+</edge>
+<edge id="e29_44" source="n29" target="n44">
+    <data key="de_strength">0.209723328599</data>
+</edge>
+<edge id="e29_45" source="n29" target="n45">
+    <data key="de_strength">0.194198727453</data>
+</edge>
+<edge id="e29_46" source="n29" target="n46">
+    <data key="de_strength">1.13125949005</data>
+</edge>
+<edge id="e29_47" source="n29" target="n47">
+    <data key="de_strength">0.0138369133964</data>
+</edge>
+<edge id="e30_2" source="n30" target="n2">
+    <data key="de_strength">0.015940280807</data>
+</edge>
+<edge id="e30_4" source="n30" target="n4">
+    <data key="de_strength">0.00862068965517</data>
+</edge>
+<edge id="e30_6" source="n30" target="n6">
+    <data key="de_strength">0.00338983050847</data>
+</edge>
+<edge id="e30_8" source="n30" target="n8">
+    <data key="de_strength">2.13840058258</data>
+</edge>
+<edge id="e30_9" source="n30" target="n9">
+    <data key="de_strength">0.152911120043</data>
+</edge>
+<edge id="e30_10" source="n30" target="n10">
+    <data key="de_strength">0.0133884794988</data>
+</edge>
+<edge id="e30_11" source="n30" target="n11">
+    <data key="de_strength">0.0163206379393</data>
+</edge>
+<edge id="e30_13" source="n30" target="n13">
+    <data key="de_strength">0.027487772765</data>
+</edge>
+<edge id="e30_14" source="n30" target="n14">
+    <data key="de_strength">0.0112598189528</data>
+</edge>
+<edge id="e30_15" source="n30" target="n15">
+    <data key="de_strength">0.393431834316</data>
+</edge>
+<edge id="e30_16" source="n30" target="n16">
+    <data key="de_strength">0.0111542537702</data>
+</edge>
+<edge id="e30_17" source="n30" target="n17">
+    <data key="de_strength">7.25467684973</data>
+</edge>
+<edge id="e30_18" source="n30" target="n18">
+    <data key="de_strength">0.452975613979</data>
+</edge>
+<edge id="e30_19" source="n30" target="n19">
+    <data key="de_strength">0.214197788509</data>
+</edge>
+<edge id="e30_21" source="n30" target="n21">
+    <data key="de_strength">1.53061183387</data>
+</edge>
+<edge id="e30_22" source="n30" target="n22">
+    <data key="de_strength">0.0130940875094</data>
+</edge>
+<edge id="e30_23" source="n30" target="n23">
+    <data key="de_strength">0.0304016686948</data>
+</edge>
+<edge id="e30_25" source="n30" target="n25">
+    <data key="de_strength">0.00913097846946</data>
+</edge>
+<edge id="e30_26" source="n30" target="n26">
+    <data key="de_strength">0.197567815031</data>
+</edge>
+<edge id="e30_27" source="n30" target="n27">
+    <data key="de_strength">1.20941523565</data>
+</edge>
+<edge id="e30_28" source="n30" target="n28">
+    <data key="de_strength">0.898872435143</data>
+</edge>
+<edge id="e30_29" source="n30" target="n29">
+    <data key="de_strength">0.0222820683769</data>
+</edge>
+<edge id="e30_31" source="n30" target="n31">
+    <data key="de_strength">3.131824852</data>
+</edge>
+<edge id="e30_32" source="n30" target="n32">
+    <data key="de_strength">0.00607013094867</data>
+</edge>
+<edge id="e30_33" source="n30" target="n33">
+    <data key="de_strength">0.0398280934172</data>
+</edge>
+<edge id="e30_34" source="n30" target="n34">
+    <data key="de_strength">0.004</data>
+</edge>
+<edge id="e30_36" source="n30" target="n36">
+    <data key="de_strength">0.122895466535</data>
+</edge>
+<edge id="e30_37" source="n30" target="n37">
+    <data key="de_strength">0.0238340169189</data>
+</edge>
+<edge id="e30_38" source="n30" target="n38">
+    <data key="de_strength">0.206075992336</data>
+</edge>
+<edge id="e30_39" source="n30" target="n39">
+    <data key="de_strength">0.374338174719</data>
+</edge>
+<edge id="e30_40" source="n30" target="n40">
+    <data key="de_strength">0.129257127525</data>
+</edge>
+<edge id="e30_41" source="n30" target="n41">
+    <data key="de_strength">0.262355806084</data>
+</edge>
+<edge id="e30_42" source="n30" target="n42">
+    <data key="de_strength">0.198327097101</data>
+</edge>
+<edge id="e30_43" source="n30" target="n43">
+    <data key="de_strength">0.0213841092992</data>
+</edge>
+<edge id="e30_44" source="n30" target="n44">
+    <data key="de_strength">3.66308497318</data>
+</edge>
+<edge id="e30_45" source="n30" target="n45">
+    <data key="de_strength">1.09464953509</data>
+</edge>
+<edge id="e30_46" source="n30" target="n46">
+    <data key="de_strength">0.0603621060615</data>
+</edge>
+<edge id="e30_47" source="n30" target="n47">
+    <data key="de_strength">2.80793938875</data>
+</edge>
+<edge id="e31_2" source="n31" target="n2">
+    <data key="de_strength">0.00527087680487</data>
+</edge>
+<edge id="e31_3" source="n31" target="n3">
+    <data key="de_strength">0.00943166530494</data>
+</edge>
+<edge id="e31_4" source="n31" target="n4">
+    <data key="de_strength">0.0227875878301</data>
+</edge>
+<edge id="e31_8" source="n31" target="n8">
+    <data key="de_strength">0.336816483753</data>
+</edge>
+<edge id="e31_9" source="n31" target="n9">
+    <data key="de_strength">0.0602842854347</data>
+</edge>
+<edge id="e31_10" source="n31" target="n10">
+    <data key="de_strength">0.00367647058824</data>
+</edge>
+<edge id="e31_11" source="n31" target="n11">
+    <data key="de_strength">0.0127361753156</data>
+</edge>
+<edge id="e31_13" source="n31" target="n13">
+    <data key="de_strength">0.0142769690915</data>
+</edge>
+<edge id="e31_14" source="n31" target="n14">
+    <data key="de_strength">0.00702986740723</data>
+</edge>
+<edge id="e31_15" source="n31" target="n15">
+    <data key="de_strength">3.83823273749</data>
+</edge>
+<edge id="e31_16" source="n31" target="n16">
+    <data key="de_strength">0.296572452771</data>
+</edge>
+<edge id="e31_17" source="n31" target="n17">
+    <data key="de_strength">9.83585286693</data>
+</edge>
+<edge id="e31_18" source="n31" target="n18">
+    <data key="de_strength">7.06473310065</data>
+</edge>
+<edge id="e31_19" source="n31" target="n19">
+    <data key="de_strength">0.131980769176</data>
+</edge>
+<edge id="e31_21" source="n31" target="n21">
+    <data key="de_strength">1.812306798</data>
+</edge>
+<edge id="e31_22" source="n31" target="n22">
+    <data key="de_strength">0.00572939301753</data>
+</edge>
+<edge id="e31_26" source="n31" target="n26">
+    <data key="de_strength">0.0758064312227</data>
+</edge>
+<edge id="e31_27" source="n31" target="n27">
+    <data key="de_strength">1.0353369461</data>
+</edge>
+<edge id="e31_28" source="n31" target="n28">
+    <data key="de_strength">0.167822092292</data>
+</edge>
+<edge id="e31_29" source="n31" target="n29">
+    <data key="de_strength">0.00856619381857</data>
+</edge>
+<edge id="e31_30" source="n31" target="n30">
+    <data key="de_strength">3.131824852</data>
+</edge>
+<edge id="e31_33" source="n31" target="n33">
+    <data key="de_strength">0.0274671769743</data>
+</edge>
+<edge id="e31_36" source="n31" target="n36">
+    <data key="de_strength">1.83571831602</data>
+</edge>
+<edge id="e31_37" source="n31" target="n37">
+    <data key="de_strength">0.0310424911321</data>
+</edge>
+<edge id="e31_38" source="n31" target="n38">
+    <data key="de_strength">2.36568238208</data>
+</edge>
+<edge id="e31_39" source="n31" target="n39">
+    <data key="de_strength">0.24865992587</data>
+</edge>
+<edge id="e31_40" source="n31" target="n40">
+    <data key="de_strength">0.070644190814</data>
+</edge>
+<edge id="e31_41" source="n31" target="n41">
+    <data key="de_strength">0.106021664209</data>
+</edge>
+<edge id="e31_42" source="n31" target="n42">
+    <data key="de_strength">0.0970829425599</data>
+</edge>
+<edge id="e31_43" source="n31" target="n43">
+    <data key="de_strength">0.0064061110662</data>
+</edge>
+<edge id="e31_44" source="n31" target="n44">
+    <data key="de_strength">0.497396770869</data>
+</edge>
+<edge id="e31_45" source="n31" target="n45">
+    <data key="de_strength">0.0746522325495</data>
+</edge>
+<edge id="e31_46" source="n31" target="n46">
+    <data key="de_strength">0.0267808209922</data>
+</edge>
+<edge id="e31_47" source="n31" target="n47">
+    <data key="de_strength">15.3123314584</data>
+</edge>
+<edge id="e32_1" source="n32" target="n1">
+    <data key="de_strength">0.00411480703514</data>
+</edge>
+<edge id="e32_2" source="n32" target="n2">
+    <data key="de_strength">0.0610322780757</data>
+</edge>
+<edge id="e32_6" source="n32" target="n6">
+    <data key="de_strength">0.0540248007069</data>
+</edge>
+<edge id="e32_8" source="n32" target="n8">
+    <data key="de_strength">0.0212310261855</data>
+</edge>
+<edge id="e32_9" source="n32" target="n9">
+    <data key="de_strength">0.114189793158</data>
+</edge>
+<edge id="e32_10" source="n32" target="n10">
+    <data key="de_strength">0.0117647058824</data>
+</edge>
+<edge id="e32_11" source="n32" target="n11">
+    <data key="de_strength">0.0353605198036</data>
+</edge>
+<edge id="e32_13" source="n32" target="n13">
+    <data key="de_strength">0.386118461883</data>
+</edge>
+<edge id="e32_14" source="n32" target="n14">
+    <data key="de_strength">0.0654298241558</data>
+</edge>
+<edge id="e32_17" source="n32" target="n17">
+    <data key="de_strength">0.00625</data>
+</edge>
+<edge id="e32_19" source="n32" target="n19">
+    <data key="de_strength">0.608558830945</data>
+</edge>
+<edge id="e32_21" source="n32" target="n21">
+    <data key="de_strength">0.0332212952193</data>
+</edge>
+<edge id="e32_22" source="n32" target="n22">
+    <data key="de_strength">0.010875913632</data>
+</edge>
+<edge id="e32_23" source="n32" target="n23">
+    <data key="de_strength">0.129568462815</data>
+</edge>
+<edge id="e32_24" source="n32" target="n24">
+    <data key="de_strength">4.82234416008</data>
+</edge>
+<edge id="e32_25" source="n32" target="n25">
+    <data key="de_strength">5.51734300991</data>
+</edge>
+<edge id="e32_26" source="n32" target="n26">
+    <data key="de_strength">0.570469028481</data>
+</edge>
+<edge id="e32_27" source="n32" target="n27">
+    <data key="de_strength">0.208570005231</data>
+</edge>
+<edge id="e32_28" source="n32" target="n28">
+    <data key="de_strength">0.221039541729</data>
+</edge>
+<edge id="e32_29" source="n32" target="n29">
+    <data key="de_strength">3.06576181975</data>
+</edge>
+<edge id="e32_30" source="n32" target="n30">
+    <data key="de_strength">0.00607013094867</data>
+</edge>
+<edge id="e32_33" source="n32" target="n33">
+    <data key="de_strength">1.06994464834</data>
+</edge>
+<edge id="e32_34" source="n32" target="n34">
+    <data key="de_strength">0.00581395348837</data>
+</edge>
+<edge id="e32_35" source="n32" target="n35">
+    <data key="de_strength">0.00492610837438</data>
+</edge>
+<edge id="e32_36" source="n32" target="n36">
+    <data key="de_strength">0.0246970796462</data>
+</edge>
+<edge id="e32_37" source="n32" target="n37">
+    <data key="de_strength">0.025247143261</data>
+</edge>
+<edge id="e32_38" source="n32" target="n38">
+    <data key="de_strength">0.0107182940516</data>
+</edge>
+<edge id="e32_39" source="n32" target="n39">
+    <data key="de_strength">0.0368816650977</data>
+</edge>
+<edge id="e32_40" source="n32" target="n40">
+    <data key="de_strength">0.177987620893</data>
+</edge>
+<edge id="e32_41" source="n32" target="n41">
+    <data key="de_strength">3.39606795883</data>
+</edge>
+<edge id="e32_42" source="n32" target="n42">
+    <data key="de_strength">1.63083321437</data>
+</edge>
+<edge id="e32_43" source="n32" target="n43">
+    <data key="de_strength">0.42596226126</data>
+</edge>
+<edge id="e32_44" source="n32" target="n44">
+    <data key="de_strength">0.149148827815</data>
+</edge>
+<edge id="e32_45" source="n32" target="n45">
+    <data key="de_strength">0.135077625413</data>
+</edge>
+<edge id="e32_46" source="n32" target="n46">
+    <data key="de_strength">0.972489087843</data>
+</edge>
+<edge id="e32_47" source="n32" target="n47">
+    <data key="de_strength">0.00774252501194</data>
+</edge>
+<edge id="e33_1" source="n33" target="n1">
+    <data key="de_strength">0.133863714184</data>
+</edge>
+<edge id="e33_2" source="n33" target="n2">
+    <data key="de_strength">0.950231297657</data>
+</edge>
+<edge id="e33_6" source="n33" target="n6">
+    <data key="de_strength">0.396576084502</data>
+</edge>
+<edge id="e33_8" source="n33" target="n8">
+    <data key="de_strength">0.0423205832698</data>
+</edge>
+<edge id="e33_9" source="n33" target="n9">
+    <data key="de_strength">1.1392538011</data>
+</edge>
+<edge id="e33_10" source="n33" target="n10">
+    <data key="de_strength">0.143078109052</data>
+</edge>
+<edge id="e33_11" source="n33" target="n11">
+    <data key="de_strength">0.281427808966</data>
+</edge>
+<edge id="e33_12" source="n33" target="n12">
+    <data key="de_strength">0.0077519379845</data>
+</edge>
+<edge id="e33_13" source="n33" target="n13">
+    <data key="de_strength">0.19250572391</data>
+</edge>
+<edge id="e33_14" source="n33" target="n14">
+    <data key="de_strength">2.90822977124</data>
+</edge>
+<edge id="e33_17" source="n33" target="n17">
+    <data key="de_strength">0.0116894117202</data>
+</edge>
+<edge id="e33_19" source="n33" target="n19">
+    <data key="de_strength">0.285398436305</data>
+</edge>
+<edge id="e33_21" source="n33" target="n21">
+    <data key="de_strength">0.321580168812</data>
+</edge>
+<edge id="e33_22" source="n33" target="n22">
+    <data key="de_strength">2.48084753345</data>
+</edge>
+<edge id="e33_23" source="n33" target="n23">
+    <data key="de_strength">0.518988802534</data>
+</edge>
+<edge id="e33_25" source="n33" target="n25">
+    <data key="de_strength">0.671183861324</data>
+</edge>
+<edge id="e33_26" source="n33" target="n26">
+    <data key="de_strength">23.6764978665</data>
+</edge>
+<edge id="e33_27" source="n33" target="n27">
+    <data key="de_strength">0.917331190725</data>
+</edge>
+<edge id="e33_28" source="n33" target="n28">
+    <data key="de_strength">0.374941606865</data>
+</edge>
+<edge id="e33_29" source="n33" target="n29">
+    <data key="de_strength">0.0206315948081</data>
+</edge>
+<edge id="e33_30" source="n33" target="n30">
+    <data key="de_strength">0.0398280934172</data>
+</edge>
+<edge id="e33_31" source="n33" target="n31">
+    <data key="de_strength">0.0274671769743</data>
+</edge>
+<edge id="e33_32" source="n33" target="n32">
+    <data key="de_strength">1.06994464834</data>
+</edge>
+<edge id="e33_34" source="n33" target="n34">
+    <data key="de_strength">0.123674649059</data>
+</edge>
+<edge id="e33_35" source="n33" target="n35">
+    <data key="de_strength">0.0129612346115</data>
+</edge>
+<edge id="e33_36" source="n33" target="n36">
+    <data key="de_strength">0.038514169935</data>
+</edge>
+<edge id="e33_37" source="n33" target="n37">
+    <data key="de_strength">1.86779670141</data>
+</edge>
+<edge id="e33_38" source="n33" target="n38">
+    <data key="de_strength">0.0394000968352</data>
+</edge>
+<edge id="e33_39" source="n33" target="n39">
+    <data key="de_strength">0.145286950307</data>
+</edge>
+<edge id="e33_40" source="n33" target="n40">
+    <data key="de_strength">0.111984543166</data>
+</edge>
+<edge id="e33_41" source="n33" target="n41">
+    <data key="de_strength">0.0225305213518</data>
+</edge>
+<edge id="e33_42" source="n33" target="n42">
+    <data key="de_strength">0.0939222166838</data>
+</edge>
+<edge id="e33_43" source="n33" target="n43">
+    <data key="de_strength">0.047114054242</data>
+</edge>
+<edge id="e33_44" source="n33" target="n44">
+    <data key="de_strength">0.178731782418</data>
+</edge>
+<edge id="e33_45" source="n33" target="n45">
+    <data key="de_strength">0.116794133935</data>
+</edge>
+<edge id="e33_46" source="n33" target="n46">
+    <data key="de_strength">8.164849911</data>
+</edge>
+<edge id="e33_47" source="n33" target="n47">
+    <data key="de_strength">0.0982550072358</data>
+</edge>
+<edge id="e34_1" source="n34" target="n1">
+    <data key="de_strength">2.59372766379</data>
+</edge>
+<edge id="e34_2" source="n34" target="n2">
+    <data key="de_strength">1.73890073484</data>
+</edge>
+<edge id="e34_6" source="n34" target="n6">
+    <data key="de_strength">0.393980023267</data>
+</edge>
+<edge id="e34_7" source="n34" target="n7">
+    <data key="de_strength">4.92857140969</data>
+</edge>
+<edge id="e34_8" source="n34" target="n8">
+    <data key="de_strength">0.00689655172414</data>
+</edge>
+<edge id="e34_9" source="n34" target="n9">
+    <data key="de_strength">2.77950824312</data>
+</edge>
+<edge id="e34_10" source="n34" target="n10">
+    <data key="de_strength">3.78579783341</data>
+</edge>
+<edge id="e34_11" source="n34" target="n11">
+    <data key="de_strength">1.42290420052</data>
+</edge>
+<edge id="e34_12" source="n34" target="n12">
+    <data key="de_strength">0.376419115021</data>
+</edge>
+<edge id="e34_13" source="n34" target="n13">
+    <data key="de_strength">0.0106000800251</data>
+</edge>
+<edge id="e34_14" source="n34" target="n14">
+    <data key="de_strength">1.70920899522</data>
+</edge>
+<edge id="e34_19" source="n34" target="n19">
+    <data key="de_strength">0.0201414006228</data>
+</edge>
+<edge id="e34_20" source="n34" target="n20">
+    <data key="de_strength">0.14997298575</data>
+</edge>
+<edge id="e34_21" source="n34" target="n21">
+    <data key="de_strength">0.0155998238434</data>
+</edge>
+<edge id="e34_22" source="n34" target="n22">
+    <data key="de_strength">1.04546705705</data>
+</edge>
+<edge id="e34_23" source="n34" target="n23">
+    <data key="de_strength">0.00528149386845</data>
+</edge>
+<edge id="e34_24" source="n34" target="n24">
+    <data key="de_strength">0.0178928029395</data>
+</edge>
+<edge id="e34_25" source="n34" target="n25">
+    <data key="de_strength">0.0119786958774</data>
+</edge>
+<edge id="e34_26" source="n34" target="n26">
+    <data key="de_strength">0.0486801300062</data>
+</edge>
+<edge id="e34_27" source="n34" target="n27">
+    <data key="de_strength">0.189181792075</data>
+</edge>
+<edge id="e34_28" source="n34" target="n28">
+    <data key="de_strength">0.020552984153</data>
+</edge>
+<edge id="e34_29" source="n34" target="n29">
+    <data key="de_strength">0.00833333333333</data>
+</edge>
+<edge id="e34_30" source="n34" target="n30">
+    <data key="de_strength">0.004</data>
+</edge>
+<edge id="e34_32" source="n34" target="n32">
+    <data key="de_strength">0.00581395348837</data>
+</edge>
+<edge id="e34_33" source="n34" target="n33">
+    <data key="de_strength">0.123674649059</data>
+</edge>
+<edge id="e34_35" source="n34" target="n35">
+    <data key="de_strength">1.02264492523</data>
+</edge>
+<edge id="e34_37" source="n34" target="n37">
+    <data key="de_strength">0.379339653517</data>
+</edge>
+<edge id="e34_38" source="n34" target="n38">
+    <data key="de_strength">0.0120429049769</data>
+</edge>
+<edge id="e34_39" source="n34" target="n39">
+    <data key="de_strength">0.00932493886596</data>
+</edge>
+<edge id="e34_40" source="n34" target="n40">
+    <data key="de_strength">0.0165910381575</data>
+</edge>
+<edge id="e34_41" source="n34" target="n41">
+    <data key="de_strength">0.00521205298354</data>
+</edge>
+<edge id="e34_42" source="n34" target="n42">
+    <data key="de_strength">0.0176853514861</data>
+</edge>
+<edge id="e34_44" source="n34" target="n44">
+    <data key="de_strength">0.0130621709897</data>
+</edge>
+<edge id="e34_45" source="n34" target="n45">
+    <data key="de_strength">0.00562958459295</data>
+</edge>
+<edge id="e34_46" source="n34" target="n46">
+    <data key="de_strength">0.0868568616353</data>
+</edge>
+<edge id="e34_47" source="n34" target="n47">
+    <data key="de_strength">0.00436756179432</data>
+</edge>
+<edge id="e35_1" source="n35" target="n1">
+    <data key="de_strength">0.171461504254</data>
+</edge>
+<edge id="e35_2" source="n35" target="n2">
+    <data key="de_strength">0.171343608787</data>
+</edge>
+<edge id="e35_4" source="n35" target="n4">
+    <data key="de_strength">0.0062274909964</data>
+</edge>
+<edge id="e35_6" source="n35" target="n6">
+    <data key="de_strength">0.0592951507766</data>
+</edge>
+<edge id="e35_7" source="n35" target="n7">
+    <data key="de_strength">0.671741173469</data>
+</edge>
+<edge id="e35_9" source="n35" target="n9">
+    <data key="de_strength">1.23435568942</data>
+</edge>
+<edge id="e35_10" source="n35" target="n10">
+    <data key="de_strength">0.2637433019</data>
+</edge>
+<edge id="e35_11" source="n35" target="n11">
+    <data key="de_strength">4.29229022479</data>
+</edge>
+<edge id="e35_12" source="n35" target="n12">
+    <data key="de_strength">1.36488674278</data>
+</edge>
+<edge id="e35_13" source="n35" target="n13">
+    <data key="de_strength">0.00529100529101</data>
+</edge>
+<edge id="e35_14" source="n35" target="n14">
+    <data key="de_strength">0.0848644253719</data>
+</edge>
+<edge id="e35_19" source="n35" target="n19">
+    <data key="de_strength">0.00645161290323</data>
+</edge>
+<edge id="e35_21" source="n35" target="n21">
+    <data key="de_strength">0.0116866199638</data>
+</edge>
+<edge id="e35_22" source="n35" target="n22">
+    <data key="de_strength">0.162290863495</data>
+</edge>
+<edge id="e35_26" source="n35" target="n26">
+    <data key="de_strength">0.00879842284722</data>
+</edge>
+<edge id="e35_27" source="n35" target="n27">
+    <data key="de_strength">0.0666930915629</data>
+</edge>
+<edge id="e35_29" source="n35" target="n29">
+    <data key="de_strength">0.0045045045045</data>
+</edge>
+<edge id="e35_32" source="n35" target="n32">
+    <data key="de_strength">0.00492610837438</data>
+</edge>
+<edge id="e35_33" source="n35" target="n33">
+    <data key="de_strength">0.0129612346115</data>
+</edge>
+<edge id="e35_34" source="n35" target="n34">
+    <data key="de_strength">1.02264492523</data>
+</edge>
+<edge id="e35_37" source="n35" target="n37">
+    <data key="de_strength">0.162155358952</data>
+</edge>
+<edge id="e35_38" source="n35" target="n38">
+    <data key="de_strength">0.0176214873467</data>
+</edge>
+<edge id="e35_40" source="n35" target="n40">
+    <data key="de_strength">0.0101197045997</data>
+</edge>
+<edge id="e35_44" source="n35" target="n44">
+    <data key="de_strength">0.00632911392405</data>
+</edge>
+<edge id="e35_46" source="n35" target="n46">
+    <data key="de_strength">0.0166090224737</data>
+</edge>
+<edge id="e36_1" source="n36" target="n1">
+    <data key="de_strength">0.00489119801743</data>
+</edge>
+<edge id="e36_2" source="n36" target="n2">
+    <data key="de_strength">0.0133909581751</data>
+</edge>
+<edge id="e36_3" source="n36" target="n3">
+    <data key="de_strength">0.0631979194416</data>
+</edge>
+<edge id="e36_4" source="n36" target="n4">
+    <data key="de_strength">0.448350149948</data>
+</edge>
+<edge id="e36_6" source="n36" target="n6">
+    <data key="de_strength">0.00803940774455</data>
+</edge>
+<edge id="e36_8" source="n36" target="n8">
+    <data key="de_strength">0.074129919498</data>
+</edge>
+<edge id="e36_9" source="n36" target="n9">
+    <data key="de_strength">0.074066291534</data>
+</edge>
+<edge id="e36_10" source="n36" target="n10">
+    <data key="de_strength">0.0120486300127</data>
+</edge>
+<edge id="e36_11" source="n36" target="n11">
+    <data key="de_strength">0.027660347469</data>
+</edge>
+<edge id="e36_12" source="n36" target="n12">
+    <data key="de_strength">0.0141344521027</data>
+</edge>
+<edge id="e36_13" source="n36" target="n13">
+    <data key="de_strength">0.0176608737832</data>
+</edge>
+<edge id="e36_14" source="n36" target="n14">
+    <data key="de_strength">0.00907739255655</data>
+</edge>
+<edge id="e36_15" source="n36" target="n15">
+    <data key="de_strength">2.22279868738</data>
+</edge>
+<edge id="e36_16" source="n36" target="n16">
+    <data key="de_strength">2.79339390867</data>
+</edge>
+<edge id="e36_17" source="n36" target="n17">
+    <data key="de_strength">3.40834992881</data>
+</edge>
+<edge id="e36_18" source="n36" target="n18">
+    <data key="de_strength">3.42811834538</data>
+</edge>
+<edge id="e36_19" source="n36" target="n19">
+    <data key="de_strength">0.153922394253</data>
+</edge>
+<edge id="e36_21" source="n36" target="n21">
+    <data key="de_strength">2.82075396923</data>
+</edge>
+<edge id="e36_22" source="n36" target="n22">
+    <data key="de_strength">0.192908654788</data>
+</edge>
+<edge id="e36_23" source="n36" target="n23">
+    <data key="de_strength">0.00713861729744</data>
+</edge>
+<edge id="e36_25" source="n36" target="n25">
+    <data key="de_strength">0.0117940255552</data>
+</edge>
+<edge id="e36_26" source="n36" target="n26">
+    <data key="de_strength">0.0821291426655</data>
+</edge>
+<edge id="e36_27" source="n36" target="n27">
+    <data key="de_strength">0.425151119021</data>
+</edge>
+<edge id="e36_28" source="n36" target="n28">
+    <data key="de_strength">0.0588490803766</data>
+</edge>
+<edge id="e36_29" source="n36" target="n29">
+    <data key="de_strength">0.0194878170691</data>
+</edge>
+<edge id="e36_30" source="n36" target="n30">
+    <data key="de_strength">0.122895466535</data>
+</edge>
+<edge id="e36_31" source="n36" target="n31">
+    <data key="de_strength">1.83571831602</data>
+</edge>
+<edge id="e36_32" source="n36" target="n32">
+    <data key="de_strength">0.0246970796462</data>
+</edge>
+<edge id="e36_33" source="n36" target="n33">
+    <data key="de_strength">0.038514169935</data>
+</edge>
+<edge id="e36_37" source="n36" target="n37">
+    <data key="de_strength">2.67083938699</data>
+</edge>
+<edge id="e36_38" source="n36" target="n38">
+    <data key="de_strength">3.43998257935</data>
+</edge>
+<edge id="e36_39" source="n36" target="n39">
+    <data key="de_strength">0.922016871792</data>
+</edge>
+<edge id="e36_40" source="n36" target="n40">
+    <data key="de_strength">0.254693225155</data>
+</edge>
+<edge id="e36_41" source="n36" target="n41">
+    <data key="de_strength">0.0673518730836</data>
+</edge>
+<edge id="e36_42" source="n36" target="n42">
+    <data key="de_strength">0.209465623312</data>
+</edge>
+<edge id="e36_43" source="n36" target="n43">
+    <data key="de_strength">0.00781032164067</data>
+</edge>
+<edge id="e36_44" source="n36" target="n44">
+    <data key="de_strength">0.359606184779</data>
+</edge>
+<edge id="e36_45" source="n36" target="n45">
+    <data key="de_strength">0.0412980744968</data>
+</edge>
+<edge id="e36_46" source="n36" target="n46">
+    <data key="de_strength">0.0273305983665</data>
+</edge>
+<edge id="e36_47" source="n36" target="n47">
+    <data key="de_strength">1.22814170558</data>
+</edge>
+<edge id="e37_1" source="n37" target="n1">
+    <data key="de_strength">0.21617324163</data>
+</edge>
+<edge id="e37_2" source="n37" target="n2">
+    <data key="de_strength">0.361960766579</data>
+</edge>
+<edge id="e37_3" source="n37" target="n3">
+    <data key="de_strength">0.0760681161622</data>
+</edge>
+<edge id="e37_4" source="n37" target="n4">
+    <data key="de_strength">0.381499675532</data>
+</edge>
+<edge id="e37_6" source="n37" target="n6">
+    <data key="de_strength">0.20781521933</data>
+</edge>
+<edge id="e37_7" source="n37" target="n7">
+    <data key="de_strength">0.0933522607484</data>
+</edge>
+<edge id="e37_8" source="n37" target="n8">
+    <data key="de_strength">0.0248180994668</data>
+</edge>
+<edge id="e37_9" source="n37" target="n9">
+    <data key="de_strength">1.45109086329</data>
+</edge>
+<edge id="e37_10" source="n37" target="n10">
+    <data key="de_strength">0.392744722532</data>
+</edge>
+<edge id="e37_11" source="n37" target="n11">
+    <data key="de_strength">0.355842338138</data>
+</edge>
+<edge id="e37_12" source="n37" target="n12">
+    <data key="de_strength">0.0169223799773</data>
+</edge>
+<edge id="e37_13" source="n37" target="n13">
+    <data key="de_strength">0.0707519778388</data>
+</edge>
+<edge id="e37_14" source="n37" target="n14">
+    <data key="de_strength">0.263077283614</data>
+</edge>
+<edge id="e37_15" source="n37" target="n15">
+    <data key="de_strength">0.446724890215</data>
+</edge>
+<edge id="e37_16" source="n37" target="n16">
+    <data key="de_strength">0.196572442441</data>
+</edge>
+<edge id="e37_17" source="n37" target="n17">
+    <data key="de_strength">0.0347549267347</data>
+</edge>
+<edge id="e37_18" source="n37" target="n18">
+    <data key="de_strength">0.0469775806182</data>
+</edge>
+<edge id="e37_19" source="n37" target="n19">
+    <data key="de_strength">0.116376841813</data>
+</edge>
+<edge id="e37_21" source="n37" target="n21">
+    <data key="de_strength">0.770580831174</data>
+</edge>
+<edge id="e37_22" source="n37" target="n22">
+    <data key="de_strength">4.32727834041</data>
+</edge>
+<edge id="e37_23" source="n37" target="n23">
+    <data key="de_strength">0.0624302652897</data>
+</edge>
+<edge id="e37_24" source="n37" target="n24">
+    <data key="de_strength">0.00625</data>
+</edge>
+<edge id="e37_25" source="n37" target="n25">
+    <data key="de_strength">0.0207125558388</data>
+</edge>
+<edge id="e37_26" source="n37" target="n26">
+    <data key="de_strength">7.85843054866</data>
+</edge>
+<edge id="e37_27" source="n37" target="n27">
+    <data key="de_strength">2.08619019962</data>
+</edge>
+<edge id="e37_28" source="n37" target="n28">
+    <data key="de_strength">0.0849224250801</data>
+</edge>
+<edge id="e37_29" source="n37" target="n29">
+    <data key="de_strength">0.0182956473105</data>
+</edge>
+<edge id="e37_30" source="n37" target="n30">
+    <data key="de_strength">0.0238340169189</data>
+</edge>
+<edge id="e37_31" source="n37" target="n31">
+    <data key="de_strength">0.0310424911321</data>
+</edge>
+<edge id="e37_32" source="n37" target="n32">
+    <data key="de_strength">0.025247143261</data>
+</edge>
+<edge id="e37_33" source="n37" target="n33">
+    <data key="de_strength">1.86779670141</data>
+</edge>
+<edge id="e37_34" source="n37" target="n34">
+    <data key="de_strength">0.379339653517</data>
+</edge>
+<edge id="e37_35" source="n37" target="n35">
+    <data key="de_strength">0.162155358952</data>
+</edge>
+<edge id="e37_36" source="n37" target="n36">
+    <data key="de_strength">2.67083938699</data>
+</edge>
+<edge id="e37_38" source="n37" target="n38">
+    <data key="de_strength">0.132526922175</data>
+</edge>
+<edge id="e37_39" source="n37" target="n39">
+    <data key="de_strength">0.035558577619</data>
+</edge>
+<edge id="e37_40" source="n37" target="n40">
+    <data key="de_strength">0.0434631508013</data>
+</edge>
+<edge id="e37_41" source="n37" target="n41">
+    <data key="de_strength">0.0165880888722</data>
+</edge>
+<edge id="e37_42" source="n37" target="n42">
+    <data key="de_strength">0.0933672462676</data>
+</edge>
+<edge id="e37_43" source="n37" target="n43">
+    <data key="de_strength">0.0480232102304</data>
+</edge>
+<edge id="e37_44" source="n37" target="n44">
+    <data key="de_strength">0.0650821865676</data>
+</edge>
+<edge id="e37_45" source="n37" target="n45">
+    <data key="de_strength">0.0340179994633</data>
+</edge>
+<edge id="e37_46" source="n37" target="n46">
+    <data key="de_strength">0.349376333887</data>
+</edge>
+<edge id="e37_47" source="n37" target="n47">
+    <data key="de_strength">0.0422332283044</data>
+</edge>
+<edge id="e38_1" source="n38" target="n1">
+    <data key="de_strength">0.00335570469799</data>
+</edge>
+<edge id="e38_2" source="n38" target="n2">
+    <data key="de_strength">0.00697579916923</data>
+</edge>
+<edge id="e38_3" source="n38" target="n3">
+    <data key="de_strength">0.0405549364307</data>
+</edge>
+<edge id="e38_4" source="n38" target="n4">
+    <data key="de_strength">0.167656215319</data>
+</edge>
+<edge id="e38_6" source="n38" target="n6">
+    <data key="de_strength">0.00632911392405</data>
+</edge>
+<edge id="e38_8" source="n38" target="n8">
+    <data key="de_strength">0.20012250788</data>
+</edge>
+<edge id="e38_9" source="n38" target="n9">
+    <data key="de_strength">0.0401487186586</data>
+</edge>
+<edge id="e38_10" source="n38" target="n10">
+    <data key="de_strength">0.00606060606061</data>
+</edge>
+<edge id="e38_11" source="n38" target="n11">
+    <data key="de_strength">0.0148738426332</data>
+</edge>
+<edge id="e38_13" source="n38" target="n13">
+    <data key="de_strength">0.0167245767208</data>
+</edge>
+<edge id="e38_14" source="n38" target="n14">
+    <data key="de_strength">0.00981074471539</data>
+</edge>
+<edge id="e38_15" source="n38" target="n15">
+    <data key="de_strength">0.826495787672</data>
+</edge>
+<edge id="e38_16" source="n38" target="n16">
+    <data key="de_strength">2.1093997794</data>
+</edge>
+<edge id="e38_17" source="n38" target="n17">
+    <data key="de_strength">2.98144159436</data>
+</edge>
+<edge id="e38_18" source="n38" target="n18">
+    <data key="de_strength">2.49441034232</data>
+</edge>
+<edge id="e38_19" source="n38" target="n19">
+    <data key="de_strength">0.14569906809</data>
+</edge>
+<edge id="e38_21" source="n38" target="n21">
+    <data key="de_strength">1.22186142883</data>
+</edge>
+<edge id="e38_22" source="n38" target="n22">
+    <data key="de_strength">0.0125206356438</data>
+</edge>
+<edge id="e38_23" source="n38" target="n23">
+    <data key="de_strength">0.00717249859112</data>
+</edge>
+<edge id="e38_25" source="n38" target="n25">
+    <data key="de_strength">0.00515463917526</data>
+</edge>
+<edge id="e38_26" source="n38" target="n26">
+    <data key="de_strength">0.0875116834028</data>
+</edge>
+<edge id="e38_27" source="n38" target="n27">
+    <data key="de_strength">0.437091433823</data>
+</edge>
+<edge id="e38_28" source="n38" target="n28">
+    <data key="de_strength">0.049470040151</data>
+</edge>
+<edge id="e38_29" source="n38" target="n29">
+    <data key="de_strength">0.0115927286377</data>
+</edge>
+<edge id="e38_30" source="n38" target="n30">
+    <data key="de_strength">0.206075992336</data>
+</edge>
+<edge id="e38_31" source="n38" target="n31">
+    <data key="de_strength">2.36568238208</data>
+</edge>
+<edge id="e38_32" source="n38" target="n32">
+    <data key="de_strength">0.0107182940516</data>
+</edge>
+<edge id="e38_33" source="n38" target="n33">
+    <data key="de_strength">0.0394000968352</data>
+</edge>
+<edge id="e38_34" source="n38" target="n34">
+    <data key="de_strength">0.0120429049769</data>
+</edge>
+<edge id="e38_35" source="n38" target="n35">
+    <data key="de_strength">0.0176214873467</data>
+</edge>
+<edge id="e38_36" source="n38" target="n36">
+    <data key="de_strength">3.43998257935</data>
+</edge>
+<edge id="e38_37" source="n38" target="n37">
+    <data key="de_strength">0.132526922175</data>
+</edge>
+<edge id="e38_39" source="n38" target="n39">
+    <data key="de_strength">6.21821708225</data>
+</edge>
+<edge id="e38_40" source="n38" target="n40">
+    <data key="de_strength">0.0771348748361</data>
+</edge>
+<edge id="e38_41" source="n38" target="n41">
+    <data key="de_strength">0.0565052181312</data>
+</edge>
+<edge id="e38_42" source="n38" target="n42">
+    <data key="de_strength">0.0734520640974</data>
+</edge>
+<edge id="e38_43" source="n38" target="n43">
+    <data key="de_strength">0.0118529546496</data>
+</edge>
+<edge id="e38_44" source="n38" target="n44">
+    <data key="de_strength">1.20892865491</data>
+</edge>
+<edge id="e38_45" source="n38" target="n45">
+    <data key="de_strength">0.0219063929281</data>
+</edge>
+<edge id="e38_46" source="n38" target="n46">
+    <data key="de_strength">0.0219674203549</data>
+</edge>
+<edge id="e38_47" source="n38" target="n47">
+    <data key="de_strength">1.11380349045</data>
+</edge>
+<edge id="e39_1" source="n39" target="n1">
+    <data key="de_strength">0.00774038449887</data>
+</edge>
+<edge id="e39_2" source="n39" target="n2">
+    <data key="de_strength">0.0363184487681</data>
+</edge>
+<edge id="e39_3" source="n39" target="n3">
+    <data key="de_strength">0.0079779557407</data>
+</edge>
+<edge id="e39_4" source="n39" target="n4">
+    <data key="de_strength">0.0334440205206</data>
+</edge>
+<edge id="e39_6" source="n39" target="n6">
+    <data key="de_strength">0.0243902623846</data>
+</edge>
+<edge id="e39_8" source="n39" target="n8">
+    <data key="de_strength">0.259607233161</data>
+</edge>
+<edge id="e39_9" source="n39" target="n9">
+    <data key="de_strength">0.110679279905</data>
+</edge>
+<edge id="e39_10" source="n39" target="n10">
+    <data key="de_strength">0.0112895548604</data>
+</edge>
+<edge id="e39_11" source="n39" target="n11">
+    <data key="de_strength">0.058138401757</data>
+</edge>
+<edge id="e39_13" source="n39" target="n13">
+    <data key="de_strength">0.0620266886946</data>
+</edge>
+<edge id="e39_14" source="n39" target="n14">
+    <data key="de_strength">0.0236883321754</data>
+</edge>
+<edge id="e39_15" source="n39" target="n15">
+    <data key="de_strength">0.0869393728904</data>
+</edge>
+<edge id="e39_16" source="n39" target="n16">
+    <data key="de_strength">0.041907729692</data>
+</edge>
+<edge id="e39_17" source="n39" target="n17">
+    <data key="de_strength">0.144949532688</data>
+</edge>
+<edge id="e39_18" source="n39" target="n18">
+    <data key="de_strength">0.10352090905</data>
+</edge>
+<edge id="e39_19" source="n39" target="n19">
+    <data key="de_strength">0.310177164704</data>
+</edge>
+<edge id="e39_21" source="n39" target="n21">
+    <data key="de_strength">2.20835095285</data>
+</edge>
+<edge id="e39_22" source="n39" target="n22">
+    <data key="de_strength">0.0159662320857</data>
+</edge>
+<edge id="e39_23" source="n39" target="n23">
+    <data key="de_strength">0.00646960165497</data>
+</edge>
+<edge id="e39_25" source="n39" target="n25">
+    <data key="de_strength">0.0227610791602</data>
+</edge>
+<edge id="e39_26" source="n39" target="n26">
+    <data key="de_strength">0.217784425068</data>
+</edge>
+<edge id="e39_27" source="n39" target="n27">
+    <data key="de_strength">0.894199516317</data>
+</edge>
+<edge id="e39_28" source="n39" target="n28">
+    <data key="de_strength">0.27210942406</data>
+</edge>
+<edge id="e39_29" source="n39" target="n29">
+    <data key="de_strength">0.0407671272219</data>
+</edge>
+<edge id="e39_30" source="n39" target="n30">
+    <data key="de_strength">0.374338174719</data>
+</edge>
+<edge id="e39_31" source="n39" target="n31">
+    <data key="de_strength">0.24865992587</data>
+</edge>
+<edge id="e39_32" source="n39" target="n32">
+    <data key="de_strength">0.0368816650977</data>
+</edge>
+<edge id="e39_33" source="n39" target="n33">
+    <data key="de_strength">0.145286950307</data>
+</edge>
+<edge id="e39_34" source="n39" target="n34">
+    <data key="de_strength">0.00932493886596</data>
+</edge>
+<edge id="e39_36" source="n39" target="n36">
+    <data key="de_strength">0.922016871792</data>
+</edge>
+<edge id="e39_37" source="n39" target="n37">
+    <data key="de_strength">0.035558577619</data>
+</edge>
+<edge id="e39_38" source="n39" target="n38">
+    <data key="de_strength">6.21821708225</data>
+</edge>
+<edge id="e39_40" source="n39" target="n40">
+    <data key="de_strength">0.744999813835</data>
+</edge>
+<edge id="e39_41" source="n39" target="n41">
+    <data key="de_strength">0.230278274432</data>
+</edge>
+<edge id="e39_42" source="n39" target="n42">
+    <data key="de_strength">0.770697181686</data>
+</edge>
+<edge id="e39_43" source="n39" target="n43">
+    <data key="de_strength">0.0449046807555</data>
+</edge>
+<edge id="e39_44" source="n39" target="n44">
+    <data key="de_strength">0.580742814325</data>
+</edge>
+<edge id="e39_45" source="n39" target="n45">
+    <data key="de_strength">0.0937999982785</data>
+</edge>
+<edge id="e39_46" source="n39" target="n46">
+    <data key="de_strength">0.155828309255</data>
+</edge>
+<edge id="e39_47" source="n39" target="n47">
+    <data key="de_strength">0.593017100736</data>
+</edge>
+<edge id="e40_1" source="n40" target="n1">
+    <data key="de_strength">0.0122102006081</data>
+</edge>
+<edge id="e40_2" source="n40" target="n2">
+    <data key="de_strength">0.026376932305</data>
+</edge>
+<edge id="e40_3" source="n40" target="n3">
+    <data key="de_strength">0.0048309178744</data>
+</edge>
+<edge id="e40_4" source="n40" target="n4">
+    <data key="de_strength">0.0121266226695</data>
+</edge>
+<edge id="e40_6" source="n40" target="n6">
+    <data key="de_strength">0.00876927440596</data>
+</edge>
+<edge id="e40_8" source="n40" target="n8">
+    <data key="de_strength">0.947866674411</data>
+</edge>
+<edge id="e40_9" source="n40" target="n9">
+    <data key="de_strength">0.11981392843</data>
+</edge>
+<edge id="e40_10" source="n40" target="n10">
+    <data key="de_strength">0.00876809853061</data>
+</edge>
+<edge id="e40_11" source="n40" target="n11">
+    <data key="de_strength">0.0336298135816</data>
+</edge>
+<edge id="e40_12" source="n40" target="n12">
+    <data key="de_strength">0.00473933649289</data>
+</edge>
+<edge id="e40_13" source="n40" target="n13">
+    <data key="de_strength">0.0638860444398</data>
+</edge>
+<edge id="e40_14" source="n40" target="n14">
+    <data key="de_strength">0.0227512346761</data>
+</edge>
+<edge id="e40_15" source="n40" target="n15">
+    <data key="de_strength">0.0221320339339</data>
+</edge>
+<edge id="e40_16" source="n40" target="n16">
+    <data key="de_strength">0.0169504507047</data>
+</edge>
+<edge id="e40_17" source="n40" target="n17">
+    <data key="de_strength">0.0433648895424</data>
+</edge>
+<edge id="e40_18" source="n40" target="n18">
+    <data key="de_strength">0.0315452848319</data>
+</edge>
+<edge id="e40_19" source="n40" target="n19">
+    <data key="de_strength">1.26918975006</data>
+</edge>
+<edge id="e40_21" source="n40" target="n21">
+    <data key="de_strength">0.526068530839</data>
+</edge>
+<edge id="e40_22" source="n40" target="n22">
+    <data key="de_strength">0.0332956665789</data>
+</edge>
+<edge id="e40_23" source="n40" target="n23">
+    <data key="de_strength">0.0295935855145</data>
+</edge>
+<edge id="e40_24" source="n40" target="n24">
+    <data key="de_strength">0.021573826786</data>
+</edge>
+<edge id="e40_25" source="n40" target="n25">
+    <data key="de_strength">0.0266098978022</data>
+</edge>
+<edge id="e40_26" source="n40" target="n26">
+    <data key="de_strength">0.198481031558</data>
+</edge>
+<edge id="e40_27" source="n40" target="n27">
+    <data key="de_strength">0.369172214397</data>
+</edge>
+<edge id="e40_28" source="n40" target="n28">
+    <data key="de_strength">0.22406540776</data>
+</edge>
+<edge id="e40_29" source="n40" target="n29">
+    <data key="de_strength">1.56549397272</data>
+</edge>
+<edge id="e40_30" source="n40" target="n30">
+    <data key="de_strength">0.129257127525</data>
+</edge>
+<edge id="e40_31" source="n40" target="n31">
+    <data key="de_strength">0.070644190814</data>
+</edge>
+<edge id="e40_32" source="n40" target="n32">
+    <data key="de_strength">0.177987620893</data>
+</edge>
+<edge id="e40_33" source="n40" target="n33">
+    <data key="de_strength">0.111984543166</data>
+</edge>
+<edge id="e40_34" source="n40" target="n34">
+    <data key="de_strength">0.0165910381575</data>
+</edge>
+<edge id="e40_35" source="n40" target="n35">
+    <data key="de_strength">0.0101197045997</data>
+</edge>
+<edge id="e40_36" source="n40" target="n36">
+    <data key="de_strength">0.254693225155</data>
+</edge>
+<edge id="e40_37" source="n40" target="n37">
+    <data key="de_strength">0.0434631508013</data>
+</edge>
+<edge id="e40_38" source="n40" target="n38">
+    <data key="de_strength">0.0771348748361</data>
+</edge>
+<edge id="e40_39" source="n40" target="n39">
+    <data key="de_strength">0.744999813835</data>
+</edge>
+<edge id="e40_41" source="n40" target="n41">
+    <data key="de_strength">4.96788520302</data>
+</edge>
+<edge id="e40_42" source="n40" target="n42">
+    <data key="de_strength">0.979226220806</data>
+</edge>
+<edge id="e40_43" source="n40" target="n43">
+    <data key="de_strength">0.0457528000973</data>
+</edge>
+<edge id="e40_44" source="n40" target="n44">
+    <data key="de_strength">0.401761083974</data>
+</edge>
+<edge id="e40_45" source="n40" target="n45">
+    <data key="de_strength">0.144533605869</data>
+</edge>
+<edge id="e40_46" source="n40" target="n46">
+    <data key="de_strength">0.100769875709</data>
+</edge>
+<edge id="e40_47" source="n40" target="n47">
+    <data key="de_strength">0.180708741791</data>
+</edge>
+<edge id="e41_1" source="n41" target="n1">
+    <data key="de_strength">0.00588235294118</data>
+</edge>
+<edge id="e41_2" source="n41" target="n2">
+    <data key="de_strength">0.0142919943467</data>
+</edge>
+<edge id="e41_6" source="n41" target="n6">
+    <data key="de_strength">0.0073181792636</data>
+</edge>
+<edge id="e41_8" source="n41" target="n8">
+    <data key="de_strength">5.06810661159</data>
+</edge>
+<edge id="e41_9" source="n41" target="n9">
+    <data key="de_strength">0.0539309160201</data>
+</edge>
+<edge id="e41_10" source="n41" target="n10">
+    <data key="de_strength">0.00584872570416</data>
+</edge>
+<edge id="e41_11" source="n41" target="n11">
+    <data key="de_strength">0.0149382790159</data>
+</edge>
+<edge id="e41_13" source="n41" target="n13">
+    <data key="de_strength">0.0304051048225</data>
+</edge>
+<edge id="e41_14" source="n41" target="n14">
+    <data key="de_strength">0.00707550036071</data>
+</edge>
+<edge id="e41_15" source="n41" target="n15">
+    <data key="de_strength">0.019940033116</data>
+</edge>
+<edge id="e41_16" source="n41" target="n16">
+    <data key="de_strength">0.00719232739679</data>
+</edge>
+<edge id="e41_17" source="n41" target="n17">
+    <data key="de_strength">0.129625229986</data>
+</edge>
+<edge id="e41_18" source="n41" target="n18">
+    <data key="de_strength">0.0136647429729</data>
+</edge>
+<edge id="e41_19" source="n41" target="n19">
+    <data key="de_strength">0.340397719705</data>
+</edge>
+<edge id="e41_21" source="n41" target="n21">
+    <data key="de_strength">0.279326999642</data>
+</edge>
+<edge id="e41_22" source="n41" target="n22">
+    <data key="de_strength">0.00791377727558</data>
+</edge>
+<edge id="e41_23" source="n41" target="n23">
+    <data key="de_strength">0.0153804186032</data>
+</edge>
+<edge id="e41_24" source="n41" target="n24">
+    <data key="de_strength">0.0227900348135</data>
+</edge>
+<edge id="e41_25" source="n41" target="n25">
+    <data key="de_strength">0.0398390719733</data>
+</edge>
+<edge id="e41_26" source="n41" target="n26">
+    <data key="de_strength">0.0601066589379</data>
+</edge>
+<edge id="e41_27" source="n41" target="n27">
+    <data key="de_strength">0.221544053004</data>
+</edge>
+<edge id="e41_28" source="n41" target="n28">
+    <data key="de_strength">0.132907666867</data>
+</edge>
+<edge id="e41_29" source="n41" target="n29">
+    <data key="de_strength">4.56053632383</data>
+</edge>
+<edge id="e41_30" source="n41" target="n30">
+    <data key="de_strength">0.262355806084</data>
+</edge>
+<edge id="e41_31" source="n41" target="n31">
+    <data key="de_strength">0.106021664209</data>
+</edge>
+<edge id="e41_32" source="n41" target="n32">
+    <data key="de_strength">3.39606795883</data>
+</edge>
+<edge id="e41_33" source="n41" target="n33">
+    <data key="de_strength">0.0225305213518</data>
+</edge>
+<edge id="e41_34" source="n41" target="n34">
+    <data key="de_strength">0.00521205298354</data>
+</edge>
+<edge id="e41_36" source="n41" target="n36">
+    <data key="de_strength">0.0673518730836</data>
+</edge>
+<edge id="e41_37" source="n41" target="n37">
+    <data key="de_strength">0.0165880888722</data>
+</edge>
+<edge id="e41_38" source="n41" target="n38">
+    <data key="de_strength">0.0565052181312</data>
+</edge>
+<edge id="e41_39" source="n41" target="n39">
+    <data key="de_strength">0.230278274432</data>
+</edge>
+<edge id="e41_40" source="n41" target="n40">
+    <data key="de_strength">4.96788520302</data>
+</edge>
+<edge id="e41_42" source="n41" target="n42">
+    <data key="de_strength">1.16749404895</data>
+</edge>
+<edge id="e41_43" source="n41" target="n43">
+    <data key="de_strength">0.203545180921</data>
+</edge>
+<edge id="e41_44" source="n41" target="n44">
+    <data key="de_strength">1.44964961397</data>
+</edge>
+<edge id="e41_45" source="n41" target="n45">
+    <data key="de_strength">0.151511010701</data>
+</edge>
+<edge id="e41_46" source="n41" target="n46">
+    <data key="de_strength">0.0466620346709</data>
+</edge>
+<edge id="e41_47" source="n41" target="n47">
+    <data key="de_strength">0.886260147452</data>
+</edge>
+<edge id="e42_1" source="n42" target="n1">
+    <data key="de_strength">0.0161965294708</data>
+</edge>
+<edge id="e42_2" source="n42" target="n2">
+    <data key="de_strength">0.0833441512041</data>
+</edge>
+<edge id="e42_4" source="n42" target="n4">
+    <data key="de_strength">0.00588968957871</data>
+</edge>
+<edge id="e42_6" source="n42" target="n6">
+    <data key="de_strength">0.0165991479648</data>
+</edge>
+<edge id="e42_7" source="n42" target="n7">
+    <data key="de_strength">0.0180708180708</data>
+</edge>
+<edge id="e42_8" source="n42" target="n8">
+    <data key="de_strength">0.53894931785</data>
+</edge>
+<edge id="e42_9" source="n42" target="n9">
+    <data key="de_strength">0.363445708014</data>
+</edge>
+<edge id="e42_10" source="n42" target="n10">
+    <data key="de_strength">0.00875993988861</data>
+</edge>
+<edge id="e42_11" source="n42" target="n11">
+    <data key="de_strength">0.253127588827</data>
+</edge>
+<edge id="e42_13" source="n42" target="n13">
+    <data key="de_strength">0.146410620146</data>
+</edge>
+<edge id="e42_14" source="n42" target="n14">
+    <data key="de_strength">0.0274906244806</data>
+</edge>
+<edge id="e42_15" source="n42" target="n15">
+    <data key="de_strength">0.0156360268964</data>
+</edge>
+<edge id="e42_16" source="n42" target="n16">
+    <data key="de_strength">0.0190935871721</data>
+</edge>
+<edge id="e42_17" source="n42" target="n17">
+    <data key="de_strength">0.143192662567</data>
+</edge>
+<edge id="e42_18" source="n42" target="n18">
+    <data key="de_strength">0.0434452743373</data>
+</edge>
+<edge id="e42_19" source="n42" target="n19">
+    <data key="de_strength">2.08657156539</data>
+</edge>
+<edge id="e42_21" source="n42" target="n21">
+    <data key="de_strength">1.44712904885</data>
+</edge>
+<edge id="e42_22" source="n42" target="n22">
+    <data key="de_strength">0.0379198700876</data>
+</edge>
+<edge id="e42_23" source="n42" target="n23">
+    <data key="de_strength">0.103387587494</data>
+</edge>
+<edge id="e42_24" source="n42" target="n24">
+    <data key="de_strength">0.0448855922877</data>
+</edge>
+<edge id="e42_25" source="n42" target="n25">
+    <data key="de_strength">0.112857404677</data>
+</edge>
+<edge id="e42_26" source="n42" target="n26">
+    <data key="de_strength">0.819123367779</data>
+</edge>
+<edge id="e42_27" source="n42" target="n27">
+    <data key="de_strength">0.855875732038</data>
+</edge>
+<edge id="e42_28" source="n42" target="n28">
+    <data key="de_strength">1.61278815148</data>
+</edge>
+<edge id="e42_29" source="n42" target="n29">
+    <data key="de_strength">9.71776944143</data>
+</edge>
+<edge id="e42_30" source="n42" target="n30">
+    <data key="de_strength">0.198327097101</data>
+</edge>
+<edge id="e42_31" source="n42" target="n31">
+    <data key="de_strength">0.0970829425599</data>
+</edge>
+<edge id="e42_32" source="n42" target="n32">
+    <data key="de_strength">1.63083321437</data>
+</edge>
+<edge id="e42_33" source="n42" target="n33">
+    <data key="de_strength">0.0939222166838</data>
+</edge>
+<edge id="e42_34" source="n42" target="n34">
+    <data key="de_strength">0.0176853514861</data>
+</edge>
+<edge id="e42_36" source="n42" target="n36">
+    <data key="de_strength">0.209465623312</data>
+</edge>
+<edge id="e42_37" source="n42" target="n37">
+    <data key="de_strength">0.0933672462676</data>
+</edge>
+<edge id="e42_38" source="n42" target="n38">
+    <data key="de_strength">0.0734520640974</data>
+</edge>
+<edge id="e42_39" source="n42" target="n39">
+    <data key="de_strength">0.770697181686</data>
+</edge>
+<edge id="e42_40" source="n42" target="n40">
+    <data key="de_strength">0.979226220806</data>
+</edge>
+<edge id="e42_41" source="n42" target="n41">
+    <data key="de_strength">1.16749404895</data>
+</edge>
+<edge id="e42_43" source="n42" target="n43">
+    <data key="de_strength">4.22613476372</data>
+</edge>
+<edge id="e42_44" source="n42" target="n44">
+    <data key="de_strength">3.33696738277</data>
+</edge>
+<edge id="e42_45" source="n42" target="n45">
+    <data key="de_strength">1.14329046055</data>
+</edge>
+<edge id="e42_46" source="n42" target="n46">
+    <data key="de_strength">0.306695136452</data>
+</edge>
+<edge id="e42_47" source="n42" target="n47">
+    <data key="de_strength">0.240461734955</data>
+</edge>
+<edge id="e43_1" source="n43" target="n1">
+    <data key="de_strength">0.00719424460432</data>
+</edge>
+<edge id="e43_2" source="n43" target="n2">
+    <data key="de_strength">0.0116604320426</data>
+</edge>
+<edge id="e43_8" source="n43" target="n8">
+    <data key="de_strength">0.0221612545736</data>
+</edge>
+<edge id="e43_9" source="n43" target="n9">
+    <data key="de_strength">0.230815456864</data>
+</edge>
+<edge id="e43_10" source="n43" target="n10">
+    <data key="de_strength">0.00842847628562</data>
+</edge>
+<edge id="e43_11" source="n43" target="n11">
+    <data key="de_strength">0.0431811680201</data>
+</edge>
+<edge id="e43_13" source="n43" target="n13">
+    <data key="de_strength">0.848341039254</data>
+</edge>
+<edge id="e43_14" source="n43" target="n14">
+    <data key="de_strength">0.0155979897331</data>
+</edge>
+<edge id="e43_15" source="n43" target="n15">
+    <data key="de_strength">0.00591715976331</data>
+</edge>
+<edge id="e43_17" source="n43" target="n17">
+    <data key="de_strength">0.0215520181729</data>
+</edge>
+<edge id="e43_18" source="n43" target="n18">
+    <data key="de_strength">0.00990099009901</data>
+</edge>
+<edge id="e43_19" source="n43" target="n19">
+    <data key="de_strength">16.8247855982</data>
+</edge>
+<edge id="e43_21" source="n43" target="n21">
+    <data key="de_strength">0.181737927467</data>
+</edge>
+<edge id="e43_22" source="n43" target="n22">
+    <data key="de_strength">0.00699300699301</data>
+</edge>
+<edge id="e43_23" source="n43" target="n23">
+    <data key="de_strength">0.119680589261</data>
+</edge>
+<edge id="e43_26" source="n43" target="n26">
+    <data key="de_strength">0.205759102631</data>
+</edge>
+<edge id="e43_27" source="n43" target="n27">
+    <data key="de_strength">0.155323220265</data>
+</edge>
+<edge id="e43_28" source="n43" target="n28">
+    <data key="de_strength">0.326139705777</data>
+</edge>
+<edge id="e43_29" source="n43" target="n29">
+    <data key="de_strength">2.33646734953</data>
+</edge>
+<edge id="e43_30" source="n43" target="n30">
+    <data key="de_strength">0.0213841092992</data>
+</edge>
+<edge id="e43_31" source="n43" target="n31">
+    <data key="de_strength">0.0064061110662</data>
+</edge>
+<edge id="e43_32" source="n43" target="n32">
+    <data key="de_strength">0.42596226126</data>
+</edge>
+<edge id="e43_33" source="n43" target="n33">
+    <data key="de_strength">0.047114054242</data>
+</edge>
+<edge id="e43_36" source="n43" target="n36">
+    <data key="de_strength">0.00781032164067</data>
+</edge>
+<edge id="e43_37" source="n43" target="n37">
+    <data key="de_strength">0.0480232102304</data>
+</edge>
+<edge id="e43_38" source="n43" target="n38">
+    <data key="de_strength">0.0118529546496</data>
+</edge>
+<edge id="e43_39" source="n43" target="n39">
+    <data key="de_strength">0.0449046807555</data>
+</edge>
+<edge id="e43_40" source="n43" target="n40">
+    <data key="de_strength">0.0457528000973</data>
+</edge>
+<edge id="e43_41" source="n43" target="n41">
+    <data key="de_strength">0.203545180921</data>
+</edge>
+<edge id="e43_42" source="n43" target="n42">
+    <data key="de_strength">4.22613476372</data>
+</edge>
+<edge id="e43_44" source="n43" target="n44">
+    <data key="de_strength">0.857844171749</data>
+</edge>
+<edge id="e43_45" source="n43" target="n45">
+    <data key="de_strength">0.916729187091</data>
+</edge>
+<edge id="e43_46" source="n43" target="n46">
+    <data key="de_strength">0.212073406281</data>
+</edge>
+<edge id="e43_47" source="n43" target="n47">
+    <data key="de_strength">0.0153565673069</data>
+</edge>
+<edge id="e44_1" source="n44" target="n1">
+    <data key="de_strength">0.00697416286973</data>
+</edge>
+<edge id="e44_2" source="n44" target="n2">
+    <data key="de_strength">0.0580075759446</data>
+</edge>
+<edge id="e44_3" source="n44" target="n3">
+    <data key="de_strength">0.0114942528736</data>
+</edge>
+<edge id="e44_4" source="n44" target="n4">
+    <data key="de_strength">0.0128977696295</data>
+</edge>
+<edge id="e44_6" source="n44" target="n6">
+    <data key="de_strength">0.0280816854469</data>
+</edge>
+<edge id="e44_8" source="n44" target="n8">
+    <data key="de_strength">3.08990084809</data>
+</edge>
+<edge id="e44_9" source="n44" target="n9">
+    <data key="de_strength">0.283779681194</data>
+</edge>
+<edge id="e44_10" source="n44" target="n10">
+    <data key="de_strength">0.0144597485337</data>
+</edge>
+<edge id="e44_11" source="n44" target="n11">
+    <data key="de_strength">0.0676014779242</data>
+</edge>
+<edge id="e44_13" source="n44" target="n13">
+    <data key="de_strength">0.218525773765</data>
+</edge>
+<edge id="e44_14" source="n44" target="n14">
+    <data key="de_strength">0.0458004332111</data>
+</edge>
+<edge id="e44_15" source="n44" target="n15">
+    <data key="de_strength">0.0566076611749</data>
+</edge>
+<edge id="e44_16" source="n44" target="n16">
+    <data key="de_strength">0.0297936254116</data>
+</edge>
+<edge id="e44_17" source="n44" target="n17">
+    <data key="de_strength">0.515588372765</data>
+</edge>
+<edge id="e44_18" source="n44" target="n18">
+    <data key="de_strength">0.149708572361</data>
+</edge>
+<edge id="e44_19" source="n44" target="n19">
+    <data key="de_strength">2.74347645396</data>
+</edge>
+<edge id="e44_21" source="n44" target="n21">
+    <data key="de_strength">1.2498301281</data>
+</edge>
+<edge id="e44_22" source="n44" target="n22">
+    <data key="de_strength">0.0377528002608</data>
+</edge>
+<edge id="e44_23" source="n44" target="n23">
+    <data key="de_strength">0.0829144894035</data>
+</edge>
+<edge id="e44_24" source="n44" target="n24">
+    <data key="de_strength">0.023103654247</data>
+</edge>
+<edge id="e44_25" source="n44" target="n25">
+    <data key="de_strength">0.0744263906019</data>
+</edge>
+<edge id="e44_26" source="n44" target="n26">
+    <data key="de_strength">0.445748036305</data>
+</edge>
+<edge id="e44_27" source="n44" target="n27">
+    <data key="de_strength">0.747800611885</data>
+</edge>
+<edge id="e44_28" source="n44" target="n28">
+    <data key="de_strength">1.08311612731</data>
+</edge>
+<edge id="e44_29" source="n44" target="n29">
+    <data key="de_strength">0.209723328599</data>
+</edge>
+<edge id="e44_30" source="n44" target="n30">
+    <data key="de_strength">3.66308497318</data>
+</edge>
+<edge id="e44_31" source="n44" target="n31">
+    <data key="de_strength">0.497396770869</data>
+</edge>
+<edge id="e44_32" source="n44" target="n32">
+    <data key="de_strength">0.149148827815</data>
+</edge>
+<edge id="e44_33" source="n44" target="n33">
+    <data key="de_strength">0.178731782418</data>
+</edge>
+<edge id="e44_34" source="n44" target="n34">
+    <data key="de_strength">0.0130621709897</data>
+</edge>
+<edge id="e44_35" source="n44" target="n35">
+    <data key="de_strength">0.00632911392405</data>
+</edge>
+<edge id="e44_36" source="n44" target="n36">
+    <data key="de_strength">0.359606184779</data>
+</edge>
+<edge id="e44_37" source="n44" target="n37">
+    <data key="de_strength">0.0650821865676</data>
+</edge>
+<edge id="e44_38" source="n44" target="n38">
+    <data key="de_strength">1.20892865491</data>
+</edge>
+<edge id="e44_39" source="n44" target="n39">
+    <data key="de_strength">0.580742814325</data>
+</edge>
+<edge id="e44_40" source="n44" target="n40">
+    <data key="de_strength">0.401761083974</data>
+</edge>
+<edge id="e44_41" source="n44" target="n41">
+    <data key="de_strength">1.44964961397</data>
+</edge>
+<edge id="e44_42" source="n44" target="n42">
+    <data key="de_strength">3.33696738277</data>
+</edge>
+<edge id="e44_43" source="n44" target="n43">
+    <data key="de_strength">0.857844171749</data>
+</edge>
+<edge id="e44_45" source="n44" target="n45">
+    <data key="de_strength">6.01502456534</data>
+</edge>
+<edge id="e44_46" source="n44" target="n46">
+    <data key="de_strength">0.290370537831</data>
+</edge>
+<edge id="e44_47" source="n44" target="n47">
+    <data key="de_strength">1.96167261942</data>
+</edge>
+<edge id="e45_1" source="n45" target="n1">
+    <data key="de_strength">0.00595238095238</data>
+</edge>
+<edge id="e45_2" source="n45" target="n2">
+    <data key="de_strength">0.0256154947567</data>
+</edge>
+<edge id="e45_6" source="n45" target="n6">
+    <data key="de_strength">0.0294684632941</data>
+</edge>
+<edge id="e45_8" source="n45" target="n8">
+    <data key="de_strength">2.25558410879</data>
+</edge>
+<edge id="e45_9" source="n45" target="n9">
+    <data key="de_strength">0.294360431539</data>
+</edge>
+<edge id="e45_10" source="n45" target="n10">
+    <data key="de_strength">0.00867164867769</data>
+</edge>
+<edge id="e45_11" source="n45" target="n11">
+    <data key="de_strength">0.0570686720035</data>
+</edge>
+<edge id="e45_13" source="n45" target="n13">
+    <data key="de_strength">0.814000134007</data>
+</edge>
+<edge id="e45_14" source="n45" target="n14">
+    <data key="de_strength">0.0320664858302</data>
+</edge>
+<edge id="e45_15" source="n45" target="n15">
+    <data key="de_strength">0.00493921883617</data>
+</edge>
+<edge id="e45_16" source="n45" target="n16">
+    <data key="de_strength">0.0111695333155</data>
+</edge>
+<edge id="e45_17" source="n45" target="n17">
+    <data key="de_strength">0.107694797402</data>
+</edge>
+<edge id="e45_18" source="n45" target="n18">
+    <data key="de_strength">0.008053616927</data>
+</edge>
+<edge id="e45_19" source="n45" target="n19">
+    <data key="de_strength">2.39803273362</data>
+</edge>
+<edge id="e45_21" source="n45" target="n21">
+    <data key="de_strength">0.373510669703</data>
+</edge>
+<edge id="e45_22" source="n45" target="n22">
+    <data key="de_strength">0.0206341529208</data>
+</edge>
+<edge id="e45_23" source="n45" target="n23">
+    <data key="de_strength">0.173352351553</data>
+</edge>
+<edge id="e45_25" source="n45" target="n25">
+    <data key="de_strength">0.0671186230874</data>
+</edge>
+<edge id="e45_26" source="n45" target="n26">
+    <data key="de_strength">0.424751401206</data>
+</edge>
+<edge id="e45_27" source="n45" target="n27">
+    <data key="de_strength">0.282593565271</data>
+</edge>
+<edge id="e45_28" source="n45" target="n28">
+    <data key="de_strength">1.92843296305</data>
+</edge>
+<edge id="e45_29" source="n45" target="n29">
+    <data key="de_strength">0.194198727453</data>
+</edge>
+<edge id="e45_30" source="n45" target="n30">
+    <data key="de_strength">1.09464953509</data>
+</edge>
+<edge id="e45_31" source="n45" target="n31">
+    <data key="de_strength">0.0746522325495</data>
+</edge>
+<edge id="e45_32" source="n45" target="n32">
+    <data key="de_strength">0.135077625413</data>
+</edge>
+<edge id="e45_33" source="n45" target="n33">
+    <data key="de_strength">0.116794133935</data>
+</edge>
+<edge id="e45_34" source="n45" target="n34">
+    <data key="de_strength">0.00562958459295</data>
+</edge>
+<edge id="e45_36" source="n45" target="n36">
+    <data key="de_strength">0.0412980744968</data>
+</edge>
+<edge id="e45_37" source="n45" target="n37">
+    <data key="de_strength">0.0340179994633</data>
+</edge>
+<edge id="e45_38" source="n45" target="n38">
+    <data key="de_strength">0.0219063929281</data>
+</edge>
+<edge id="e45_39" source="n45" target="n39">
+    <data key="de_strength">0.0937999982785</data>
+</edge>
+<edge id="e45_40" source="n45" target="n40">
+    <data key="de_strength">0.144533605869</data>
+</edge>
+<edge id="e45_41" source="n45" target="n41">
+    <data key="de_strength">0.151511010701</data>
+</edge>
+<edge id="e45_42" source="n45" target="n42">
+    <data key="de_strength">1.14329046055</data>
+</edge>
+<edge id="e45_43" source="n45" target="n43">
+    <data key="de_strength">0.916729187091</data>
+</edge>
+<edge id="e45_44" source="n45" target="n44">
+    <data key="de_strength">6.01502456534</data>
+</edge>
+<edge id="e45_46" source="n45" target="n46">
+    <data key="de_strength">0.462072044395</data>
+</edge>
+<edge id="e45_47" source="n45" target="n47">
+    <data key="de_strength">0.263052532946</data>
+</edge>
+<edge id="e46_1" source="n46" target="n1">
+    <data key="de_strength">0.171741021322</data>
+</edge>
+<edge id="e46_2" source="n46" target="n2">
+    <data key="de_strength">1.46604996503</data>
+</edge>
+<edge id="e46_4" source="n46" target="n4">
+    <data key="de_strength">0.00729927007299</data>
+</edge>
+<edge id="e46_6" source="n46" target="n6">
+    <data key="de_strength">2.14617073294</data>
+</edge>
+<edge id="e46_7" source="n46" target="n7">
+    <data key="de_strength">0.00657894736842</data>
+</edge>
+<edge id="e46_8" source="n46" target="n8">
+    <data key="de_strength">0.113684490184</data>
+</edge>
+<edge id="e46_9" source="n46" target="n9">
+    <data key="de_strength">0.479724388536</data>
+</edge>
+<edge id="e46_10" source="n46" target="n10">
+    <data key="de_strength">0.160942665857</data>
+</edge>
+<edge id="e46_11" source="n46" target="n11">
+    <data key="de_strength">0.12656286548</data>
+</edge>
+<edge id="e46_12" source="n46" target="n12">
+    <data key="de_strength">0.00608255884314</data>
+</edge>
+<edge id="e46_13" source="n46" target="n13">
+    <data key="de_strength">5.81169324029</data>
+</edge>
+<edge id="e46_14" source="n46" target="n14">
+    <data key="de_strength">2.07107736004</data>
+</edge>
+<edge id="e46_15" source="n46" target="n15">
+    <data key="de_strength">0.00583557778633</data>
+</edge>
+<edge id="e46_17" source="n46" target="n17">
+    <data key="de_strength">0.022977586965</data>
+</edge>
+<edge id="e46_18" source="n46" target="n18">
+    <data key="de_strength">0.00791119449656</data>
+</edge>
+<edge id="e46_19" source="n46" target="n19">
+    <data key="de_strength">1.32056588086</data>
+</edge>
+<edge id="e46_21" source="n46" target="n21">
+    <data key="de_strength">0.261650871275</data>
+</edge>
+<edge id="e46_22" source="n46" target="n22">
+    <data key="de_strength">0.197580390908</data>
+</edge>
+<edge id="e46_23" source="n46" target="n23">
+    <data key="de_strength">7.04660233456</data>
+</edge>
+<edge id="e46_24" source="n46" target="n24">
+    <data key="de_strength">1.17840235814</data>
+</edge>
+<edge id="e46_25" source="n46" target="n25">
+    <data key="de_strength">3.27318357893</data>
+</edge>
+<edge id="e46_26" source="n46" target="n26">
+    <data key="de_strength">2.03732045015</data>
+</edge>
+<edge id="e46_27" source="n46" target="n27">
+    <data key="de_strength">0.372607603037</data>
+</edge>
+<edge id="e46_28" source="n46" target="n28">
+    <data key="de_strength">0.890336325272</data>
+</edge>
+<edge id="e46_29" source="n46" target="n29">
+    <data key="de_strength">1.13125949005</data>
+</edge>
+<edge id="e46_30" source="n46" target="n30">
+    <data key="de_strength">0.0603621060615</data>
+</edge>
+<edge id="e46_31" source="n46" target="n31">
+    <data key="de_strength">0.0267808209922</data>
+</edge>
+<edge id="e46_32" source="n46" target="n32">
+    <data key="de_strength">0.972489087843</data>
+</edge>
+<edge id="e46_33" source="n46" target="n33">
+    <data key="de_strength">8.164849911</data>
+</edge>
+<edge id="e46_34" source="n46" target="n34">
+    <data key="de_strength">0.0868568616353</data>
+</edge>
+<edge id="e46_35" source="n46" target="n35">
+    <data key="de_strength">0.0166090224737</data>
+</edge>
+<edge id="e46_36" source="n46" target="n36">
+    <data key="de_strength">0.0273305983665</data>
+</edge>
+<edge id="e46_37" source="n46" target="n37">
+    <data key="de_strength">0.349376333887</data>
+</edge>
+<edge id="e46_38" source="n46" target="n38">
+    <data key="de_strength">0.0219674203549</data>
+</edge>
+<edge id="e46_39" source="n46" target="n39">
+    <data key="de_strength">0.155828309255</data>
+</edge>
+<edge id="e46_40" source="n46" target="n40">
+    <data key="de_strength">0.100769875709</data>
+</edge>
+<edge id="e46_41" source="n46" target="n41">
+    <data key="de_strength">0.0466620346709</data>
+</edge>
+<edge id="e46_42" source="n46" target="n42">
+    <data key="de_strength">0.306695136452</data>
+</edge>
+<edge id="e46_43" source="n46" target="n43">
+    <data key="de_strength">0.212073406281</data>
+</edge>
+<edge id="e46_44" source="n46" target="n44">
+    <data key="de_strength">0.290370537831</data>
+</edge>
+<edge id="e46_45" source="n46" target="n45">
+    <data key="de_strength">0.462072044395</data>
+</edge>
+<edge id="e46_47" source="n46" target="n47">
+    <data key="de_strength">0.129490262986</data>
+</edge>
+<edge id="e47_1" source="n47" target="n1">
+    <data key="de_strength">0.0071246575696</data>
+</edge>
+<edge id="e47_2" source="n47" target="n2">
+    <data key="de_strength">0.0240401774537</data>
+</edge>
+<edge id="e47_3" source="n47" target="n3">
+    <data key="de_strength">0.0085107924091</data>
+</edge>
+<edge id="e47_4" source="n47" target="n4">
+    <data key="de_strength">0.014234450482</data>
+</edge>
+<edge id="e47_6" source="n47" target="n6">
+    <data key="de_strength">0.00480769230769</data>
+</edge>
+<edge id="e47_8" source="n47" target="n8">
+    <data key="de_strength">4.1278115317</data>
+</edge>
+<edge id="e47_9" source="n47" target="n9">
+    <data key="de_strength">0.251481301504</data>
+</edge>
+<edge id="e47_10" source="n47" target="n10">
+    <data key="de_strength">0.00877319197895</data>
+</edge>
+<edge id="e47_11" source="n47" target="n11">
+    <data key="de_strength">0.0264859862491</data>
+</edge>
+<edge id="e47_13" source="n47" target="n13">
+    <data key="de_strength">0.0402211321689</data>
+</edge>
+<edge id="e47_14" source="n47" target="n14">
+    <data key="de_strength">0.0106284444898</data>
+</edge>
+<edge id="e47_15" source="n47" target="n15">
+    <data key="de_strength">0.441163408648</data>
+</edge>
+<edge id="e47_16" source="n47" target="n16">
+    <data key="de_strength">0.0567319788245</data>
+</edge>
+<edge id="e47_17" source="n47" target="n17">
+    <data key="de_strength">2.04911386344</data>
+</edge>
+<edge id="e47_18" source="n47" target="n18">
+    <data key="de_strength">2.20644095361</data>
+</edge>
+<edge id="e47_19" source="n47" target="n19">
+    <data key="de_strength">0.484362109125</data>
+</edge>
+<edge id="e47_21" source="n47" target="n21">
+    <data key="de_strength">1.58704402615</data>
+</edge>
+<edge id="e47_22" source="n47" target="n22">
+    <data key="de_strength">0.0083589691636</data>
+</edge>
+<edge id="e47_23" source="n47" target="n23">
+    <data key="de_strength">0.0226701690752</data>
+</edge>
+<edge id="e47_25" source="n47" target="n25">
+    <data key="de_strength">0.0100911964874</data>
+</edge>
+<edge id="e47_26" source="n47" target="n26">
+    <data key="de_strength">0.338943145576</data>
+</edge>
+<edge id="e47_27" source="n47" target="n27">
+    <data key="de_strength">2.42554950274</data>
+</edge>
+<edge id="e47_28" source="n47" target="n28">
+    <data key="de_strength">0.814925854321</data>
+</edge>
+<edge id="e47_29" source="n47" target="n29">
+    <data key="de_strength">0.0138369133964</data>
+</edge>
+<edge id="e47_30" source="n47" target="n30">
+    <data key="de_strength">2.80793938875</data>
+</edge>
+<edge id="e47_31" source="n47" target="n31">
+    <data key="de_strength">15.3123314584</data>
+</edge>
+<edge id="e47_32" source="n47" target="n32">
+    <data key="de_strength">0.00774252501194</data>
+</edge>
+<edge id="e47_33" source="n47" target="n33">
+    <data key="de_strength">0.0982550072358</data>
+</edge>
+<edge id="e47_34" source="n47" target="n34">
+    <data key="de_strength">0.00436756179432</data>
+</edge>
+<edge id="e47_36" source="n47" target="n36">
+    <data key="de_strength">1.22814170558</data>
+</edge>
+<edge id="e47_37" source="n47" target="n37">
+    <data key="de_strength">0.0422332283044</data>
+</edge>
+<edge id="e47_38" source="n47" target="n38">
+    <data key="de_strength">1.11380349045</data>
+</edge>
+<edge id="e47_39" source="n47" target="n39">
+    <data key="de_strength">0.593017100736</data>
+</edge>
+<edge id="e47_40" source="n47" target="n40">
+    <data key="de_strength">0.180708741791</data>
+</edge>
+<edge id="e47_41" source="n47" target="n41">
+    <data key="de_strength">0.886260147452</data>
+</edge>
+<edge id="e47_42" source="n47" target="n42">
+    <data key="de_strength">0.240461734955</data>
+</edge>
+<edge id="e47_43" source="n47" target="n43">
+    <data key="de_strength">0.0153565673069</data>
+</edge>
+<edge id="e47_44" source="n47" target="n44">
+    <data key="de_strength">1.96167261942</data>
+</edge>
+<edge id="e47_45" source="n47" target="n45">
+    <data key="de_strength">0.263052532946</data>
+</edge>
+<edge id="e47_46" source="n47" target="n46">
+    <data key="de_strength">0.129490262986</data>
+</edge>
+
+</graph>
+</graphml>

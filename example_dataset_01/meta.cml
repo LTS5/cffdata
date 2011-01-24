@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<connectome xmlns="http://www.connectomics.ch/2010/Connectome/xmlns"
+<connectome xmlns="http://www.connectomics.org/cff-2"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:dcterms="http://purl.org/dc/terms/"
-  xsi:schemaLocation="http://www.connectomics.ch/2010/Connectome/xmlns connectome.xsd">
+  xsi:schemaLocation="http://www.connectomics.org/cff-2 connectome.xsd">
 
 <connectome-meta version="2.0">
-
+  <dcterms:title>Example dataset</dcterms:title>
   <dcterms:creator>Stephan Gerhard</dcterms:creator>
   <dcterms:publisher>EPFL and UNIL-CHUV</dcterms:publisher>
   <dcterms:created>2010-11-10</dcterms:created>
   <dcterms:modified>2010-11-10</dcterms:modified>
-  <dcterms:title>Example dataset</dcterms:title>
+  
   <dcterms:license>Creative Commons Attribution License 3.0</dcterms:license>
   <dcterms:rights>None</dcterms:rights>
   <dcterms:reference>Unpublished dataset</dcterms:reference>
@@ -21,61 +21,61 @@
   <species>Homo exemplarius</species>
   <email>info@connectomics.org</email>
 
-  <metadata>
-    <data key="nr_networks">1</data>
-  </metadata>
+  <metatag>
+    <tag key="nr_networks">1</tag>
+  </metatag>
 </connectome-meta>
 
 <connectome-network name="Network Lausanne83" src="Networks/network_res83.graphml" dtype="AttributeNetwork" fileformat="GraphML">
-  <metadata>
-    <data key="resolution">83</data>
-    <data key="hassubcortical">1</data>
-  </metadata>
-  <description>This network contains a network with 83 nodes. It contains references to several other
+  <metatag>
+    <tag key="resolution">83</tag>
+    <tag key="hassubcortical">1</tag>
+  </metatag>
+  <dcterms:description>This network contains a network with 83 nodes. It contains references to several other
   data sources in different modalities that are in this connectome file.</description>
 </connectome-network>
 
 <connectome-network name="Dynamic Network" src="Networks/dynamics.gexf" dtype="DynamicNetwork" fileformat="GEXF" />
   
 <connectome-surface name="Label Source" src="Surfaces/labels.gii" fileformat="Gifti" dtype="label">
-  <description>Contains the labeling of the Freesurfer Average Mesh</description>
+  <dcterms:description>Contains the labeling of the Freesurfer Average Mesh</description>
 </connectome-surface>
 
 <connectome-surface name="Example Surface" src="Surfaces/simplesurface.gii" fileformat="Gifti" dtype="Surfaceset">
-  <description>Contains an example surface consisting of one triangle</description>
+  <dcterms:description>Contains an example surface consisting of one triangle</description>
 </connectome-surface>
 
 <connectome-volume name="Example Volume" src="Volumes/sample.nii.gz" fileformat="Nifti1" dtype="T1-weighted">
-  <description>A small region from a T1-weighted image</description>
+  <dcterms:description>A small region from a T1-weighted image</description>
 </connectome-volume>
 
 <connectome-track name="Tractography" src="Tracks/fibers.trk" fileformat="TrackVis">
-  <description>A sasmple track file for fiber visualisation.</description>
+  <dcterms:description>A sasmple track file for fiber visualisation.</description>
 </connectome-track>
 
 <connectome-timeserie name="Generated timeseries data" src="Timeseries/generatedseries.hdf5" fileformat="HDF5">
-  <description format="HTML">83 generated <b>10Hz</b> time series with Gaussian noise and different phase lags corresponding to the 83 network nodes in Network Lausanne83.</description>
+  <dcterms:description format="HTML">83 generated <b>10Hz</b> time series with Gaussian noise and different phase lags corresponding to the 83 network nodes in Network Lausanne83.</description>
 </connectome-timeserie>
 
 <connectome-data name="Arbitrary data file" src="Data/mydata.npy" fileformat="NumPy">
-  <description format="HTML">This is my NumPy array.</description>
- </connectome-data>
+  <dcterms:description format="HTML">This is my NumPy array.</description>
+ </connectome-tag>
 
 <connectome-script name="Analysis Script MMXXXIV" src="Scripts/analysis01.py" type="Python">
-  <description format="rst">This is my super script</description>
+  <dcterms:description format="rst">This is my super script</description>
  </connectome-script>
 
 <connectome-imagestack name="FIB Rat Striatum" src="Imagestack/" pattern="*.tif" fileformat="TIFF">
-  <description format="plaintxt">Three Focused Ion Beam Slices in TIFF format from Graham Knott, BioEM facility at EPFL.</description>
-  <metadata>
-  	<data key="location">0,0,0</data>
-  	<data key="orientation_x">1,0,0</data>
-  	<data key="orientation_y">0,1,0</data>
-  	<data key="orientation_z">0,0,1</data>
-  	<data key="coordsystem">RAS</data>
-  	<data key="pixelsize">1mm,1mm,2mm</data>
-  	<data key="url">http://www.incf.org/about/nodes/switzerland/data</data>
-  </metadata>
+  <dcterms:description format="plaintxt">Three Focused Ion Beam Slices in TIFF format from Graham Knott, BioEM facility at EPFL.</description>
+  <metatag>
+  	<tag key="location">0,0,0</tag>
+  	<tag key="orientation_x">1,0,0</tag>
+  	<tag key="orientation_y">0,1,0</tag>
+  	<tag key="orientation_z">0,0,1</tag>
+  	<tag key="coordsystem">RAS</tag>
+  	<tag key="pixelsize">1mm,1mm,2mm</tag>
+  	<tag key="url">http://www.incf.org/about/nodes/switzerland/data</tag>
+  </metatag>
 </connectome-imagestack>
 
 </connectome>

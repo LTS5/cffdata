@@ -97,12 +97,12 @@
 
 <connectome-surface name="Individual surfaces" src="Surfaces/testsubject.gii" fileformat="Gifti" dtype="surfaceset" />
 <connectome-surface name="Label Source" src="Surfaces/testsubject_labels.gii" fileformat="Gifti" dtype="label"><dcterms:description>Contains the labeling of the Freesurfer Average Mesh</dcterms:description></connectome-surface>
-<connectome-volume name="T1-weighted single subject" src="Volumes/T1.nii.gz" fileformat="nifti" dtype="T1-weighted"><dcterms:description>The T1-weighted single scan of the subject.</dcterms:description></connectome-volume>
-<connectome-volume name="Volume ROIs Resolution 83" src="Volumes/ROI_scale33.nii" fileformat="Nifti1" dtype="segmentation"><dcterms:description>The segmentation of the brain in voxel-format.</dcterms:description></connectome-volume>
-<connectome-volume name="Volume ROIs Resolution 150" src="Volumes/ROI_scale60.nii" fileformat="Nifti1" dtype="segmentation"><dcterms:description>The segmentation of the brain in voxel-format.</dcterms:description></connectome-volume>
-<connectome-volume name="Volume ROIs Resolution 258" src="Volumes/ROI_scale125.nii" fileformat="Nifti1" dtype="segmentation"><dcterms:description>The segmentation of the brain in voxel-format.</dcterms:description></connectome-volume>
-<connectome-volume name="Volume ROIs Resolution 500" src="Volumes/ROI_scale250.nii" fileformat="Nifti1" dtype="segmentation"><dcterms:description>The segmentation of the brain in voxel-format.</dcterms:description></connectome-volume>
-<connectome-volume name="Volume ROIs Resolution 1015" src="Volumes/ROI_scale500.nii" fileformat="Nifti1" dtype="segmentation"><dcterms:description>The segmentation of the brain in voxel-format.</dcterms:description></connectome-volume>
+<connectome-volume name="T1-weighted single subject" src="Volumes/T1.nii.gz.gz" fileformat="nifti" dtype="T1-weighted"><dcterms:description>The T1-weighted single scan of the subject.</dcterms:description></connectome-volume>
+<connectome-volume name="Volume ROIs Resolution 83" src="Volumes/ROI_scale33.nii.gz" fileformat="Nifti1" dtype="segmentation"><dcterms:description>The segmentation of the brain in voxel-format.</dcterms:description></connectome-volume>
+<connectome-volume name="Volume ROIs Resolution 150" src="Volumes/ROI_scale60.nii.gz" fileformat="Nifti1" dtype="segmentation"><dcterms:description>The segmentation of the brain in voxel-format.</dcterms:description></connectome-volume>
+<connectome-volume name="Volume ROIs Resolution 258" src="Volumes/ROI_scale125.nii.gz" fileformat="Nifti1" dtype="segmentation"><dcterms:description>The segmentation of the brain in voxel-format.</dcterms:description></connectome-volume>
+<connectome-volume name="Volume ROIs Resolution 500" src="Volumes/ROI_scale250.nii.gz" fileformat="Nifti1" dtype="segmentation"><dcterms:description>The segmentation of the brain in voxel-format.</dcterms:description></connectome-volume>
+<connectome-volume name="Volume ROIs Resolution 1015" src="Volumes/ROI_scale500.nii.gz" fileformat="Nifti1" dtype="segmentation"><dcterms:description>The segmentation of the brain in voxel-format.</dcterms:description></connectome-volume>
 <connectome-track name="Tractography" src="Tracks/fibers_transformed.trk" fileformat="TrackVis"><dcterms:description>The track file for visualisation in Trackvis.</dcterms:description></connectome-track>
 <connectome-timeserie name="Generated timeseries data" src="Timeseries/generatedseries.hdf5" fileformat="HDF5"><dcterms:description>83 generated 10Hz time series with Gaussian noise and different phase lags corresponding to the 83 network nodes in Network Lausanne83.</dcterms:description></connectome-timeserie>
 

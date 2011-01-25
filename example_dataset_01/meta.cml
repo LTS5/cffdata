@@ -10,7 +10,6 @@
   <dcterms:publisher>EPFL and UNIL-CHUV</dcterms:publisher>
   <dcterms:created>2010-11-10</dcterms:created>
   <dcterms:modified>2010-11-10</dcterms:modified>
-  
   <dcterms:license>Creative Commons Attribution License 3.0</dcterms:license>
   <dcterms:rights>None</dcterms:rights>
   <dcterms:reference>Unpublished dataset</dcterms:reference>
@@ -32,41 +31,41 @@
     <tag key="hassubcortical">1</tag>
   </metatag>
   <dcterms:description>This network contains a network with 83 nodes. It contains references to several other
-  data sources in different modalities that are in this connectome file.</description>
+  data sources in different modalities that are in this connectome file.</dcterms:description>
 </connectome-network>
 
 <connectome-network name="Dynamic Network" src="Networks/dynamics.gexf" dtype="DynamicNetwork" fileformat="GEXF" />
   
 <connectome-surface name="Label Source" src="Surfaces/labels.gii" fileformat="Gifti" dtype="label">
-  <dcterms:description>Contains the labeling of the Freesurfer Average Mesh</description>
+  <dcterms:description>Contains the labeling of the Freesurfer Average Mesh</dcterms:description>
 </connectome-surface>
 
 <connectome-surface name="Example Surface" src="Surfaces/simplesurface.gii" fileformat="Gifti" dtype="Surfaceset">
-  <dcterms:description>Contains an example surface consisting of one triangle</description>
+  <dcterms:description>Contains an example surface consisting of one triangle</dcterms:description>
 </connectome-surface>
 
 <connectome-volume name="Example Volume" src="Volumes/sample.nii.gz" fileformat="Nifti1" dtype="T1-weighted">
-  <dcterms:description>A small region from a T1-weighted image</description>
+  <dcterms:description>A small region from a T1-weighted image</dcterms:description>
 </connectome-volume>
 
 <connectome-track name="Tractography" src="Tracks/fibers.trk" fileformat="TrackVis">
-  <dcterms:description>A sasmple track file for fiber visualisation.</description>
+  <dcterms:description>A sample track file for fiber visualisation.</dcterms:description>
 </connectome-track>
 
 <connectome-timeserie name="Generated timeseries data" src="Timeseries/generatedseries.hdf5" fileformat="HDF5">
-  <dcterms:description format="HTML">83 generated <b>10Hz</b> time series with Gaussian noise and different phase lags corresponding to the 83 network nodes in Network Lausanne83.</description>
+  <dcterms:description>83 generated <b>10Hz</b> time series with Gaussian noise and different phase lags corresponding to the 83 network nodes in Network Lausanne83.</dcterms:description>
 </connectome-timeserie>
 
 <connectome-data name="Arbitrary data file" src="Data/mydata.npy" fileformat="NumPy">
-  <dcterms:description format="HTML">This is my NumPy array.</description>
- </connectome-tag>
+  <dcterms:description>This is my NumPy array.</dcterms:description>
+ </connectome-data>
 
 <connectome-script name="Analysis Script MMXXXIV" src="Scripts/analysis01.py" type="Python">
-  <dcterms:description format="rst">This is my super script</description>
+  <dcterms:description>This is my super script</dcterms:description>
  </connectome-script>
 
 <connectome-imagestack name="FIB Rat Striatum" src="Imagestack/" pattern="*.tif" fileformat="TIFF">
-  <dcterms:description format="plaintxt">Three Focused Ion Beam Slices in TIFF format from Graham Knott, BioEM facility at EPFL.</description>
+  <dcterms:description>Three Focused Ion Beam Slices in TIFF format from Graham Knott, BioEM facility at EPFL.</dcterms:description>
   <metatag>
   	<tag key="location">0,0,0</tag>
   	<tag key="orientation_x">1,0,0</tag>

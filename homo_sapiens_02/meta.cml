@@ -43,7 +43,7 @@
   
 </connectome-meta>
 
-<connectome-network name="Network Lausanne83" src="Networks/network_res83.graphml" dtype="AttributeNetwork" fileformat="GraphML">
+<connectome-network src="Networks/connectome_scale33.gpickle" dtype="AttributeNetwork" name="connectome_scale33" fileformat="NXGPickle">
   <metadata>
     <tag key="resolution">83</tag>
     <tag key="cviewer_labelname">Label Source</tag>
@@ -55,7 +55,7 @@
   data sources in different modalities that are in this connectome file.</dcterms:description>
 </connectome-network>
 
-<connectome-network name="Network Lausanne150" src="Networks/network_res150.graphml" dtype="AttributeNetwork" fileformat="GraphML">
+<connectome-network src="Networks/connectome_scale60.gpickle" dtype="AttributeNetwork" name="connectome_scale60" fileformat="NXGPickle">
   <metadata>
     <tag key="resolution">150</tag>
     <tag key="cviewer_labelname">Label Source</tag>
@@ -65,7 +65,7 @@
   </metadata>
 </connectome-network>
 
-<connectome-network name="Network Lausanne258" src="Networks/network_res258.graphml" dtype="AttributeNetwork" fileformat="GraphML">
+<connectome-network src="Networks/connectome_scale125.gpickle" dtype="AttributeNetwork" name="connectome_scale125" fileformat="NXGPickle">
   <metadata>
     <tag key="resolution">258</tag>
     <tag key="cviewer_labelname">Label Source</tag>
@@ -75,7 +75,7 @@
   </metadata>
 </connectome-network>
 
-<connectome-network name="Network Lausanne500" src="Networks/network_res500.graphml" dtype="AttributeNetwork" fileformat="GraphML">
+<connectome-network src="Networks/connectome_scale250.gpickle" dtype="AttributeNetwork" name="connectome_scale250" fileformat="NXGPickle">
   <metadata>
     <tag key="resolution">500</tag>
     <tag key="cviewer_labelname">Label Source</tag>
@@ -85,7 +85,7 @@
   </metadata>
 </connectome-network>
 
-<connectome-network name="Network Lausanne1015" src="Networks/network_res1015.graphml" dtype="AttributeNetwork" fileformat="GraphML">
+<connectome-network src="Networks/connectome_scale500.gpickle" dtype="AttributeNetwork" name="connectome_scale500" fileformat="NXGPickle">
   <metadata>
     <tag key="resolution">1015</tag>
     <tag key="cviewer_labelname">Label Source</tag>

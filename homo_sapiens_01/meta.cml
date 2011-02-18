@@ -19,13 +19,14 @@
   Participant A was scanned twice. Note that these connection matrices are weighted and symmetric (undirected).</dcterms:description>
   <generator>Python Script</generator>
   <species>Homo sapiens</species>
+  <email>info@connectomics.org</email>
 </connectome-meta>
 
-<connectome-network name="Participant A - Scan 1" src="Networks/subjectA1.graphml" dtype="AttributeNetwork" fileformat="GraphML">
-<connectome-network name="Participant A - Scan 2" src="Networks/subjectA1.graphml" dtype="AttributeNetwork" fileformat="GraphML">
-<connectome-network name="Participant B" src="Networks/subjectB.graphml" dtype="AttributeNetwork" fileformat="GraphML">
-<connectome-network name="Participant C" src="Networks/subjectC.graphml" dtype="AttributeNetwork" fileformat="GraphML">
-<connectome-network name="Participant D" src="Networks/subjectD.graphml" dtype="AttributeNetwork" fileformat="GraphML">
-<connectome-network name="Participant E" src="Networks/subjectE.graphml" dtype="AttributeNetwork" fileformat="GraphML">
+<connectome-network name="Participant A - Scan 1" src="Networks/subjectA1.graphml" dtype="AttributeNetwork" fileformat="GraphML" />
+<connectome-network name="Participant A - Scan 2" src="Networks/subjectA1.graphml" dtype="AttributeNetwork" fileformat="GraphML" />
+<connectome-network name="Participant B" src="Networks/subjectB.graphml" dtype="AttributeNetwork" fileformat="GraphML" />
+<connectome-network name="Participant C" src="Networks/subjectC.graphml" dtype="AttributeNetwork" fileformat="GraphML" />
+<connectome-network name="Participant D" src="Networks/subjectD.graphml" dtype="AttributeNetwork" fileformat="GraphML" />
+<connectome-network name="Participant E" src="Networks/subjectE.graphml" dtype="AttributeNetwork" fileformat="GraphML" />
 
 </connectome>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+
+	xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns 
+	http://www.connectome.ch/graphml+xlink+gifti.xsd">
+
+<key id="dn_label" for="node" attr.name="label" attr.type="string">
+	<desc>The label of the node, corresponding to the ConnectomeWiki Abbreviation for Homo sapiens.</desc>
+</key>
+<key id="dn_freesurfer_structname" for="node" attr.name="structure_name" attr.type="string">
+	<desc>The structure name used in the Freesurfer Desikan-Killiany Atlas</desc>
+</key>
+<key id="dn_intensityvalue" for="node" attr.name="intensity" attr.type="string">
+	<desc>The value corresponding to the labelid in the label file for this network.</desc>
+</key>
+<graph id="Freesurfer Network" edgedefault="undirected">
+
+<node id="n1" xlink:href="http://www.connectome.ch/wiki/BA1_(Homo sapiens)">
+<data key="dn_label">BA1_RH</data>
+<data key="dn_freesurfer_structname">BA1</data>
+<data key="dn_intensityvalue">1</data>
+</node>
+
+<node id="n2" xlink:href="http://www.connectome.ch/wiki/BA2_(Homo sapiens)">
+<data key="dn_label">BA2_RH</data>
+<data key="dn_freesurfer_structname">BA2</data>
+<data key="dn_intensityvalue">2</data>
+</node>
+
+<node id="n3" xlink:href="http://www.connectome.ch/wiki/BA3a_(Homo sapiens)">
+<data key="dn_label">BA3a_RH</data>
+<data key="dn_freesurfer_structname">BA3a</data>
+<data key="dn_intensityvalue">3</data>
+</node>
+
+<node id="n4" xlink:href="http://www.connectome.ch/wiki/BA4a_(Homo sapiens)">
+<data key="dn_label">BA4a_RH</data>
+<data key="dn_freesurfer_structname">BA4a</data>
+<data key="dn_intensityvalue">4</data>
+</node>
+
+<node id="n5" xlink:href="http://www.connectome.ch/wiki/BA4p_(Homo sapiens)">
+<data key="dn_label">BA4p_RH</data>
+<data key="dn_freesurfer_structname">BA4p</data>
+<data key="dn_intensityvalue">5</data>
+</node>
+
+<node id="n6" xlink:href="http://www.connectome.ch/wiki/BA6_(Homo sapiens)">
+<data key="dn_label">BA6_RH</data>
+<data key="dn_freesurfer_structname">BA6</data>
+<data key="dn_intensityvalue">6</data>
+</node>
+
+<node id="n7" xlink:href="http://www.connectome.ch/wiki/BA44_(Homo sapiens)">
+<data key="dn_label">BA44_RH</data>
+<data key="dn_freesurfer_structname">BA44</data>
+<data key="dn_intensityvalue">7</data>
+</node>
+
+<node id="n8" xlink:href="http://www.connectome.ch/wiki/BA45_(Homo sapiens)">
+<data key="dn_label">BA45_RH</data>
+<data key="dn_freesurfer_structname">BA45</data>
+<data key="dn_intensityvalue">8</data>
+</node>
+
+<node id="n9" xlink:href="http://www.connectome.ch/wiki/MT_(Homo sapiens)">
+<data key="dn_label">MT_RH</data>
+<data key="dn_freesurfer_structname">MT</data>
+<data key="dn_intensityvalue">9</data>
+</node>
+
+<node id="n10" xlink:href="http://www.connectome.ch/wiki/V1_(Homo sapiens)">
+<data key="dn_label">V1_RH</data>
+<data key="dn_freesurfer_structname">V1</data>
+<data key="dn_intensityvalue">10</data>
+</node>
+
+<node id="n11" xlink:href="http://www.connectome.ch/wiki/V2_(Homo sapiens)">
+<data key="dn_label">V2_RH</data>
+<data key="dn_freesurfer_structname">V2</data>
+<data key="dn_intensityvalue">11</data>
+</node>
+
+<node id="n12" xlink:href="http://www.connectome.ch/wiki/BA1_(Homo sapiens)">
+<data key="dn_label">BA1_LH</data>
+<data key="dn_freesurfer_structname">BA1</data>
+<data key="dn_intensityvalue">12</data>
+</node>
+
+<node id="n13" xlink:href="http://www.connectome.ch/wiki/BA2_(Homo sapiens)">
+<data key="dn_label">BA2_LH</data>
+<data key="dn_freesurfer_structname">BA2</data>
+<data key="dn_intensityvalue">13</data>
+</node>
+
+<node id="n14" xlink:href="http://www.connectome.ch/wiki/BA3a_(Homo sapiens)">
+<data key="dn_label">BA3a_LH</data>
+<data key="dn_freesurfer_structname">BA3a</data>
+<data key="dn_intensityvalue">14</data>
+</node>
+
+<node id="n15" xlink:href="http://www.connectome.ch/wiki/BA4a_(Homo sapiens)">
+<data key="dn_label">BA4a_LH</data>
+<data key="dn_freesurfer_structname">BA4a</data>
+<data key="dn_intensityvalue">15</data>
+</node>
+
+<node id="n16" xlink:href="http://www.connectome.ch/wiki/BA4p_(Homo sapiens)">
+<data key="dn_label">BA4p_LH</data>
+<data key="dn_freesurfer_structname">BA4p</data>
+<data key="dn_intensityvalue">16</data>
+</node>
+
+<node id="n17" xlink:href="http://www.connectome.ch/wiki/BA6_(Homo sapiens)">
+<data key="dn_label">BA6_LH</data>
+<data key="dn_freesurfer_structname">BA6</data>
+<data key="dn_intensityvalue">17</data>
+</node>
+
+<node id="n18" xlink:href="http://www.connectome.ch/wiki/BA44_(Homo sapiens)">
+<data key="dn_label">BA44_LH</data>
+<data key="dn_freesurfer_structname">BA44</data>
+<data key="dn_intensityvalue">18</data>
+</node>
+
+<node id="n19" xlink:href="http://www.connectome.ch/wiki/BA45_(Homo sapiens)">
+<data key="dn_label">BA45_LH</data>
+<data key="dn_freesurfer_structname">BA45</data>
+<data key="dn_intensityvalue">19</data>
+</node>
+
+<node id="n20" xlink:href="http://www.connectome.ch/wiki/MT_(Homo sapiens)">
+<data key="dn_label">MT_LH</data>
+<data key="dn_freesurfer_structname">MT</data>
+<data key="dn_intensityvalue">20</data>
+</node>
+
+<node id="n21" xlink:href="http://www.connectome.ch/wiki/V1_(Homo sapiens)">
+<data key="dn_label">V1_LH</data>
+<data key="dn_freesurfer_structname">V1</data>
+<data key="dn_intensityvalue">21</data>
+</node>
+
+<node id="n22" xlink:href="http://www.connectome.ch/wiki/V2_(Homo sapiens)">
+<data key="dn_label">V2_LH</data>
+<data key="dn_freesurfer_structname">V2</data>
+<data key="dn_intensityvalue">22</data>
+</node>
+
+</graph>
+</graphml>

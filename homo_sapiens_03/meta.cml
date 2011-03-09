@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<connectome xmlns="http://www.connectomics.org/cff-2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xsi:schemaLocation="http://www.connectomics.org/cff-2 connectome.xsd">
+
+<connectome-meta version="2.0">
+  <dcterms:title>Freesurfer Atlas with Average Connectivity</dcterms:title>
+  <dcterms:creator>Unknown</dcterms:creator>
+  <dcterms:publisher>EPFL and UNIL-CHUV</dcterms:publisher>
+  <dcterms:created>2009-07-31</dcterms:created>
+  <dcterms:modified>2009-09-17</dcterms:modified>
+  <dcterms:license>Creative Commons Attribution License 3.0</dcterms:license>
+  <dcterms:rights>None</dcterms:rights>
+  <dcterms:reference>An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest, Desikan et al., (2006). NeuroImage</dcterms:reference>
+  <dcterms:relation>http://surfer.nmr.mgh.harvard.edu/fswiki/CorticalParcellation</dcterms:relation>
+  <dcterms:description>This atlas is also known as the 'Desikan-Killiany' cortical atlas. It is a gyral based atlas: ie, a gyrus was defined as running between the bottoms of two adjacent sulci. That is, a gyrus includes the part visible on the pial view + adjacent banks of the sulci limiting this gyrus.
+
+The atlas is enriched by an avarage connectivity dataset:
+Parameters:
+DSI 258 diffusion gradients over a hemisphere with bmax=8000 s/mm2
+Voxel size 2.2 x 2.2 x 3 mm3
+Data processed according to Hagmann P,  Cammoun L,  Gigandet X,  Meuli R,  Honey CJ,  et al. 2008 Mapping the Structural Core of Human Cerebral Cortex. PLoS Biol 6(7): e159. doi:10.1371journal.pbio.0060159  
+20 healthy subjects aged between 22 and 33 years, males and females</dcterms:description>
+  
+  <generator>Handmade</generator>
+  <species>Homo sapiens</species>
+  
+  <metatag>
+    <tag key="nr_of_networks">5</tag>
+  </metatag>
+
+</connectome-meta>
+
+<connectome-network name="FS Atlas Network 83" src="Networks/network83.graphml" dtype="AttributeNetwork" />
+<connectome-network name="FS Atlas Network 150" src="Networks/network150.graphml" dtype="AttributeNetwork" />
+<connectome-network name="FS Atlas Network 258" src="Networks/network258.graphml" dtype="AttributeNetwork" />
+<connectome-network name="FS Atlas Network 500" src="Networks/network500.graphml" dtype="AttributeNetwork" />
+<connectome-network name="FS Atlas Network 1015" src="Networks/network1015.graphml" dtype="AttributeNetwork" />
+<connectome-network name="FS Additional Network" src="Networks/addnetwork.graphml" dtype="AttributeNetwork" />
+<connectome-volume name="Segmented Brain" src="Volumes/seg.nii.gz" fileformat="Nifti1GZ" dtype="Segmentation">
+  <dcterms:description>The segmentation/Labelmaps of the atlas brain.</dcterms:description>
+</connectome-volume>
+<connectome-surface name="Desikan-Killiany Atlas" src="Gifti/fsaverage.gii" fileformat="Gifti" dtype="Atlas" />
+<connectome-surface name="Multi-Resolution Labels" src="Gifti/fsaverage_labels.gii" fileformat="Gifti" dtype="Labelset" />
+
+</connectome>

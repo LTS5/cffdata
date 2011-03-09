@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connectome xmlns="http://www.connectomics.org/cff-2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xsi:schemaLocation="http://www.connectomics.org/cff-2 connectome.xsd">
+
+<connectome-meta version="2.0">
+
+  <dcterms:title>2 Functional Connectome (fMRI) datasets</dcterms:title>
+  <dcterms:creator>1000 Functional Connectome Project</dcterms:creator>
+  <dcterms:created>2010-04-20</dcterms:created>
+  <dcterms:modified>2010-04-20</dcterms:modified>
+  <dcterms:license>Creative Commons Attribution License 3.0</dcterms:license>
+  <dcterms:reference>Biswal B. et al. Toward discovery science of human brain function (2010). PNAS</dcterms:reference>
+  <dcterms:relation>http://www.nitrc.org/projects/fcon_1000/</dcterms:relation>
+  <dcterms:description>This Connectome File exposes data from two subjects from the Baltimore Dataset of the
+  1000 Functional Connectomes Project. Metadata, anatomical and functional MRI data is included.</dcterms:description>
+  
+  <generator>Handmade</generator>
+  <species>Homo sapiens</species>
+  
+  <metadata>
+    <tag key="age_sub17017">22</tag>
+    <tag key="age_sub19738">27</tag>
+    <tag key="sex_sub17017">f</tag>
+    <tag key="sex_sub19738">f</tag>
+    <tag key="handedness_sub17017">R</tag>
+    <tag key="handedness_sub19738">R</tag>
+  </metadata>
+</connectome-meta>
+
+<connectome-volume name="Sub17017 Anonym" src="Volumes/sub17017/anat/mprage_anonymized.nii.gz" fileformat="Nifti1GZ" dtype="T1-weighted">
+    <dcterms:description>The T1-weighted scan of sub17017 (anonymized).</dcterms:description>
+</connectome-volume>
+<connectome-volume name="Sub17017 Skullstripped" src="Volumes/sub17017/anat/mprage_skullstripped.nii.gz" fileformat="Nifti1GZ" dtype="T1-weighted">
+    <dcterms:description>The T1-weighted scan of sub17017 (skullstripped).</dcterms:description>
+</connectome-volume>
+<connectome-volume name="Sub17017 Resting" src="Volumes/sub17017/func/rest.nii.gz" fileformat="Nifti1GZ" dtype="fMRI">
+    <dcterms:description>Functional MRI scan of sub17017 during resting.</dcterms:description>
+</connectome-volume>
+
+<connectome-volume name="Sub19738 Anonym" src="Volumes/sub19738/anat/mprage_anonymized.nii.gz" fileformat="Nifti1GZ" dtype="T1-weighted">
+    <dcterms:description>The T1-weighted scan of sub19738 (anonymized).</dcterms:description>
+</connectome-volume>
+<connectome-volume name="Sub19738 Skullstripped" src="Volumes/sub19738/anat/mprage_skullstripped.nii.gz" fileformat="Nifti1GZ" dtype="T1-weighted">
+    <dcterms:description>The T1-weighted scan of sub19738 (skullstripped).</dcterms:description>
+</connectome-volume>
+<connectome-volume name="Sub19738 Resting" src="Volumes/sub19738/func/rest.nii.gz" fileformat="Nifti1GZ" dtype="fMRI">
+    <dcterms:description>Functional MRI scan of sub19738 during resting.</dcterms:description>
+</connectome-volume>
+
+
+</connectome>

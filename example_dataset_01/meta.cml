@@ -54,7 +54,7 @@
 
 <connectome-timeseries name="Generated timeseries data" src="Timeseries/generatedseries.hdf5" fileformat="HDF5">
   <dcterms:description>83 generated <b>10Hz</b> time series with Gaussian noise and different phase lags corresponding to the 83 network nodes in Network Lausanne83.</dcterms:description>
-</connectome-timeserie>
+</connectome-timeseries>
 
 <connectome-data name="Arbitrary data file" src="Data/mydata.npy" fileformat="NumPy">
   <dcterms:description>This is my NumPy array.</dcterms:description>

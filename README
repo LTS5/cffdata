@@ -1,9 +1,11 @@
 Included datasets (in the branch with the same names):
+* homo_sapiens_01
 * homo_sapiens_02
+* homo_sapiens_03
 * example_dataset_01
 * celegans_01
 * macaca_mulatta_01
-* homo_sapiens_01
+
 
 Atlases
 * SRI24_atlas_homo_sapiens

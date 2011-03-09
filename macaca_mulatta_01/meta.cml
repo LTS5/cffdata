@@ -1,9 +1,9 @@
-﻿﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <connectome xmlns="http://www.connectomics.org/cff-2"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xsi:schemaLocation="http://www.connectomics.org/cff-2 connectome.xsd">
-
+  
 <connectome-meta version="2.0">
   <dcterms:title>Macaque connectivity Right Hemisphere</dcterms:title>
   <dcterms:creator>Stephan Gerhard</dcterms:creator>
@@ -23,4 +23,3 @@
 <connectome-surface name="Regions" src="Gifti/macaca01_labels.gii" fileformat="Gifti" dtype="Labeling" />
 
 </connectome>
-

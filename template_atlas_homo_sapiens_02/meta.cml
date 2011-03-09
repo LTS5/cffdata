@@ -23,10 +23,6 @@ The SPL-PNL Brain Atlas provides important reference information for surgical pl
   
   <generator>Handmade</generator>
   <species>Homo sapiens</species>
-  
-  <metatag>
-    <tag key="nr_of_networks">5</tag>
-  </metatag>
 
 </connectome-meta>
 

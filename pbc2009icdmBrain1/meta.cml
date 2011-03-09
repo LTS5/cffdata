@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<connectome xmlns="http://www.connectomics.org/cff-2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xsi:schemaLocation="http://www.connectomics.org/cff-2 connectome.xsd">
+
+<connectome-meta version="2.0">
+
+  <dcterms:title>pbc2009icdm brain 1</dcterms:title>
+  <dcterms:creator>PBC staff / IEEE ICDM</dcterms:creator>
+  <dcterms:created>2009-10-20</dcterms:created>
+  <dcterms:modified>2009-10-20</dcterms:modified>
+  <dcterms:license>Creative Commons Attribution License 3.0</dcterms:license>
+  <dcterms:rights>None</dcterms:rights>
+  <dcterms:reference>None</dcterms:reference>
+  <dcterms:relation>http://pbc.lrdc.pitt.edu/</dcterms:relation>
+  <dcterms:description>Competition: PBC BCC Fall 2009, IEEE ICDM</dcterms:description>
+  
+  <generator>Web</generator>
+  <species>Homo sapiens</species>
+  <email>pbc@pitt.edu</email>
+
+  <metatag>
+    <tag key="bundle_id_1">Arcuate</tag>
+    <tag key="bundle_id_2">Cingulum</tag>
+    <tag key="bundle_id_3">Corticospinal</tag>
+    <tag key="bundle_id_4">Forceps Major</tag>
+    <tag key="bundle_id_5">Fornix</tag>
+    <tag key="bundle_id_6">Inferior Occipitofrontal Fasciculus</tag>
+    <tag key="bundle_id_7">Superior Longitudinal Fasciculus</tag>
+    <tag key="bundle_id_8">Uncinate</tag>
+  </metatag>
+  
+</connectome-meta>
+
+<connectome-track name="Brain 1 Tractography" src="CTrack/brain1_scan1_fiber_track_mni.trk" fileformat="TrackVis">
+  <dcterms:description>Brain 1</dcterms:description>
+</connectome-track>
+
+<connectome-data name="Brain 1 Fiber Labeling" src="CData/brain1_scan1_fiber_labels.npy" fileformat="NumPy">
+  <dcterms:description>Expert labeling for the fibers of brain 1.</dcterms:description>
+ </connectome-data>
+
+</connectome>

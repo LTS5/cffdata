@@ -1,0 +1,2225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+
+<key id="dn_label" for="node" attr.name="label" attr.type="string">
+	<desc>The label of the node.</desc>
+</key>
+<key id="dn_colorcode" for="node" attr.name="fs_colorcode" attr.type="string">
+	<desc>The color-code derived from the atlas: R,G,B</desc>
+</key>
+<key id="dn_intensityvalue" for="node" attr.name="fs_intensity" attr.type="string">
+	<desc>Refers to the intensity value in the corresponding segmentation volume.</desc>
+</key>
+
+<graph id="TZO116plus_Label_Network" edgedefault="undirected">
+
+<node id="n1">
+	<data key="dn_label">Precentral_L</data>
+	<data key="dn_colorcode">255,128,255</data>
+	<data key="dn_intensityvalue">1</data>
+</node>
+<node id="n2">
+	<data key="dn_label">Precentral_R</data>
+	<data key="dn_colorcode">177,18,255</data>
+	<data key="dn_intensityvalue">2</data>
+</node>
+<node id="n3">
+	<data key="dn_label">Frontal_Sup_L</data>
+	<data key="dn_colorcode">45,255,47</data>
+	<data key="dn_intensityvalue">3</data>
+</node>
+<node id="n4">
+	<data key="dn_label">Frontal_Sup_R</data>
+	<data key="dn_colorcode">106,209,255</data>
+	<data key="dn_intensityvalue">4</data>
+</node>
+<node id="n5">
+	<data key="dn_label">Frontal_Sup_Orb_L</data>
+	<data key="dn_colorcode">122,255,158</data>
+	<data key="dn_intensityvalue">5</data>
+</node>
+<node id="n6">
+	<data key="dn_label">Frontal_Sup_Orb_R</data>
+	<data key="dn_colorcode">255,87,186</data>
+	<data key="dn_intensityvalue">6</data>
+</node>
+<node id="n7">
+	<data key="dn_label">Frontal_Mid_L</data>
+	<data key="dn_colorcode">183,150,54</data>
+	<data key="dn_intensityvalue">7</data>
+</node>
+<node id="n8">
+	<data key="dn_label">Frontal_Mid_R</data>
+	<data key="dn_colorcode">216,255,159</data>
+	<data key="dn_intensityvalue">8</data>
+</node>
+<node id="n9">
+	<data key="dn_label">Frontal_Mid_Orb_L</data>
+	<data key="dn_colorcode">181,169,80</data>
+	<data key="dn_intensityvalue">9</data>
+</node>
+<node id="n10">
+	<data key="dn_label">Frontal_Mid_Orb_R</data>
+	<data key="dn_colorcode">255,152,0</data>
+	<data key="dn_intensityvalue">10</data>
+</node>
+<node id="n11">
+	<data key="dn_label">Frontal_Inf_Oper_L</data>
+	<data key="dn_colorcode">42,255,255</data>
+	<data key="dn_intensityvalue">11</data>
+</node>
+<node id="n12">
+	<data key="dn_label">Frontal_Inf_Oper_R</data>
+	<data key="dn_colorcode">116,255,77</data>
+	<data key="dn_intensityvalue">12</data>
+</node>
+<node id="n13">
+	<data key="dn_label">Frontal_Inf_Tri_L</data>
+	<data key="dn_colorcode">6,253,234</data>
+	<data key="dn_intensityvalue">13</data>
+</node>
+<node id="n14">
+	<data key="dn_label">Frontal_Inf_Tri_R</data>
+	<data key="dn_colorcode">218,108,255</data>
+	<data key="dn_intensityvalue">14</data>
+</node>
+<node id="n15">
+	<data key="dn_label">Frontal_Inf_Orb_L</data>
+	<data key="dn_colorcode">24,255,108</data>
+	<data key="dn_intensityvalue">15</data>
+</node>
+<node id="n16">
+	<data key="dn_label">Frontal_Inf_Orb_R</data>
+	<data key="dn_colorcode">59,255,91</data>
+	<data key="dn_intensityvalue">16</data>
+</node>
+<node id="n17">
+	<data key="dn_label">Rolandic_Oper_L</data>
+	<data key="dn_colorcode">255,127,14</data>
+	<data key="dn_intensityvalue">17</data>
+</node>
+<node id="n18">
+	<data key="dn_label">Rolandic_Oper_R</data>
+	<data key="dn_colorcode">255,196,142</data>
+	<data key="dn_intensityvalue">18</data>
+</node>
+<node id="n19">
+	<data key="dn_label">Supp_Motor_Area_L</data>
+	<data key="dn_colorcode">191,80,135</data>
+	<data key="dn_intensityvalue">19</data>
+</node>
+<node id="n20">
+	<data key="dn_label">Supp_Motor_Area_R</data>
+	<data key="dn_colorcode">252,83,71</data>
+	<data key="dn_intensityvalue">20</data>
+</node>
+<node id="n21">
+	<data key="dn_label">Olfactory_L</data>
+	<data key="dn_colorcode">208,255,10</data>
+	<data key="dn_intensityvalue">21</data>
+</node>
+<node id="n22">
+	<data key="dn_label">Olfactory_R</data>
+	<data key="dn_colorcode">243,124,220</data>
+	<data key="dn_intensityvalue">22</data>
+</node>
+<node id="n23">
+	<data key="dn_label">Frontal_Sup_Medial_L</data>
+	<data key="dn_colorcode">55,255,107</data>
+	<data key="dn_intensityvalue">23</data>
+</node>
+<node id="n24">
+	<data key="dn_label">Frontal_Sup_Medial_R</data>
+	<data key="dn_colorcode">64,63,255</data>
+	<data key="dn_intensityvalue">24</data>
+</node>
+<node id="n25">
+	<data key="dn_label">Frontal_Med_Orb_L</data>
+	<data key="dn_colorcode">23,255,232</data>
+	<data key="dn_intensityvalue">25</data>
+</node>
+<node id="n26">
+	<data key="dn_label">Frontal_Med_Orb_R</data>
+	<data key="dn_colorcode">179,138,255</data>
+	<data key="dn_intensityvalue">26</data>
+</node>
+<node id="n27">
+	<data key="dn_label">Rectus_L</data>
+	<data key="dn_colorcode">126,147,255</data>
+	<data key="dn_intensityvalue">27</data>
+</node>
+<node id="n28">
+	<data key="dn_label">Rectus_R</data>
+	<data key="dn_colorcode">255,255,129</data>
+	<data key="dn_intensityvalue">28</data>
+</node>
+<node id="n29">
+	<data key="dn_label">Insula_L</data>
+	<data key="dn_colorcode">185,94,190</data>
+	<data key="dn_intensityvalue">29</data>
+</node>
+<node id="n30">
+	<data key="dn_label">Insula_R</data>
+	<data key="dn_colorcode">255,127,211</data>
+	<data key="dn_intensityvalue">30</data>
+</node>
+<node id="n31">
+	<data key="dn_label">Cingulum_Ant_L</data>
+	<data key="dn_colorcode">255,92,138</data>
+	<data key="dn_intensityvalue">31</data>
+</node>
+<node id="n32">
+	<data key="dn_label">Cingulum_Ant_R</data>
+	<data key="dn_colorcode">255,132,255</data>
+	<data key="dn_intensityvalue">32</data>
+</node>
+<node id="n33">
+	<data key="dn_label">Cingulum_Mid_L</data>
+	<data key="dn_colorcode">50,255,146</data>
+	<data key="dn_intensityvalue">33</data>
+</node>
+<node id="n34">
+	<data key="dn_label">Cingulum_Mid_R</data>
+	<data key="dn_colorcode">245,79,139</data>
+	<data key="dn_intensityvalue">34</data>
+</node>
+<node id="n35">
+	<data key="dn_label">Cingulum_Post_L</data>
+	<data key="dn_colorcode">255,16,74</data>
+	<data key="dn_intensityvalue">35</data>
+</node>
+<node id="n36">
+	<data key="dn_label">Cingulum_Post_R</data>
+	<data key="dn_colorcode">255,72,190</data>
+	<data key="dn_intensityvalue">36</data>
+</node>
+<node id="n37">
+	<data key="dn_label">Hippocampus_L</data>
+	<data key="dn_colorcode">142,178,255</data>
+	<data key="dn_intensityvalue">37</data>
+</node>
+<node id="n38">
+	<data key="dn_label">Hippocampus_R</data>
+	<data key="dn_colorcode">100,255,83</data>
+	<data key="dn_intensityvalue">38</data>
+</node>
+<node id="n39">
+	<data key="dn_label">ParaHippocampal_L</data>
+	<data key="dn_colorcode">221,248,124</data>
+	<data key="dn_intensityvalue">39</data>
+</node>
+<node id="n40">
+	<data key="dn_label">ParaHippocampal_R</data>
+	<data key="dn_colorcode">165,255,223</data>
+	<data key="dn_intensityvalue">40</data>
+</node>
+<node id="n41">
+	<data key="dn_label">Amygdala_L</data>
+	<data key="dn_colorcode">252,186,133</data>
+	<data key="dn_intensityvalue">41</data>
+</node>
+<node id="n42">
+	<data key="dn_label">Amygdala_R</data>
+	<data key="dn_colorcode">209,5,255</data>
+	<data key="dn_intensityvalue">42</data>
+</node>
+<node id="n43">
+	<data key="dn_label">Calcarine_L</data>
+	<data key="dn_colorcode">142,127,255</data>
+	<data key="dn_intensityvalue">43</data>
+</node>
+<node id="n44">
+	<data key="dn_label">Calcarine_R</data>
+	<data key="dn_colorcode">97,255,116</data>
+	<data key="dn_intensityvalue">44</data>
+</node>
+<node id="n45">
+	<data key="dn_label">Cuneus_L</data>
+	<data key="dn_colorcode">94,133,212</data>
+	<data key="dn_intensityvalue">45</data>
+</node>
+<node id="n46">
+	<data key="dn_label">Cuneus_R</data>
+	<data key="dn_colorcode">200,160,255</data>
+	<data key="dn_intensityvalue">46</data>
+</node>
+<node id="n47">
+	<data key="dn_label">Lingual_L</data>
+	<data key="dn_colorcode">186,182,41</data>
+	<data key="dn_intensityvalue">47</data>
+</node>
+<node id="n48">
+	<data key="dn_label">Lingual_R</data>
+	<data key="dn_colorcode">255,141,165</data>
+	<data key="dn_intensityvalue">48</data>
+</node>
+<node id="n49">
+	<data key="dn_label">Occipital_Sup_L</data>
+	<data key="dn_colorcode">255,255,148</data>
+	<data key="dn_intensityvalue">49</data>
+</node>
+<node id="n50">
+	<data key="dn_label">Occipital_Sup_R</data>
+	<data key="dn_colorcode">188,96,255</data>
+	<data key="dn_intensityvalue">50</data>
+</node>
+<node id="n51">
+	<data key="dn_label">Occipital_Mid_L</data>
+	<data key="dn_colorcode">40,64,255</data>
+	<data key="dn_intensityvalue">51</data>
+</node>
+<node id="n52">
+	<data key="dn_label">Occipital_Mid_R</data>
+	<data key="dn_colorcode">192,152,66</data>
+	<data key="dn_intensityvalue">52</data>
+</node>
+<node id="n53">
+	<data key="dn_label">Occipital_Inf_L</data>
+	<data key="dn_colorcode">255,163,123</data>
+	<data key="dn_intensityvalue">53</data>
+</node>
+<node id="n54">
+	<data key="dn_label">Occipital_Inf_R</data>
+	<data key="dn_colorcode">255,100,255</data>
+	<data key="dn_intensityvalue">54</data>
+</node>
+<node id="n55">
+	<data key="dn_label">Fusiform_L</data>
+	<data key="dn_colorcode">255,212,174</data>
+	<data key="dn_intensityvalue">55</data>
+</node>
+<node id="n56">
+	<data key="dn_label">Fusiform_R</data>
+	<data key="dn_colorcode">163,245,21</data>
+	<data key="dn_intensityvalue">56</data>
+</node>
+<node id="n57">
+	<data key="dn_label">Postcentral_L</data>
+	<data key="dn_colorcode">255,173,175</data>
+	<data key="dn_intensityvalue">57</data>
+</node>
+<node id="n58">
+	<data key="dn_label">Postcentral_R</data>
+	<data key="dn_colorcode">255,223,183</data>
+	<data key="dn_intensityvalue">58</data>
+</node>
+<node id="n59">
+	<data key="dn_label">Parietal_Sup_L</data>
+	<data key="dn_colorcode">100,131,212</data>
+	<data key="dn_intensityvalue">59</data>
+</node>
+<node id="n60">
+	<data key="dn_label">Parietal_Sup_R</data>
+	<data key="dn_colorcode">27,255,135</data>
+	<data key="dn_intensityvalue">60</data>
+</node>
+<node id="n61">
+	<data key="dn_label">Parietal_Inf_L</data>
+	<data key="dn_colorcode">93,255,118</data>
+	<data key="dn_intensityvalue">61</data>
+</node>
+<node id="n62">
+	<data key="dn_label">Parietal_Inf_R</data>
+	<data key="dn_colorcode">50,223,146</data>
+	<data key="dn_intensityvalue">62</data>
+</node>
+<node id="n63">
+	<data key="dn_label">SupraMarginal_L</data>
+	<data key="dn_colorcode">48,192,255</data>
+	<data key="dn_intensityvalue">63</data>
+</node>
+<node id="n64">
+	<data key="dn_label">SupraMarginal_R</data>
+	<data key="dn_colorcode">255,106,116</data>
+	<data key="dn_intensityvalue">64</data>
+</node>
+<node id="n65">
+	<data key="dn_label">Angular_L</data>
+	<data key="dn_colorcode">110,53,231</data>
+	<data key="dn_intensityvalue">65</data>
+</node>
+<node id="n66">
+	<data key="dn_label">Angular_R</data>
+	<data key="dn_colorcode">193,52,255</data>
+	<data key="dn_intensityvalue">66</data>
+</node>
+<node id="n67">
+	<data key="dn_label">Precuneus_L</data>
+	<data key="dn_colorcode">255,54,255</data>
+	<data key="dn_intensityvalue">67</data>
+</node>
+<node id="n68">
+	<data key="dn_label">Precuneus_R</data>
+	<data key="dn_colorcode">185,33,255</data>
+	<data key="dn_intensityvalue">68</data>
+</node>
+<node id="n69">
+	<data key="dn_label">Paracentral_Lobule_L</data>
+	<data key="dn_colorcode">74,74,255</data>
+	<data key="dn_intensityvalue">69</data>
+</node>
+<node id="n70">
+	<data key="dn_label">Paracentral_Lobule_R</data>
+	<data key="dn_colorcode">192,20,199</data>
+	<data key="dn_intensityvalue">70</data>
+</node>
+<node id="n71">
+	<data key="dn_label">Caudate_L</data>
+	<data key="dn_colorcode">133,145,255</data>
+	<data key="dn_intensityvalue">71</data>
+</node>
+<node id="n72">
+	<data key="dn_label">Caudate_R</data>
+	<data key="dn_colorcode">161,255,58</data>
+	<data key="dn_intensityvalue">72</data>
+</node>
+<node id="n73">
+	<data key="dn_label">Putamen_L</data>
+	<data key="dn_colorcode">91,230,89</data>
+	<data key="dn_intensityvalue">73</data>
+</node>
+<node id="n74">
+	<data key="dn_label">Putamen_R</data>
+	<data key="dn_colorcode">138,159,255</data>
+	<data key="dn_intensityvalue">74</data>
+</node>
+<node id="n75">
+	<data key="dn_label">Pallidum_L</data>
+	<data key="dn_colorcode">6,226,255</data>
+	<data key="dn_intensityvalue">75</data>
+</node>
+<node id="n76">
+	<data key="dn_label">Pallidum_R</data>
+	<data key="dn_colorcode">46,150,229</data>
+	<data key="dn_intensityvalue">76</data>
+</node>
+<node id="n77">
+	<data key="dn_label">Thalamus_L</data>
+	<data key="dn_colorcode">107,255,255</data>
+	<data key="dn_intensityvalue">77</data>
+</node>
+<node id="n78">
+	<data key="dn_label">Thalamus_R</data>
+	<data key="dn_colorcode">140,255,241</data>
+	<data key="dn_intensityvalue">78</data>
+</node>
+<node id="n79">
+	<data key="dn_label">Heschl_L</data>
+	<data key="dn_colorcode">128,218,167</data>
+	<data key="dn_intensityvalue">79</data>
+</node>
+<node id="n80">
+	<data key="dn_label">Heschl_R</data>
+	<data key="dn_colorcode">33,109,255</data>
+	<data key="dn_intensityvalue">80</data>
+</node>
+<node id="n81">
+	<data key="dn_label">Temporal_Sup_L</data>
+	<data key="dn_colorcode">103,96,255</data>
+	<data key="dn_intensityvalue">81</data>
+</node>
+<node id="n82">
+	<data key="dn_label">Temporal_Sup_R</data>
+	<data key="dn_colorcode">76,255,50</data>
+	<data key="dn_intensityvalue">82</data>
+</node>
+<node id="n83">
+	<data key="dn_label">Temporal_Pole_Sup_L</data>
+	<data key="dn_colorcode">132,151,255</data>
+	<data key="dn_intensityvalue">83</data>
+</node>
+<node id="n84">
+	<data key="dn_label">Temporal_Pole_Sup_R</data>
+	<data key="dn_colorcode">111,77,255</data>
+	<data key="dn_intensityvalue">84</data>
+</node>
+<node id="n85">
+	<data key="dn_label">Temporal_Mid_L</data>
+	<data key="dn_colorcode">138,255,146</data>
+	<data key="dn_intensityvalue">85</data>
+</node>
+<node id="n86">
+	<data key="dn_label">Temporal_Mid_R</data>
+	<data key="dn_colorcode">53,94,255</data>
+	<data key="dn_intensityvalue">86</data>
+</node>
+<node id="n87">
+	<data key="dn_label">Temporal_Pole_Mid_L</data>
+	<data key="dn_colorcode">217,163,255</data>
+	<data key="dn_intensityvalue">87</data>
+</node>
+<node id="n88">
+	<data key="dn_label">Temporal_Pole_Mid_R</data>
+	<data key="dn_colorcode">77,61,255</data>
+	<data key="dn_intensityvalue">88</data>
+</node>
+<node id="n89">
+	<data key="dn_label">Temporal_Inf_L</data>
+	<data key="dn_colorcode">115,170,196</data>
+	<data key="dn_intensityvalue">89</data>
+</node>
+<node id="n90">
+	<data key="dn_label">Temporal_Inf_R</data>
+	<data key="dn_colorcode">219,49,148</data>
+	<data key="dn_intensityvalue">90</data>
+</node>
+<node id="n91">
+	<data key="dn_label">Cerebelum_Crus1_L</data>
+	<data key="dn_colorcode">255,201,117</data>
+	<data key="dn_intensityvalue">91</data>
+</node>
+<node id="n92">
+	<data key="dn_label">Cerebelum_Crus1_R</data>
+	<data key="dn_colorcode">61,129,255</data>
+	<data key="dn_intensityvalue">92</data>
+</node>
+<node id="n93">
+	<data key="dn_label">Cerebelum_Crus2_L</data>
+	<data key="dn_colorcode">168,105,234</data>
+	<data key="dn_intensityvalue">93</data>
+</node>
+<node id="n94">
+	<data key="dn_label">Cerebelum_Crus2_R</data>
+	<data key="dn_colorcode">164,216,2</data>
+	<data key="dn_intensityvalue">94</data>
+</node>
+<node id="n95">
+	<data key="dn_label">Cerebelum_3_L</data>
+	<data key="dn_colorcode">178,91,184</data>
+	<data key="dn_intensityvalue">95</data>
+</node>
+<node id="n96">
+	<data key="dn_label">Cerebelum_3_R</data>
+	<data key="dn_colorcode">14,255,228</data>
+	<data key="dn_intensityvalue">96</data>
+</node>
+<node id="n97">
+	<data key="dn_label">Cerebelum_4_5_L</data>
+	<data key="dn_colorcode">132,49,247</data>
+	<data key="dn_intensityvalue">97</data>
+</node>
+<node id="n98">
+	<data key="dn_label">Cerebelum_4_5_R</data>
+	<data key="dn_colorcode">146,129,255</data>
+	<data key="dn_intensityvalue">98</data>
+</node>
+<node id="n99">
+	<data key="dn_label">Cerebelum_6_L</data>
+	<data key="dn_colorcode">255,27,135</data>
+	<data key="dn_intensityvalue">99</data>
+</node>
+<node id="n100">
+	<data key="dn_label">Cerebelum_6_R</data>
+	<data key="dn_colorcode">222,255,50</data>
+	<data key="dn_intensityvalue">100</data>
+</node>
+<node id="n101">
+	<data key="dn_label">Cerebelum_7b_L</data>
+	<data key="dn_colorcode">100,255,31</data>
+	<data key="dn_intensityvalue">101</data>
+</node>
+<node id="n102">
+	<data key="dn_label">Cerebelum_7b_R</data>
+	<data key="dn_colorcode">255,100,214</data>
+	<data key="dn_intensityvalue">102</data>
+</node>
+<node id="n103">
+	<data key="dn_label">Cerebelum_8_L</data>
+	<data key="dn_colorcode">255,255,150</data>
+	<data key="dn_intensityvalue">103</data>
+</node>
+<node id="n104">
+	<data key="dn_label">Cerebelum_8_R</data>
+	<data key="dn_colorcode">123,255,255</data>
+	<data key="dn_intensityvalue">104</data>
+</node>
+<node id="n105">
+	<data key="dn_label">Cerebelum_9_L</data>
+	<data key="dn_colorcode">93,180,176</data>
+	<data key="dn_intensityvalue">105</data>
+</node>
+<node id="n106">
+	<data key="dn_label">Cerebelum_9_R</data>
+	<data key="dn_colorcode">62,46,255</data>
+	<data key="dn_intensityvalue">106</data>
+</node>
+<node id="n107">
+	<data key="dn_label">Cerebelum_10_L</data>
+	<data key="dn_colorcode">118,184,255</data>
+	<data key="dn_intensityvalue">107</data>
+</node>
+<node id="n108">
+	<data key="dn_label">Cerebelum_10_R</data>
+	<data key="dn_colorcode">131,105,230</data>
+	<data key="dn_intensityvalue">108</data>
+</node>
+<node id="n109">
+	<data key="dn_label">Vermis_1_2</data>
+	<data key="dn_colorcode">101,167,166</data>
+	<data key="dn_intensityvalue">109</data>
+</node>
+<node id="n110">
+	<data key="dn_label">Vermis_3</data>
+	<data key="dn_colorcode">148,255,172</data>
+	<data key="dn_intensityvalue">110</data>
+</node>
+<node id="n111">
+	<data key="dn_label">Vermis_4_5</data>
+	<data key="dn_colorcode">255,96,209</data>
+	<data key="dn_intensityvalue">111</data>
+</node>
+<node id="n112">
+	<data key="dn_label">Vermis_6</data>
+	<data key="dn_colorcode">200,85,224</data>
+	<data key="dn_intensityvalue">112</data>
+</node>
+<node id="n113">
+	<data key="dn_label">Vermis_7</data>
+	<data key="dn_colorcode">78,255,147</data>
+	<data key="dn_intensityvalue">113</data>
+</node>
+<node id="n114">
+	<data key="dn_label">Vermis_8</data>
+	<data key="dn_colorcode">122,193,94</data>
+	<data key="dn_intensityvalue">114</data>
+</node>
+<node id="n115">
+	<data key="dn_label">Vermis_9</data>
+	<data key="dn_colorcode">255,170,68</data>
+	<data key="dn_intensityvalue">115</data>
+</node>
+<node id="n116">
+	<data key="dn_label">Vermis_10</data>
+	<data key="dn_colorcode">106,227,83</data>
+	<data key="dn_intensityvalue">116</data>
+</node>
+<node id="n201">
+	<data key="dn_label">LateralVentricle_L_y48138</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">201</data>
+</node>
+<node id="n202">
+	<data key="dn_label">LateralVentricle_R_y480</data>
+	<data key="dn_colorcode">138,0,255
+</data>
+	<data key="dn_intensityvalue">202</data>
+</node>
+<node id="n203">
+	<data key="dn_label">LateralVentricle_L_y49139</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">203</data>
+</node>
+<node id="n204">
+	<data key="dn_label">LateralVentricle_R_y490</data>
+	<data key="dn_colorcode">139,0,255
+</data>
+	<data key="dn_intensityvalue">204</data>
+</node>
+<node id="n205">
+	<data key="dn_label">LateralVentricle_L_y50140</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">205</data>
+</node>
+<node id="n206">
+	<data key="dn_label">LateralVentricle_R_y500</data>
+	<data key="dn_colorcode">140,0,255
+</data>
+	<data key="dn_intensityvalue">206</data>
+</node>
+<node id="n207">
+	<data key="dn_label">LateralVentricle_L_y51141</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">207</data>
+</node>
+<node id="n208">
+	<data key="dn_label">LateralVentricle_R_y510</data>
+	<data key="dn_colorcode">141,0,255
+</data>
+	<data key="dn_intensityvalue">208</data>
+</node>
+<node id="n209">
+	<data key="dn_label">LateralVentricle_L_y52142</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">209</data>
+</node>
+<node id="n210">
+	<data key="dn_label">LateralVentricle_R_y520</data>
+	<data key="dn_colorcode">142,0,255
+</data>
+	<data key="dn_intensityvalue">210</data>
+</node>
+<node id="n211">
+	<data key="dn_label">LateralVentricle_L_y53143</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">211</data>
+</node>
+<node id="n212">
+	<data key="dn_label">LateralVentricle_R_y530</data>
+	<data key="dn_colorcode">143,0,255
+</data>
+	<data key="dn_intensityvalue">212</data>
+</node>
+<node id="n213">
+	<data key="dn_label">LateralVentricle_L_y54144</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">213</data>
+</node>
+<node id="n214">
+	<data key="dn_label">LateralVentricle_R_y540</data>
+	<data key="dn_colorcode">144,0,255
+</data>
+	<data key="dn_intensityvalue">214</data>
+</node>
+<node id="n215">
+	<data key="dn_label">LateralVentricle_L_y55145</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">215</data>
+</node>
+<node id="n216">
+	<data key="dn_label">LateralVentricle_R_y550</data>
+	<data key="dn_colorcode">145,0,255
+</data>
+	<data key="dn_intensityvalue">216</data>
+</node>
+<node id="n217">
+	<data key="dn_label">LateralVentricle_L_y56146</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">217</data>
+</node>
+<node id="n218">
+	<data key="dn_label">LateralVentricle_R_y560</data>
+	<data key="dn_colorcode">146,0,255
+</data>
+	<data key="dn_intensityvalue">218</data>
+</node>
+<node id="n219">
+	<data key="dn_label">LateralVentricle_L_y57147</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">219</data>
+</node>
+<node id="n220">
+	<data key="dn_label">LateralVentricle_R_y570</data>
+	<data key="dn_colorcode">147,0,255
+</data>
+	<data key="dn_intensityvalue">220</data>
+</node>
+<node id="n221">
+	<data key="dn_label">LateralVentricle_L_y58148</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">221</data>
+</node>
+<node id="n222">
+	<data key="dn_label">LateralVentricle_R_y580</data>
+	<data key="dn_colorcode">148,0,255
+</data>
+	<data key="dn_intensityvalue">222</data>
+</node>
+<node id="n223">
+	<data key="dn_label">LateralVentricle_L_y59149</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">223</data>
+</node>
+<node id="n224">
+	<data key="dn_label">LateralVentricle_R_y590</data>
+	<data key="dn_colorcode">149,0,255
+</data>
+	<data key="dn_intensityvalue">224</data>
+</node>
+<node id="n225">
+	<data key="dn_label">LateralVentricle_L_y60150</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">225</data>
+</node>
+<node id="n226">
+	<data key="dn_label">LateralVentricle_R_y600</data>
+	<data key="dn_colorcode">150,0,255
+</data>
+	<data key="dn_intensityvalue">226</data>
+</node>
+<node id="n227">
+	<data key="dn_label">LateralVentricle_L_y61151</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">227</data>
+</node>
+<node id="n228">
+	<data key="dn_label">LateralVentricle_R_y610</data>
+	<data key="dn_colorcode">151,0,255
+</data>
+	<data key="dn_intensityvalue">228</data>
+</node>
+<node id="n229">
+	<data key="dn_label">LateralVentricle_L_y62152</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">229</data>
+</node>
+<node id="n230">
+	<data key="dn_label">LateralVentricle_R_y620</data>
+	<data key="dn_colorcode">152,0,255
+</data>
+	<data key="dn_intensityvalue">230</data>
+</node>
+<node id="n231">
+	<data key="dn_label">LateralVentricle_L_y63153</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">231</data>
+</node>
+<node id="n232">
+	<data key="dn_label">LateralVentricle_R_y630</data>
+	<data key="dn_colorcode">153,0,255
+</data>
+	<data key="dn_intensityvalue">232</data>
+</node>
+<node id="n233">
+	<data key="dn_label">LateralVentricle_L_y64154</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">233</data>
+</node>
+<node id="n234">
+	<data key="dn_label">LateralVentricle_R_y640</data>
+	<data key="dn_colorcode">154,0,255
+</data>
+	<data key="dn_intensityvalue">234</data>
+</node>
+<node id="n235">
+	<data key="dn_label">LateralVentricle_L_y65155</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">235</data>
+</node>
+<node id="n236">
+	<data key="dn_label">LateralVentricle_R_y650</data>
+	<data key="dn_colorcode">155,0,255
+</data>
+	<data key="dn_intensityvalue">236</data>
+</node>
+<node id="n237">
+	<data key="dn_label">LateralVentricle_L_y66156</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">237</data>
+</node>
+<node id="n238">
+	<data key="dn_label">LateralVentricle_R_y660</data>
+	<data key="dn_colorcode">156,0,255
+</data>
+	<data key="dn_intensityvalue">238</data>
+</node>
+<node id="n239">
+	<data key="dn_label">LateralVentricle_L_y67157</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">239</data>
+</node>
+<node id="n240">
+	<data key="dn_label">LateralVentricle_R_y670</data>
+	<data key="dn_colorcode">157,0,255
+</data>
+	<data key="dn_intensityvalue">240</data>
+</node>
+<node id="n241">
+	<data key="dn_label">LateralVentricle_L_y68158</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">241</data>
+</node>
+<node id="n242">
+	<data key="dn_label">LateralVentricle_R_y680</data>
+	<data key="dn_colorcode">158,0,255
+</data>
+	<data key="dn_intensityvalue">242</data>
+</node>
+<node id="n243">
+	<data key="dn_label">LateralVentricle_L_y69159</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">243</data>
+</node>
+<node id="n244">
+	<data key="dn_label">LateralVentricle_R_y690</data>
+	<data key="dn_colorcode">159,0,255
+</data>
+	<data key="dn_intensityvalue">244</data>
+</node>
+<node id="n245">
+	<data key="dn_label">LateralVentricle_L_y70160</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">245</data>
+</node>
+<node id="n246">
+	<data key="dn_label">LateralVentricle_R_y700</data>
+	<data key="dn_colorcode">160,0,255
+</data>
+	<data key="dn_intensityvalue">246</data>
+</node>
+<node id="n247">
+	<data key="dn_label">LateralVentricle_L_y71161</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">247</data>
+</node>
+<node id="n248">
+	<data key="dn_label">LateralVentricle_R_y710</data>
+	<data key="dn_colorcode">161,0,255
+</data>
+	<data key="dn_intensityvalue">248</data>
+</node>
+<node id="n249">
+	<data key="dn_label">LateralVentricle_L_y72162</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">249</data>
+</node>
+<node id="n250">
+	<data key="dn_label">LateralVentricle_R_y720</data>
+	<data key="dn_colorcode">162,0,255
+</data>
+	<data key="dn_intensityvalue">250</data>
+</node>
+<node id="n251">
+	<data key="dn_label">LateralVentricle_L_y73163</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">251</data>
+</node>
+<node id="n252">
+	<data key="dn_label">LateralVentricle_R_y730</data>
+	<data key="dn_colorcode">163,0,255
+</data>
+	<data key="dn_intensityvalue">252</data>
+</node>
+<node id="n253">
+	<data key="dn_label">LateralVentricle_L_y74164</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">253</data>
+</node>
+<node id="n254">
+	<data key="dn_label">LateralVentricle_R_y740</data>
+	<data key="dn_colorcode">164,0,255
+</data>
+	<data key="dn_intensityvalue">254</data>
+</node>
+<node id="n255">
+	<data key="dn_label">LateralVentricle_L_y75165</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">255</data>
+</node>
+<node id="n256">
+	<data key="dn_label">LateralVentricle_R_y750</data>
+	<data key="dn_colorcode">165,0,255
+</data>
+	<data key="dn_intensityvalue">256</data>
+</node>
+<node id="n257">
+	<data key="dn_label">LateralVentricle_L_y76166</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">257</data>
+</node>
+<node id="n258">
+	<data key="dn_label">LateralVentricle_R_y760</data>
+	<data key="dn_colorcode">166,0,255
+</data>
+	<data key="dn_intensityvalue">258</data>
+</node>
+<node id="n259">
+	<data key="dn_label">LateralVentricle_L_y77167</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">259</data>
+</node>
+<node id="n260">
+	<data key="dn_label">LateralVentricle_R_y770</data>
+	<data key="dn_colorcode">167,0,255
+</data>
+	<data key="dn_intensityvalue">260</data>
+</node>
+<node id="n261">
+	<data key="dn_label">LateralVentricle_L_y78168</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">261</data>
+</node>
+<node id="n262">
+	<data key="dn_label">LateralVentricle_R_y780</data>
+	<data key="dn_colorcode">168,0,255
+</data>
+	<data key="dn_intensityvalue">262</data>
+</node>
+<node id="n263">
+	<data key="dn_label">LateralVentricle_L_y79169</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">263</data>
+</node>
+<node id="n264">
+	<data key="dn_label">LateralVentricle_R_y790</data>
+	<data key="dn_colorcode">169,0,255
+</data>
+	<data key="dn_intensityvalue">264</data>
+</node>
+<node id="n265">
+	<data key="dn_label">LateralVentricle_L_y80170</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">265</data>
+</node>
+<node id="n266">
+	<data key="dn_label">LateralVentricle_R_y800</data>
+	<data key="dn_colorcode">170,0,255
+</data>
+	<data key="dn_intensityvalue">266</data>
+</node>
+<node id="n267">
+	<data key="dn_label">LateralVentricle_L_y81171</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">267</data>
+</node>
+<node id="n268">
+	<data key="dn_label">LateralVentricle_R_y810</data>
+	<data key="dn_colorcode">171,0,255
+</data>
+	<data key="dn_intensityvalue">268</data>
+</node>
+<node id="n269">
+	<data key="dn_label">LateralVentricle_L_y82172</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">269</data>
+</node>
+<node id="n270">
+	<data key="dn_label">LateralVentricle_R_y820</data>
+	<data key="dn_colorcode">172,0,255
+</data>
+	<data key="dn_intensityvalue">270</data>
+</node>
+<node id="n271">
+	<data key="dn_label">LateralVentricle_L_y83173</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">271</data>
+</node>
+<node id="n272">
+	<data key="dn_label">LateralVentricle_R_y830</data>
+	<data key="dn_colorcode">173,0,255
+</data>
+	<data key="dn_intensityvalue">272</data>
+</node>
+<node id="n273">
+	<data key="dn_label">LateralVentricle_L_y84174</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">273</data>
+</node>
+<node id="n274">
+	<data key="dn_label">LateralVentricle_R_y840</data>
+	<data key="dn_colorcode">174,0,255
+</data>
+	<data key="dn_intensityvalue">274</data>
+</node>
+<node id="n275">
+	<data key="dn_label">LateralVentricle_L_y85175</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">275</data>
+</node>
+<node id="n276">
+	<data key="dn_label">LateralVentricle_R_y850</data>
+	<data key="dn_colorcode">175,0,255
+</data>
+	<data key="dn_intensityvalue">276</data>
+</node>
+<node id="n277">
+	<data key="dn_label">LateralVentricle_L_y86176</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">277</data>
+</node>
+<node id="n278">
+	<data key="dn_label">LateralVentricle_R_y860</data>
+	<data key="dn_colorcode">176,0,255
+</data>
+	<data key="dn_intensityvalue">278</data>
+</node>
+<node id="n279">
+	<data key="dn_label">LateralVentricle_L_y87177</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">279</data>
+</node>
+<node id="n280">
+	<data key="dn_label">LateralVentricle_R_y870</data>
+	<data key="dn_colorcode">177,0,255
+</data>
+	<data key="dn_intensityvalue">280</data>
+</node>
+<node id="n281">
+	<data key="dn_label">LateralVentricle_L_y88178</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">281</data>
+</node>
+<node id="n282">
+	<data key="dn_label">LateralVentricle_R_y880</data>
+	<data key="dn_colorcode">178,0,255
+</data>
+	<data key="dn_intensityvalue">282</data>
+</node>
+<node id="n283">
+	<data key="dn_label">LateralVentricle_L_y89179</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">283</data>
+</node>
+<node id="n284">
+	<data key="dn_label">LateralVentricle_R_y890</data>
+	<data key="dn_colorcode">179,0,255
+</data>
+	<data key="dn_intensityvalue">284</data>
+</node>
+<node id="n285">
+	<data key="dn_label">LateralVentricle_L_y90180</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">285</data>
+</node>
+<node id="n286">
+	<data key="dn_label">LateralVentricle_R_y900</data>
+	<data key="dn_colorcode">180,0,255
+</data>
+	<data key="dn_intensityvalue">286</data>
+</node>
+<node id="n287">
+	<data key="dn_label">LateralVentricle_L_y91181</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">287</data>
+</node>
+<node id="n288">
+	<data key="dn_label">LateralVentricle_R_y910</data>
+	<data key="dn_colorcode">181,0,255
+</data>
+	<data key="dn_intensityvalue">288</data>
+</node>
+<node id="n289">
+	<data key="dn_label">LateralVentricle_L_y92182</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">289</data>
+</node>
+<node id="n290">
+	<data key="dn_label">LateralVentricle_R_y920</data>
+	<data key="dn_colorcode">182,0,255
+</data>
+	<data key="dn_intensityvalue">290</data>
+</node>
+<node id="n291">
+	<data key="dn_label">LateralVentricle_L_y93183</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">291</data>
+</node>
+<node id="n292">
+	<data key="dn_label">LateralVentricle_R_y930</data>
+	<data key="dn_colorcode">183,0,255
+</data>
+	<data key="dn_intensityvalue">292</data>
+</node>
+<node id="n293">
+	<data key="dn_label">LateralVentricle_L_y94184</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">293</data>
+</node>
+<node id="n294">
+	<data key="dn_label">LateralVentricle_R_y940</data>
+	<data key="dn_colorcode">184,0,255
+</data>
+	<data key="dn_intensityvalue">294</data>
+</node>
+<node id="n295">
+	<data key="dn_label">LateralVentricle_L_y95185</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">295</data>
+</node>
+<node id="n296">
+	<data key="dn_label">LateralVentricle_R_y950</data>
+	<data key="dn_colorcode">185,0,255
+</data>
+	<data key="dn_intensityvalue">296</data>
+</node>
+<node id="n297">
+	<data key="dn_label">LateralVentricle_L_y96186</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">297</data>
+</node>
+<node id="n298">
+	<data key="dn_label">LateralVentricle_R_y960</data>
+	<data key="dn_colorcode">186,0,255
+</data>
+	<data key="dn_intensityvalue">298</data>
+</node>
+<node id="n299">
+	<data key="dn_label">LateralVentricle_L_y97187</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">299</data>
+</node>
+<node id="n300">
+	<data key="dn_label">LateralVentricle_R_y970</data>
+	<data key="dn_colorcode">187,0,255
+</data>
+	<data key="dn_intensityvalue">300</data>
+</node>
+<node id="n301">
+	<data key="dn_label">LateralVentricle_L_y98188</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">301</data>
+</node>
+<node id="n302">
+	<data key="dn_label">LateralVentricle_R_y980</data>
+	<data key="dn_colorcode">188,0,255
+</data>
+	<data key="dn_intensityvalue">302</data>
+</node>
+<node id="n303">
+	<data key="dn_label">LateralVentricle_L_y99189</data>
+	<data key="dn_colorcode">0,0,255
+</data>
+	<data key="dn_intensityvalue">303</data>
+</node>
+<node id="n304">
+	<data key="dn_label">LateralVentricle_R_y990</data>
+	<data key="dn_colorcode">189,0,255
+</data>
+	<data key="dn_intensityvalue">304</data>
+</node>
+<node id="n305">
+	<data key="dn_label">LateralVentricle_L_y100</data>
+	<data key="dn_colorcode">190,0,0</data>
+	<data key="dn_intensityvalue">305</data>
+</node>
+<node id="n306">
+	<data key="dn_label">LateralVentricle_R_y100</data>
+	<data key="dn_colorcode">0,190,0</data>
+	<data key="dn_intensityvalue">306</data>
+</node>
+<node id="n307">
+	<data key="dn_label">LateralVentricle_L_y101</data>
+	<data key="dn_colorcode">191,0,0</data>
+	<data key="dn_intensityvalue">307</data>
+</node>
+<node id="n308">
+	<data key="dn_label">LateralVentricle_R_y101</data>
+	<data key="dn_colorcode">0,191,0</data>
+	<data key="dn_intensityvalue">308</data>
+</node>
+<node id="n309">
+	<data key="dn_label">LateralVentricle_L_y102</data>
+	<data key="dn_colorcode">192,0,0</data>
+	<data key="dn_intensityvalue">309</data>
+</node>
+<node id="n310">
+	<data key="dn_label">LateralVentricle_R_y102</data>
+	<data key="dn_colorcode">0,192,0</data>
+	<data key="dn_intensityvalue">310</data>
+</node>
+<node id="n311">
+	<data key="dn_label">LateralVentricle_L_y103</data>
+	<data key="dn_colorcode">193,0,0</data>
+	<data key="dn_intensityvalue">311</data>
+</node>
+<node id="n312">
+	<data key="dn_label">LateralVentricle_R_y103</data>
+	<data key="dn_colorcode">0,193,0</data>
+	<data key="dn_intensityvalue">312</data>
+</node>
+<node id="n313">
+	<data key="dn_label">LateralVentricle_L_y104</data>
+	<data key="dn_colorcode">194,0,0</data>
+	<data key="dn_intensityvalue">313</data>
+</node>
+<node id="n314">
+	<data key="dn_label">LateralVentricle_R_y104</data>
+	<data key="dn_colorcode">0,194,0</data>
+	<data key="dn_intensityvalue">314</data>
+</node>
+<node id="n315">
+	<data key="dn_label">LateralVentricle_L_y105</data>
+	<data key="dn_colorcode">195,0,0</data>
+	<data key="dn_intensityvalue">315</data>
+</node>
+<node id="n316">
+	<data key="dn_label">LateralVentricle_R_y105</data>
+	<data key="dn_colorcode">0,195,0</data>
+	<data key="dn_intensityvalue">316</data>
+</node>
+<node id="n317">
+	<data key="dn_label">LateralVentricle_L_y106</data>
+	<data key="dn_colorcode">196,0,0</data>
+	<data key="dn_intensityvalue">317</data>
+</node>
+<node id="n318">
+	<data key="dn_label">LateralVentricle_R_y106</data>
+	<data key="dn_colorcode">0,196,0</data>
+	<data key="dn_intensityvalue">318</data>
+</node>
+<node id="n319">
+	<data key="dn_label">LateralVentricle_L_y107</data>
+	<data key="dn_colorcode">197,0,0</data>
+	<data key="dn_intensityvalue">319</data>
+</node>
+<node id="n320">
+	<data key="dn_label">LateralVentricle_R_y107</data>
+	<data key="dn_colorcode">0,197,0</data>
+	<data key="dn_intensityvalue">320</data>
+</node>
+<node id="n321">
+	<data key="dn_label">LateralVentricle_L_y108</data>
+	<data key="dn_colorcode">198,0,0</data>
+	<data key="dn_intensityvalue">321</data>
+</node>
+<node id="n322">
+	<data key="dn_label">LateralVentricle_R_y108</data>
+	<data key="dn_colorcode">0,198,0</data>
+	<data key="dn_intensityvalue">322</data>
+</node>
+<node id="n323">
+	<data key="dn_label">LateralVentricle_L_y109</data>
+	<data key="dn_colorcode">199,0,0</data>
+	<data key="dn_intensityvalue">323</data>
+</node>
+<node id="n324">
+	<data key="dn_label">LateralVentricle_R_y109</data>
+	<data key="dn_colorcode">0,199,0</data>
+	<data key="dn_intensityvalue">324</data>
+</node>
+<node id="n325">
+	<data key="dn_label">LateralVentricle_L_y110</data>
+	<data key="dn_colorcode">200,0,0</data>
+	<data key="dn_intensityvalue">325</data>
+</node>
+<node id="n326">
+	<data key="dn_label">LateralVentricle_R_y110</data>
+	<data key="dn_colorcode">0,200,0</data>
+	<data key="dn_intensityvalue">326</data>
+</node>
+<node id="n327">
+	<data key="dn_label">LateralVentricle_L_y111</data>
+	<data key="dn_colorcode">201,0,0</data>
+	<data key="dn_intensityvalue">327</data>
+</node>
+<node id="n328">
+	<data key="dn_label">LateralVentricle_R_y111</data>
+	<data key="dn_colorcode">0,201,0</data>
+	<data key="dn_intensityvalue">328</data>
+</node>
+<node id="n329">
+	<data key="dn_label">LateralVentricle_L_y112</data>
+	<data key="dn_colorcode">202,0,0</data>
+	<data key="dn_intensityvalue">329</data>
+</node>
+<node id="n330">
+	<data key="dn_label">LateralVentricle_R_y112</data>
+	<data key="dn_colorcode">0,202,0</data>
+	<data key="dn_intensityvalue">330</data>
+</node>
+<node id="n331">
+	<data key="dn_label">LateralVentricle_L_y113</data>
+	<data key="dn_colorcode">203,0,0</data>
+	<data key="dn_intensityvalue">331</data>
+</node>
+<node id="n332">
+	<data key="dn_label">LateralVentricle_R_y113</data>
+	<data key="dn_colorcode">0,203,0</data>
+	<data key="dn_intensityvalue">332</data>
+</node>
+<node id="n333">
+	<data key="dn_label">LateralVentricle_L_y114</data>
+	<data key="dn_colorcode">204,0,0</data>
+	<data key="dn_intensityvalue">333</data>
+</node>
+<node id="n334">
+	<data key="dn_label">LateralVentricle_R_y114</data>
+	<data key="dn_colorcode">0,204,0</data>
+	<data key="dn_intensityvalue">334</data>
+</node>
+<node id="n335">
+	<data key="dn_label">LateralVentricle_L_y115</data>
+	<data key="dn_colorcode">205,0,0</data>
+	<data key="dn_intensityvalue">335</data>
+</node>
+<node id="n336">
+	<data key="dn_label">LateralVentricle_R_y115</data>
+	<data key="dn_colorcode">0,205,0</data>
+	<data key="dn_intensityvalue">336</data>
+</node>
+<node id="n337">
+	<data key="dn_label">LateralVentricle_L_y116</data>
+	<data key="dn_colorcode">206,0,0</data>
+	<data key="dn_intensityvalue">337</data>
+</node>
+<node id="n338">
+	<data key="dn_label">LateralVentricle_R_y116</data>
+	<data key="dn_colorcode">0,206,0</data>
+	<data key="dn_intensityvalue">338</data>
+</node>
+<node id="n339">
+	<data key="dn_label">LateralVentricle_L_y117</data>
+	<data key="dn_colorcode">207,0,0</data>
+	<data key="dn_intensityvalue">339</data>
+</node>
+<node id="n340">
+	<data key="dn_label">LateralVentricle_R_y117</data>
+	<data key="dn_colorcode">0,207,0</data>
+	<data key="dn_intensityvalue">340</data>
+</node>
+<node id="n341">
+	<data key="dn_label">LateralVentricle_L_y118</data>
+	<data key="dn_colorcode">208,0,0</data>
+	<data key="dn_intensityvalue">341</data>
+</node>
+<node id="n342">
+	<data key="dn_label">LateralVentricle_R_y118</data>
+	<data key="dn_colorcode">0,208,0</data>
+	<data key="dn_intensityvalue">342</data>
+</node>
+<node id="n343">
+	<data key="dn_label">LateralVentricle_L_y119</data>
+	<data key="dn_colorcode">209,0,0</data>
+	<data key="dn_intensityvalue">343</data>
+</node>
+<node id="n344">
+	<data key="dn_label">LateralVentricle_R_y119</data>
+	<data key="dn_colorcode">0,209,0</data>
+	<data key="dn_intensityvalue">344</data>
+</node>
+<node id="n345">
+	<data key="dn_label">LateralVentricle_L_y120</data>
+	<data key="dn_colorcode">210,0,0</data>
+	<data key="dn_intensityvalue">345</data>
+</node>
+<node id="n346">
+	<data key="dn_label">LateralVentricle_R_y120</data>
+	<data key="dn_colorcode">0,210,0</data>
+	<data key="dn_intensityvalue">346</data>
+</node>
+<node id="n347">
+	<data key="dn_label">LateralVentricle_L_y121</data>
+	<data key="dn_colorcode">211,0,0</data>
+	<data key="dn_intensityvalue">347</data>
+</node>
+<node id="n348">
+	<data key="dn_label">LateralVentricle_R_y121</data>
+	<data key="dn_colorcode">0,211,0</data>
+	<data key="dn_intensityvalue">348</data>
+</node>
+<node id="n349">
+	<data key="dn_label">LateralVentricle_L_y122</data>
+	<data key="dn_colorcode">212,0,0</data>
+	<data key="dn_intensityvalue">349</data>
+</node>
+<node id="n350">
+	<data key="dn_label">LateralVentricle_R_y122</data>
+	<data key="dn_colorcode">0,212,0</data>
+	<data key="dn_intensityvalue">350</data>
+</node>
+<node id="n351">
+	<data key="dn_label">LateralVentricle_L_y123</data>
+	<data key="dn_colorcode">213,0,0</data>
+	<data key="dn_intensityvalue">351</data>
+</node>
+<node id="n352">
+	<data key="dn_label">LateralVentricle_R_y123</data>
+	<data key="dn_colorcode">0,213,0</data>
+	<data key="dn_intensityvalue">352</data>
+</node>
+<node id="n353">
+	<data key="dn_label">LateralVentricle_L_y124</data>
+	<data key="dn_colorcode">214,0,0</data>
+	<data key="dn_intensityvalue">353</data>
+</node>
+<node id="n354">
+	<data key="dn_label">LateralVentricle_R_y124</data>
+	<data key="dn_colorcode">0,214,0</data>
+	<data key="dn_intensityvalue">354</data>
+</node>
+<node id="n355">
+	<data key="dn_label">LateralVentricle_L_y125</data>
+	<data key="dn_colorcode">215,0,0</data>
+	<data key="dn_intensityvalue">355</data>
+</node>
+<node id="n356">
+	<data key="dn_label">LateralVentricle_R_y125</data>
+	<data key="dn_colorcode">0,215,0</data>
+	<data key="dn_intensityvalue">356</data>
+</node>
+<node id="n357">
+	<data key="dn_label">LateralVentricle_L_y126</data>
+	<data key="dn_colorcode">216,0,0</data>
+	<data key="dn_intensityvalue">357</data>
+</node>
+<node id="n358">
+	<data key="dn_label">LateralVentricle_R_y126</data>
+	<data key="dn_colorcode">0,216,0</data>
+	<data key="dn_intensityvalue">358</data>
+</node>
+<node id="n359">
+	<data key="dn_label">LateralVentricle_L_y127</data>
+	<data key="dn_colorcode">217,0,0</data>
+	<data key="dn_intensityvalue">359</data>
+</node>
+<node id="n360">
+	<data key="dn_label">LateralVentricle_R_y127</data>
+	<data key="dn_colorcode">0,217,0</data>
+	<data key="dn_intensityvalue">360</data>
+</node>
+<node id="n361">
+	<data key="dn_label">LateralVentricle_L_y128</data>
+	<data key="dn_colorcode">218,0,0</data>
+	<data key="dn_intensityvalue">361</data>
+</node>
+<node id="n362">
+	<data key="dn_label">LateralVentricle_R_y128</data>
+	<data key="dn_colorcode">0,218,0</data>
+	<data key="dn_intensityvalue">362</data>
+</node>
+<node id="n363">
+	<data key="dn_label">LateralVentricle_L_y129</data>
+	<data key="dn_colorcode">219,0,0</data>
+	<data key="dn_intensityvalue">363</data>
+</node>
+<node id="n364">
+	<data key="dn_label">LateralVentricle_R_y129</data>
+	<data key="dn_colorcode">0,219,0</data>
+	<data key="dn_intensityvalue">364</data>
+</node>
+<node id="n365">
+	<data key="dn_label">LateralVentricle_L_y130</data>
+	<data key="dn_colorcode">220,0,0</data>
+	<data key="dn_intensityvalue">365</data>
+</node>
+<node id="n366">
+	<data key="dn_label">LateralVentricle_R_y130</data>
+	<data key="dn_colorcode">0,220,0</data>
+	<data key="dn_intensityvalue">366</data>
+</node>
+<node id="n367">
+	<data key="dn_label">LateralVentricle_L_y131</data>
+	<data key="dn_colorcode">221,0,0</data>
+	<data key="dn_intensityvalue">367</data>
+</node>
+<node id="n368">
+	<data key="dn_label">LateralVentricle_R_y131</data>
+	<data key="dn_colorcode">0,221,0</data>
+	<data key="dn_intensityvalue">368</data>
+</node>
+<node id="n369">
+	<data key="dn_label">LateralVentricle_L_y132</data>
+	<data key="dn_colorcode">222,0,0</data>
+	<data key="dn_intensityvalue">369</data>
+</node>
+<node id="n370">
+	<data key="dn_label">LateralVentricle_R_y132</data>
+	<data key="dn_colorcode">0,222,0</data>
+	<data key="dn_intensityvalue">370</data>
+</node>
+<node id="n371">
+	<data key="dn_label">LateralVentricle_L_y133</data>
+	<data key="dn_colorcode">223,0,0</data>
+	<data key="dn_intensityvalue">371</data>
+</node>
+<node id="n372">
+	<data key="dn_label">LateralVentricle_R_y133</data>
+	<data key="dn_colorcode">0,223,0</data>
+	<data key="dn_intensityvalue">372</data>
+</node>
+<node id="n373">
+	<data key="dn_label">LateralVentricle_L_y134</data>
+	<data key="dn_colorcode">224,0,0</data>
+	<data key="dn_intensityvalue">373</data>
+</node>
+<node id="n374">
+	<data key="dn_label">LateralVentricle_R_y134</data>
+	<data key="dn_colorcode">0,224,0</data>
+	<data key="dn_intensityvalue">374</data>
+</node>
+<node id="n375">
+	<data key="dn_label">LateralVentricle_L_y135</data>
+	<data key="dn_colorcode">225,0,0</data>
+	<data key="dn_intensityvalue">375</data>
+</node>
+<node id="n376">
+	<data key="dn_label">LateralVentricle_R_y135</data>
+	<data key="dn_colorcode">0,225,0</data>
+	<data key="dn_intensityvalue">376</data>
+</node>
+<node id="n377">
+	<data key="dn_label">LateralVentricle_L_y136</data>
+	<data key="dn_colorcode">226,0,0</data>
+	<data key="dn_intensityvalue">377</data>
+</node>
+<node id="n378">
+	<data key="dn_label">LateralVentricle_R_y136</data>
+	<data key="dn_colorcode">0,226,0</data>
+	<data key="dn_intensityvalue">378</data>
+</node>
+<node id="n379">
+	<data key="dn_label">LateralVentricle_L_y137</data>
+	<data key="dn_colorcode">227,0,0</data>
+	<data key="dn_intensityvalue">379</data>
+</node>
+<node id="n380">
+	<data key="dn_label">LateralVentricle_R_y137</data>
+	<data key="dn_colorcode">0,227,0</data>
+	<data key="dn_intensityvalue">380</data>
+</node>
+<node id="n381">
+	<data key="dn_label">LateralVentricle_L_y138</data>
+	<data key="dn_colorcode">228,0,0</data>
+	<data key="dn_intensityvalue">381</data>
+</node>
+<node id="n382">
+	<data key="dn_label">LateralVentricle_R_y138</data>
+	<data key="dn_colorcode">0,228,0</data>
+	<data key="dn_intensityvalue">382</data>
+</node>
+<node id="n383">
+	<data key="dn_label">LateralVentricle_L_y139</data>
+	<data key="dn_colorcode">229,0,0</data>
+	<data key="dn_intensityvalue">383</data>
+</node>
+<node id="n384">
+	<data key="dn_label">LateralVentricle_R_y139</data>
+	<data key="dn_colorcode">0,229,0</data>
+	<data key="dn_intensityvalue">384</data>
+</node>
+<node id="n385">
+	<data key="dn_label">LateralVentricle_L_y140</data>
+	<data key="dn_colorcode">230,0,0</data>
+	<data key="dn_intensityvalue">385</data>
+</node>
+<node id="n386">
+	<data key="dn_label">LateralVentricle_R_y140</data>
+	<data key="dn_colorcode">0,230,0</data>
+	<data key="dn_intensityvalue">386</data>
+</node>
+<node id="n387">
+	<data key="dn_label">LateralVentricle_L_y141</data>
+	<data key="dn_colorcode">231,0,0</data>
+	<data key="dn_intensityvalue">387</data>
+</node>
+<node id="n388">
+	<data key="dn_label">LateralVentricle_R_y141</data>
+	<data key="dn_colorcode">0,231,0</data>
+	<data key="dn_intensityvalue">388</data>
+</node>
+<node id="n389">
+	<data key="dn_label">LateralVentricle_L_y142</data>
+	<data key="dn_colorcode">232,0,0</data>
+	<data key="dn_intensityvalue">389</data>
+</node>
+<node id="n390">
+	<data key="dn_label">LateralVentricle_R_y142</data>
+	<data key="dn_colorcode">0,232,0</data>
+	<data key="dn_intensityvalue">390</data>
+</node>
+<node id="n391">
+	<data key="dn_label">LateralVentricle_L_y143</data>
+	<data key="dn_colorcode">233,0,0</data>
+	<data key="dn_intensityvalue">391</data>
+</node>
+<node id="n392">
+	<data key="dn_label">LateralVentricle_R_y143</data>
+	<data key="dn_colorcode">0,233,0</data>
+	<data key="dn_intensityvalue">392</data>
+</node>
+<node id="n393">
+	<data key="dn_label">LateralVentricle_L_y144</data>
+	<data key="dn_colorcode">234,0,0</data>
+	<data key="dn_intensityvalue">393</data>
+</node>
+<node id="n394">
+	<data key="dn_label">LateralVentricle_R_y144</data>
+	<data key="dn_colorcode">0,234,0</data>
+	<data key="dn_intensityvalue">394</data>
+</node>
+<node id="n395">
+	<data key="dn_label">LateralVentricle_L_y145</data>
+	<data key="dn_colorcode">235,0,0</data>
+	<data key="dn_intensityvalue">395</data>
+</node>
+<node id="n396">
+	<data key="dn_label">LateralVentricle_R_y145</data>
+	<data key="dn_colorcode">0,235,0</data>
+	<data key="dn_intensityvalue">396</data>
+</node>
+<node id="n397">
+	<data key="dn_label">LateralVentricle_L_y146</data>
+	<data key="dn_colorcode">236,0,0</data>
+	<data key="dn_intensityvalue">397</data>
+</node>
+<node id="n398">
+	<data key="dn_label">LateralVentricle_R_y146</data>
+	<data key="dn_colorcode">0,236,0</data>
+	<data key="dn_intensityvalue">398</data>
+</node>
+<node id="n399">
+	<data key="dn_label">LateralVentricle_L_y147</data>
+	<data key="dn_colorcode">237,0,0</data>
+	<data key="dn_intensityvalue">399</data>
+</node>
+<node id="n400">
+	<data key="dn_label">LateralVentricle_R_y147</data>
+	<data key="dn_colorcode">0,237,0</data>
+	<data key="dn_intensityvalue">400</data>
+</node>
+<node id="n401">
+	<data key="dn_label">LateralVentricle_L_y148</data>
+	<data key="dn_colorcode">238,0,0</data>
+	<data key="dn_intensityvalue">401</data>
+</node>
+<node id="n402">
+	<data key="dn_label">LateralVentricle_R_y148</data>
+	<data key="dn_colorcode">0,238,0</data>
+	<data key="dn_intensityvalue">402</data>
+</node>
+<node id="n403">
+	<data key="dn_label">LateralVentricle_L_y149</data>
+	<data key="dn_colorcode">239,0,0</data>
+	<data key="dn_intensityvalue">403</data>
+</node>
+<node id="n404">
+	<data key="dn_label">LateralVentricle_R_y149</data>
+	<data key="dn_colorcode">0,239,0</data>
+	<data key="dn_intensityvalue">404</data>
+</node>
+<node id="n405">
+	<data key="dn_label">LateralVentricle_L_y150</data>
+	<data key="dn_colorcode">240,0,0</data>
+	<data key="dn_intensityvalue">405</data>
+</node>
+<node id="n406">
+	<data key="dn_label">LateralVentricle_R_y150</data>
+	<data key="dn_colorcode">0,240,0</data>
+	<data key="dn_intensityvalue">406</data>
+</node>
+<node id="n407">
+	<data key="dn_label">LateralVentricle_L_y151</data>
+	<data key="dn_colorcode">241,0,0</data>
+	<data key="dn_intensityvalue">407</data>
+</node>
+<node id="n408">
+	<data key="dn_label">LateralVentricle_R_y151</data>
+	<data key="dn_colorcode">0,241,0</data>
+	<data key="dn_intensityvalue">408</data>
+</node>
+<node id="n409">
+	<data key="dn_label">LateralVentricle_L_y152</data>
+	<data key="dn_colorcode">242,0,0</data>
+	<data key="dn_intensityvalue">409</data>
+</node>
+<node id="n410">
+	<data key="dn_label">LateralVentricle_R_y152</data>
+	<data key="dn_colorcode">0,242,0</data>
+	<data key="dn_intensityvalue">410</data>
+</node>
+<node id="n411">
+	<data key="dn_label">LateralVentricle_L_y153</data>
+	<data key="dn_colorcode">243,0,0</data>
+	<data key="dn_intensityvalue">411</data>
+</node>
+<node id="n412">
+	<data key="dn_label">LateralVentricle_R_y153</data>
+	<data key="dn_colorcode">0,243,0</data>
+	<data key="dn_intensityvalue">412</data>
+</node>
+<node id="n413">
+	<data key="dn_label">LateralVentricle_L_y145</data>
+	<data key="dn_colorcode">244,0,0</data>
+	<data key="dn_intensityvalue">413</data>
+</node>
+<node id="n414">
+	<data key="dn_label">LateralVentricle_R_y154</data>
+	<data key="dn_colorcode">0,244,0</data>
+	<data key="dn_intensityvalue">414</data>
+</node>
+<node id="n491">
+	<data key="dn_label">ThirdVentricle_L_y98</data>
+	<data key="dn_colorcode">,138,138</data>
+	<data key="dn_intensityvalue">491</data>
+</node>
+<node id="n492">
+	<data key="dn_label">ThirdVentricle_R_y98</data>
+	<data key="dn_colorcode">,0,138</data>
+	<data key="dn_intensityvalue">492</data>
+</node>
+<node id="n493">
+	<data key="dn_label">ThirdVentricle_L_y99</data>
+	<data key="dn_colorcode">,139,139</data>
+	<data key="dn_intensityvalue">493</data>
+</node>
+<node id="n494">
+	<data key="dn_label">ThirdVentricle_R_y99</data>
+	<data key="dn_colorcode">,0,139</data>
+	<data key="dn_intensityvalue">494</data>
+</node>
+<node id="n495">
+	<data key="dn_label">ThirdVentricle_L_y100</data>
+	<data key="dn_colorcode">140,140,0</data>
+	<data key="dn_intensityvalue">495</data>
+</node>
+<node id="n496">
+	<data key="dn_label">ThirdVentricle_R_y100</data>
+	<data key="dn_colorcode">0,140,140</data>
+	<data key="dn_intensityvalue">496</data>
+</node>
+<node id="n497">
+	<data key="dn_label">ThirdVentricle_L_y101</data>
+	<data key="dn_colorcode">141,141,0</data>
+	<data key="dn_intensityvalue">497</data>
+</node>
+<node id="n498">
+	<data key="dn_label">ThirdVentricle_R_y101</data>
+	<data key="dn_colorcode">0,141,141</data>
+	<data key="dn_intensityvalue">498</data>
+</node>
+<node id="n499">
+	<data key="dn_label">ThirdVentricle_L_y102</data>
+	<data key="dn_colorcode">142,142,0</data>
+	<data key="dn_intensityvalue">499</data>
+</node>
+<node id="n500">
+	<data key="dn_label">ThirdVentricle_R_y102</data>
+	<data key="dn_colorcode">0,142,142</data>
+	<data key="dn_intensityvalue">500</data>
+</node>
+<node id="n501">
+	<data key="dn_label">ThirdVentricle_L_y103</data>
+	<data key="dn_colorcode">143,143,0</data>
+	<data key="dn_intensityvalue">501</data>
+</node>
+<node id="n502">
+	<data key="dn_label">ThirdVentricle_R_y103</data>
+	<data key="dn_colorcode">0,143,143</data>
+	<data key="dn_intensityvalue">502</data>
+</node>
+<node id="n503">
+	<data key="dn_label">ThirdVentricle_L_y104</data>
+	<data key="dn_colorcode">144,144,0</data>
+	<data key="dn_intensityvalue">503</data>
+</node>
+<node id="n504">
+	<data key="dn_label">ThirdVentricle_R_y104</data>
+	<data key="dn_colorcode">0,144,144</data>
+	<data key="dn_intensityvalue">504</data>
+</node>
+<node id="n505">
+	<data key="dn_label">ThirdVentricle_L_y105</data>
+	<data key="dn_colorcode">145,145,0</data>
+	<data key="dn_intensityvalue">505</data>
+</node>
+<node id="n506">
+	<data key="dn_label">ThirdVentricle_R_y105</data>
+	<data key="dn_colorcode">0,145,145</data>
+	<data key="dn_intensityvalue">506</data>
+</node>
+<node id="n507">
+	<data key="dn_label">ThirdVentricle_L_y106</data>
+	<data key="dn_colorcode">146,146,0</data>
+	<data key="dn_intensityvalue">507</data>
+</node>
+<node id="n508">
+	<data key="dn_label">ThirdVentricle_R_y106</data>
+	<data key="dn_colorcode">0,146,146</data>
+	<data key="dn_intensityvalue">508</data>
+</node>
+<node id="n509">
+	<data key="dn_label">ThirdVentricle_L_y107</data>
+	<data key="dn_colorcode">147,147,0</data>
+	<data key="dn_intensityvalue">509</data>
+</node>
+<node id="n510">
+	<data key="dn_label">ThirdVentricle_R_y107</data>
+	<data key="dn_colorcode">0,147,147</data>
+	<data key="dn_intensityvalue">510</data>
+</node>
+<node id="n511">
+	<data key="dn_label">ThirdVentricle_L_y108</data>
+	<data key="dn_colorcode">148,148,0</data>
+	<data key="dn_intensityvalue">511</data>
+</node>
+<node id="n512">
+	<data key="dn_label">ThirdVentricle_R_y108</data>
+	<data key="dn_colorcode">0,148,148</data>
+	<data key="dn_intensityvalue">512</data>
+</node>
+<node id="n513">
+	<data key="dn_label">ThirdVentricle_L_y109</data>
+	<data key="dn_colorcode">149,149,0</data>
+	<data key="dn_intensityvalue">513</data>
+</node>
+<node id="n514">
+	<data key="dn_label">ThirdVentricle_R_y109</data>
+	<data key="dn_colorcode">0,149,149</data>
+	<data key="dn_intensityvalue">514</data>
+</node>
+<node id="n515">
+	<data key="dn_label">ThirdVentricle_L_y110</data>
+	<data key="dn_colorcode">150,150,0</data>
+	<data key="dn_intensityvalue">515</data>
+</node>
+<node id="n516">
+	<data key="dn_label">ThirdVentricle_R_y110</data>
+	<data key="dn_colorcode">0,150,150</data>
+	<data key="dn_intensityvalue">516</data>
+</node>
+<node id="n517">
+	<data key="dn_label">ThirdVentricle_L_y111</data>
+	<data key="dn_colorcode">151,151,0</data>
+	<data key="dn_intensityvalue">517</data>
+</node>
+<node id="n518">
+	<data key="dn_label">ThirdVentricle_R_y111</data>
+	<data key="dn_colorcode">0,151,151</data>
+	<data key="dn_intensityvalue">518</data>
+</node>
+<node id="n519">
+	<data key="dn_label">ThirdVentricle_L_y112</data>
+	<data key="dn_colorcode">152,152,0</data>
+	<data key="dn_intensityvalue">519</data>
+</node>
+<node id="n520">
+	<data key="dn_label">ThirdVentricle_R_y112</data>
+	<data key="dn_colorcode">0,152,152</data>
+	<data key="dn_intensityvalue">520</data>
+</node>
+<node id="n521">
+	<data key="dn_label">ThirdVentricle_L_y113</data>
+	<data key="dn_colorcode">153,153,0</data>
+	<data key="dn_intensityvalue">521</data>
+</node>
+<node id="n522">
+	<data key="dn_label">ThirdVentricle_R_y113</data>
+	<data key="dn_colorcode">0,153,153</data>
+	<data key="dn_intensityvalue">522</data>
+</node>
+<node id="n523">
+	<data key="dn_label">ThirdVentricle_L_y114</data>
+	<data key="dn_colorcode">154,154,0</data>
+	<data key="dn_intensityvalue">523</data>
+</node>
+<node id="n524">
+	<data key="dn_label">ThirdVentricle_R_y114</data>
+	<data key="dn_colorcode">0,154,154</data>
+	<data key="dn_intensityvalue">524</data>
+</node>
+<node id="n525">
+	<data key="dn_label">ThirdVentricle_L_y115</data>
+	<data key="dn_colorcode">155,155,0</data>
+	<data key="dn_intensityvalue">525</data>
+</node>
+<node id="n526">
+	<data key="dn_label">ThirdVentricle_R_y115</data>
+	<data key="dn_colorcode">0,155,155</data>
+	<data key="dn_intensityvalue">526</data>
+</node>
+<node id="n527">
+	<data key="dn_label">ThirdVentricle_L_y116</data>
+	<data key="dn_colorcode">156,156,0</data>
+	<data key="dn_intensityvalue">527</data>
+</node>
+<node id="n528">
+	<data key="dn_label">ThirdVentricle_R_y116</data>
+	<data key="dn_colorcode">0,156,156</data>
+	<data key="dn_intensityvalue">528</data>
+</node>
+<node id="n529">
+	<data key="dn_label">ThirdVentricle_L_y117</data>
+	<data key="dn_colorcode">157,157,0</data>
+	<data key="dn_intensityvalue">529</data>
+</node>
+<node id="n530">
+	<data key="dn_label">ThirdVentricle_R_y117</data>
+	<data key="dn_colorcode">0,157,157</data>
+	<data key="dn_intensityvalue">530</data>
+</node>
+<node id="n531">
+	<data key="dn_label">ThirdVentricle_L_y118</data>
+	<data key="dn_colorcode">158,158,0</data>
+	<data key="dn_intensityvalue">531</data>
+</node>
+<node id="n532">
+	<data key="dn_label">ThirdVentricle_R_y118</data>
+	<data key="dn_colorcode">0,158,158</data>
+	<data key="dn_intensityvalue">532</data>
+</node>
+<node id="n533">
+	<data key="dn_label">ThirdVentricle_L_y119</data>
+	<data key="dn_colorcode">159,159,0</data>
+	<data key="dn_intensityvalue">533</data>
+</node>
+<node id="n534">
+	<data key="dn_label">ThirdVentricle_R_y119</data>
+	<data key="dn_colorcode">0,159,159</data>
+	<data key="dn_intensityvalue">534</data>
+</node>
+<node id="n535">
+	<data key="dn_label">ThirdVentricle_L_y120</data>
+	<data key="dn_colorcode">160,160,0</data>
+	<data key="dn_intensityvalue">535</data>
+</node>
+<node id="n536">
+	<data key="dn_label">ThirdVentricle_R_y120</data>
+	<data key="dn_colorcode">0,160,160</data>
+	<data key="dn_intensityvalue">536</data>
+</node>
+<node id="n537">
+	<data key="dn_label">ThirdVentricle_L_y121</data>
+	<data key="dn_colorcode">161,161,0</data>
+	<data key="dn_intensityvalue">537</data>
+</node>
+<node id="n538">
+	<data key="dn_label">ThirdVentricle_R_y121</data>
+	<data key="dn_colorcode">0,161,161</data>
+	<data key="dn_intensityvalue">538</data>
+</node>
+<node id="n539">
+	<data key="dn_label">ThirdVentricle_L_y122</data>
+	<data key="dn_colorcode">162,162,0</data>
+	<data key="dn_intensityvalue">539</data>
+</node>
+<node id="n540">
+	<data key="dn_label">ThirdVentricle_R_y122</data>
+	<data key="dn_colorcode">0,162,162</data>
+	<data key="dn_intensityvalue">540</data>
+</node>
+<node id="n541">
+	<data key="dn_label">ThirdVentricle_L_y123</data>
+	<data key="dn_colorcode">163,163,0</data>
+	<data key="dn_intensityvalue">541</data>
+</node>
+<node id="n542">
+	<data key="dn_label">ThirdVentricle_R_y123</data>
+	<data key="dn_colorcode">0,163,163</data>
+	<data key="dn_intensityvalue">542</data>
+</node>
+<node id="n543">
+	<data key="dn_label">ThirdVentricle_L_y124</data>
+	<data key="dn_colorcode">164,164,0</data>
+	<data key="dn_intensityvalue">543</data>
+</node>
+<node id="n544">
+	<data key="dn_label">ThirdVentricle_R_y124</data>
+	<data key="dn_colorcode">0,164,164</data>
+	<data key="dn_intensityvalue">544</data>
+</node>
+<node id="n545">
+	<data key="dn_label">ThirdVentricle_L_y125</data>
+	<data key="dn_colorcode">165,165,0</data>
+	<data key="dn_intensityvalue">545</data>
+</node>
+<node id="n546">
+	<data key="dn_label">ThirdVentricle_R_y125</data>
+	<data key="dn_colorcode">0,165,165</data>
+	<data key="dn_intensityvalue">546</data>
+</node>
+<node id="n547">
+	<data key="dn_label">ThirdVentricle_L_y126</data>
+	<data key="dn_colorcode">166,166,0</data>
+	<data key="dn_intensityvalue">547</data>
+</node>
+<node id="n548">
+	<data key="dn_label">ThirdVentricle_R_y126</data>
+	<data key="dn_colorcode">0,166,166</data>
+	<data key="dn_intensityvalue">548</data>
+</node>
+<node id="n549">
+	<data key="dn_label">ThirdVentricle_L_y127</data>
+	<data key="dn_colorcode">167,167,0</data>
+	<data key="dn_intensityvalue">549</data>
+</node>
+<node id="n550">
+	<data key="dn_label">ThirdVentricle_R_y127</data>
+	<data key="dn_colorcode">0,167,167</data>
+	<data key="dn_intensityvalue">550</data>
+</node>
+<node id="n552">
+	<data key="dn_label">ThirdVentricle_R_y128</data>
+	<data key="dn_colorcode">0,168,168</data>
+	<data key="dn_intensityvalue">552</data>
+</node>
+<node id="n553">
+	<data key="dn_label">ThirdVentricle_L_y129</data>
+	<data key="dn_colorcode">168,168,0</data>
+	<data key="dn_intensityvalue">553</data>
+</node>
+<node id="n554">
+	<data key="dn_label">ThirdVentricle_R_y129</data>
+	<data key="dn_colorcode">0,169,169</data>
+	<data key="dn_intensityvalue">554</data>
+</node>
+<node id="n555">
+	<data key="dn_label">ThirdVentricle_L_y130</data>
+	<data key="dn_colorcode">169,169,0</data>
+	<data key="dn_intensityvalue">555</data>
+</node>
+<node id="n556">
+	<data key="dn_label">ThirdVentricle_R_y130</data>
+	<data key="dn_colorcode">0,170,170</data>
+	<data key="dn_intensityvalue">556</data>
+</node>
+<node id="n581">
+	<data key="dn_label">CorpusCallosum_AP_0</data>
+	<data key="dn_colorcode">255,124,0</data>
+	<data key="dn_intensityvalue">581</data>
+</node>
+<node id="n582">
+	<data key="dn_label">CorpusCallosum_AP_1</data>
+	<data key="dn_colorcode">230,255,0</data>
+	<data key="dn_intensityvalue">582</data>
+</node>
+<node id="n583">
+	<data key="dn_label">CorpusCallosum_AP_2</data>
+	<data key="dn_colorcode">74,255,0</data>
+	<data key="dn_intensityvalue">583</data>
+</node>
+<node id="n584">
+	<data key="dn_label">CorpusCallosum_AP_3</data>
+	<data key="dn_colorcode">0,255,81</data>
+	<data key="dn_intensityvalue">584</data>
+</node>
+<node id="n585">
+	<data key="dn_label">CorpusCallosum_AP_4</data>
+	<data key="dn_colorcode">0,255,237</data>
+	<data key="dn_intensityvalue">585</data>
+</node>
+<node id="n586">
+	<data key="dn_label">CorpusCallosum_AP_5</data>
+	<data key="dn_colorcode">0,118,255</data>
+	<data key="dn_intensityvalue">586</data>
+</node>
+<node id="n587">
+	<data key="dn_label">CorpusCallosum_AP_6</data>
+	<data key="dn_colorcode">38,0,255</data>
+	<data key="dn_intensityvalue">587</data>
+</node>
+<node id="n588">
+	<data key="dn_label">CorpusCallosum_AP_7</data>
+	<data key="dn_colorcode">194,0,255</data>
+	<data key="dn_intensityvalue">588</data>
+</node>
+<node id="n589">
+	<data key="dn_label">CorpusCallosum_AP_8</data>
+	<data key="dn_colorcode">255,0,160</data>
+	<data key="dn_intensityvalue">589</data>
+</node>
+<node id="n591">
+	<data key="dn_label">Pons_x127</data>
+	<data key="dn_colorcode">255,255,255</data>
+	<data key="dn_intensityvalue">591</data>
+</node>
+<node id="n592">
+	<data key="dn_label">Pons_x126</data>
+	<data key="dn_colorcode">250,250,250</data>
+	<data key="dn_intensityvalue">592</data>
+</node>
+<node id="n593">
+	<data key="dn_label">Pons_x125</data>
+	<data key="dn_colorcode">245,245,245</data>
+	<data key="dn_intensityvalue">593</data>
+</node>
+<node id="n594">
+	<data key="dn_label">Pons_x124</data>
+	<data key="dn_colorcode">240,240,240</data>
+	<data key="dn_intensityvalue">594</data>
+</node>
+<node id="n595">
+	<data key="dn_label">Pons_x123</data>
+	<data key="dn_colorcode">235,235,235</data>
+	<data key="dn_intensityvalue">595</data>
+</node>
+<node id="n596">
+	<data key="dn_label">Pons_x122</data>
+	<data key="dn_colorcode">230,230,230</data>
+	<data key="dn_intensityvalue">596</data>
+</node>
+<node id="n597">
+	<data key="dn_label">Pons_x121</data>
+	<data key="dn_colorcode">225,225,225</data>
+	<data key="dn_intensityvalue">597</data>
+</node>
+<node id="n598">
+	<data key="dn_label">Pons_x120</data>
+	<data key="dn_colorcode">220,220,220</data>
+	<data key="dn_intensityvalue">598</data>
+</node>
+<node id="n599">
+	<data key="dn_label">Pons_x119</data>
+	<data key="dn_colorcode">215,215,215</data>
+	<data key="dn_intensityvalue">599</data>
+</node>
+<node id="n600">
+	<data key="dn_label">Pons_x118</data>
+	<data key="dn_colorcode">210,210,210</data>
+	<data key="dn_intensityvalue">600</data>
+</node>
+<node id="n601">
+	<data key="dn_label">Pons_x117</data>
+	<data key="dn_colorcode">205,205,205</data>
+	<data key="dn_intensityvalue">601</data>
+</node>
+<node id="n602">
+	<data key="dn_label">Pons_x116</data>
+	<data key="dn_colorcode">200,200,200</data>
+	<data key="dn_intensityvalue">602</data>
+</node>
+<node id="n603">
+	<data key="dn_label">Pons_x115</data>
+	<data key="dn_colorcode">195,195,195</data>
+	<data key="dn_intensityvalue">603</data>
+</node>
+<node id="n604">
+	<data key="dn_label">Pons_x114</data>
+	<data key="dn_colorcode">190,190,190</data>
+	<data key="dn_intensityvalue">604</data>
+</node>
+<node id="n605">
+	<data key="dn_label">Pons_x113</data>
+	<data key="dn_colorcode">185,185,185</data>
+	<data key="dn_intensityvalue">605</data>
+</node>
+<node id="n606">
+	<data key="dn_label">Pons_x112</data>
+	<data key="dn_colorcode">180,180,180</data>
+	<data key="dn_intensityvalue">606</data>
+</node>
+<node id="n607">
+	<data key="dn_label">Pons_x111</data>
+	<data key="dn_colorcode">175,175,175</data>
+	<data key="dn_intensityvalue">607</data>
+</node>
+</graphml>

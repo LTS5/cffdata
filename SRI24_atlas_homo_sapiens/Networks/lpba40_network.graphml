@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+
+<key id="dn_label" for="node" attr.name="label" attr.type="string">
+	<desc>The label of the node.</desc>
+</key>
+<key id="dn_colorcode" for="node" attr.name="fs_colorcode" attr.type="string">
+	<desc>The color-code derived from the atlas: R,G,B</desc>
+</key>
+<key id="dn_intensityvalue" for="node" attr.name="fs_intensity" attr.type="string">
+	<desc>Refers to the intensity value in the corresponding segmentation volume.</desc>
+</key>
+
+<graph id="LPBA40_Label_Network" edgedefault="undirected">
+
+<node id="n1">
+	<data key="dn_label">L_superior_frontal_gyrus</data>
+	<data key="dn_colorcode">255,128,128</data>
+	<data key="dn_intensityvalue">21</data>
+</node>
+<node id="n2">
+	<data key="dn_label">R_superior_frontal_gyrus</data>
+	<data key="dn_colorcode">255,128,0</data>
+	<data key="dn_intensityvalue">22</data>
+</node>
+<node id="n3">
+	<data key="dn_label">L_middle_frontal_gyrus</data>
+	<data key="dn_colorcode">255,0,0</data>
+	<data key="dn_intensityvalue">23</data>
+</node>
+<node id="n4">
+	<data key="dn_label">R_middle_frontal_gyrus</data>
+	<data key="dn_colorcode">255,128,255</data>
+	<data key="dn_intensityvalue">24</data>
+</node>
+<node id="n5">
+	<data key="dn_label">L_inferior_frontal_gyrus</data>
+	<data key="dn_colorcode">128,127,0</data>
+	<data key="dn_intensityvalue">25</data>
+</node>
+<node id="n6">
+	<data key="dn_label">R_inferior_frontal_gyrus</data>
+	<data key="dn_colorcode">255,0,0</data>
+	<data key="dn_intensityvalue">26</data>
+</node>
+<node id="n7">
+	<data key="dn_label">L_precentral_gyrus</data>
+	<data key="dn_colorcode">255,255,0</data>
+	<data key="dn_intensityvalue">27</data>
+</node>
+<node id="n8">
+	<data key="dn_label">R_precentral_gyrus</data>
+	<data key="dn_colorcode">128,0,0</data>
+	<data key="dn_intensityvalue">28</data>
+</node>
+<node id="n9">
+	<data key="dn_label">L_middle_orbitofrontal_gyrus</data>
+	<data key="dn_colorcode">255,0,128</data>
+	<data key="dn_intensityvalue">29</data>
+</node>
+<node id="n10">
+	<data key="dn_label">R_middle_orbitofrontal_gyrus</data>
+	<data key="dn_colorcode">128,128,64</data>
+	<data key="dn_intensityvalue">30</data>
+</node>
+<node id="n11">
+	<data key="dn_label">L_lateral_orbitofrontal_gyrus</data>
+	<data key="dn_colorcode">128,0,255</data>
+	<data key="dn_intensityvalue">31</data>
+</node>
+<node id="n12">
+	<data key="dn_label">R_lateral_orbitofrontal_gyrus</data>
+	<data key="dn_colorcode">255,128,127</data>
+	<data key="dn_intensityvalue">32</data>
+</node>
+<node id="n13">
+	<data key="dn_label">L_gyrus_rectus</data>
+	<data key="dn_colorcode">128,128,255</data>
+	<data key="dn_intensityvalue">33</data>
+</node>
+<node id="n14">
+	<data key="dn_label">R_gyrus_rectus</data>
+	<data key="dn_colorcode">255,255,0</data>
+	<data key="dn_intensityvalue">34</data>
+</node>
+<node id="n15">
+	<data key="dn_label">L_postcentral_gyrus</data>
+	<data key="dn_colorcode">255,0,0</data>
+	<data key="dn_intensityvalue">41</data>
+</node>
+<node id="n16">
+	<data key="dn_label">R_postcentral_gyrus</data>
+	<data key="dn_colorcode">128,128,64</data>
+	<data key="dn_intensityvalue">42</data>
+</node>
+<node id="n17">
+	<data key="dn_label">L_superior_parietal_gyrus</data>
+	<data key="dn_colorcode">127,128,0</data>
+	<data key="dn_intensityvalue">43</data>
+</node>
+<node id="n18">
+	<data key="dn_label">R_superior_parietal_gyrus</data>
+	<data key="dn_colorcode">255,255,0</data>
+	<data key="dn_intensityvalue">44</data>
+</node>
+<node id="n19">
+	<data key="dn_label">L_supramarginal_gyrus</data>
+	<data key="dn_colorcode">255,255,0</data>
+	<data key="dn_intensityvalue">45</data>
+</node>
+<node id="n20">
+	<data key="dn_label">R_supramarginal_gyrus</data>
+	<data key="dn_colorcode">128,128,0</data>
+	<data key="dn_intensityvalue">46</data>
+</node>
+<node id="n21">
+	<data key="dn_label">L_angular_gyrus</data>
+	<data key="dn_colorcode">255,128,255</data>
+	<data key="dn_intensityvalue">47</data>
+</node>
+<node id="n22">
+	<data key="dn_label">R_angular_gyrus</data>
+	<data key="dn_colorcode">64,0,128</data>
+	<data key="dn_intensityvalue">48</data>
+</node>
+<node id="n23">
+	<data key="dn_label">L_precuneus</data>
+	<data key="dn_colorcode">128,255,128</data>
+	<data key="dn_intensityvalue">49</data>
+</node>
+<node id="n24">
+	<data key="dn_label">R_precuneus</data>
+	<data key="dn_colorcode">255,0,0</data>
+	<data key="dn_intensityvalue">50</data>
+</node>
+<node id="n25">
+	<data key="dn_label">L_superior_occipital_gyrus</data>
+	<data key="dn_colorcode">127,127,255</data>
+	<data key="dn_intensityvalue">61</data>
+</node>
+<node id="n26">
+	<data key="dn_label">R_superior_occipital_gyrus</data>
+	<data key="dn_colorcode">255,127,0</data>
+	<data key="dn_intensityvalue">62</data>
+</node>
+<node id="n27">
+	<data key="dn_label">L_middle_occipital_gyrus</data>
+	<data key="dn_colorcode">255,127,128</data>
+	<data key="dn_intensityvalue">63</data>
+</node>
+<node id="n28">
+	<data key="dn_label">R_middle_occipital_gyrus</data>
+	<data key="dn_colorcode">127,0,0</data>
+	<data key="dn_intensityvalue">64</data>
+</node>
+<node id="n29">
+	<data key="dn_label">L_inferior_occipital_gyrus</data>
+	<data key="dn_colorcode">160,0,0</data>
+	<data key="dn_intensityvalue">65</data>
+</node>
+<node id="n30">
+	<data key="dn_label">R_inferior_occipital_gyrus</data>
+	<data key="dn_colorcode">83,166,166</data>
+	<data key="dn_intensityvalue">66</data>
+</node>
+<node id="n31">
+	<data key="dn_label">L_cuneus</data>
+	<data key="dn_colorcode">255,255,127</data>
+	<data key="dn_intensityvalue">67</data>
+</node>
+<node id="n32">
+	<data key="dn_label">R_cuneus</data>
+	<data key="dn_colorcode">128,0,0</data>
+	<data key="dn_intensityvalue">68</data>
+</node>
+<node id="n33">
+	<data key="dn_label">L_superior_temporal_gyrus</data>
+	<data key="dn_colorcode">128,0,64</data>
+	<data key="dn_intensityvalue">81</data>
+</node>
+<node id="n34">
+	<data key="dn_label">R_superior_temporal_gyrus</data>
+	<data key="dn_colorcode">128,255,0</data>
+	<data key="dn_intensityvalue">82</data>
+</node>
+<node id="n35">
+	<data key="dn_label">L_middle_temporal_gyrus</data>
+	<data key="dn_colorcode">92,92,237</data>
+	<data key="dn_intensityvalue">83</data>
+</node>
+<node id="n36">
+	<data key="dn_label">R_middle_temporal_gyrus</data>
+	<data key="dn_colorcode">192,128,255</data>
+	<data key="dn_intensityvalue">84</data>
+</node>
+<node id="n37">
+	<data key="dn_label">L_inferior_temporal_gyrus</data>
+	<data key="dn_colorcode">17,207,255</data>
+	<data key="dn_intensityvalue">85</data>
+</node>
+<node id="n38">
+	<data key="dn_label">R_inferior_temporal_gyrus</data>
+	<data key="dn_colorcode">255,0,128</data>
+	<data key="dn_intensityvalue">86</data>
+</node>
+<node id="n39">
+	<data key="dn_label">L_parahippocampal_gyrus</data>
+	<data key="dn_colorcode">105,180,31</data>
+	<data key="dn_intensityvalue">87</data>
+</node>
+<node id="n40">
+	<data key="dn_label">R_parahippocampal_gyrus</data>
+	<data key="dn_colorcode">64,255,0</data>
+	<data key="dn_intensityvalue">88</data>
+</node>
+<node id="n41">
+	<data key="dn_label">L_lingual_gyrus</data>
+	<data key="dn_colorcode">255,255,0</data>
+	<data key="dn_intensityvalue">89</data>
+</node>
+<node id="n42">
+	<data key="dn_label">R_lingual_gyrus</data>
+	<data key="dn_colorcode">255,255,0</data>
+	<data key="dn_intensityvalue">90</data>
+</node>
+<node id="n43">
+	<data key="dn_label">L_fusiform_gyrus</data>
+	<data key="dn_colorcode">35,231,216</data>
+	<data key="dn_intensityvalue">91</data>
+</node>
+<node id="n44">
+	<data key="dn_label">R_fusiform_gyrus</data>
+	<data key="dn_colorcode">255,0,0</data>
+	<data key="dn_intensityvalue">92</data>
+</node>
+<node id="n45">
+	<data key="dn_label">L_insular_cortex</data>
+	<data key="dn_colorcode">128,255,0</data>
+	<data key="dn_intensityvalue">101</data>
+</node>
+<node id="n46">
+	<data key="dn_label">R_insular_cortex</data>
+	<data key="dn_colorcode">128,255,255</data>
+	<data key="dn_intensityvalue">102</data>
+</node>
+<node id="n47">
+	<data key="dn_label">L_cingulate_gyrus</data>
+	<data key="dn_colorcode">64,128,255</data>
+	<data key="dn_intensityvalue">121</data>
+</node>
+<node id="n48">
+	<data key="dn_label">R_cingulate_gyrus</data>
+	<data key="dn_colorcode">255,0,255</data>
+	<data key="dn_intensityvalue">122</data>
+</node>
+<node id="n49">
+	<data key="dn_label">L_caudate</data>
+	<data key="dn_colorcode">48,255,0</data>
+	<data key="dn_intensityvalue">161</data>
+</node>
+<node id="n50">
+	<data key="dn_label">R_caudate</data>
+	<data key="dn_colorcode">255,0,128</data>
+	<data key="dn_intensityvalue">162</data>
+</node>
+<node id="n51">
+	<data key="dn_label">L_putamen</data>
+	<data key="dn_colorcode">128,160,48</data>
+	<data key="dn_intensityvalue">163</data>
+</node>
+<node id="n52">
+	<data key="dn_label">R_putamen</data>
+	<data key="dn_colorcode">255,128,0</data>
+	<data key="dn_intensityvalue">164</data>
+</node>
+<node id="n53">
+	<data key="dn_label">L_hippocampus</data>
+	<data key="dn_colorcode">133,10,31</data>
+	<data key="dn_intensityvalue">165</data>
+</node>
+<node id="n54">
+	<data key="dn_label">R_hippocampus</data>
+	<data key="dn_colorcode">255,255,0</data>
+	<data key="dn_intensityvalue">166</data>
+</node>
+<node id="n55">
+	<data key="dn_label">cerebellum</data>
+	<data key="dn_colorcode">240,128,48</data>
+	<data key="dn_intensityvalue">181</data>
+</node>
+<node id="n56">
+	<data key="dn_label">brainstem</data>
+	<data key="dn_colorcode">128,255,0</data>
+	<data key="dn_intensityvalue">182</data>
+</node>
+</graphml>

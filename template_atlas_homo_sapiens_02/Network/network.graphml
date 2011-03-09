@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+
+	xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns 
+	http://www.connectome.ch/graphml+xlink+gifti.xsd">
+
+<key id="dn_label" for="node" attr.name="label" attr.type="string">
+	<desc>The label of the node, corresponding to the ConnectomeWiki Abbreviation for Homo sapiens.</desc>
+</key>
+<key id="dn_spl_pnl_atlas_name" for="node" attr.name="atlas_name" attr.type="string">
+	<desc>The filename used in the SPL-PLN Atlas</desc>
+</key>
+<key id="dn_colorcode" for="node" attr.name="colorcode" attr.type="string">
+	<desc>The color-code: R,G,B</desc>
+</key>
+<key id="dn_primarystructure" for="node" attr.name="primary" attr.type="string">
+	<desc>The primary structure name corresponding to this node.</desc>
+</key>
+<key id="dn_secondarystructure" for="node" attr.name="secondary" attr.type="string">
+	<desc>The secondary structure name corresponding to this node.</desc>
+</key>
+<key id="dn_intensityvalue" for="node" attr.name="intensity" attr.type="string">
+	<desc>The value corresponding to the labelid in the label file for this atlas. (not yet corresponding to the segmented brain label id)</desc>
+</key>
+<graph id="Brain_Network" edgedefault="undirected">
+<node id="n1" xlink:href="http://www.connectome.ch/wiki/PHG_(Homo sapiens)">
+	<data key="dn_label">PHG_LH</data>
+	<data key="dn_spl_pnl_atlas_name">medial_occipitotemporal_parahippocampal_gyrus_L.vtk</data>
+	<data key="dn_primarystructure">Limbic Lobe</data>
+	<data key="dn_secondarystructure">Parahippocampal gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">1</data>
+</node>
+<node id="n2" xlink:href="http://www.connectome.ch/wiki/CN2_(Homo sapiens)">
+	<data key="dn_label">CN2_LH</data>
+	<data key="dn_spl_pnl_atlas_name">optic_nerve_L.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Optic nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">2</data>
+</node>
+<node id="n3" xlink:href="http://www.connectome.ch/wiki/GP_(Homo sapiens)">
+	<data key="dn_label">GP_RH</data>
+	<data key="dn_spl_pnl_atlas_name">globus_pallidus_R.vtk</data>
+	<data key="dn_primarystructure">Subcortex</data>
+	<data key="dn_secondarystructure">Globus pallidus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">3</data>
+</node>
+<node id="n4" xlink:href="http://www.connectome.ch/wiki/icp_(Homo sapiens)">
+	<data key="dn_label">icp_RH</data>
+	<data key="dn_spl_pnl_atlas_name">inferior_cerebellar_peduncle_R.vtk</data>
+	<data key="dn_primarystructure">White Matter</data>
+	<data key="dn_secondarystructure">Inferior cerebellar peduncle</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">4</data>
+</node>
+<node id="n5">
+	<data key="dn_label"></data>
+	<data key="dn_spl_pnl_atlas_name">left_eyeball.vtk</data>
+	<data key="dn_primarystructure">Anatomy</data>
+	<data key="dn_secondarystructure">Left eyeball</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">5</data>
+</node>
+<node id="n6" xlink:href="http://www.connectome.ch/wiki/CN4_(Homo sapiens)">
+	<data key="dn_label">CN4_RH</data>
+	<data key="dn_spl_pnl_atlas_name">trochlearis_nerve_R.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Trochlear nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">6</data>
+</node>
+<node id="n7" xlink:href="http://www.connectome.ch/wiki/CAN_(Homo sapiens)">
+	<data key="dn_label">CAN_RH</data>
+	<data key="dn_spl_pnl_atlas_name">caudate_nucleus_R.vtk</data>
+	<data key="dn_primarystructure">Subcortex</data>
+	<data key="dn_secondarystructure">Caudate nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">7</data>
+</node>
+<node id="n8" xlink:href="http://www.connectome.ch/wiki/SC_(Homo sapiens)">
+	<data key="dn_label">SC_RH</data>
+	<data key="dn_spl_pnl_atlas_name">superior_colliculus_R.vtk</data>
+	<data key="dn_primarystructure">Midbrain</data>
+	<data key="dn_secondarystructure">Superior colliculus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">8</data>
+</node>
+<node id="n9" xlink:href="http://www.connectome.ch/wiki/HiF_(Homo sapiens)">
+	<data key="dn_label">HiF_LH</data>
+	<data key="dn_spl_pnl_atlas_name">hippocampus_L.vtk</data>
+	<data key="dn_primarystructure">Subcortex</data>
+	<data key="dn_secondarystructure">Hippocampal formation</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">9</data>
+</node>
+<node id="n10" xlink:href="http://www.connectome.ch/wiki/plic_(Homo sapiens)">
+	<data key="dn_label">plic_RH</data>
+	<data key="dn_spl_pnl_atlas_name">internal_capsule_post_R.vtk</data>
+	<data key="dn_primarystructure">Cerebral white matter</data>
+	<data key="dn_secondarystructure">Internal capsule posterior</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">10</data>
+</node>
+<node id="n11" xlink:href="http://www.connectome.ch/wiki/plic_(Homo sapiens)">
+	<data key="dn_label">plic_LH</data>
+	<data key="dn_spl_pnl_atlas_name">internal_capsule_post_L.vtk</data>
+	<data key="dn_primarystructure">Cerebral white matter</data>
+	<data key="dn_secondarystructure">Internal capsule posterior</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">11</data>
+</node>
+<node id="n12">
+	<data key="dn_label"></data>
+	<data key="dn_spl_pnl_atlas_name">lateral_ventricle_L.vtk</data>
+	<data key="dn_primarystructure">Anatomy</data>
+	<data key="dn_secondarystructure">Lateral ventricle</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">12</data>
+</node>
+<node id="n13" xlink:href="http://www.connectome.ch/wiki/OL_(Homo sapiens)">
+	<data key="dn_label">OL_LH</data>
+	<data key="dn_spl_pnl_atlas_name">occipital_lobe_L.vtk</data>
+	<data key="dn_primarystructure">Cerebral hemisphere</data>
+	<data key="dn_secondarystructure">Occipital Lobe</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">13</data>
+</node>
+<node id="n14" xlink:href="http://www.connectome.ch/wiki/ANG_(Homo sapiens)">
+	<data key="dn_label">ANG_LH</data>
+	<data key="dn_spl_pnl_atlas_name">anterior_thalamic_nucleus_L.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Anterior nuclear group of thalamus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">14</data>
+</node>
+<node id="n15" xlink:href="http://www.connectome.ch/wiki/optrc_(Homo sapiens)">
+	<data key="dn_label">optrc_LH</data>
+	<data key="dn_spl_pnl_atlas_name">optic_tract_L.vtk</data>
+	<data key="dn_primarystructure">Tract</data>
+	<data key="dn_secondarystructure">Optic tract</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">15</data>
+</node>
+<node id="n16" xlink:href="http://www.connectome.ch/wiki/ec_(Homo sapiens)">
+	<data key="dn_label">ec_RH</data>
+	<data key="dn_spl_pnl_atlas_name">external_capsule_R.vtk</data>
+	<data key="dn_primarystructure">Cerebral white matter</data>
+	<data key="dn_secondarystructure">External capsule</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">16</data>
+</node>
+<node id="n17" xlink:href="http://www.connectome.ch/wiki/Pul_(Homo sapiens)">
+	<data key="dn_label">Pul_RH</data>
+	<data key="dn_spl_pnl_atlas_name">pulvinar_R.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Pulvinar</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">17</data>
+</node>
+<node id="n18" xlink:href="http://www.connectome.ch/wiki/optrc_(Homo sapiens)">
+	<data key="dn_label">optrc_RH</data>
+	<data key="dn_spl_pnl_atlas_name">optic_tract_R.vtk</data>
+	<data key="dn_primarystructure">Tract</data>
+	<data key="dn_secondarystructure">Optic tract</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">18</data>
+</node>
+<node id="n19" xlink:href="http://www.connectome.ch/wiki/ANG_(Homo sapiens)">
+	<data key="dn_label">ANG_RH</data>
+	<data key="dn_spl_pnl_atlas_name">anterior_thalamic_nucleus_R.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Anterior nuclear group of thalamus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">19</data>
+</node>
+<node id="n20" xlink:href="http://www.connectome.ch/wiki/CN11_(Homo sapiens)">
+	<data key="dn_label">CN11_LH</data>
+	<data key="dn_spl_pnl_atlas_name">accessory_nerve_L.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Accessory nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">20</data>
+</node>
+<node id="n21">
+	<data key="dn_label"></data>
+	<data key="dn_spl_pnl_atlas_name">lateral_ventricle_R.vtk</data>
+	<data key="dn_primarystructure">Anatomy</data>
+	<data key="dn_secondarystructure">Lateral ventricle</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">21</data>
+</node>
+<node id="n22" xlink:href="http://www.connectome.ch/wiki/PCu_(Homo sapiens)">
+	<data key="dn_label">PCu_RH</data>
+	<data key="dn_spl_pnl_atlas_name">superior_parietal_lobule_precuneus_R.vtk</data>
+	<data key="dn_primarystructure">Parietal Lobe</data>
+	<data key="dn_secondarystructure">Precuneus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">22</data>
+</node>
+<node id="n23" xlink:href="http://www.connectome.ch/wiki/VAN_(Homo sapiens)">
+	<data key="dn_label">VAN_RH</data>
+	<data key="dn_spl_pnl_atlas_name">ventral_anterior_thalamic_nucleus_R.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Ventral anterior nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">23</data>
+</node>
+<node id="n24">
+	<data key="dn_label"></data>
+	<data key="dn_spl_pnl_atlas_name">anterior_substantia_perforata_L.vtk</data>
+	<data key="dn_primarystructure">Hypothalamus pituitary</data>
+	<data key="dn_secondarystructure">Anterior substantia perforata</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">24</data>
+</node>
+<node id="n25" xlink:href="http://www.connectome.ch/wiki/snCH_(Homo sapiens)">
+	<data key="dn_label">snCH_LH</data>
+	<data key="dn_spl_pnl_atlas_name">septal_nucleus_L.vtk</data>
+	<data key="dn_primarystructure">Cerebral hemisphere</data>
+	<data key="dn_secondarystructure">Septal nuclei of cerebral hemisphere</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">25</data>
+</node>
+<node id="n26" xlink:href="http://www.connectome.ch/wiki/FuG_(Homo sapiens)">
+	<data key="dn_label">FuG_RH</data>
+	<data key="dn_spl_pnl_atlas_name">lateral_occipitotemporal_gyrus_R.vtk</data>
+	<data key="dn_primarystructure">Temporal Lobe</data>
+	<data key="dn_secondarystructure">Lateral occipitotempral gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">26</data>
+</node>
+<node id="n27" xlink:href="http://www.connectome.ch/wiki/mcp_(Homo sapiens)">
+	<data key="dn_label">mcp_RH</data>
+	<data key="dn_spl_pnl_atlas_name">middle_cerebellar_peduncle_R.vtk</data>
+	<data key="dn_primarystructure">White Matter</data>
+	<data key="dn_secondarystructure">Middle cerebellar peduncle</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">27</data>
+</node>
+<node id="n28">
+	<data key="dn_label"></data>
+	<data key="dn_spl_pnl_atlas_name">anterior_substantia_perforata_R.vtk</data>
+	<data key="dn_primarystructure">Hypothalamus pituitary</data>
+	<data key="dn_secondarystructure">Anterior substantia perforata</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">28</data>
+</node>
+<node id="n29" xlink:href="http://www.connectome.ch/wiki/Mo_(Homo sapiens)">
+	<data key="dn_label">Mo</data>
+	<data key="dn_spl_pnl_atlas_name">medulla_oblongata.vtk</data>
+	<data key="dn_primarystructure">Hindbrain</data>
+	<data key="dn_secondarystructure">Medulla oblongata</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">29</data>
+</node>
+<node id="n30">
+	<data key="dn_label"></data>
+	<data key="dn_spl_pnl_atlas_name">cerebral_aqueduct.vtk</data>
+	<data key="dn_primarystructure">Anatomy</data>
+	<data key="dn_secondarystructure">Cerebral aqueduct</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">30</data>
+</node>
+<node id="n31" xlink:href="http://www.connectome.ch/wiki/CN10_(Homo sapiens)">
+	<data key="dn_label">CN10_RH</data>
+	<data key="dn_spl_pnl_atlas_name">vagal_nerve_R.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Vagus nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">31</data>
+</node>
+<node id="n32" xlink:href="http://www.connectome.ch/wiki/PC_(Homo sapiens)">
+	<data key="dn_label">PC</data>
+	<data key="dn_spl_pnl_atlas_name">posterior_commissure.vtk</data>
+	<data key="dn_primarystructure">Epithalamus</data>
+	<data key="dn_secondarystructure">Posterior commissure</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">32</data>
+</node>
+<node id="n33" xlink:href="http://www.connectome.ch/wiki/lpn_(Homo sapiens)">
+	<data key="dn_label">lpn_LH</data>
+	<data key="dn_spl_pnl_atlas_name">lateral_posterior_thalamic_nucleus_L.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Lateral posterior nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">33</data>
+</node>
+<node id="n34" xlink:href="http://www.connectome.ch/wiki/snCH_(Homo sapiens)">
+	<data key="dn_label">snCH_RH</data>
+	<data key="dn_spl_pnl_atlas_name">septal_nucleus_R.vtk</data>
+	<data key="dn_primarystructure">Cerebral hemisphere</data>
+	<data key="dn_secondarystructure">Septal nuclei of cerebral hemisphere</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">34</data>
+</node>
+<node id="n35">
+	<data key="dn_label"></data>
+	<data key="dn_spl_pnl_atlas_name">fourth_ventricle.vtk</data>
+	<data key="dn_primarystructure">Anatomy</data>
+	<data key="dn_secondarystructure">Fourth ventricle</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">35</data>
+</node>
+<node id="n36" xlink:href="http://www.connectome.ch/wiki/CeB_(Homo sapiens)">
+	<data key="dn_label">CeB_RH</data>
+	<data key="dn_spl_pnl_atlas_name">cerebellar_hemisphere_R.vtk</data>
+	<data key="dn_primarystructure">Hindbrain</data>
+	<data key="dn_secondarystructure">Cerebellum</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">36</data>
+</node>
+<node id="n37" xlink:href="http://www.connectome.ch/wiki/STGp_(Homo sapiens)">
+	<data key="dn_label">STGp_RH</data>
+	<data key="dn_spl_pnl_atlas_name">superior_temporal_gyrus_post_R.vtk</data>
+	<data key="dn_primarystructure">Temporal Lobe</data>
+	<data key="dn_secondarystructure">Posterior superior temporal gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">37</data>
+</node>
+<node id="n38" xlink:href="http://www.connectome.ch/wiki/MaB_(Homo sapiens)">
+	<data key="dn_label">MaB_LH</data>
+	<data key="dn_spl_pnl_atlas_name">mamillary_body_L.vtk</data>
+	<data key="dn_primarystructure">Hypothalamus pituitary</data>
+	<data key="dn_secondarystructure">Mamillary body</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">38</data>
+</node>
+<node id="n39" xlink:href="http://www.connectome.ch/wiki/CN4_(Homo sapiens)">
+	<data key="dn_label">CN4_LH</data>
+	<data key="dn_spl_pnl_atlas_name">trochlearis_nerve_L.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Trochlear nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">39</data>
+</node>
+<node id="n40" xlink:href="http://www.connectome.ch/wiki/STGa_(Homo sapiens)">
+	<data key="dn_label">STGa_RH</data>
+	<data key="dn_spl_pnl_atlas_name">superior_temporal_gyrus_ant_R.vtk</data>
+	<data key="dn_primarystructure">Temporal Lobe</data>
+	<data key="dn_secondarystructure">Anterior superior temporal gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">40</data>
+</node>
+<node id="n41" xlink:href="http://www.connectome.ch/wiki/ac_(Homo sapiens)">
+	<data key="dn_label">ac</data>
+	<data key="dn_spl_pnl_atlas_name">anterior_commissure.vtk</data>
+	<data key="dn_primarystructure">Subcortex</data>
+	<data key="dn_secondarystructure">Anterior commissure</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">41</data>
+</node>
+<node id="n42" xlink:href="http://www.connectome.ch/wiki/CeB_(Homo sapiens)">
+	<data key="dn_label">CeB_LH</data>
+	<data key="dn_spl_pnl_atlas_name">cerebellar_hemisphere_L.vtk</data>
+	<data key="dn_primarystructure">Hindbrain</data>
+	<data key="dn_secondarystructure">Cerebellum</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">42</data>
+</node>
+<node id="n43" xlink:href="http://www.connectome.ch/wiki/ox_(Homo sapiens)">
+	<data key="dn_label">ox</data>
+	<data key="dn_spl_pnl_atlas_name">optic_chiasm.vtk</data>
+	<data key="dn_primarystructure">Base of Brain</data>
+	<data key="dn_secondarystructure">Optic chiasm</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">43</data>
+</node>
+<node id="n44" xlink:href="http://www.connectome.ch/wiki/SFG_(Homo sapiens)">
+	<data key="dn_label">SFG_LH</data>
+	<data key="dn_spl_pnl_atlas_name">superior_frontal_gyrus_L.vtk</data>
+	<data key="dn_primarystructure">Frontal Lobe</data>
+	<data key="dn_secondarystructure">Superior frontal gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">44</data>
+</node>
+<node id="n45" xlink:href="http://www.connectome.ch/wiki/TP_(Homo sapiens)">
+	<data key="dn_label">TP_RH</data>
+	<data key="dn_spl_pnl_atlas_name">temporal_pole_R.vtk</data>
+	<data key="dn_primarystructure">Temporal Lobe</data>
+	<data key="dn_secondarystructure">Temporal pole</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">45</data>
+</node>
+<node id="n46" xlink:href="http://www.connectome.ch/wiki/MFG_(Homo sapiens)">
+	<data key="dn_label">MFG_RH</data>
+	<data key="dn_spl_pnl_atlas_name">middle_frontal_gyrus_R.vtk</data>
+	<data key="dn_primarystructure">Frontal Lobe</data>
+	<data key="dn_secondarystructure">Middle frontal gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">46</data>
+</node>
+<node id="n47" xlink:href="http://www.connectome.ch/wiki/VLN_(Homo sapiens)">
+	<data key="dn_label">VLN_RH</data>
+	<data key="dn_spl_pnl_atlas_name">ventral_lateral_thalamic_nucleus_R.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Ventral lateral nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">47</data>
+</node>
+<node id="n48" xlink:href="http://www.connectome.ch/wiki/CN10_(Homo sapiens)">
+	<data key="dn_label">CN10_LH</data>
+	<data key="dn_spl_pnl_atlas_name">vagal_nerve_L.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Vagus nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">48</data>
+</node>
+<node id="n49">
+	<data key="dn_label"></data>
+	<data key="dn_spl_pnl_atlas_name">Skin.vtk</data>
+	<data key="dn_primarystructure">Anatomy</data>
+	<data key="dn_secondarystructure">Skin</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">49</data>
+</node>
+<node id="n50" xlink:href="http://www.connectome.ch/wiki/cc_(Homo sapiens)">
+	<data key="dn_label">cc</data>
+	<data key="dn_spl_pnl_atlas_name">corpus_callosum.vtk</data>
+	<data key="dn_primarystructure">Subcortex</data>
+	<data key="dn_secondarystructure">Corpus callosum</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">50</data>
+</node>
+<node id="n51" xlink:href="http://www.connectome.ch/wiki/MGB_(Homo sapiens)">
+	<data key="dn_label">MGB_RH</data>
+	<data key="dn_spl_pnl_atlas_name">medial_geniculate_body_R.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Medial geniculate body</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">51</data>
+</node>
+<node id="n52" xlink:href="http://www.connectome.ch/wiki/PrG_(Homo sapiens)">
+	<data key="dn_label">PrG_RH</data>
+	<data key="dn_spl_pnl_atlas_name">precentral_gyrus_R.vtk</data>
+	<data key="dn_primarystructure">Frontal Lobe</data>
+	<data key="dn_secondarystructure">Precentral gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">52</data>
+</node>
+<node id="n53" xlink:href="http://www.connectome.ch/wiki/Amg_(Homo sapiens)">
+	<data key="dn_label">Amg_LH</data>
+	<data key="dn_spl_pnl_atlas_name">amygdaloid_body_L.vtk</data>
+	<data key="dn_primarystructure">Subcortex</data>
+	<data key="dn_secondarystructure">Amygdala</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">53</data>
+</node>
+<node id="n54" xlink:href="http://www.connectome.ch/wiki/ILNcmn_(Homo sapiens)">
+	<data key="dn_label">ILNcmn_LH</data>
+	<data key="dn_spl_pnl_atlas_name">centromedian_thalamic_nucleus_L.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Centromedian nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">54</data>
+</node>
+<node id="n55" xlink:href="http://www.connectome.ch/wiki/ACC_(Homo sapiens)">
+	<data key="dn_label">ACC_LH</data>
+	<data key="dn_spl_pnl_atlas_name">nucleus_accumbens_L.vtk</data>
+	<data key="dn_primarystructure">Subcortex</data>
+	<data key="dn_secondarystructure">Nucleus accumbens</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">55</data>
+</node>
+<node id="n56" xlink:href="http://www.connectome.ch/wiki/ETHpin_(Homo sapiens)">
+	<data key="dn_label">ETHpin</data>
+	<data key="dn_spl_pnl_atlas_name">pineal_body.vtk</data>
+	<data key="dn_primarystructure">Epithalamus</data>
+	<data key="dn_secondarystructure">Pineal body</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">56</data>
+</node>
+<node id="n57">
+	<data key="dn_label"></data>
+	<data key="dn_spl_pnl_atlas_name">atlas.vtk</data>
+	<data key="dn_primarystructure">Anatomy</data>
+	<data key="dn_secondarystructure">Atlas</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">57</data>
+</node>
+<node id="n58" xlink:href="http://www.connectome.ch/wiki/STGp_(Homo sapiens)">
+	<data key="dn_label">STGp_LH</data>
+	<data key="dn_spl_pnl_atlas_name">superior_temporal_gyrus_post_L.vtk</data>
+	<data key="dn_primarystructure">Temporal Lobe</data>
+	<data key="dn_secondarystructure">Posterior superior temporal gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">58</data>
+</node>
+<node id="n59" xlink:href="http://www.connectome.ch/wiki/cxsptrc_(Homo sapiens)">
+	<data key="dn_label">cxsptrc_LH</data>
+	<data key="dn_spl_pnl_atlas_name">corticospinal_tract_L.vtk</data>
+	<data key="dn_primarystructure">Tract</data>
+	<data key="dn_secondarystructure">Corticospinal tract</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">59</data>
+</node>
+<node id="n60" xlink:href="http://www.connectome.ch/wiki/MTG_(Homo sapiens)">
+	<data key="dn_label">MTG_LH</data>
+	<data key="dn_spl_pnl_atlas_name">middle_temporal_gyrus_L.vtk</data>
+	<data key="dn_primarystructure">Temporal Lobe</data>
+	<data key="dn_secondarystructure">Middle temporal gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">60</data>
+</node>
+<node id="n61" xlink:href="http://www.connectome.ch/wiki/HiF_(Homo sapiens)">
+	<data key="dn_label">HiF_RH</data>
+	<data key="dn_spl_pnl_atlas_name">hippocampus_R.vtk</data>
+	<data key="dn_primarystructure">Subcortex</data>
+	<data key="dn_secondarystructure">Hippocampal formation</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">61</data>
+</node>
+<node id="n62">
+	<data key="dn_label"></data>
+	<data key="dn_spl_pnl_atlas_name">posterior_substantia_perforata.vtk</data>
+	<data key="dn_primarystructure">Hypothalamus pituitary</data>
+	<data key="dn_secondarystructure">Posterior substantia perforata</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">62</data>
+</node>
+<node id="n63" xlink:href="http://www.connectome.ch/wiki/MNG_(Homo sapiens)">
+	<data key="dn_label">MNG_LH</data>
+	<data key="dn_spl_pnl_atlas_name">dorsomedial_thalamic_nucleus_L.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Dorsomedial thalamic nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">63</data>
+</node>
+<node id="n64" xlink:href="http://www.connectome.ch/wiki/RN_(Homo sapiens)">
+	<data key="dn_label">RN_LH</data>
+	<data key="dn_spl_pnl_atlas_name">red_nucleus_L.vtk</data>
+	<data key="dn_primarystructure">Midbrain</data>
+	<data key="dn_secondarystructure">Red nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">64</data>
+</node>
+<node id="n65" xlink:href="http://www.connectome.ch/wiki/PHG_(Homo sapiens)">
+	<data key="dn_label">PHG_RH</data>
+	<data key="dn_spl_pnl_atlas_name">medial_occipitotemporal_parahippocampal_gyrus_R.vtk</data>
+	<data key="dn_primarystructure">Limbic Lobe</data>
+	<data key="dn_secondarystructure">Parahippocampal gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">65</data>
+</node>
+<node id="n66">
+	<data key="dn_label"></data>
+	<data key="dn_spl_pnl_atlas_name">skull_bone.vtk</data>
+	<data key="dn_primarystructure">Anatomy</data>
+	<data key="dn_secondarystructure">Skull bone</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">66</data>
+</node>
+<node id="n67" xlink:href="http://www.connectome.ch/wiki/PU_(Homo sapiens)">
+	<data key="dn_label">PU_LH</data>
+	<data key="dn_spl_pnl_atlas_name">putamen_L.vtk</data>
+	<data key="dn_primarystructure">Subcortex</data>
+	<data key="dn_secondarystructure">Putamen</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">67</data>
+</node>
+<node id="n68" xlink:href="http://www.connectome.ch/wiki/ITG_(Homo sapiens)">
+	<data key="dn_label">ITG_LH</data>
+	<data key="dn_spl_pnl_atlas_name">inferior_temporal_gyrus_L.vtk</data>
+	<data key="dn_primarystructure">Temporal Lobe</data>
+	<data key="dn_secondarystructure">Inferior temporal gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">68</data>
+</node>
+<node id="n69">
+	<data key="dn_label"></data>
+	<data key="dn_spl_pnl_atlas_name">third_ventricle.vtk</data>
+	<data key="dn_primarystructure">Anatomy</data>
+	<data key="dn_secondarystructure">Third ventricle</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">69</data>
+</node>
+<node id="n70" xlink:href="http://www.connectome.ch/wiki/MB_(Homo sapiens)">
+	<data key="dn_label">MB</data>
+	<data key="dn_spl_pnl_atlas_name">midbrain.vtk</data>
+	<data key="dn_primarystructure">Brain</data>
+	<data key="dn_secondarystructure">Midbrain</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">70</data>
+</node>
+<node id="n71" xlink:href="http://www.connectome.ch/wiki/CN3_(Homo sapiens)">
+	<data key="dn_label">CN3_LH</data>
+	<data key="dn_spl_pnl_atlas_name">occulomotor_nerve_L.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Oculomotor nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">71</data>
+</node>
+<node id="n72" xlink:href="http://www.connectome.ch/wiki/CeBvms_(Homo sapiens)">
+	<data key="dn_label">CeBvms</data>
+	<data key="dn_spl_pnl_atlas_name">superior_medullar_velum.vtk</data>
+	<data key="dn_primarystructure">Cerebellum</data>
+	<data key="dn_secondarystructure">Superior medullary velum</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">72</data>
+</node>
+<node id="n73" xlink:href="http://www.connectome.ch/wiki/MFG_(Homo sapiens)">
+	<data key="dn_label">MFG_LH</data>
+	<data key="dn_spl_pnl_atlas_name">middle_frontal_gyrus_L.vtk</data>
+	<data key="dn_primarystructure">Frontal Lobe</data>
+	<data key="dn_secondarystructure">Middle frontal gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">73</data>
+</node>
+<node id="n74" xlink:href="http://www.connectome.ch/wiki/ITG_(Homo sapiens)">
+	<data key="dn_label">ITG_RH</data>
+	<data key="dn_spl_pnl_atlas_name">inferior_temporal_gyrus_R.vtk</data>
+	<data key="dn_primarystructure">Temporal Lobe</data>
+	<data key="dn_secondarystructure">Inferior temporal gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">74</data>
+</node>
+<node id="n75" xlink:href="http://www.connectome.ch/wiki/CN9_(Homo sapiens)">
+	<data key="dn_label">CN9_RH</data>
+	<data key="dn_spl_pnl_atlas_name">glossopharyngeal_nerve_R.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Glossopharyngeal nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">75</data>
+</node>
+<node id="n76" xlink:href="http://www.connectome.ch/wiki/MaB_(Homo sapiens)">
+	<data key="dn_label">MaB_RH</data>
+	<data key="dn_spl_pnl_atlas_name">mamillary_body_R.vtk</data>
+	<data key="dn_primarystructure">Hypothalamus pituitary</data>
+	<data key="dn_secondarystructure">Mamillary body</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">76</data>
+</node>
+<node id="n77" xlink:href="http://www.connectome.ch/wiki/Pul_(Homo sapiens)">
+	<data key="dn_label">Pul_LH</data>
+	<data key="dn_spl_pnl_atlas_name">pulvinar_L.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Pulvinar</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">77</data>
+</node>
+<node id="n78" xlink:href="http://www.connectome.ch/wiki/IL_(Homo sapiens)">
+	<data key="dn_label">IL_RH</data>
+	<data key="dn_spl_pnl_atlas_name">insula_R.vtk</data>
+	<data key="dn_primarystructure">Insular lobe</data>
+	<data key="dn_secondarystructure">Insula</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">78</data>
+</node>
+<node id="n79" xlink:href="http://www.connectome.ch/wiki/PCG_(Homo sapiens)">
+	<data key="dn_label">PCG_RH</data>
+	<data key="dn_spl_pnl_atlas_name">postcentral_gyrus_R.vtk</data>
+	<data key="dn_primarystructure">Parietal Lobe</data>
+	<data key="dn_secondarystructure">Postcentral gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">79</data>
+</node>
+<node id="n80" xlink:href="http://www.connectome.ch/wiki/VPL_(Homo sapiens)">
+	<data key="dn_label">VPL_RH</data>
+	<data key="dn_spl_pnl_atlas_name">VPL_thalamic_nucleus_R.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Ventral posterolateral nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">80</data>
+</node>
+<node id="n81" xlink:href="http://www.connectome.ch/wiki/OL_(Homo sapiens)">
+	<data key="dn_label">OL_RH</data>
+	<data key="dn_spl_pnl_atlas_name">occipital_lobe_R.vtk</data>
+	<data key="dn_primarystructure">Cerebral hemisphere</data>
+	<data key="dn_secondarystructure">Occipital Lobe</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">81</data>
+</node>
+<node id="n82">
+	<data key="dn_label"></data>
+	<data key="dn_spl_pnl_atlas_name">right_eyeball.vtk</data>
+	<data key="dn_primarystructure">Anatomy</data>
+	<data key="dn_secondarystructure">Right eyeball</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">82</data>
+</node>
+<node id="n83" xlink:href="http://www.connectome.ch/wiki/MTG_(Homo sapiens)">
+	<data key="dn_label">MTG_RH</data>
+	<data key="dn_spl_pnl_atlas_name">middle_temporal_gyrus_R.vtk</data>
+	<data key="dn_primarystructure">Temporal Lobe</data>
+	<data key="dn_secondarystructure">Middle temporal gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">83</data>
+</node>
+<node id="n84" xlink:href="http://www.connectome.ch/wiki/PCG_(Homo sapiens)">
+	<data key="dn_label">PCG_LH</data>
+	<data key="dn_spl_pnl_atlas_name">postcentral_gyrus_L.vtk</data>
+	<data key="dn_primarystructure">Parietal Lobe</data>
+	<data key="dn_secondarystructure">Postcentral gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">84</data>
+</node>
+<node id="n85" xlink:href="http://www.connectome.ch/wiki/SN_(Homo sapiens)">
+	<data key="dn_label">SN_RH</data>
+	<data key="dn_spl_pnl_atlas_name">substantia_nigra_R.vtk</data>
+	<data key="dn_primarystructure">Midbrain</data>
+	<data key="dn_secondarystructure">Substantia nigra</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">85</data>
+</node>
+<node id="n86" xlink:href="http://www.connectome.ch/wiki/lpn_(Homo sapiens)">
+	<data key="dn_label">lpn_RH</data>
+	<data key="dn_spl_pnl_atlas_name">lateral_posterior_thalamic_nucleus_R.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Lateral posterior nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">86</data>
+</node>
+<node id="n87" xlink:href="http://www.connectome.ch/wiki/SFG_(Homo sapiens)">
+	<data key="dn_label">SFG_RH</data>
+	<data key="dn_spl_pnl_atlas_name">superior_frontal_gyrus_R.vtk</data>
+	<data key="dn_primarystructure">Frontal Lobe</data>
+	<data key="dn_secondarystructure">Superior frontal gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">87</data>
+</node>
+<node id="n88" xlink:href="http://www.connectome.ch/wiki/RN_(Homo sapiens)">
+	<data key="dn_label">RN_RH</data>
+	<data key="dn_spl_pnl_atlas_name">red_nucleus_R.vtk</data>
+	<data key="dn_primarystructure">Midbrain</data>
+	<data key="dn_secondarystructure">Red nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">88</data>
+</node>
+<node id="n89" xlink:href="http://www.connectome.ch/wiki/CN12_(Homo sapiens)">
+	<data key="dn_label">CN12_RH</data>
+	<data key="dn_spl_pnl_atlas_name">hypoglossal_nerve_R.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Hypoglossal nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">89</data>
+</node>
+<node id="n90" xlink:href="http://www.connectome.ch/wiki/CgG_(Homo sapiens)">
+	<data key="dn_label">CgG_LH</data>
+	<data key="dn_spl_pnl_atlas_name">cingulate_gyrus_L.vtk</data>
+	<data key="dn_primarystructure">Limbic Lobe</data>
+	<data key="dn_secondarystructure">Cingulate gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">90</data>
+</node>
+<node id="n91" xlink:href="http://www.connectome.ch/wiki/STGa_(Homo sapiens)">
+	<data key="dn_label">STGa_LH</data>
+	<data key="dn_spl_pnl_atlas_name">superior_temporal_gyrus_ant_L.vtk</data>
+	<data key="dn_primarystructure">Temporal Lobe</data>
+	<data key="dn_secondarystructure">Anterior superior temporal gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">91</data>
+</node>
+<node id="n92" xlink:href="http://www.connectome.ch/wiki/AngG_(Homo sapiens)">
+	<data key="dn_label">AngG_LH</data>
+	<data key="dn_spl_pnl_atlas_name">angular_gyrus_inferior_parietal_lobule_L.vtk</data>
+	<data key="dn_primarystructure">Parietal Lobe</data>
+	<data key="dn_secondarystructure">Angular gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">92</data>
+</node>
+<node id="n93" xlink:href="http://www.connectome.ch/wiki/ldn_(Homo sapiens)">
+	<data key="dn_label">ldn_RH</data>
+	<data key="dn_spl_pnl_atlas_name">lateral_dorsal_thalamic_nucleus_R.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Lateral dorsal nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">93</data>
+</node>
+<node id="n94" xlink:href="http://www.connectome.ch/wiki/fx_(Homo sapiens)">
+	<data key="dn_label">fx</data>
+	<data key="dn_spl_pnl_atlas_name">Fornix.vtk</data>
+	<data key="dn_primarystructure">Subcortex</data>
+	<data key="dn_secondarystructure">Fornix</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">94</data>
+</node>
+<node id="n95" xlink:href="http://www.connectome.ch/wiki/VMP_(Homo sapiens)">
+	<data key="dn_label">VMP_LH</data>
+	<data key="dn_spl_pnl_atlas_name">VPM_thalamic_nucleus_L.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Ventral posteromedial nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">95</data>
+</node>
+<node id="n96" xlink:href="http://www.connectome.ch/wiki/iml_(Homo sapiens)">
+	<data key="dn_label">iml_LH</data>
+	<data key="dn_spl_pnl_atlas_name">internal_medullar_lamina_L.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Internal medullar lamina</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">96</data>
+</node>
+<node id="n97">
+	<data key="dn_label"></data>
+	<data key="dn_spl_pnl_atlas_name">axis.vtk</data>
+	<data key="dn_primarystructure">Anatomy</data>
+	<data key="dn_secondarystructure">Axis</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">97</data>
+</node>
+<node id="n98" xlink:href="http://www.connectome.ch/wiki/CN12_(Homo sapiens)">
+	<data key="dn_label">CN12_LH</data>
+	<data key="dn_spl_pnl_atlas_name">hypoglossal_nerve_L.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Hypoglossal nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">98</data>
+</node>
+<node id="n99" xlink:href="http://www.connectome.ch/wiki/inc_(Homo sapiens)">
+	<data key="dn_label">inc_LH</data>
+	<data key="dn_spl_pnl_atlas_name">internal_capsule_L.vtk</data>
+	<data key="dn_primarystructure">Cerebral white matter</data>
+	<data key="dn_secondarystructure">Internal capsule</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">99</data>
+</node>
+<node id="n100" xlink:href="http://www.connectome.ch/wiki/CN8_(Homo sapiens)">
+	<data key="dn_label">CN8_LH</data>
+	<data key="dn_spl_pnl_atlas_name">vestibulocochlear_nerve_L.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Vestibulocochlear nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">100</data>
+</node>
+<node id="n101" xlink:href="http://www.connectome.ch/wiki/PCu_(Homo sapiens)">
+	<data key="dn_label">PCu_LH</data>
+	<data key="dn_spl_pnl_atlas_name">superior_parietal_lobule_precuneus_L.vtk</data>
+	<data key="dn_primarystructure">Parietal Lobe</data>
+	<data key="dn_secondarystructure">Precuneus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">101</data>
+</node>
+<node id="n102" xlink:href="http://www.connectome.ch/wiki/Pons_(Homo sapiens)">
+	<data key="dn_label">Pons</data>
+	<data key="dn_spl_pnl_atlas_name">pons.vtk</data>
+	<data key="dn_primarystructure">Hindbrain</data>
+	<data key="dn_secondarystructure">Pons</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">102</data>
+</node>
+<node id="n103" xlink:href="http://www.connectome.ch/wiki/CN9_(Homo sapiens)">
+	<data key="dn_label">CN9_LH</data>
+	<data key="dn_spl_pnl_atlas_name">glossopharyngeal_nerve_L.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Glossopharyngeal nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">103</data>
+</node>
+<node id="n104" xlink:href="http://www.connectome.ch/wiki/CN6_(Homo sapiens)">
+	<data key="dn_label">CN6_LH</data>
+	<data key="dn_spl_pnl_atlas_name">abducent_nerve_L.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Abducens nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">104</data>
+</node>
+<node id="n105" xlink:href="http://www.connectome.ch/wiki/Tons_(Homo sapiens)">
+	<data key="dn_label">Tons_RH</data>
+	<data key="dn_spl_pnl_atlas_name">cerebellar_tonsil_R.vtk</data>
+	<data key="dn_primarystructure">Cerebellum</data>
+	<data key="dn_secondarystructure">Tonsil of cerebellum</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">105</data>
+</node>
+<node id="n106" xlink:href="http://www.connectome.ch/wiki/IL_(Homo sapiens)">
+	<data key="dn_label">IL_LH</data>
+	<data key="dn_spl_pnl_atlas_name">insula_L.vtk</data>
+	<data key="dn_primarystructure">Insular lobe</data>
+	<data key="dn_secondarystructure">Insula</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">106</data>
+</node>
+<node id="n107" xlink:href="http://www.connectome.ch/wiki/PrG_(Homo sapiens)">
+	<data key="dn_label">PrG_LH</data>
+	<data key="dn_spl_pnl_atlas_name">precentral_gyrus_L.vtk</data>
+	<data key="dn_primarystructure">Frontal Lobe</data>
+	<data key="dn_secondarystructure">Precentral gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">107</data>
+</node>
+<node id="n108" xlink:href="http://www.connectome.ch/wiki/mcp_(Homo sapiens)">
+	<data key="dn_label">mcp_LH</data>
+	<data key="dn_spl_pnl_atlas_name">middle_cerebellar_peduncle_L.vtk</data>
+	<data key="dn_primarystructure">White Matter</data>
+	<data key="dn_secondarystructure">Middle cerebellar peduncle</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">108</data>
+</node>
+<node id="n109" xlink:href="http://www.connectome.ch/wiki/DN_(Homo sapiens)">
+	<data key="dn_label">DN_RH</data>
+	<data key="dn_spl_pnl_atlas_name">dentate_nucleus_R.vtk</data>
+	<data key="dn_primarystructure">Cerebellar medulla</data>
+	<data key="dn_secondarystructure">Dentate nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">109</data>
+</node>
+<node id="n110" xlink:href="http://www.connectome.ch/wiki/CN7_(Homo sapiens)">
+	<data key="dn_label">CN7_RH</data>
+	<data key="dn_spl_pnl_atlas_name">facial_nerve_R.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Facial nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">110</data>
+</node>
+<node id="n111" xlink:href="http://www.connectome.ch/wiki/GP_(Homo sapiens)">
+	<data key="dn_label">GP_LH</data>
+	<data key="dn_spl_pnl_atlas_name">globus_pallidus_L.vtk</data>
+	<data key="dn_primarystructure">Subcortex</data>
+	<data key="dn_secondarystructure">Globus pallidus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">111</data>
+</node>
+<node id="n112" xlink:href="http://www.connectome.ch/wiki/RG_(Homo sapiens)">
+	<data key="dn_label">RG_LH</data>
+	<data key="dn_spl_pnl_atlas_name">orbital_gyri_gyrus_rectus_L.vtk</data>
+	<data key="dn_primarystructure">Frontal Lobe</data>
+	<data key="dn_secondarystructure">Gyrus rectus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">112</data>
+</node>
+<node id="n113" xlink:href="http://www.connectome.ch/wiki/WMT_(Homo sapiens)">
+	<data key="dn_label">WMT</data>
+	<data key="dn_spl_pnl_atlas_name">hemispheric_white_matter.vtk</data>
+	<data key="dn_primarystructure">Cerebral white matter</data>
+	<data key="dn_secondarystructure">White Matter Tract</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">113</data>
+</node>
+<node id="n114" xlink:href="http://www.connectome.ch/wiki/IFG_(Homo sapiens)">
+	<data key="dn_label">IFG_RH</data>
+	<data key="dn_spl_pnl_atlas_name">inferior_frontal_gyrus_R.vtk</data>
+	<data key="dn_primarystructure">Frontal Lobe</data>
+	<data key="dn_secondarystructure">Inferior frontal gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">114</data>
+</node>
+<node id="n115" xlink:href="http://www.connectome.ch/wiki/SMG_(Homo sapiens)">
+	<data key="dn_label">SMG_LH</data>
+	<data key="dn_spl_pnl_atlas_name">supramarginal_gyrus_inferior_parietal_lobule_L.vtk</data>
+	<data key="dn_primarystructure">Parietal Lobe</data>
+	<data key="dn_secondarystructure">Supramarginal gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">115</data>
+</node>
+<node id="n116" xlink:href="http://www.connectome.ch/wiki/CN5_(Homo sapiens)">
+	<data key="dn_label">CN5_LH</data>
+	<data key="dn_spl_pnl_atlas_name">trigeminal_nerve_L.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Trigeminal nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">116</data>
+</node>
+<node id="n117" xlink:href="http://www.connectome.ch/wiki/ec_(Homo sapiens)">
+	<data key="dn_label">ec_LH</data>
+	<data key="dn_spl_pnl_atlas_name">external_capsule_L.vtk</data>
+	<data key="dn_primarystructure">Cerebral white matter</data>
+	<data key="dn_secondarystructure">External capsule</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">117</data>
+</node>
+<node id="n118" xlink:href="http://www.connectome.ch/wiki/LGN_(Homo sapiens)">
+	<data key="dn_label">LGN_LH</data>
+	<data key="dn_spl_pnl_atlas_name">lateral_geniculate_body_L.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Lateral geniculate body</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">118</data>
+</node>
+<node id="n119" xlink:href="http://www.connectome.ch/wiki/MGB_(Homo sapiens)">
+	<data key="dn_label">MGB_LH</data>
+	<data key="dn_spl_pnl_atlas_name">medial_geniculate_body_L.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Medial geniculate body</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">119</data>
+</node>
+<node id="n120" xlink:href="http://www.connectome.ch/wiki/CeBv_(Homo sapiens)">
+	<data key="dn_label">CeBv</data>
+	<data key="dn_spl_pnl_atlas_name">cerebellar_vermis.vtk</data>
+	<data key="dn_primarystructure">Cerebellum</data>
+	<data key="dn_secondarystructure">Cerebellar vermis</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">120</data>
+</node>
+<node id="n121" xlink:href="http://www.connectome.ch/wiki/ILNcmn_(Homo sapiens)">
+	<data key="dn_label">ILNcmn_RH</data>
+	<data key="dn_spl_pnl_atlas_name">centromedianl_thalamic_nucleus_R.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Centromedian nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">121</data>
+</node>
+<node id="n122" xlink:href="http://www.connectome.ch/wiki/ACC_(Homo sapiens)">
+	<data key="dn_label">ACC_RH</data>
+	<data key="dn_spl_pnl_atlas_name">nucleus_accumbens_R.vtk</data>
+	<data key="dn_primarystructure">Subcortex</data>
+	<data key="dn_secondarystructure">Nucleus accumbens</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">122</data>
+</node>
+<node id="n123" xlink:href="http://www.connectome.ch/wiki/HY_(Homo sapiens)">
+	<data key="dn_label">HY</data>
+	<data key="dn_spl_pnl_atlas_name">hypothalamus.vtk</data>
+	<data key="dn_primarystructure">Hypothalamus pituitary</data>
+	<data key="dn_secondarystructure">Hypothalamus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">123</data>
+</node>
+<node id="n124" xlink:href="http://www.connectome.ch/wiki/CN3_(Homo sapiens)">
+	<data key="dn_label">CN3_RH</data>
+	<data key="dn_spl_pnl_atlas_name">occulomotor_nerve_R.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Oculomotor nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">124</data>
+</node>
+<node id="n125" xlink:href="http://www.connectome.ch/wiki/CgG_(Homo sapiens)">
+	<data key="dn_label">CgG_RH</data>
+	<data key="dn_spl_pnl_atlas_name">cingulate_gyrus_R.vtk</data>
+	<data key="dn_primarystructure">Limbic Lobe</data>
+	<data key="dn_secondarystructure">Cingulate gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">125</data>
+</node>
+<node id="n126" xlink:href="http://www.connectome.ch/wiki/CAN_(Homo sapiens)">
+	<data key="dn_label">CAN_LH</data>
+	<data key="dn_spl_pnl_atlas_name">caudate_nucleus_L.vtk</data>
+	<data key="dn_primarystructure">Subcortex</data>
+	<data key="dn_secondarystructure">Caudate nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">126</data>
+</node>
+<node id="n127" xlink:href="http://www.connectome.ch/wiki/iml_(Homo sapiens)">
+	<data key="dn_label">iml_RH</data>
+	<data key="dn_spl_pnl_atlas_name">internal_medullar_lamina_R.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Internal medullar lamina</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">127</data>
+</node>
+<node id="n128" xlink:href="http://www.connectome.ch/wiki/HAB_(Homo sapiens)">
+	<data key="dn_label">HAB_RH</data>
+	<data key="dn_spl_pnl_atlas_name">habenular_nucleus_R.vtk</data>
+	<data key="dn_primarystructure">Subcortex</data>
+	<data key="dn_secondarystructure">Habenula</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">128</data>
+</node>
+<node id="n129" xlink:href="http://www.connectome.ch/wiki/CN5_(Homo sapiens)">
+	<data key="dn_label">CN5_RH</data>
+	<data key="dn_spl_pnl_atlas_name">trigeminal_nerve_R.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Trigeminal nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">129</data>
+</node>
+<node id="n130" xlink:href="http://www.connectome.ch/wiki/optrad_(Homo sapiens)">
+	<data key="dn_label">optrad_LH</data>
+	<data key="dn_spl_pnl_atlas_name">optic_radiation_L.vtk</data>
+	<data key="dn_primarystructure">Tract</data>
+	<data key="dn_secondarystructure">Optic radiation</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">130</data>
+</node>
+<node id="n131" xlink:href="http://www.connectome.ch/wiki/inc_(Homo sapiens)">
+	<data key="dn_label">inc_RH</data>
+	<data key="dn_spl_pnl_atlas_name">internal_capsule_R.vtk</data>
+	<data key="dn_primarystructure">Cerebral white matter</data>
+	<data key="dn_secondarystructure">Internal capsule</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">131</data>
+</node>
+<node id="n132" xlink:href="http://www.connectome.ch/wiki/IFG_(Homo sapiens)">
+	<data key="dn_label">IFG_LH</data>
+	<data key="dn_spl_pnl_atlas_name">inferior_frontal_gyrus_L.vtk</data>
+	<data key="dn_primarystructure">Frontal Lobe</data>
+	<data key="dn_secondarystructure">Inferior frontal gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">132</data>
+</node>
+<node id="n133" xlink:href="http://www.connectome.ch/wiki/IC_(Homo sapiens)">
+	<data key="dn_label">IC_RH</data>
+	<data key="dn_spl_pnl_atlas_name">inferior_colliculus_R.vtk</data>
+	<data key="dn_primarystructure">Midbrain</data>
+	<data key="dn_secondarystructure">Inferior colliculus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">133</data>
+</node>
+<node id="n134" xlink:href="http://www.connectome.ch/wiki/Amg_(Homo sapiens)">
+	<data key="dn_label">Amg_RH</data>
+	<data key="dn_spl_pnl_atlas_name">amygdaloid_body_R.vtk</data>
+	<data key="dn_primarystructure">Subcortex</data>
+	<data key="dn_secondarystructure">Amygdala</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">134</data>
+</node>
+<node id="n135" xlink:href="http://www.connectome.ch/wiki/CN8_(Homo sapiens)">
+	<data key="dn_label">CN8_RH</data>
+	<data key="dn_spl_pnl_atlas_name">vestibulocochlear_nerve_R.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Vestibulocochlear nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">135</data>
+</node>
+<node id="n136" xlink:href="http://www.connectome.ch/wiki/IC_(Homo sapiens)">
+	<data key="dn_label">IC_LH</data>
+	<data key="dn_spl_pnl_atlas_name">inferior_colliculus_L.vtk</data>
+	<data key="dn_primarystructure">Midbrain</data>
+	<data key="dn_secondarystructure">Inferior colliculus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">136</data>
+</node>
+<node id="n137" xlink:href="http://www.connectome.ch/wiki/HAB_(Homo sapiens)">
+	<data key="dn_label">HAB_LH</data>
+	<data key="dn_spl_pnl_atlas_name">habenular_nucleus_L.vtk</data>
+	<data key="dn_primarystructure">Subcortex</data>
+	<data key="dn_secondarystructure">Habenula</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">137</data>
+</node>
+<node id="n138" xlink:href="http://www.connectome.ch/wiki/VLN_(Homo sapiens)">
+	<data key="dn_label">VLN_LH</data>
+	<data key="dn_spl_pnl_atlas_name">ventral_lateral_thalamic_nucleus_L.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Ventral lateral nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">138</data>
+</node>
+<node id="n139" xlink:href="http://www.connectome.ch/wiki/scp_(Homo sapiens)">
+	<data key="dn_label">scp_LH</data>
+	<data key="dn_spl_pnl_atlas_name">superior_cerebellar_peduncle_L.vtk</data>
+	<data key="dn_primarystructure">White Matter</data>
+	<data key="dn_secondarystructure">Superior cerebellar peduncle</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">139</data>
+</node>
+<node id="n140" xlink:href="http://www.connectome.ch/wiki/MNG_(Homo sapiens)">
+	<data key="dn_label">MNG_RH</data>
+	<data key="dn_spl_pnl_atlas_name">dorsomedial_thalamic_nucleus_R.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Dorsomedial thalamic nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">140</data>
+</node>
+<node id="n141" xlink:href="http://www.connectome.ch/wiki/VMP_(Homo sapiens)">
+	<data key="dn_label">VMP_RH</data>
+	<data key="dn_spl_pnl_atlas_name">VPM_thalamic_nucleus_R.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Ventral posteromedial nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">141</data>
+</node>
+<node id="n142" xlink:href="http://www.connectome.ch/wiki/ldn_(Homo sapiens)">
+	<data key="dn_label">ldn_LH</data>
+	<data key="dn_spl_pnl_atlas_name">lateral_dorsal_thalamic_nucleus_L.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Lateral dorsal nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">142</data>
+</node>
+<node id="n143" xlink:href="http://www.connectome.ch/wiki/CN7_(Homo sapiens)">
+	<data key="dn_label">CN7_LH</data>
+	<data key="dn_spl_pnl_atlas_name">facial_nerve_L.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Facial nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">143</data>
+</node>
+<node id="n144" xlink:href="http://www.connectome.ch/wiki/SC_(Homo sapiens)">
+	<data key="dn_label">SC_LH</data>
+	<data key="dn_spl_pnl_atlas_name">superior_colliculus_L.vtk</data>
+	<data key="dn_primarystructure">Midbrain</data>
+	<data key="dn_secondarystructure">Superior colliculus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">144</data>
+</node>
+<node id="n145" xlink:href="http://www.connectome.ch/wiki/icp_(Homo sapiens)">
+	<data key="dn_label">icp_LH</data>
+	<data key="dn_spl_pnl_atlas_name">inferior_cerebellar_peduncle_L.vtk</data>
+	<data key="dn_primarystructure">White Matter</data>
+	<data key="dn_secondarystructure">Inferior cerebellar peduncle</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">145</data>
+</node>
+<node id="n146" xlink:href="http://www.connectome.ch/wiki/cxsptrc_(Homo sapiens)">
+	<data key="dn_label">cxsptrc_RH</data>
+	<data key="dn_spl_pnl_atlas_name">corticospinal_tract_R.vtk</data>
+	<data key="dn_primarystructure">Tract</data>
+	<data key="dn_secondarystructure">Corticospinal tract</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">146</data>
+</node>
+<node id="n147" xlink:href="http://www.connectome.ch/wiki/VPL_(Homo sapiens)">
+	<data key="dn_label">VPL_LH</data>
+	<data key="dn_spl_pnl_atlas_name">VPL_thalamic_nucleus_L.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Ventral posterolateral nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">147</data>
+</node>
+<node id="n148" xlink:href="http://www.connectome.ch/wiki/CeBWM_(Homo sapiens)">
+	<data key="dn_label">CeBWM</data>
+	<data key="dn_spl_pnl_atlas_name">cerebellar_white_matter.vtk</data>
+	<data key="dn_primarystructure">Cerebellum</data>
+	<data key="dn_secondarystructure">Cerebellar white matter</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">148</data>
+</node>
+<node id="n149" xlink:href="http://www.connectome.ch/wiki/scp_(Homo sapiens)">
+	<data key="dn_label">scp_RH</data>
+	<data key="dn_spl_pnl_atlas_name">superior_cerebellar_peduncle_R.vtk</data>
+	<data key="dn_primarystructure">White Matter</data>
+	<data key="dn_secondarystructure">Superior cerebellar peduncle</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">149</data>
+</node>
+<node id="n150" xlink:href="http://www.connectome.ch/wiki/Tons_(Homo sapiens)">
+	<data key="dn_label">Tons_LH</data>
+	<data key="dn_spl_pnl_atlas_name">cerebellar_tonsil_L.vtk</data>
+	<data key="dn_primarystructure">Cerebellum</data>
+	<data key="dn_secondarystructure">Tonsil of cerebellum</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">150</data>
+</node>
+<node id="n151" xlink:href="http://www.connectome.ch/wiki/VAN_(Homo sapiens)">
+	<data key="dn_label">VAN_LH</data>
+	<data key="dn_spl_pnl_atlas_name">ventral_anterior_thalamic_nucleus_L.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Ventral anterior nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">151</data>
+</node>
+<node id="n152" xlink:href="http://www.connectome.ch/wiki/SMG_(Homo sapiens)">
+	<data key="dn_label">SMG_RH</data>
+	<data key="dn_spl_pnl_atlas_name">supramarginal_gyrus_inferior_parietal_lobule_R.vtk</data>
+	<data key="dn_primarystructure">Parietal Lobe</data>
+	<data key="dn_secondarystructure">Supramarginal gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">152</data>
+</node>
+<node id="n153" xlink:href="http://www.connectome.ch/wiki/XXX_(Homo sapiens)">
+	<data key="dn_label">XXX</data>
+	<data key="dn_spl_pnl_atlas_name">pellucid_septum.vtk</data>
+	<data key="dn_primarystructure">Cerebral white matter</data>
+	<data key="dn_secondarystructure">XXXX</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">153</data>
+</node>
+<node id="n154" xlink:href="http://www.connectome.ch/wiki/LGN_(Homo sapiens)">
+	<data key="dn_label">LGN_RH</data>
+	<data key="dn_spl_pnl_atlas_name">lateral_geniculate_body_R.vtk</data>
+	<data key="dn_primarystructure">Thalamus</data>
+	<data key="dn_secondarystructure">Lateral geniculate body</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">154</data>
+</node>
+<node id="n155" xlink:href="http://www.connectome.ch/wiki/CN11_(Homo sapiens)">
+	<data key="dn_label">CN11_RH</data>
+	<data key="dn_spl_pnl_atlas_name">accessory_nerve_R.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Accessory nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">155</data>
+</node>
+<node id="n156" xlink:href="http://www.connectome.ch/wiki/PU_(Homo sapiens)">
+	<data key="dn_label">PU_RH</data>
+	<data key="dn_spl_pnl_atlas_name">putamen_R.vtk</data>
+	<data key="dn_primarystructure">Subcortex</data>
+	<data key="dn_secondarystructure">Putamen</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">156</data>
+</node>
+<node id="n157" xlink:href="http://www.connectome.ch/wiki/CN2_(Homo sapiens)">
+	<data key="dn_label">CN2_RH</data>
+	<data key="dn_spl_pnl_atlas_name">optic_nerve_R.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Optic nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">157</data>
+</node>
+<node id="n158" xlink:href="http://www.connectome.ch/wiki/SN_(Homo sapiens)">
+	<data key="dn_label">SN_LH</data>
+	<data key="dn_spl_pnl_atlas_name">substantia_nigra_L.vtk</data>
+	<data key="dn_primarystructure">Midbrain</data>
+	<data key="dn_secondarystructure">Substantia nigra</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">158</data>
+</node>
+<node id="n159" xlink:href="http://www.connectome.ch/wiki/AngG_(Homo sapiens)">
+	<data key="dn_label">AngG_RH</data>
+	<data key="dn_spl_pnl_atlas_name">angular_gyrus_Inferior_parietal_lobule_R.vtk</data>
+	<data key="dn_primarystructure">Parietal Lobe</data>
+	<data key="dn_secondarystructure">Angular gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">159</data>
+</node>
+<node id="n160" xlink:href="http://www.connectome.ch/wiki/DN_(Homo sapiens)">
+	<data key="dn_label">DN_LH</data>
+	<data key="dn_spl_pnl_atlas_name">dentate_nucleus_L.vtk</data>
+	<data key="dn_primarystructure">Cerebellar medulla</data>
+	<data key="dn_secondarystructure">Dentate nucleus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">160</data>
+</node>
+<node id="n161" xlink:href="http://www.connectome.ch/wiki/RG_(Homo sapiens)">
+	<data key="dn_label">RG_RH</data>
+	<data key="dn_spl_pnl_atlas_name">orbital_gyri_straight_gyrus_R.vtk</data>
+	<data key="dn_primarystructure">Frontal Lobe</data>
+	<data key="dn_secondarystructure">Gyrus rectus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">161</data>
+</node>
+<node id="n162" xlink:href="http://www.connectome.ch/wiki/TP_(Homo sapiens)">
+	<data key="dn_label">TP_LH</data>
+	<data key="dn_spl_pnl_atlas_name">temporal_pole_L.vtk</data>
+	<data key="dn_primarystructure">Temporal Lobe</data>
+	<data key="dn_secondarystructure">Temporal pole</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">162</data>
+</node>
+<node id="n163" xlink:href="http://www.connectome.ch/wiki/optrad_(Homo sapiens)">
+	<data key="dn_label">optrad_RH</data>
+	<data key="dn_spl_pnl_atlas_name">optic_radiation_R.vtk</data>
+	<data key="dn_primarystructure">Tract</data>
+	<data key="dn_secondarystructure">Optic radiation</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">163</data>
+</node>
+<node id="n164" xlink:href="http://www.connectome.ch/wiki/CN6_(Homo sapiens)">
+	<data key="dn_label">CN6_RH</data>
+	<data key="dn_spl_pnl_atlas_name">abducent_nerve_R.vtk</data>
+	<data key="dn_primarystructure">Cranial nerve</data>
+	<data key="dn_secondarystructure">Abducens nerve</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">164</data>
+</node>
+<node id="n165" xlink:href="http://www.connectome.ch/wiki/FuG_(Homo sapiens)">
+	<data key="dn_label">FuG_LH</data>
+	<data key="dn_spl_pnl_atlas_name">lateral_occipitotemporal_gyrus_L.vtk</data>
+	<data key="dn_primarystructure">Temporal Lobe</data>
+	<data key="dn_secondarystructure">Lateral occipitotempral gyrus</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">165</data>
+</node>
+<node id="n166">
+	<data key="dn_label"></data>
+	<data key="dn_spl_pnl_atlas_name">pituitary_gland.vtk</data>
+	<data key="dn_primarystructure">Hypothalamus pituitary</data>
+	<data key="dn_secondarystructure">Pituitary gland</data>
+	<data key="dn_colorcode"></data>
+	<data key="dn_intensityvalue">166</data>
+</node>
+
+</graph>
+</graphml>

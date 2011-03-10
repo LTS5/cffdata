@@ -1,41 +1,31 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<connectome xmlns="http://www.connectomics.org/cff-2"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xsi:schemaLocation="http://www.connectomics.org/cff-2 connectome.xsd">
-
-<connectome-meta version="2.0">
-  <dcterms:title>SPL-PNL Brain Atlas</dcterms:title>
-  <dcterms:creator>Ion-Florin Talos, Marianna Jakab, Ron Kikinis, Martha E. Shenton</dcterms:creator>
-  <dcterms:created>2008-03-01</dcterms:created>
-  <dcterms:modified>2009-07-28</dcterms:modified>
-  <dcterms:license>Slicer license. By using these data, you agree to acknowledge the contribution in any of your publications that result form the use of this atlas.</dcterms:license>
-  <dcterms:rights>None</dcterms:rights>
-  <dcterms:reference>Talos I., Jakab M., Kikinis R., Shenton M.E. SPL-PNL Brain Atlas. SPL-PNL Brain Atlas 2008 March</dcterms:reference>
-  <dcterms:relation>http://www.slicer.org/publications/item/view/1265</dcterms:relation>
-  <dcterms:description>The initial version of the SPL-PNL Brain Atlas was developed by the Surgical Planning Laboratory in collaboration with the Harvard Neuroscience Laboratory at Brockton VA Medical Center. Dr. Martha Shenton, one of the original people involved with the Harvard Neuroscience Laboratory, is now the Director of the Psychiatry Neuroimaging Laboratory (PNL), Department of Psychiatry, Brigham and Women's Hospital, Harvard Medical School.
+<?xml version="1.0" encoding="UTF-8"?>
+<cml:connectome xmlns="http://www.connectomics.org/cff-2" xmlns:cml="http://www.connectomics.org/cff-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="http://www.connectomics.org/cff-2 connectome.xsd">
+    <cml:connectome-meta version="2.0">
+        <dcterms:title>SPL-PNL Brain Atlas</dcterms:title>
+        <dcterms:creator>Ion-Florin Talos, Marianna Jakab, Ron Kikinis, Martha E. Shenton</dcterms:creator>
+        <dcterms:created>2008-03-01</dcterms:created>
+        <dcterms:modified>2009-07-28</dcterms:modified>
+        <dcterms:rights>None</dcterms:rights>
+        <dcterms:relation>http://www.slicer.org/publications/item/view/1265</dcterms:relation>
+        <dcterms:modified>2009-07-28</dcterms:modified>
+        <dcterms:description>The initial version of the SPL-PNL Brain Atlas was developed by the Surgical Planning Laboratory in collaboration with the Harvard Neuroscience Laboratory at Brockton VA Medical Center. Dr. Martha Shenton, one of the original people involved with the Harvard Neuroscience Laboratory, is now the Director of the Psychiatry Neuroimaging Laboratory (PNL), Department of Psychiatry, Brigham and Women's Hospital, Harvard Medical School.
 The atlas was derived from a volumetric T1-weighted MR-scan of a healthy volunteer, using semi-automated image segmentation and three-dimensional reconstruction techniques. Over the years, the original atlas has undergone several revisions. The current version consists of:
 1. the original volumetric whole brain MRI of a healthy volunteer;
 2. a set of detailed label maps;
 3. 160+ three-dimensional models of the labeled anatomical structures;
 The SPL-PNL Brain Atlas provides important reference information for surgical planning. It has been used for template-driven segmentation and also as a powerful neuroanatomy teaching tool. We are pleased to make this brain atlas available to our colleagues for free download. Please note that the data is being distributed under the Slicer license. By downloading these data, you agree to acknowledge our contribution in any of your publications that result form the use of this atlas. Please acknowledge the following grants: P41 RR13218, R01 MH050740.
 </dcterms:description>
-  
-  <generator>Handmade</generator>
-  <species>Homo sapiens</species>
-
-</connectome-meta>
-
-<connectome-network name="Brain Network 1" src="Network/network.graphml" dtype="AttributeNetwork" />
-<connectome-network name="Brain Network 2" src="Network/network2.graphml" dtype="AttributeNetwork" />
-
-<connectome-volume name="Original Brain" src="Nifti/grayscale.nii.gz" fileformat="Nifti1GZ" dtype="T1-weighted">
-  <dcterms:description>The greyscale volume image of the atlas brain.</dcterms:description>
-</connectome-volume>
-<connectome-volume name="Segmented Brain" src="Nifti/seg.nii.gz" fileformat="Nifti1GZ" dtype="Segmentation">
-  <dcterms:description>The segmentation/Labelmaps of the atlas brain.</dcterms:description>
-</connectome-volume>
-<connectome-surface name="SPL-PNL Brain Atlas" src="Gifti/atlas.gii" fileformat="Gifti" dtype="Atlas" />
-<connectome-surface name="AtlasLabels" src="Gifti/atlas_labels.gii" fileformat="Gifti" dtype="Labelset" />
-
-</connectome>
+        <cml:generator>Handmade</cml:generator>
+        <cml:species>Homo sapiens</cml:species>
+    </cml:connectome-meta>
+    <cml:connectome-network src="Network/network.graphml" dtype="AttributeNetwork" name="Brain Network 1" fileformat="GraphML"/>
+    <cml:connectome-network src="Network/network2.graphml" dtype="AttributeNetwork" name="Brain Network 2" fileformat="GraphML"/>
+    <cml:connectome-surface src="Gifti/atlas.gii" dtype="Atlas" name="SPL-PNL Brain Atlas" fileformat="Gifti"/>
+    <cml:connectome-surface src="Gifti/atlas_labels.gii" dtype="Labelset" name="AtlasLabels" fileformat="Gifti"/>
+    <cml:connectome-volume src="Nifti/grayscale.nii.gz" dtype="T1-weighted" name="Original Brain" fileformat="Nifti1GZ">
+        <cml:description>The greyscale volume image of the atlas brain.</cml:description>
+    </cml:connectome-volume>
+    <cml:connectome-volume src="Nifti/seg.nii.gz" dtype="Segmentation" name="Segmented Brain" fileformat="Nifti1GZ">
+        <cml:description>The segmentation/Labelmaps of the atlas brain.</cml:description>
+    </cml:connectome-volume>
+</cml:connectome>

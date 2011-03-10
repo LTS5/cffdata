@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<connectome xmlns="http://www.connectomics.org/cff-2"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xsi:schemaLocation="http://www.connectomics.org/cff-2 connectome.xsd">
-
-<connectome-meta version="2.0">
-  <dcterms:title>fsaverage surfaces</dcterms:title>
-  <dcterms:creator>None</dcterms:creator>
-  <dcterms:created>2010-01-01</dcterms:created>
-  <dcterms:modified>2010-01-01</dcterms:modified>
-  <dcterms:license>Creative Commons Attribution License 3.0</dcterms:license>
-  <dcterms:rights>None</dcterms:rights>
-  <dcterms:relation>http://surfer.nmr.mgh.harvard.edu/fswiki/FsAverage</dcterms:relation>
-    
-  <generator>Handmade</generator>
-  <species>Homo sapiens</species>
-  
-</connectome-meta>
-
-<connectome-surface name="fsaverage surface" src="Gifti/fsaverage.gii" fileformat="Gifti" dtype="Surfaceset" />
-<connectome-surface name="fsaverage labels" src="Gifti/fsaverage_labels.gii" fileformat="Gifti" dtype="Labelset" />
-
-</connectome>
+<cml:connectome xmlns="http://www.connectomics.org/cff-2" xmlns:cml="http://www.connectomics.org/cff-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="http://www.connectomics.org/cff-2 connectome.xsd">
+    <cml:connectome-meta version="2.0">
+        <dcterms:title>fsaverage surfaces</dcterms:title>
+        <dcterms:creator>None</dcterms:creator>
+        <dcterms:created>2010-01-01</dcterms:created>
+        <dcterms:modified>2010-01-01</dcterms:modified>
+        <dcterms:rights>None</dcterms:rights>
+        <dcterms:relation>http://surfer.nmr.mgh.harvard.edu/fswiki/FsAverage</dcterms:relation>
+        <dcterms:modified>2010-01-01</dcterms:modified>
+        <cml:generator>Handmade</cml:generator>
+        <cml:species>Homo sapiens</cml:species>
+    </cml:connectome-meta>
+    <cml:connectome-surface src="Gifti/fsaverage.gii" dtype="Surfaceset" name="fsaverage surface" fileformat="Gifti"/>
+    <cml:connectome-surface src="Gifti/fsaverage_labels.gii" dtype="Labelset" name="fsaverage labels" fileformat="Gifti"/>
+</cml:connectome>

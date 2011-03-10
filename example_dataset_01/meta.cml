@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<connectome xmlns="http://www.connectomics.org/cff-2"
+<cml:connectome xmlns="http://www.connectomics.org/cff-2"
+  xmlns:cml="http://www.connectomics.org/cff-2"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xsi:schemaLocation="http://www.connectomics.org/cff-2 connectome.xsd">
 
-<connectome-meta version="2.0">
+<cml:connectome-meta version="2.0">
   <dcterms:title>Example dataset</dcterms:title>
   <dcterms:creator>Stephan Gerhard</dcterms:creator>
   <dcterms:publisher>EPFL and UNIL-CHUV</dcterms:publisher>
@@ -16,65 +17,65 @@
   <dcterms:relation>http://www.connectomics.org/</dcterms:relation>
   <dcterms:description>This file contains a show of the multi-modal datatype hostable by this format.</dcterms:description>
   
-  <generator>Handmade</generator>
-  <species>Homo exemplarius</species>
-  <email>info@connectomics.org</email>
+  <cml:generator>Handmade</cml:generator>
+  <cml:species>Homo exemplarius</cml:species>
+  <cml:email>info@connectomics.org</cml:email>
 
-  <metatag>
-    <tag key="nr_networks">1</tag>
-  </metatag>
-</connectome-meta>
+  <cml:metadata>
+    <cml:tag key="nr_networks">1</cml:tag>
+  </cml:metadata>
+</cml:connectome-meta>
 
-<connectome-network name="Network Lausanne83" src="Networks/network_res83.graphml" dtype="AttributeNetwork" fileformat="GraphML">
-  <metatag>
-    <tag key="resolution">83</tag>
-    <tag key="hassubcortical">1</tag>
-  </metatag>
+<cml:connectome-network name="Network Lausanne83" src="Networks/network_res83.graphml" dtype="AttributeNetwork" fileformat="GraphML">
+  <cml:metadata>
+    <cml:tag key="resolution">83</cml:tag>
+    <cml:tag key="hassubcortical">1</cml:tag>
+  </cml:metadata>
   <dcterms:description>This network contains a network with 83 nodes. It contains references to several other
   data sources in different modalities that are in this connectome file.</dcterms:description>
-</connectome-network>
+</cml:connectome-network>
 
-<connectome-network name="Dynamic Network" src="Networks/dynamics.gexf" dtype="DynamicNetwork" fileformat="GEXF" />
+<cml:connectome-network name="Dynamic Network" src="Networks/dynamics.gexf" dtype="DynamicNetwork" fileformat="GEXF" />
   
-<connectome-surface name="Label Source" src="Surfaces/labels.gii" fileformat="Gifti" dtype="label">
+<cml:connectome-surface name="Label Source" src="Surfaces/labels.gii" fileformat="Gifti" dtype="label">
   <dcterms:description>Contains the labeling of the Freesurfer Average Mesh</dcterms:description>
-</connectome-surface>
+</cml:connectome-surface>
 
-<connectome-surface name="Example Surface" src="Surfaces/simplesurface.gii" fileformat="Gifti" dtype="Surfaceset">
+<cml:connectome-surface name="Example Surface" src="Surfaces/simplesurface.gii" fileformat="Gifti" dtype="Surfaceset">
   <dcterms:description>Contains an example surface consisting of one triangle</dcterms:description>
-</connectome-surface>
+</cml:connectome-surface>
 
-<connectome-volume name="Example Volume" src="Volumes/sample.nii.gz" fileformat="Nifti1" dtype="T1-weighted">
+<cml:connectome-volume name="Example Volume" src="Volumes/sample.nii.gz" fileformat="Nifti1" dtype="T1-weighted">
   <dcterms:description>A small region from a T1-weighted image</dcterms:description>
-</connectome-volume>
+</cml:connectome-volume>
 
-<connectome-track name="Tractography" src="Tracks/fibers.trk" fileformat="TrackVis">
+<cml:connectome-track name="Tractography" src="Tracks/fibers.trk" fileformat="TrackVis">
   <dcterms:description>A sample track file for fiber visualisation.</dcterms:description>
-</connectome-track>
+</cml:connectome-track>
 
-<connectome-timeseries name="Generated timeseries data" src="Timeseries/generatedseries.hdf5" fileformat="HDF5">
+<cml:connectome-timeseries name="Generated timeseries data" src="Timeseries/generatedseries.hdf5" fileformat="HDF5">
   <dcterms:description>83 generated <b>10Hz</b> time series with Gaussian noise and different phase lags corresponding to the 83 network nodes in Network Lausanne83.</dcterms:description>
-</connectome-timeseries>
+</cml:connectome-timeseries>
 
-<connectome-data name="Arbitrary data file" src="Data/mydata.npy" fileformat="NumPy">
+<cml:connectome-data name="Arbitrary data file" src="Data/mydata.npy" fileformat="NumPy">
   <dcterms:description>This is my NumPy array.</dcterms:description>
- </connectome-data>
+ </cml:connectome-data>
 
-<connectome-script name="Analysis Script MMXXXIV" src="Scripts/analysis01.py" type="Python">
+<cml:connectome-script name="Analysis Script MMXXXIV" src="Scripts/analysis01.py" type="Python">
   <dcterms:description>This is my super script</dcterms:description>
- </connectome-script>
+ </cml:connectome-script>
 
-<connectome-imagestack name="FIB Rat Striatum" src="Imagestack/" pattern="*.tif" fileformat="TIFF">
+<cml:connectome-imagestack name="FIB Rat Striatum" src="Imagestack/" pattern="*.tif" fileformat="TIFF">
   <dcterms:description>Three Focused Ion Beam Slices in TIFF format from Graham Knott, BioEM facility at EPFL.</dcterms:description>
-  <metatag>
-  	<tag key="location">0,0,0</tag>
-  	<tag key="orientation_x">1,0,0</tag>
-  	<tag key="orientation_y">0,1,0</tag>
-  	<tag key="orientation_z">0,0,1</tag>
-  	<tag key="coordsystem">RAS</tag>
-  	<tag key="pixelsize">1mm,1mm,2mm</tag>
-  	<tag key="url">http://www.incf.org/about/nodes/switzerland/data</tag>
-  </metatag>
-</connectome-imagestack>
+  <cml:metadata>
+  	<cml:tag key="location">0,0,0</cml:tag>
+  	<cml:tag key="orientation_x">1,0,0</cml:tag>
+  	<cml:tag key="orientation_y">0,1,0</cml:tag>
+  	<cml:tag key="orientation_z">0,0,1</cml:tag>
+  	<cml:tag key="coordsystem">RAS</cml:tag>
+  	<cml:tag key="pixelsize">1mm,1mm,2mm</cml:tag>
+  	<cml:tag key="url">http://www.incf.org/about/nodes/switzerland/data</cml:tag>
+  </cml:metadata>
+</cml:connectome-imagestack>
 
-</connectome>
+</cml:connectome>

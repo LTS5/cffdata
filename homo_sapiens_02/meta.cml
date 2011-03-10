@@ -1,109 +1,108 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<connectome xmlns="http://www.connectomics.org/cff-2"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xsi:schemaLocation="http://www.connectomics.org/cff-2 connectome.xsd">
-
-<connectome-meta version="2.0">
-  <dcterms:title>Single subject connectivity</dcterms:title>
-  <dcterms:creator>Stephan Gerhard</dcterms:creator>
-  <dcterms:publisher>EPFL and UNIL-CHUV</dcterms:publisher>
-  <dcterms:created>2009-06-20</dcterms:created>
-  <dcterms:modified>2010-04-12</dcterms:modified>
-  <dcterms:license>Creative Commons Attribution License 3.0</dcterms:license>
-  <dcterms:rights>Copyright EPFL and CHUV</dcterms:rights>
-  <dcterms:reference>Unpublished dataset</dcterms:reference>
-  <dcterms:relation>http://www.connectomeviewer.org/</dcterms:relation>
-  <dcterms:description>This file contains connectivity data of a single male subject processed with the Connectome Mapping Pipeline developed at EPFL/LTS5.</dcterms:description>
-  
-  <generator>DSI2CFF Converter</generator>
-  <species>Homo sapiens</species>
-  <email>info@connectomics.org</email>
-  
-  <metadata>
-    <tag key="nr_networks">5</tag>
-    <section title="MySection">
-	    <property>
-			 <name>Sampling frequency</name>
-			 <value>256.0</value>
-			 <uncertainty>0.0</uncertainty>
-			 <unit>Hz</unit>
-			 <type>float</type>
-		</property>
-	    <property>
-			 <name>Sampling frequency2</name>
-			 <value>256.0</value>
-			 <uncertainty>0.0</uncertainty>
-			 <unit>Hz</unit>
-			 <type>float</type>
-		</property>
-    </section>
-    
-  </metadata>
-  
-</connectome-meta>
-
-<connectome-network src="Networks/connectome_scale33.gpickle" dtype="AttributeNetwork" name="connectome_scale33" fileformat="NXGPickle">
-  <metadata>
-    <tag key="resolution">83</tag>
-    <tag key="cviewer_labelname">Label Source</tag>
-    <tag key="cviewer_labelid">Resolution 83</tag>
-    <tag key="cviewer_segmentationname">Volume ROIs Resolution 83</tag>
-    <tag key="cviewer_use_template_atlas_homo_sapiens_01">True</tag>
-  </metadata>
-  <dcterms:description>This network contains a network with 83 nodes. It contains references to several other
-  data sources in different modalities that are in this connectome file.</dcterms:description>
-</connectome-network>
-
-<connectome-network src="Networks/connectome_scale60.gpickle" dtype="AttributeNetwork" name="connectome_scale60" fileformat="NXGPickle">
-  <metadata>
-    <tag key="resolution">150</tag>
-    <tag key="cviewer_labelname">Label Source</tag>
-    <tag key="cviewer_labelid">Resolution 150</tag>
-    <tag key="cviewer_segmentationname">Volume ROIs Resolution 150</tag>
-    <tag key="cviewer_use_template_atlas_homo_sapiens_01">True</tag>
-  </metadata>
-</connectome-network>
-
-<connectome-network src="Networks/connectome_scale125.gpickle" dtype="AttributeNetwork" name="connectome_scale125" fileformat="NXGPickle">
-  <metadata>
-    <tag key="resolution">258</tag>
-    <tag key="cviewer_labelname">Label Source</tag>
-    <tag key="cviewer_labelid">Resolution 258</tag>
-    <tag key="cviewer_segmentationname">Volume ROIs Resolution 258</tag>
-    <tag key="cviewer_use_template_atlas_homo_sapiens_01">True</tag>
-  </metadata>
-</connectome-network>
-
-<connectome-network src="Networks/connectome_scale250.gpickle" dtype="AttributeNetwork" name="connectome_scale250" fileformat="NXGPickle">
-  <metadata>
-    <tag key="resolution">500</tag>
-    <tag key="cviewer_labelname">Label Source</tag>
-    <tag key="cviewer_labelid">Resolution 500</tag>
-    <tag key="cviewer_segmentationname">Volume ROIs Resolution 500</tag>
-    <tag key="cviewer_use_template_atlas_homo_sapiens_01">True</tag>
-  </metadata>
-</connectome-network>
-
-<connectome-network src="Networks/connectome_scale500.gpickle" dtype="AttributeNetwork" name="connectome_scale500" fileformat="NXGPickle">
-  <metadata>
-    <tag key="resolution">1015</tag>
-    <tag key="cviewer_labelname">Label Source</tag>
-    <tag key="cviewer_labelid">Resolution 1015</tag>
-    <tag key="cviewer_segmentationname">Volume ROIs Resolution 1015</tag>
-    <tag key="cviewer_use_template_atlas_homo_sapiens_01">True</tag>
-  </metadata>
-</connectome-network>
-
-<connectome-surface name="Individual surfaces" src="Surfaces/testsubject.gii" fileformat="Gifti" dtype="surfaceset" />
-<connectome-surface name="Label Source" src="Surfaces/testsubject_labels.gii" fileformat="Gifti" dtype="label"><dcterms:description>Contains the labeling of the Freesurfer Average Mesh</dcterms:description></connectome-surface>
-<connectome-volume name="T1-weighted single subject" src="Volumes/T1.nii.gz.gz" fileformat="nifti" dtype="T1-weighted"><dcterms:description>The T1-weighted single scan of the subject.</dcterms:description></connectome-volume>
-<connectome-volume name="Volume ROIs Resolution 83" src="Volumes/ROI_scale33.nii.gz" fileformat="Nifti1" dtype="segmentation"><dcterms:description>The segmentation of the brain in voxel-format.</dcterms:description></connectome-volume>
-<connectome-volume name="Volume ROIs Resolution 150" src="Volumes/ROI_scale60.nii.gz" fileformat="Nifti1" dtype="segmentation"><dcterms:description>The segmentation of the brain in voxel-format.</dcterms:description></connectome-volume>
-<connectome-volume name="Volume ROIs Resolution 258" src="Volumes/ROI_scale125.nii.gz" fileformat="Nifti1" dtype="segmentation"><dcterms:description>The segmentation of the brain in voxel-format.</dcterms:description></connectome-volume>
-<connectome-volume name="Volume ROIs Resolution 500" src="Volumes/ROI_scale250.nii.gz" fileformat="Nifti1" dtype="segmentation"><dcterms:description>The segmentation of the brain in voxel-format.</dcterms:description></connectome-volume>
-<connectome-volume name="Volume ROIs Resolution 1015" src="Volumes/ROI_scale500.nii.gz" fileformat="Nifti1" dtype="segmentation"><dcterms:description>The segmentation of the brain in voxel-format.</dcterms:description></connectome-volume>
-<connectome-track name="Tractography" src="Tracks/fibers_transformed.trk" fileformat="TrackVis"><dcterms:description>The track file for visualisation in Trackvis.</dcterms:description></connectome-track>
-<connectome-timeserie name="Generated timeseries data" src="Timeseries/generatedseries.hdf5" fileformat="HDF5"><dcterms:description>83 generated 10Hz time series with Gaussian noise and different phase lags corresponding to the 83 network nodes in Network Lausanne83.</dcterms:description></connectome-timeserie>
-
-</connectome>
+<?xml version="1.0" encoding="UTF-8"?>
+<cml:connectome xmlns="http://www.connectomics.org/cff-2" xmlns:cml="http://www.connectomics.org/cff-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="http://www.connectomics.org/cff-2 connectome.xsd">
+    <cml:connectome-meta version="2.0">
+        <dcterms:title>Single subject connectivity</dcterms:title>
+        <dcterms:creator>Stephan Gerhard</dcterms:creator>
+        <dcterms:publisher>EPFL and UNIL-CHUV</dcterms:publisher>
+        <dcterms:created>2009-06-20</dcterms:created>
+        <dcterms:modified>2010-04-12</dcterms:modified>
+        <dcterms:rights>Copyright EPFL and CHUV</dcterms:rights>
+        <dcterms:relation>http://www.connectomeviewer.org/</dcterms:relation>
+        <dcterms:modified>2010-04-12</dcterms:modified>
+        <dcterms:description>This file contains connectivity data of a single male subject processed with the Connectome Mapping Pipeline developed at EPFL/LTS5.</dcterms:description>
+        <cml:generator>DSI2CFF Converter</cml:generator>
+        <cml:species>Homo sapiens</cml:species>
+        <cml:email>info@connectomics.org</cml:email>
+        <cml:metadata>
+            <cml:tag key="nr_networks">5</cml:tag>
+            <cml:section title="MySection">
+                <cml:property>
+                    <cml:name>Sampling frequency</cml:name>
+                    <cml:value>256.0</cml:value>
+                    <cml:type>float</cml:type>
+                    <cml:uncertainty>0.0</cml:uncertainty>
+                    <cml:unit>Hz</cml:unit>
+                </cml:property>
+                <cml:property>
+                    <cml:name>Sampling frequency2</cml:name>
+                    <cml:value>256.0</cml:value>
+                    <cml:type>float</cml:type>
+                    <cml:uncertainty>0.0</cml:uncertainty>
+                    <cml:unit>Hz</cml:unit>
+                </cml:property>
+            </cml:section>
+        </cml:metadata>
+    </cml:connectome-meta>
+    <cml:connectome-network src="Networks/connectome_scale33.gpickle" dtype="AttributeNetwork" name="connectome_scale33" fileformat="NXGPickle">
+        <cml:metadata>
+            <cml:tag key="resolution">83</cml:tag>
+            <cml:tag key="cviewer_labelname">Label Source</cml:tag>
+            <cml:tag key="cviewer_labelid">Resolution 83</cml:tag>
+            <cml:tag key="cviewer_segmentationname">Volume ROIs Resolution 83</cml:tag>
+            <cml:tag key="cviewer_use_template_atlas_homo_sapiens_01">True</cml:tag>
+        </cml:metadata>
+        <cml:description>This network contains a network with 83 nodes. It contains references to several other
+  data sources in different modalities that are in this connectome file.</cml:description>
+    </cml:connectome-network>
+    <cml:connectome-network src="Networks/connectome_scale60.gpickle" dtype="AttributeNetwork" name="connectome_scale60" fileformat="NXGPickle">
+        <cml:metadata>
+            <cml:tag key="resolution">150</cml:tag>
+            <cml:tag key="cviewer_labelname">Label Source</cml:tag>
+            <cml:tag key="cviewer_labelid">Resolution 150</cml:tag>
+            <cml:tag key="cviewer_segmentationname">Volume ROIs Resolution 150</cml:tag>
+            <cml:tag key="cviewer_use_template_atlas_homo_sapiens_01">True</cml:tag>
+        </cml:metadata>
+    </cml:connectome-network>
+    <cml:connectome-network src="Networks/connectome_scale125.gpickle" dtype="AttributeNetwork" name="connectome_scale125" fileformat="NXGPickle">
+        <cml:metadata>
+            <cml:tag key="resolution">258</cml:tag>
+            <cml:tag key="cviewer_labelname">Label Source</cml:tag>
+            <cml:tag key="cviewer_labelid">Resolution 258</cml:tag>
+            <cml:tag key="cviewer_segmentationname">Volume ROIs Resolution 258</cml:tag>
+            <cml:tag key="cviewer_use_template_atlas_homo_sapiens_01">True</cml:tag>
+        </cml:metadata>
+    </cml:connectome-network>
+    <cml:connectome-network src="Networks/connectome_scale250.gpickle" dtype="AttributeNetwork" name="connectome_scale250" fileformat="NXGPickle">
+        <cml:metadata>
+            <cml:tag key="resolution">500</cml:tag>
+            <cml:tag key="cviewer_labelname">Label Source</cml:tag>
+            <cml:tag key="cviewer_labelid">Resolution 500</cml:tag>
+            <cml:tag key="cviewer_segmentationname">Volume ROIs Resolution 500</cml:tag>
+            <cml:tag key="cviewer_use_template_atlas_homo_sapiens_01">True</cml:tag>
+        </cml:metadata>
+    </cml:connectome-network>
+    <cml:connectome-network src="Networks/connectome_scale500.gpickle" dtype="AttributeNetwork" name="connectome_scale500" fileformat="NXGPickle">
+        <cml:metadata>
+            <cml:tag key="resolution">1015</cml:tag>
+            <cml:tag key="cviewer_labelname">Label Source</cml:tag>
+            <cml:tag key="cviewer_labelid">Resolution 1015</cml:tag>
+            <cml:tag key="cviewer_segmentationname">Volume ROIs Resolution 1015</cml:tag>
+            <cml:tag key="cviewer_use_template_atlas_homo_sapiens_01">True</cml:tag>
+        </cml:metadata>
+    </cml:connectome-network>
+    <cml:connectome-surface src="Surfaces/testsubject.gii" dtype="surfaceset" name="Individual surfaces" fileformat="Gifti"/>
+    <cml:connectome-surface src="Surfaces/testsubject_labels.gii" dtype="label" name="Label Source" fileformat="Gifti">
+        <cml:description>Contains the labeling of the Freesurfer Average Mesh</cml:description>
+    </cml:connectome-surface>
+    <cml:connectome-volume src="Volumes/T1.nii.gz.gz" dtype="T1-weighted" name="T1-weighted single subject" fileformat="nifti">
+        <cml:description>The T1-weighted single scan of the subject.</cml:description>
+    </cml:connectome-volume>
+    <cml:connectome-volume src="Volumes/ROI_scale33.nii.gz" dtype="segmentation" name="Volume ROIs Resolution 83" fileformat="Nifti1">
+        <cml:description>The segmentation of the brain in voxel-format.</cml:description>
+    </cml:connectome-volume>
+    <cml:connectome-volume src="Volumes/ROI_scale60.nii.gz" dtype="segmentation" name="Volume ROIs Resolution 150" fileformat="Nifti1">
+        <cml:description>The segmentation of the brain in voxel-format.</cml:description>
+    </cml:connectome-volume>
+    <cml:connectome-volume src="Volumes/ROI_scale125.nii.gz" dtype="segmentation" name="Volume ROIs Resolution 258" fileformat="Nifti1">
+        <cml:description>The segmentation of the brain in voxel-format.</cml:description>
+    </cml:connectome-volume>
+    <cml:connectome-volume src="Volumes/ROI_scale250.nii.gz" dtype="segmentation" name="Volume ROIs Resolution 500" fileformat="Nifti1">
+        <cml:description>The segmentation of the brain in voxel-format.</cml:description>
+    </cml:connectome-volume>
+    <cml:connectome-volume src="Volumes/ROI_scale500.nii.gz" dtype="segmentation" name="Volume ROIs Resolution 1015" fileformat="Nifti1">
+        <cml:description>The segmentation of the brain in voxel-format.</cml:description>
+    </cml:connectome-volume>
+    <cml:connectome-track src="Tracks/fibers_transformed.trk" name="Tractography" fileformat="TrackVis">
+        <cml:description>The track file for visualisation in Trackvis.</cml:description>
+    </cml:connectome-track>
+</cml:connectome>

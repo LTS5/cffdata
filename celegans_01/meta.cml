@@ -1,24 +1,19 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<connectome xmlns="http://www.connectomics.org/cff-2"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xsi:schemaLocation="http://www.connectomics.org/cff-2 connectome.xsd">
-
-<connectome-meta version="2.0">
-  <dcterms:title>C.elegans connectivity</dcterms:title>
-  <dcterms:creator>Stephan Gerhard</dcterms:creator>
-  <dcterms:created>2009-08-14</dcterms:created>
-  <dcterms:modified>2010-04-20</dcterms:modified>
-  <dcterms:license>Creative Commons Attribution 3.0 Unported</dcterms:license>
-  <dcterms:relation>http://www.wormatlas.org</dcterms:relation>
-  <generator>Python Script</generator>
-  <species>Caenorhabditis elegans</species>
-  <dcterms:description>C. elegans global network of 277 neurons and 131 frontal neurons.
+<?xml version="1.0" encoding="UTF-8"?>
+<cml:connectome xmlns="http://www.connectomics.org/cff-2" xmlns:cml="http://www.connectomics.org/cff-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="http://www.connectomics.org/cff-2 connectome.xsd">
+    <cml:connectome-meta version="2.0">
+        <dcterms:title>C.elegans connectivity</dcterms:title>
+        <dcterms:creator>Stephan Gerhard</dcterms:creator>
+        <dcterms:created>2009-08-14</dcterms:created>
+        <dcterms:modified>2010-04-20</dcterms:modified>
+        <dcterms:rights>&lt;cfflib.cff.license object at 0x1f11a10&gt;</dcterms:rights>
+        <dcterms:relation>http://www.wormatlas.org</dcterms:relation>
+        <dcterms:modified>2010-04-20</dcterms:modified>
+        <dcterms:description>C. elegans global network of 277 neurons and 131 frontal neurons.
   The files include the matrix, labels of the neurons, and the spatial positions
   of the neurons as two-dimensional coordinates (unit is mm).</dcterms:description>
-</connectome-meta>
-
-<connectome-network name="C. elegans 277" src="Networks/celegans277.graphml" dtype="AttributeNetwork" fileformat="GraphML"/>
-<connectome-network name="C. elegans 131" src="Network/celegans131.graphml" dtype="AttributeNetwork" fileformat="GraphML"/>
-
-</connectome>
+        <cml:generator>Python Script</cml:generator>
+        <cml:species>Caenorhabditis elegans</cml:species>
+    </cml:connectome-meta>
+    <cml:connectome-network src="Networks/celegans277.graphml" dtype="AttributeNetwork" name="C. elegans 277" fileformat="GraphML"/>
+    <cml:connectome-network src="Network/celegans131.graphml" dtype="AttributeNetwork" name="C. elegans 131" fileformat="GraphML"/>
+</cml:connectome>

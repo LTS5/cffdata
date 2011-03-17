@@ -8,7 +8,6 @@
         <dcterms:modified>2010-11-10</dcterms:modified>
         <dcterms:rights>None</dcterms:rights>
         <dcterms:relation>http://www.connectomics.org/</dcterms:relation>
-        <dcterms:modified>2010-11-10</dcterms:modified>
         <dcterms:description>This file contains a show of the multi-modal datatype hostable by this format.</dcterms:description>
         <cml:generator>Handmade</cml:generator>
         <cml:species>Homo exemplarius</cml:species>

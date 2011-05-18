@@ -6,10 +6,8 @@
         <dcterms:publisher>EPFL and UNIL-CHUV</dcterms:publisher>
         <dcterms:created>2009-06-20</dcterms:created>
         <dcterms:modified>2010-04-12</dcterms:modified>
-        <dcterms:rights>Copyright EPFL and CHUV</dcterms:rights>
-        <dcterms:relation>http://www.connectomeviewer.org/</dcterms:relation>
-        <dcterms:modified>2010-04-12</dcterms:modified>
-        <dcterms:description>This file contains connectivity data of a single male subject processed with the Connectome Mapping Pipeline developed at EPFL/LTS5.</dcterms:description>
+        <dcterms:description>This file contains connectivity data of a single male subject processed with the Connectome Mapping Pipeline developed at EPFL/LTS5.
+        http://www.connectomeviewer.org/</dcterms:description>
         <cml:generator>DSI2CFF Converter</cml:generator>
         <cml:species>Homo sapiens</cml:species>
         <cml:email>info@connectomics.org</cml:email>

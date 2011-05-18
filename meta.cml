@@ -5,8 +5,6 @@
         <dcterms:creator>Stephan Gerhard</dcterms:creator>
         <dcterms:created>2009-08-13</dcterms:created>
         <dcterms:modified>2009-08-13</dcterms:modified>
-        <dcterms:rights>Copyright EPFL and CHUV</dcterms:rights>
-        <dcterms:modified>2009-08-13</dcterms:modified>
         <dcterms:description>The macaque dataset used for the study. See references.</dcterms:description>
         <cml:generator>DSI2CFF Converter</cml:generator>
         <cml:species>Macaca mulatta</cml:species>

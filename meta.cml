@@ -6,9 +6,7 @@
         <dcterms:publisher>EPFL and UNIL-CHUV</dcterms:publisher>
         <dcterms:created>2010-11-10</dcterms:created>
         <dcterms:modified>2010-11-10</dcterms:modified>
-        <dcterms:rights>None</dcterms:rights>
-        <dcterms:relation>http://www.connectomics.org/</dcterms:relation>
-        <dcterms:description>This file contains a show of the multi-modal datatype hostable by this format.</dcterms:description>
+        <dcterms:description>This file contains a show of the multi-modal datatype hostable by this format. http://www.connectomics.org/</dcterms:description>
         <cml:generator>Handmade</cml:generator>
         <cml:species>Homo exemplarius</cml:species>
         <cml:email>info@connectomics.org</cml:email>

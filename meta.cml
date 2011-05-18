@@ -5,11 +5,9 @@
         <dcterms:creator>1000 Functional Connectome Project</dcterms:creator>
         <dcterms:created>2010-04-20</dcterms:created>
         <dcterms:modified>2010-04-20</dcterms:modified>
-        <dcterms:rights>&lt;cfflib.cff.license object at 0x30059d0&gt;</dcterms:rights>
-        <dcterms:relation>http://www.nitrc.org/projects/fcon_1000/</dcterms:relation>
-        <dcterms:modified>2010-04-20</dcterms:modified>
         <dcterms:description>This Connectome File exposes data from two subjects from the Baltimore Dataset of the
-  1000 Functional Connectomes Project. Metadata, anatomical and functional MRI data is included.</dcterms:description>
+  1000 Functional Connectomes Project. Metadata, anatomical and functional MRI data is included. http://www.nitrc.org/projects/fcon_1000/
+  </dcterms:description>
         <cml:generator>Handmade</cml:generator>
         <cml:species>Homo sapiens</cml:species>
         <cml:metadata>

@@ -5,12 +5,10 @@
         <dcterms:creator>Stephan Gerhard</dcterms:creator>
         <dcterms:created>2009-08-14</dcterms:created>
         <dcterms:modified>2010-04-20</dcterms:modified>
-        <dcterms:rights>&lt;cfflib.cff.license object at 0x1f11a10&gt;</dcterms:rights>
-        <dcterms:relation>http://www.wormatlas.org</dcterms:relation>
-        <dcterms:modified>2010-04-20</dcterms:modified>
         <dcterms:description>C. elegans global network of 277 neurons and 131 frontal neurons.
   The files include the matrix, labels of the neurons, and the spatial positions
-  of the neurons as two-dimensional coordinates (unit is mm).</dcterms:description>
+  of the neurons as two-dimensional coordinates (unit is mm). http://www.wormatlas.org
+        </dcterms:description>
         <cml:generator>Python Script</cml:generator>
         <cml:species>Caenorhabditis elegans</cml:species>
     </cml:connectome-meta>

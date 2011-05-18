@@ -5,9 +5,7 @@
         <dcterms:creator>Ion-Florin Talos, Marianna Jakab, Ron Kikinis, Martha E. Shenton</dcterms:creator>
         <dcterms:created>2008-03-01</dcterms:created>
         <dcterms:modified>2009-07-28</dcterms:modified>
-        <dcterms:rights>None</dcterms:rights>
-        <dcterms:relation>http://www.slicer.org/publications/item/view/1265</dcterms:relation>
-        <dcterms:modified>2009-07-28</dcterms:modified>
+        <dcterms:references>http://www.slicer.org/publications/item/view/1265</dcterms:references>
         <dcterms:description>The initial version of the SPL-PNL Brain Atlas was developed by the Surgical Planning Laboratory in collaboration with the Harvard Neuroscience Laboratory at Brockton VA Medical Center. Dr. Martha Shenton, one of the original people involved with the Harvard Neuroscience Laboratory, is now the Director of the Psychiatry Neuroimaging Laboratory (PNL), Department of Psychiatry, Brigham and Women's Hospital, Harvard Medical School.
 The atlas was derived from a volumetric T1-weighted MR-scan of a healthy volunteer, using semi-automated image segmentation and three-dimensional reconstruction techniques. Over the years, the original atlas has undergone several revisions. The current version consists of:
 1. the original volumetric whole brain MRI of a healthy volunteer;

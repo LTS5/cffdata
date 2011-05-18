@@ -5,9 +5,7 @@
         <dcterms:creator>PBC staff / IEEE ICDM</dcterms:creator>
         <dcterms:created>2009-10-20</dcterms:created>
         <dcterms:modified>2009-10-20</dcterms:modified>
-        <dcterms:rights>None</dcterms:rights>
-        <dcterms:relation>http://pbc.lrdc.pitt.edu/</dcterms:relation>
-        <dcterms:modified>2009-10-20</dcterms:modified>
+        <dcterms:references>http://pbc.lrdc.pitt.edu/</dcterms:references>
         <dcterms:description>Competition: PBC BCC Fall 2009, IEEE ICDM</dcterms:description>
         <cml:generator>Web</cml:generator>
         <cml:species>Homo sapiens</cml:species>

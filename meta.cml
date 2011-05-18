@@ -5,9 +5,7 @@
         <dcterms:creator>None</dcterms:creator>
         <dcterms:created>2010-01-01</dcterms:created>
         <dcterms:modified>2010-01-01</dcterms:modified>
-        <dcterms:rights>None</dcterms:rights>
-        <dcterms:relation>http://surfer.nmr.mgh.harvard.edu/fswiki/FsAverage</dcterms:relation>
-        <dcterms:modified>2010-01-01</dcterms:modified>
+        <dcterms:references>http://surfer.nmr.mgh.harvard.edu/fswiki/FsAverage</dcterms:references>
         <cml:generator>Handmade</cml:generator>
         <cml:species>Homo sapiens</cml:species>
     </cml:connectome-meta>
